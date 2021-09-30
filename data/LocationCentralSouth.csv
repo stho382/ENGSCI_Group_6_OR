@@ -1,11 +1,12 @@
 ﻿Type,Location,Store,Lat,Long,Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday
-Countdown,Sylvia Park,Countdown Sylvia Park,-36.91713855,174.8418202,8.5,6.5,6.5,9,9.5,3.5,0
-SuperValue,Palomino,SuperValue Palomino,-36.88287566,174.6161793,5.5,4.5,4,5.5,4.5,0,0
-Countdown,Henderson,Countdown Henderson,-36.88089456,174.6332277,9.5,7,7,7,9,4,0
-Countdown,Te Atatu South,Countdown Te Atatu South,-36.86472278,174.6476292,8.5,8.5,8,7.5,8,3.5,0
-FreshChoice,Ranui,FreshChoice Ranui,-36.86353948,174.6015834,3.5,4.5,5.5,6,4.5,0,0
-Countdown,Lincoln Road,Countdown Lincoln Road,-36.8568778,174.6325126,7.5,9,8,7,11,4,0
-Countdown,Te Atatu,Countdown Te Atatu,-36.84209292,174.6542381,8.5,8.5,6,7,8,3.5,0
-Countdown,Westgate,Countdown Westgate,-36.82092949,174.6146464,6.5,9,9.5,8,7,5.5,0
-Countdown,Northwest,Countdown Northwest,-36.81879206,174.6129291,7,8.5,8,8.5,8.5,2.5,0
-Countdown,Hobsonville,Countdown Hobsonville,-36.79748845,174.6487257,9,10,8,9.5,7.5,6,0
+FreshChoice,Mangere Bridge,FreshChoice Mangere Bridge,-36.94250829,174.7869875,6,4,5,2,5,0,0
+Countdown,Lynfield,Countdown Lynfield,-36.92514077,174.7239957,9,8,7.5,8,8,3,0
+Countdown,Blockhouse Bay,Countdown Blockhouse Bay,-36.92291876,174.7023521,7,7.5,7.5,9.5,6.5,2,0
+Countdown,Onehunga,Countdown Onehunga,-36.92249969,174.7838024,5.5,7,7,9.5,8,3.5,0
+Countdown,Three Kings,Countdown Three Kings,-36.90796057,174.7559072,9.5,11.5,7.5,8,8,4,0
+Countdown,Lynmall,Countdown Lynmall,-36.90687152,174.6850146,6.5,7.5,7,5.5,8.5,4.5,0
+Countdown,Mt Roskill,Countdown Mt Roskill,-36.90203359,174.7356996,9,8.5,5.5,7.5,9,4.5,0
+SuperValue,Avondale,SuperValue Avondale,-36.89776863,174.69741,3.5,5,5,5,4.5,0,0
+FreshChoice,Glen Eden,FreshChoice Glen Eden,-36.91087436,174.6545496,5,4.5,3,4,3.5,0,0
+Countdown,Kelston,Countdown Kelston,-36.90955497,174.6638042,6,9,6.5,10,7.5,4.5,0
+SuperValue,Titirangi,SuperValue Titirangi,-36.93739048,174.6572984,3,4,5,4,4.5,0,0
