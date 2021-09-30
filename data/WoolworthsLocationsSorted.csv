@@ -56,7 +56,7 @@ FreshChoice,Glen Eden,FreshChoice Glen Eden,-36.91087436,174.6545496
 Countdown,Kelston,Countdown Kelston,-36.90955497,174.6638042
 SuperValue,Titirangi,SuperValue Titirangi,-36.93739048,174.6572984
 ,,,,
-CentralOneRegion,,,,
+CentralNorth,,,,
 Type,Location,Store,Lat,Long
 Countdown,Greenlane,Countdown Greenlane,-36.88916156,174.7935037
 Countdown,St Lukes,Countdown St Lukes,-36.88336862,174.7347459
@@ -71,7 +71,7 @@ Countdown,Auckland City,Countdown Auckland City,-36.84496186,174.7731192
 Countdown Metro,Halsey Street,Countdown Metro Halsey Street,-36.84358106,174.7578066
 Countdown Metro,Albert Street,Countdown Metro Albert Street,-36.84350157,174.7658662
 ,,,,
-CentralTwoRegion,,,,
+CentralSouth,,,,
 Type,Location,Store,Lat,Long
 Countdown,Sylvia Park,Countdown Sylvia Park,-36.91713855,174.8418202
 SuperValue,Palomino,SuperValue Palomino,-36.88287566,174.6161793
