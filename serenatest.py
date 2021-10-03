@@ -8,22 +8,22 @@ stores = np.genfromtxt('WoolworthsTravelDurations.csv', dtype = str, delimiter= 
 stores = stores[1:67]
 stores = np.delete(stores, 55, 0)
 
-# Array of stores in central north region
+# Array of stores in central central north region
 CentralNorth_stores = np.genfromtxt('LocationCentralNorth.csv', dtype = str, delimiter= ',', skip_header=1, usecols=0)
 
-# Array of stores in central north region
+# Array of stores in central central south region
 CentralSouth_stores = np.genfromtxt('LocationCentralSouth.csv', dtype = str, delimiter= ',', skip_header=1, usecols=0)
 
 # Array of stores in central north region
 North_stores = np.genfromtxt('LocationNorthRegion.csv', dtype = str, delimiter= ',', skip_header=1, usecols=0)
 
-# Array of stores in central north region
+# Array of stores in central south region
 South_stores = np.genfromtxt('LocationSouthRegion.csv', dtype = str, delimiter= ',', skip_header=1, usecols=0)
 
-# Array of stores in central north region
+# Array of stores in central west region
 West_stores = np.genfromtxt('LocationWestRegion.csv', dtype = str, delimiter= ',', skip_header=1, usecols=0)
 
-# Array of stores in central north region
+# Array of stores in central south region
 East_stores = np.genfromtxt('LocationEastRegion.csv', dtype = str, delimiter= ',', skip_header=1, usecols=0)
 
 # Find median demands of each day for every store in Central North
@@ -54,3 +54,4 @@ EastRegion_WeekendDemands = np.genfromtxt('LocationEastRegion.csv', dtype = str,
 #l = len(list(combinations(LocationCentralNorth_stores, 3)))
 CentralNorth_Routes = (list(combinations(CentralNorth_stores, 3)))
 print(CentralNorth_Routes)
+
