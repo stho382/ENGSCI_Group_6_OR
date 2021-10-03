@@ -346,7 +346,7 @@ for i in range(len(East_Routes3)):
             demand += EastRegion_WeekdayDemands[l]
 
     if (demand < demand_threshold):
-        viable_CentralNorthRoutes.append(East_Routes3[i])
+        viable_EastRoutes.append(East_Routes3[i])
         viable_allRoutes.append(East_Routes3[i])
 
 for i in range(len(East_Routes4)):
@@ -374,7 +374,7 @@ for i in range(len(East_Routes4)):
             demand += EastRegion_WeekdayDemands[m]
 
     if (demand < demand_threshold):
-        viable_CentralNorthRoutes.append(East_Routes4[i])
+        viable_EastRoutes.append(East_Routes4[i])
         viable_allRoutes.append(East_Routes4[i])
 
 for i in range(len(East_Routes5)):
@@ -407,5 +407,5 @@ for i in range(len(East_Routes5)):
             demand += EastRegion_WeekdayDemands[n]
 
     if (demand < demand_threshold):
-        viable_CentralNorthRoutes.append(East_Routes5[i])
+        viable_EastRoutes.append(East_Routes5[i])
         viable_allRoutes.append(East_Routes5[i])
