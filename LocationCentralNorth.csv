@@ -1,13 +1,13 @@
-﻿Store,Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday
-Countdown Greenlane,7,11,8,6,9,4,0
-Countdown St Lukes,7.5,6,6,5,7,4,0
-Countdown Mt Eden,7,7,10,5,6,5,0
-Countdown Newmarket,5.5,5.5,8,4.5,9,4,0
-Countdown Pt Chevalier,6.5,8.5,8,9,8,5,0
-Countdown Grey Lynn Central,6.5,9,6,8,10,6,0
-Countdown Ponsonby,7,9.5,7,8,12,4,0
-Countdown Grey Lynn,7.5,9,10,6,11,3,0
-Countdown Victoria Street West,11,9.5,8,7,10,5,0
-Countdown Auckland City,6.5,8,7,9,8,4,0
-Countdown Metro Halsey Street,3.5,4.5,3,3,3,0,0
-Countdown Metro Albert Street,4,5,3,3.5,3,0,0
+﻿Store,Weekdays,Weekends
+Countdown Greenlane,8,2.5
+Countdown St Lukes,6,2
+Countdown Mt Eden,6,4
+Countdown Newmarket,6,3
+Countdown Pt Chevalier,8,4
+Countdown Grey Lynn Central,7.5,6
+Countdown Ponsonby,9,3.5
+Countdown Grey Lynn,9,2
+Countdown Victoria Street West,8.5,3.5
+Countdown Auckland City,8,2.5
+Countdown Metro Halsey Street,3,0
+Countdown Metro Albert Street,4,0
