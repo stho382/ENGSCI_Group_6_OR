@@ -190,7 +190,7 @@ for i in range(len(CentralSouth_Routes4)):
 
     if (demand < demand_threshold):
         viable_CentralSouthRoutes.append(CentralSouth_Routes3[i])
-        viable_allRoutes.append(CentralSouth_Routes3[i])
+        viable_allRoutes.append(CentralSouth_Routes4[i])
 
 CentralSouth_Routes5 = (list(combinations(CentralSouth_stores, 5)))
 for i in range(len(CentralSouth_Routes5)):
@@ -224,7 +224,7 @@ for i in range(len(CentralSouth_Routes5)):
 
     if (demand < demand_threshold):
         viable_CentralSouthRoutes.append(CentralSouth_Routes3[i])
-        viable_allRoutes.append(CentralSouth_Routes3[i])
+        viable_allRoutes.append(CentralSouth_Routes5[i])
 
 North_Routes3 = (list(combinations(North_stores, 3)))
 North_Routes4 = (list(combinations(North_stores, 4)))
