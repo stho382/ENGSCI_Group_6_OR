@@ -99,7 +99,7 @@ for i in range(len(CentralNorth_Routes4)):
             demand += CentralNorth_WeekdayDemands[l]
 
     for m in range(len(CentralNorth_stores)):
-        if store3 == CentralNorth_stores[m]:
+        if store4 == CentralNorth_stores[m]:
             demand += CentralNorth_WeekdayDemands[m]
 
     if (demand < demand_threshold):
@@ -128,11 +128,11 @@ for i in range(len(CentralNorth_Routes5)):
             demand += CentralNorth_WeekdayDemands[l]
 
     for m in range(len(CentralNorth_stores)):
-        if store3 == CentralNorth_stores[m]:
+        if store4 == CentralNorth_stores[m]:
             demand += CentralNorth_WeekdayDemands[m]
 
     for n in range(len(CentralNorth_stores)):
-        if store3 == CentralNorth_stores[n]:
+        if store5 == CentralNorth_stores[n]:
             demand += CentralNorth_WeekdayDemands[n]
 
     if (demand < demand_threshold):
@@ -140,6 +140,9 @@ for i in range(len(CentralNorth_Routes5)):
         viable_allRoutes.append(CentralNorth_Routes5[i])
 
 CentralSouth_Routes3 = (list(combinations(CentralSouth_stores, 3)))
+CentralSouth_Routes4 = (list(combinations(CentralSouth_stores, 4)))
+CentralSouth_Routes5 = (list(combinations(CentralSouth_stores, 5)))
+
 for i in range(len(CentralSouth_Routes3)):
     stores = CentralSouth_Routes3[i]
     store1 = stores[0]
@@ -163,7 +166,6 @@ for i in range(len(CentralSouth_Routes3)):
         viable_CentralSouthRoutes.append(CentralSouth_Routes3[i])
         viable_allRoutes.append(CentralSouth_Routes3[i])
 
-CentralSouth_Routes4 = (list(combinations(CentralSouth_stores, 4)))
 for i in range(len(CentralSouth_Routes4)):
     stores = CentralSouth_Routes4[i]
     store1 = stores[0]
@@ -185,14 +187,13 @@ for i in range(len(CentralSouth_Routes4)):
             demand += CentralSouth_WeekdayDemands[l]
     
     for m in range(len(CentralSouth_stores)):
-        if store3 == CentralSouth_stores[m]:
+        if store4 == CentralSouth_stores[m]:
             demand += CentralSouth_WeekdayDemands[m]
 
     if (demand < demand_threshold):
         viable_CentralSouthRoutes.append(CentralSouth_Routes4[i])
         viable_allRoutes.append(CentralSouth_Routes4[i])
 
-CentralSouth_Routes5 = (list(combinations(CentralSouth_stores, 5)))
 for i in range(len(CentralSouth_Routes5)):
     stores = CentralSouth_Routes5[i]
     store1 = stores[0]
@@ -215,11 +216,11 @@ for i in range(len(CentralSouth_Routes5)):
             demand += CentralSouth_WeekdayDemands[l]
     
     for m in range(len(CentralSouth_stores)):
-        if store3 == CentralSouth_stores[m]:
+        if store4 == CentralSouth_stores[m]:
             demand += CentralSouth_WeekdayDemands[m]
             
     for n in range(len(CentralSouth_stores)):
-        if store3 == CentralSouth_stores[n]:
+        if store5 == CentralSouth_stores[n]:
             demand += CentralSouth_WeekdayDemands[n]
 
     if (demand < demand_threshold):
@@ -230,7 +231,11 @@ North_Routes3 = (list(combinations(North_stores, 3)))
 North_Routes4 = (list(combinations(North_stores, 4)))
 North_Routes5 = (list(combinations(North_stores, 5)))
 
+
 South_Routes3 = (list(combinations(South_stores, 3)))
+South_Routes4 = (list(combinations(South_stores, 4)))
+South_Routes5 = (list(combinations(South_stores, 5)))
+
 for i in range(len(South_Routes3)):
     stores = South_Routes3[i]
     store1 = stores[0]
@@ -254,7 +259,6 @@ for i in range(len(South_Routes3)):
         viable_SouthRoutes.append(South_Routes3[i])
         viable_allRoutes.append(South_Routes3[i])
 
-South_Routes4 = (list(combinations(South_stores, 4)))
 for i in range(len(South_Routes4)):
     stores = South_Routes4[i]
     store1 = stores[0]
@@ -283,7 +287,6 @@ for i in range(len(South_Routes4)):
         viable_SouthRoutes.append(South_Routes4[i])
         viable_allRoutes.append(South_Routes4[i])
 
-South_Routes5 = (list(combinations(South_stores, 5)))
 for i in range(len(South_Routes5)):
     stores = South_Routes5[i]
     store1 = stores[0]
@@ -318,7 +321,6 @@ for i in range(len(South_Routes5)):
         viable_allRoutes.append(South_Routes5[i])
 
 West_Routes3 = (list(combinations(West_stores, 3)))
-
 West_Routes4 = (list(combinations(West_stores, 4)))
 West_Routes5 = (list(combinations(West_stores, 5)))
 
@@ -370,7 +372,7 @@ for i in range(len(East_Routes4)):
             demand += EastRegion_WeekdayDemands[l]
 
     for m in range(len(East_stores)):
-        if store3 == East_stores[m]:
+        if store4 == East_stores[m]:
             demand += EastRegion_WeekdayDemands[m]
 
     if (demand < demand_threshold):
@@ -399,11 +401,11 @@ for i in range(len(East_Routes5)):
             demand += EastRegion_WeekdayDemands[l]
 
     for m in range(len(East_stores)):
-        if store3 == East_stores[m]:
+        if store4 == East_stores[m]:
             demand += EastRegion_WeekdayDemands[m]
 
     for n in range(len(East_stores)):
-        if store3 == East_stores[n]:
+        if store5 == East_stores[n]:
             demand += EastRegion_WeekdayDemands[n]
 
     if (demand < demand_threshold):
