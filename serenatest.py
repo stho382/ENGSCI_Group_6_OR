@@ -79,9 +79,32 @@ for i in range(len(CentralNorth_Routes3)):
         viable_CentralNorthRoutes.append(CentralNorth_Routes3[i])
         viable_allRoutes.append(CentralNorth_Routes3[i])
 
-        
 
 CentralNorth_Routes4 = (list(combinations(CentralNorth_stores, 4)))
+
+for i in range(len(CentralNorth_Routes3)):
+    stores = CentralNorth_Routes3[i]
+    store1 = stores[0]
+    store2 = stores[1]
+    store3 = stores[2]
+    demand = 0
+
+    for j in range(len(CentralNorth_stores)):
+        if store1 == CentralNorth_stores[j]:
+            demand += CentralNorth_WeekdayDemands[j]
+
+    for k in range(len(CentralNorth_stores)):
+        if store2 == CentralNorth_stores[k]:
+            demand += CentralNorth_WeekdayDemands[k]
+    
+    for h in range(len(CentralNorth_stores)):
+        if store3 == CentralNorth_stores[h]:
+            demand += CentralNorth_WeekdayDemands[h]
+
+    if (demand < demand_threshold):
+        viable_CentralNorthRoutes.append(CentralNorth_Routes3[i])
+        viable_allRoutes.append(CentralNorth_Routes3[i])
+
 CentralNorth_Routes5 = (list(combinations(CentralNorth_stores, 5)))
 
 CentralSouth_Routes3 = (list(combinations(CentralSouth_stores, 3)))
