@@ -10,26 +10,18 @@ stores = np.delete(stores, 55, 0)
 
 
 # Array of stores in each region
-LocationCentralNorth_stores = np.genfromtxt('LocationCentralNorth.csv', dtype = str, delimiter= ',', skip_header=1, usecols=0)
-LocationCentralSouth_stores = np.genfromtxt('LocationCentralSouth.csv', dtype = str, delimiter= ',', skip_header=1, usecols=0)
-LocationEast_stores = np.genfromtxt('LocationEastRegion.csv', dtype = str, delimiter= ',', skip_header=1, usecols=0)
-LocationNorth_stores = np.genfromtxt('LocationNorthRegion.csv', dtype = str, delimiter= ',', skip_header=1, usecols=0)
-LocationWest_stores = np.genfromtxt('LocationWestRegion.csv', dtype = str, delimiter= ',', skip_header=1, usecols=0)
-LocationSouth_stores = np.genfromtxt('LocationSouthRegion.csv', dtype = str, delimiter= ',', skip_header=1, usecols=0)
-
-
-#generate list of routes for each region 
-CentralNorth_Routes = (list(combinations(LocationCentralNorth_stores, 3)))
-print(CentralNorth_Routes)
-
-<<<<<<< HEAD
-# Array of stores in central south region
+CentralNorth_stores = np.genfromtxt('LocationCentralNorth.csv', dtype = str, delimiter= ',', skip_header=1, usecols=0)
+CentralSouth_stores = np.genfromtxt('LocationCentralSouth.csv', dtype = str, delimiter= ',', skip_header=1, usecols=0)
 East_stores = np.genfromtxt('LocationEastRegion.csv', dtype = str, delimiter= ',', skip_header=1, usecols=0)
-'''
+North_stores = np.genfromtxt('LocationNorthRegion.csv', dtype = str, delimiter= ',', skip_header=1, usecols=0)
+West_stores = np.genfromtxt('LocationWestRegion.csv', dtype = str, delimiter= ',', skip_header=1, usecols=0)
+South_stores = np.genfromtxt('LocationSouthRegion.csv', dtype = str, delimiter= ',', skip_header=1, usecols=0)
+
+
 # Find median demands of each day for every store in Central North
 CentralNorth_WeekdayDemands = np.genfromtxt('LocationCentralNorth.csv', delimiter= ',', skip_header=1, usecols=1)
 CentralNorth_WeekendDemands = np.genfromtxt('LocationCentralNorth.csv', dtype = str, delimiter= ',', skip_header=1, usecols=2)
-'''
+
 # Find median demands of each day for every store in Central South
 CentralSouth_WeekdayDemands = np.genfromtxt('LocationCentralSouth.csv', dtype = str, delimiter= ',', skip_header=1, usecols=1)
 CentralSouth_WeekendDemands = np.genfromtxt('LocationCentralSouth.csv', dtype = str, delimiter= ',', skip_header=1, usecols=2)
@@ -49,7 +41,7 @@ West_WeekendDemands = np.genfromtxt('LocationWestRegion.csv', dtype = str, delim
 # Find median demands of each day for every store in East
 EastRegion_WeekdayDemands = np.genfromtxt('LocationEastRegion.csv', dtype = str, delimiter= ',', skip_header=1, usecols=1)
 EastRegion_WeekendDemands = np.genfromtxt('LocationEastRegion.csv', dtype = str, delimiter= ',', skip_header=1, usecols=2)
-'''
+
 
 CentralNorth_Routes3 = (list(combinations(CentralNorth_stores, 3)))
 demand_threshold = 26
@@ -126,5 +118,3 @@ West_Routes5 = (list(combinations(West_stores, 5)))
 East_Routes3 = (list(combinations(East_stores, 3)))
 East_Routes4 = (list(combinations(East_stores, 4)))
 East_Routes5 = (list(combinations(East_stores, 5)))
-=======
->>>>>>> 9c8f77007f28dce881fece663039b09599658ce2
