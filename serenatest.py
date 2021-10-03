@@ -185,7 +185,7 @@ for i in range(len(CentralSouth_Routes4)):
             demand += CentralSouth_WeekdayDemands[l]
     
     for m in range(len(CentralSouth_stores)):
-        if store3 == CentralSouth_stores[m]:
+        if store4 == CentralSouth_stores[m]:
             demand += CentralSouth_WeekdayDemands[m]
 
     if (demand < demand_threshold):
@@ -215,11 +215,11 @@ for i in range(len(CentralSouth_Routes5)):
             demand += CentralSouth_WeekdayDemands[l]
     
     for m in range(len(CentralSouth_stores)):
-        if store3 == CentralSouth_stores[m]:
+        if store4 == CentralSouth_stores[m]:
             demand += CentralSouth_WeekdayDemands[m]
             
     for n in range(len(CentralSouth_stores)):
-        if store3 == CentralSouth_stores[n]:
+        if store5 == CentralSouth_stores[n]:
             demand += CentralSouth_WeekdayDemands[n]
 
     if (demand < demand_threshold):
