@@ -1,6 +1,7 @@
 import math
 import numpy as np
 from itertools import combinations_with_replacement
+from itertools import combinations
 
 # Get array of stores
 stores = np.genfromtxt('WoolworthsTravelDurations.csv', dtype = str, delimiter= ',', skip_footer= 66)
@@ -31,5 +32,6 @@ distribution_time = np.genfromtxt('WoolworthsTravelDurations.csv', dtype = str, 
 distribution_time = np.delete(distribution_time, 55, 0)
 
 
-l = list(combinations_with_replacement(LocationCentralNorth_stores, 3))
-print(l)
+#l = len(list(combinations(LocationCentralNorth_stores, 3)))
+CentralNorthRoutes = (list(combinations(LocationCentralNorth_stores, 3)))
+print(CentralNorthRoutes)
