@@ -70,21 +70,20 @@ for i in range(len(CentralNorth_Routes3)):
         if store2 == CentralNorth_stores[k]:
             demand += CentralNorth_WeekdayDemands[k]
     
-    for h in range(len(CentralNorth_stores)):
-        if store3 == CentralNorth_stores[h]:
-            demand += CentralNorth_WeekdayDemands[h]
+    for l in range(len(CentralNorth_stores)):
+        if store3 == CentralNorth_stores[l]:
+            demand += CentralNorth_WeekdayDemands[l]
 
     if (demand < demand_threshold):
         viable_CentralNorthRoutes.append(CentralNorth_Routes3[i])
         viable_allRoutes.append(CentralNorth_Routes3[i])
 
-
-
-for i in range(len(CentralNorth_Routes3)):
-    stores = CentralNorth_Routes3[i]
+for i in range(len(CentralNorth_Routes4)):
+    stores = CentralNorth_Routes4[i]
     store1 = stores[0]
     store2 = stores[1]
     store3 = stores[2]
+    store4 = stores[3]
     demand = 0
 
     for j in range(len(CentralNorth_stores)):
@@ -95,14 +94,50 @@ for i in range(len(CentralNorth_Routes3)):
         if store2 == CentralNorth_stores[k]:
             demand += CentralNorth_WeekdayDemands[k]
     
-    for h in range(len(CentralNorth_stores)):
-        if store3 == CentralNorth_stores[h]:
-            demand += CentralNorth_WeekdayDemands[h]
+    for l in range(len(CentralNorth_stores)):
+        if store3 == CentralNorth_stores[l]:
+            demand += CentralNorth_WeekdayDemands[l]
+
+    for m in range(len(CentralNorth_stores)):
+        if store3 == CentralNorth_stores[m]:
+            demand += CentralNorth_WeekdayDemands[m]
 
     if (demand < demand_threshold):
-        viable_CentralNorthRoutes.append(CentralNorth_Routes3[i])
-        viable_allRoutes.append(CentralNorth_Routes3[i])
+        viable_CentralNorthRoutes.append(CentralNorth_Routes4[i])
+        viable_allRoutes.append(CentralNorth_Routes4[i])
 
+for i in range(len(CentralNorth_Routes5)):
+    stores = CentralNorth_Routes5[i]
+    store1 = stores[0]
+    store2 = stores[1]
+    store3 = stores[2]
+    store4 = stores[3]
+    store5 = stores[4]
+    demand = 0
+
+    for j in range(len(CentralNorth_stores)):
+        if store1 == CentralNorth_stores[j]:
+            demand += CentralNorth_WeekdayDemands[j]
+
+    for k in range(len(CentralNorth_stores)):
+        if store2 == CentralNorth_stores[k]:
+            demand += CentralNorth_WeekdayDemands[k]
+    
+    for l in range(len(CentralNorth_stores)):
+        if store3 == CentralNorth_stores[l]:
+            demand += CentralNorth_WeekdayDemands[l]
+
+    for m in range(len(CentralNorth_stores)):
+        if store3 == CentralNorth_stores[m]:
+            demand += CentralNorth_WeekdayDemands[m]
+
+    for n in range(len(CentralNorth_stores)):
+        if store3 == CentralNorth_stores[n]:
+            demand += CentralNorth_WeekdayDemands[n]
+
+    if (demand < demand_threshold):
+        viable_CentralNorthRoutes.append(CentralNorth_Routes5[i])
+        viable_allRoutes.append(CentralNorth_Routes5[i])
 
 CentralSouth_Routes3 = (list(combinations(CentralSouth_stores, 3)))
 CentralSouth_Routes4 = (list(combinations(CentralSouth_stores, 4)))
