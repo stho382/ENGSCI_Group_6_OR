@@ -35,8 +35,6 @@ routes = []
 demand = 0
 
 for i in range(len(CentralNorth_stores)):
-    smallest_route_visited = []
-    smallest_route_visited.append(i)
 
     for j in range(len(CentralNorth_stores)):
         next_store = 0
@@ -51,4 +49,7 @@ for i in range(len(CentralNorth_stores)):
 
         while (demand < demand_threshold):
             if i != j:
-                route_list
+                demand += CentralNorth_WeekdayDemands[j]
+                route_list.append(CentralNorth_stores[j])
+                
+        routes.append(route_list)
