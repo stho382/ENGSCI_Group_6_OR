@@ -1,5 +1,6 @@
 import math
 import numpy as np
+from pulp import *
 from itertools import combinations_with_replacement
 from itertools import combinations
 
@@ -1256,3 +1257,32 @@ for i in range(routeLength):
             if(test == test2):
                 lp[j][i] = 1
 
+
+# Creates array for lp from 1 to 1606
+
+routeVariable = []
+
+for i in range(1606):
+    routeVariable.append(i)
+
+# create problem and variables
+prob = LpProblem("Weekday", LpMinimize)
+vars = LpVariable.dicts("Weekday", routeVariable, 0, None, 'Integer')
+
+# objective constraints
+prob += lpSum([vars[i] * Time_Weekday[i] for i in range(len(Time_Weekday))]), "Cost"
+
+# route constraints
+for i in range(len(stores)):
+    prob += lpSum([vars[j] * lp[i][j] for j in range(len(routeVariable))]) == 1
+
+# Solves and prints status of solution
+prob.solve()
+print("Status:", LpStatus[prob.status])
+
+# Variables printed with the optimal value
+for v in prob.variables():
+    print(v.name, "=", v.varValue)
+
+# The optimised objective function solution
+print("Least cost =", value(prob.objective))
