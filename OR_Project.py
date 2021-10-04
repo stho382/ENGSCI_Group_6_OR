@@ -1241,4 +1241,18 @@ for i in range(len(East_Routes5)):
         Routes_Weekend.append(East_Routes5[i])
         Time_Weekend.append(time)
 
-Time_Weekday
+
+routeLength = len(Routes_Weekday)
+lp = np.zeros((65, routeLength))
+
+for i in range(routeLength):
+    for j in range(len(stores)):
+        test2 = stores[j]
+
+        for k in range(len(Routes_Weekday[i])):
+
+            test = Routes_Weekday[i][k]
+
+            if(test == test2):
+                lp[j][i] = 1
+
