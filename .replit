@@ -1,2 +1,2 @@
 language = "python3"
-run = "poetry run python3 main.py"
+run = "poetry run python3 LinearProgram2.py"
