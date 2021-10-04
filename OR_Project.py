@@ -1243,10 +1243,12 @@ for i in range(len(East_Routes5)):
         Time_Weekend.append(time)
 
 
-routeLength = len(Routes_Weekday)
-lp = np.zeros((65, routeLength))
 
-for i in range(routeLength):
+# Matrix for Weekday routes
+Weekday_routeLength = len(Routes_Weekday)
+Weekday_lp = np.zeros((len(stores), Weekday_routeLength))
+
+for i in range(Weekday_routeLength):
     for j in range(len(stores)):
         test2 = stores[j]
 
@@ -1255,34 +1257,70 @@ for i in range(routeLength):
             test = Routes_Weekday[i][k]
 
             if(test == test2):
-                lp[j][i] = 1
+                Weekday_lp[j][i] = 1
+
+# Matrix for Weekend routes
+Weekend_routeLength = len(Routes_Weekend)
+Weekend_lp = np.zeros((len(stores), Weekend_routeLength))
+
+for i in range(Weekend_routeLength):
+    for j in range(len(stores)):
+        test2 = stores[j]
+
+        for k in range(len(Routes_Weekend[i])):
+
+            test = Routes_Weekend[i][k]
+
+            if(test == test2):
+                Weekend_lp[j][i] = 1
 
 
-# Creates array for lp from 1 to 1606
 
-routeVariable = []
+# Creates array for lp from 1 to the length of the weekday and weekend arrays
 
-for i in range(1606):
-    routeVariable.append(i)
+Weekday_routeVariable = []
+Weekend_routeVariable = []
+
+for i in range(len(Time_Weekday)):
+    Weekday_routeVariable.append(i)
+
+for j in range(len(Time_Weekend)):
+    Weekend_routeVariable.append(j)
 
 # create problem and variables
-prob = LpProblem("Weekday", LpMinimize)
-vars = LpVariable.dicts("Weekday", routeVariable, 0, None, 'Integer')
+Weekday_prob = LpProblem("Weekday", LpMinimize)
+Weekday_vars = LpVariable.dicts("Weekday", Weekday_routeVariable, 0, None, 'Integer')
+
+Weekend_prob = LpProblem("Weekend", LpMinimize)
+Weekend_vars = LpVariable.dicts("Weekend", Weekend_routeVariable, 0, None, 'Integer')
 
 # objective constraints
-prob += lpSum([vars[i] * Time_Weekday[i] for i in range(len(Time_Weekday))]), "Cost"
+Weekday_prob += lpSum([Weekday_vars[i] * Time_Weekday[i] for i in range(len(Time_Weekday))]), "Cost"
+
+Weekend_prob += lpSum([Weekend_vars[i] * Time_Weekend[j] for j in range(len(Time_Weekend))]), "Cost"
 
 # route constraints
 for i in range(len(stores)):
-    prob += lpSum([vars[j] * lp[i][j] for j in range(len(routeVariable))]) == 1
+    Weekday_prob += lpSum([Weekday_vars[j] * Weekday_lp[i][j] for j in range(len(Weekday_routeVariable))]) == 1
+
+for k in range(len(stores)):
+    Weekend_prob += lpSum([Weekend_vars[l] * Weekend_lp[k][l] for l in range(len(Weekend_routeVariable))]) == 1
 
 # Solves and prints status of solution
-prob.solve()
-print("Status:", LpStatus[prob.status])
+Weekday_prob.solve()
+print("Weekday Status:", LpStatus[Weekday_prob.status])
+
+Weekend_prob.solve()
+print("Weekend Status:", LpStatus[Weekend_prob.status])
 
 # Variables printed with the optimal value
-for v in prob.variables():
+for v in Weekday_prob.variables():
     print(v.name, "=", v.varValue)
 
+for w in Weekend_prob.variables():
+    print(w.name, "=", w.varValue)
+
 # The optimised objective function solution
-print("Least cost =", value(prob.objective))
+print("Least cost for the Weekday=", value(Weekday_prob.objective))
+
+print("Least cost for the Weekend=", value(Weekend_prob.objective))
