@@ -1524,7 +1524,7 @@ for i in range(len(East_Routes5)):
         EastRoutes_Weekday.append(East_Routes5[i])
         Routes_Weekday.append(East_Routes5[i])
         Time_Weekday.append(time)
-        Cost_Weekday.append(time / 60 / 60 * 225)
+        Cost_Weekday.append(time / 3600 * 225)
 
     if (demand_weekend < demand_threshold and time < time_threshold):
         EastRoutes_Weekend.append(East_Routes5[i])
@@ -1583,10 +1583,37 @@ Weekday_vars = LpVariable.dicts("Weekday", Weekday_routeVariable, 0, None, 'Inte
 Weekend_prob = LpProblem("Weekend", LpMinimize)
 Weekend_vars = LpVariable.dicts("Weekend", Weekend_routeVariable, 0, None, 'Integer')
 
-# objective constraints
-Weekday_prob += lpSum([Weekday_vars[i] * Time_Weekday[i] for i in range(len(Time_Weekday))]), "Cost"
+"""
+Weekday_objective = []
 
-Weekend_prob += lpSum([Weekend_vars[i] * Time_Weekend[j] for j in range(len(Time_Weekend))]), "Cost"
+for i in range(len(Time_Weekday)):
+    if Time_Weekday[i] <= 4200:Weekday_objective = []
+
+for i in range(len(Time_Weekday)):
+    if Time_Weekday[i] <= 4200:
+        Weekday_objective.append((225 / 3600) * Weekday_vars[i] * (Time_Weekday[i] + 900))
+    else:
+        Weekday_objective.append((275 / 3600) * Weekday_vars[i] * (Time_Weekday[i] + 900))
+    
+Weekday_prob += lpSum(Weekday_objective), "Cost"
+    ##Weekday_prob += lpSum([(225 / 3600) * Weekday_vars[i] * (Time_Weekday[i] + 900) for i in range(len(Time_Weekday))]), "Cost"
+
+Weekend_prob += lpSum([(225 / 3600) * Weekend_vars[j] * (Time_Weekend[j] + 900) for j in range(len(Time_Weekend))]), "Cost"
+        Weekday_objective.append((225 / 3600) * Weekday_vars[i] * (Time_Weekday[i] + 900))
+    else:
+        Weekday_objective.append((275 / 3600) * Weekday_vars[i] * (Time_Weekday[i] + 900))
+    
+Weekday_prob += lpSum(Weekday_objective), "Cost"
+    ##Weekday_prob += lpSum([(225 / 3600) * Weekday_vars[i] * (Time_Weekday[i] + 900) for i in range(len(Time_Weekday))]), "Cost"
+
+Weekend_prob += lpSum([(225 / 3600) * Weekend_vars[j] * (Time_Weekend[j] + 900) for j in range(len(Time_Weekend))]), "Cost"
+"""
+
+
+# objective constraints
+Weekday_prob += lpSum([Cost_Weekday[i] * Weekday_vars[i] * (Time_Weekday[i] + 900) for i in range(len(Time_Weekday))]), "Cost"
+
+Weekend_prob += lpSum([Cost_Weekend[j] * Weekend_vars[j] * (Time_Weekend[j] + 900) for j in range(len(Time_Weekend))]), "Cost"
 
 # route constraints
 for i in range(len(stores)):
