@@ -76,9 +76,49 @@ WestRoutes_Weekend = []
 EastRoutes_Weekday = []
 EastRoutes_Weekend = []
 
+CentralNorth_Routes2 = (list(combinations(CentralNorth_stores, 2)))
 CentralNorth_Routes3 = (list(combinations(CentralNorth_stores, 3)))
 CentralNorth_Routes4 = (list(combinations(CentralNorth_stores, 4)))
 CentralNorth_Routes5 = (list(combinations(CentralNorth_stores, 5)))
+
+for i in range(len(CentralNorth_Routes2)):
+    store1 = CentralNorth_Routes2[i][0]
+    store2 = CentralNorth_Routes2[i][1]
+    demand_weekday = 0
+    demand_weekend = 0
+    time = 0
+
+    for j in range(len(CentralNorth_stores)):
+        if store1 == CentralNorth_stores[j]:
+            demand_weekday += CentralNorth_WeekdayDemands[j]
+            demand_weekend += CentralNorth_WeekendDemands[j]
+
+    for k in range(len(CentralNorth_stores)):
+        if store2 == CentralNorth_stores[k]:
+            demand_weekday += CentralNorth_WeekdayDemands[k]
+            demand_weekend += CentralNorth_WeekendDemands[k]
+
+    for store in range(len(stores)):
+        if store1 == stores[store]:
+            time += distribution_time[store]
+        if store2 == stores[store]:
+            time += distribution_time[store]
+    
+    for store_row in range(len(stores)):
+        if store1 == stores[store_row]:
+            for store_col in range(len(stores)):
+                if store2 == stores[store_col]:
+                    time += travel_durations[store_row][store_col]
+
+    if (demand_weekday < demand_threshold and time < time_threshold):
+        CentralNorthRoutes_Weekday.append(CentralNorth_Routes2[i])
+        Routes_Weekday.append(CentralNorth_Routes2[i])
+        Time_Weekday.append(time)
+
+    if (demand_weekend < demand_threshold and time < time_threshold):
+        CentralNorthRoutes_Weekend.append(CentralNorth_Routes2[i])
+        Routes_Weekend.append(CentralNorth_Routes2[i])
+        Time_Weekend.append(time)
 
 for i in range(len(CentralNorth_Routes3)):
     store1 = CentralNorth_Routes3[i][0]
@@ -271,9 +311,49 @@ for i in range(len(CentralNorth_Routes5)):
         Routes_Weekend.append(CentralNorth_Routes5[i])
         Time_Weekend.append(time)
 
+CentralSouth_Routes2 = (list(combinations(CentralSouth_stores, 2)))
 CentralSouth_Routes3 = (list(combinations(CentralSouth_stores, 3)))
 CentralSouth_Routes4 = (list(combinations(CentralSouth_stores, 4)))
 CentralSouth_Routes5 = (list(combinations(CentralSouth_stores, 5)))
+
+for i in range(len(CentralSouth_Routes2)):
+    store1 = CentralSouth_Routes2[i][0]
+    store2 = CentralSouth_Routes2[i][1]
+    demand_weekday = 0
+    demand_weekend = 0
+    time = 0
+
+    for j in range(len(CentralSouth_stores)):
+        if store1 == CentralSouth_stores[j]:
+            demand_weekday += CentralSouth_WeekdayDemands[j]
+            demand_weekend += CentralSouth_WeekendDemands[j]
+
+    for k in range(len(CentralNorth_stores)):
+        if store2 == CentralNorth_stores[k]:
+            demand_weekday += CentralSouth_WeekdayDemands[k]
+            demand_weekend += CentralSouth_WeekendDemands[k]
+
+    for store in range(len(stores)):
+        if store1 == stores[store]:
+            time += distribution_time[store]
+        if store2 == stores[store]:
+            time += distribution_time[store]
+    
+    for store_row in range(len(stores)):
+        if store1 == stores[store_row]:
+            for store_col in range(len(stores)):
+                if store2 == stores[store_col]:
+                    time += travel_durations[store_row][store_col]
+
+    if (demand_weekday < demand_threshold and time < time_threshold):
+        CentralSouthRoutes_Weekday.append(CentralSouth_Routes2[i])
+        Routes_Weekday.append(CentralSouth_Routes2[i])
+        Time_Weekday.append(time)
+
+    if (demand_weekend < demand_threshold and time < time_threshold):
+        CentralSouthRoutes_Weekend.append(CentralSouth_Routes2[i])
+        Routes_Weekend.append(CentralSouth_Routes2[i])
+        Time_Weekend.append(time)
 
 for i in range(len(CentralSouth_Routes3)):
     store1 = CentralSouth_Routes3[i][0]
@@ -466,9 +546,49 @@ for i in range(len(CentralSouth_Routes5)):
         Routes_Weekend.append(CentralSouth_Routes5[i])
         Time_Weekend.append(time)
 
+North_Routes2 = (list(combinations(North_stores, 2)))
 North_Routes3 = (list(combinations(North_stores, 3)))
 North_Routes4 = (list(combinations(North_stores, 4)))
 North_Routes5 = (list(combinations(North_stores, 5)))
+
+for i in range(len(North_Routes2)):
+    store1 = North_Routes2[i][0]
+    store2 = North_Routes2[i][1]
+    demand_weekday = 0
+    demand_weekend = 0
+    time = 0
+
+    for j in range(len(North_stores)):
+        if store1 == North_stores[j]:
+            demand_weekday += North_WeekdayDemands[j]
+            demand_weekend += North_WeekendDemands[j]
+
+    for k in range(len(North_stores)):
+        if store2 == North_stores[k]:
+            demand_weekday += North_WeekdayDemands[k]
+            demand_weekend += North_WeekendDemands[k]
+
+    for store in range(len(stores)):
+        if store1 == stores[store]:
+            time += distribution_time[store]
+        if store2 == stores[store]:
+            time += distribution_time[store]
+    
+    for store_row in range(len(stores)):
+        if store1 == stores[store_row]:
+            for store_col in range(len(stores)):
+                if store2 == stores[store_col]:
+                    time += travel_durations[store_row][store_col]
+
+    if (demand_weekday < demand_threshold and time < time_threshold):
+        NorthRoutes_Weekday.append(North_Routes2[i])
+        Routes_Weekday.append(North_Routes2[i])
+        Time_Weekday.append(time)
+
+    if (demand_weekend < demand_threshold and time < time_threshold):
+        NorthRoutes_Weekend.append(North_Routes2[i])
+        Routes_Weekend.append(North_Routes2[i])
+        Time_Weekend.append(time)
 
 for i in range(len(North_Routes3)):
     store1 = North_Routes3[i][0]
@@ -660,9 +780,49 @@ for i in range(len(North_Routes5)):
         Routes_Weekend.append(North_Routes5[i])
         Time_Weekend.append(time)
 
+South_Routes2 = (list(combinations(South_stores, 2)))
 South_Routes3 = (list(combinations(South_stores, 3)))
 South_Routes4 = (list(combinations(South_stores, 4)))
 South_Routes5 = (list(combinations(South_stores, 5)))
+
+for i in range(len(South_Routes2)):
+    store1 = South_Routes2[i][0]
+    store2 = South_Routes2[i][1]
+    demand_weekday = 0
+    demand_weekend = 0
+    time = 0
+
+    for j in range(len(South_stores)):
+        if store1 == South_stores[j]:
+            demand_weekday += South_WeekdayDemands[j]
+            demand_weekend += South_WeekendDemands[j]
+
+    for k in range(len(South_stores)):
+        if store2 == South_stores[k]:
+            demand_weekday += South_WeekdayDemands[k]
+            demand_weekend += South_WeekendDemands[k]
+
+    for store in range(len(stores)):
+        if store1 == stores[store]:
+            time += distribution_time[store]
+        if store2 == stores[store]:
+            time += distribution_time[store]
+    
+    for store_row in range(len(stores)):
+        if store1 == stores[store_row]:
+            for store_col in range(len(stores)):
+                if store2 == stores[store_col]:
+                    time += travel_durations[store_row][store_col]
+
+    if (demand_weekday < demand_threshold and time < time_threshold):
+        SouthRoutes_Weekday.append(South_Routes2[i])
+        Routes_Weekday.append(South_Routes2[i])
+        Time_Weekday.append(time)
+
+    if (demand_weekend < demand_threshold and time < time_threshold):
+        SouthRoutes_Weekend.append(South_Routes2[i])
+        Routes_Weekend.append(South_Routes2[i])
+        Time_Weekend.append(time)
 
 for i in range(len(South_Routes3)):
     store1 = South_Routes3[i][0]
@@ -854,9 +1014,49 @@ for i in range(len(South_Routes5)):
         Routes_Weekend.append(South_Routes5[i])
         Time_Weekend.append(time)
 
+West_Routes2 = (list(combinations(West_stores, 2)))
 West_Routes3 = (list(combinations(West_stores, 3)))
 West_Routes4 = (list(combinations(West_stores, 4)))
 West_Routes5 = (list(combinations(West_stores, 5)))
+
+for i in range(len(West_Routes2)):
+    store1 = West_Routes2[i][0]
+    store2 = West_Routes2[i][1]
+    demand_weekday = 0
+    demand_weekend = 0
+    time = 0
+
+    for j in range(len(West_stores)):
+        if store1 == West_stores[j]:
+            demand_weekday += West_WeekdayDemands[j]
+            demand_weekend += West_WeekendDemands[j]
+
+    for k in range(len(West_stores)):
+        if store2 == West_stores[k]:
+            demand_weekday += West_WeekdayDemands[k]
+            demand_weekend += West_WeekendDemands[k]
+
+    for store in range(len(stores)):
+        if store1 == stores[store]:
+            time += distribution_time[store]
+        if store2 == stores[store]:
+            time += distribution_time[store]
+    
+    for store_row in range(len(stores)):
+        if store1 == stores[store_row]:
+            for store_col in range(len(stores)):
+                if store2 == stores[store_col]:
+                    time += travel_durations[store_row][store_col]
+
+    if (demand_weekday < demand_threshold and time < time_threshold):
+        WestRoutes_Weekday.append(West_Routes2[i])
+        Routes_Weekday.append(West_Routes2[i])
+        Time_Weekday.append(time)
+
+    if (demand_weekend < demand_threshold and time < time_threshold):
+        WestRoutes_Weekday.append(West_Routes2[i])
+        Routes_Weekend.append(West_Routes2[i])
+        Time_Weekend.append(time)
 
 for i in range(len(West_Routes3)):
     store1 = West_Routes3[i][0]
@@ -1048,9 +1248,49 @@ for i in range(len(West_Routes5)):
         Routes_Weekend.append(West_Routes5[i])
         Time_Weekend.append(time)
 
+East_Routes2 = (list(combinations(East_stores, 2)))
 East_Routes3 = (list(combinations(East_stores, 3)))
 East_Routes4 = (list(combinations(East_stores, 4)))
 East_Routes5 = (list(combinations(East_stores, 5)))
+
+for i in range(len(East_Routes2)):
+    store1 = East_Routes2[i][0]
+    store2 = East_Routes2[i][1]
+    demand_weekday = 0
+    demand_weekend = 0
+    time = 0
+
+    for j in range(len(East_stores)):
+        if store1 == East_stores[j]:
+            demand_weekday += East_WeekdayDemands[j]
+            demand_weekend += East_WeekendDemands[j]
+
+    for k in range(len(East_stores)):
+        if store2 == East_stores[k]:
+            demand_weekday += East_WeekdayDemands[k]
+            demand_weekend += East_WeekendDemands[k]
+
+    for store in range(len(stores)):
+        if store1 == stores[store]:
+            time += distribution_time[store]
+        if store2 == stores[store]:
+            time += distribution_time[store]
+    
+    for store_row in range(len(stores)):
+        if store1 == stores[store_row]:
+            for store_col in range(len(stores)):
+                if store2 == stores[store_col]:
+                    time += travel_durations[store_row][store_col]
+
+    if (demand_weekday < demand_threshold and time < time_threshold):
+        EastRoutes_Weekday.append(East_Routes2[i])
+        Routes_Weekday.append(East_Routes2[i])
+        Time_Weekday.append(time)
+
+    if (demand_weekend < demand_threshold and time < time_threshold):
+        EastRoutes_Weekday.append(East_Routes2[i])
+        Routes_Weekend.append(East_Routes2[i])
+        Time_Weekend.append(time)
 
 for i in range(len(East_Routes3)):
     store1 = East_Routes3[i][0]
