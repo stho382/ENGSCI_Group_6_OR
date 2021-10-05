@@ -88,7 +88,7 @@ for i in range(len(CentralNorth_Routes2)):
     store2 = CentralNorth_Routes2[i][1]
     demand_weekday = 0
     demand_weekend = 0
-    time = 0
+    time = 450*2
 
     for j in range(len(CentralNorth_stores)):
         if store1 == CentralNorth_stores[j]:
@@ -130,7 +130,7 @@ for i in range(len(CentralNorth_Routes3)):
     store3 = CentralNorth_Routes3[i][2]
     demand_weekday = 0
     demand_weekend = 0
-    time = 0
+    time = 450*3
 
     for j in range(len(CentralNorth_stores)):
         if store1 == CentralNorth_stores[j]:
@@ -184,7 +184,7 @@ for i in range(len(CentralNorth_Routes4)):
     store4 = CentralNorth_Routes4[i][3]
     demand_weekday = 0
     demand_weekend = 0
-    time = 0
+    time = 450*4
 
     for j in range(len(CentralNorth_stores)):
         if store1 == CentralNorth_stores[j]:
@@ -251,7 +251,7 @@ for i in range(len(CentralNorth_Routes5)):
 
     demand_weekday = 0
     demand_weekend = 0
-    time = 0
+    time = 450*5
 
 
     for j in range(len(CentralNorth_stores)):
@@ -331,7 +331,7 @@ for i in range(len(CentralSouth_Routes2)):
     store2 = CentralSouth_Routes2[i][1]
     demand_weekday = 0
     demand_weekend = 0
-    time = 0
+    time = 450*2
 
     for j in range(len(CentralSouth_stores)):
         if store1 == CentralSouth_stores[j]:
@@ -373,7 +373,7 @@ for i in range(len(CentralSouth_Routes3)):
     store3 = CentralSouth_Routes3[i][2]
     demand_weekday = 0
     demand_weekend = 0
-    time = 0
+    time = 450*3
 
     for j in range(len(CentralSouth_stores)):
         if store1 == CentralSouth_stores[j]:
@@ -428,7 +428,7 @@ for i in range(len(CentralSouth_Routes4)):
     store4 = CentralSouth_Routes4[i][3]
     demand_weekday = 0
     demand_weekend = 0
-    time = 0
+    time = 450*4
 
     for j in range(len(CentralSouth_stores)):
         if store1 == CentralSouth_stores[j]:
@@ -495,7 +495,7 @@ for i in range(len(CentralSouth_Routes5)):
 
     demand_weekday = 0
     demand_weekend = 0
-    time = 0
+    time = 450*5
 
     for j in range(len(CentralSouth_stores)):
         if store1 == CentralSouth_stores[j]:
@@ -574,7 +574,7 @@ for i in range(len(North_Routes2)):
     store2 = North_Routes2[i][1]
     demand_weekday = 0
     demand_weekend = 0
-    time = 0
+    time = 450*2
 
     for j in range(len(North_stores)):
         if store1 == North_stores[j]:
@@ -616,7 +616,7 @@ for i in range(len(North_Routes3)):
     store3 = North_Routes3[i][2]
     demand_weekday = 0
     demand_weekend = 0
-    time = 0
+    time = 450*3
 
     for j in range(len(North_stores)):
         if store1 == North_stores[j]:
@@ -670,7 +670,7 @@ for i in range(len(North_Routes4)):
     store4 = North_Routes4[i][3]
     demand_weekday = 0
     demand_weekend = 0
-    time = 0
+    time = 450*4
 
     for j in range(len(North_stores)):
         if store1 == North_stores[j]:
@@ -737,7 +737,7 @@ for i in range(len(North_Routes5)):
 
     demand_weekday = 0
     demand_weekend = 0
-    time = 0
+    time = 450*5
 
     for j in range(len(North_stores)):
         if store1 == North_stores[j]:
@@ -816,7 +816,7 @@ for i in range(len(South_Routes2)):
     store2 = South_Routes2[i][1]
     demand_weekday = 0
     demand_weekend = 0
-    time = 0
+    time = 450*2
 
     for j in range(len(South_stores)):
         if store1 == South_stores[j]:
@@ -858,7 +858,7 @@ for i in range(len(South_Routes3)):
     store3 = South_Routes3[i][2]
     demand_weekday = 0
     demand_weekend = 0
-    time = 0
+    time = 450*3
 
     for j in range(len(South_stores)):
         if store1 == South_stores[j]:
@@ -912,7 +912,7 @@ for i in range(len(South_Routes4)):
     store4 = South_Routes4[i][3]
     demand_weekday = 0
     demand_weekend = 0
-    time = 0
+    time = 450*4
 
     for j in range(len(South_stores)):
         if store1 == South_stores[j]:
@@ -979,7 +979,7 @@ for i in range(len(South_Routes5)):
 
     demand_weekday = 0
     demand_weekend = 0
-    time = 0
+    time = 450*5
 
     for j in range(len(South_stores)):
         if store1 == South_stores[j]:
@@ -1058,7 +1058,7 @@ for i in range(len(West_Routes2)):
     store2 = West_Routes2[i][1]
     demand_weekday = 0
     demand_weekend = 0
-    time = 0
+    time = 450*2
 
     for j in range(len(West_stores)):
         if store1 == West_stores[j]:
@@ -1100,7 +1100,7 @@ for i in range(len(West_Routes3)):
     store3 = West_Routes3[i][2]
     demand_weekday = 0
     demand_weekend = 0
-    time = 0
+    time = 450*3
 
     for j in range(len(West_stores)):
         if store1 == West_stores[j]:
@@ -1154,7 +1154,7 @@ for i in range(len(West_Routes4)):
     store4 = West_Routes4[i][3]
     demand_weekday = 0
     demand_weekend = 0
-    time = 0
+    time = 450*4
 
     for j in range(len(West_stores)):
         if store1 == West_stores[j]:
@@ -1221,7 +1221,7 @@ for i in range(len(West_Routes5)):
 
     demand_weekday = 0
     demand_weekend = 0
-    time = 0
+    time = 450*5
 
     for j in range(len(West_stores)):
         if store1 == West_stores[j]:
@@ -1300,7 +1300,7 @@ for i in range(len(East_Routes2)):
     store2 = East_Routes2[i][1]
     demand_weekday = 0
     demand_weekend = 0
-    time = 0
+    time = 450*2
 
     for j in range(len(East_stores)):
         if store1 == East_stores[j]:
@@ -1342,7 +1342,7 @@ for i in range(len(East_Routes3)):
     store3 = East_Routes3[i][2]
     demand_weekday = 0
     demand_weekend = 0
-    time = 0
+    time = 450*3
 
     for j in range(len(East_stores)):
         if store1 == East_stores[j]:
@@ -1396,7 +1396,7 @@ for i in range(len(East_Routes4)):
     store4 = East_Routes4[i][3]
     demand_weekday = 0
     demand_weekend = 0
-    time = 0
+    time = 450*4
 
     for j in range(len(East_stores)):
         if store1 == East_stores[j]:
@@ -1463,7 +1463,7 @@ for i in range(len(East_Routes5)):
 
     demand_weekday = 0
     demand_weekend = 0
-    time = 0
+    time = 450*5
 
     for j in range(len(East_stores)):
         if store1 == East_stores[j]:
