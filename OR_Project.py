@@ -2500,6 +2500,30 @@ for v in prob_weekday.variables():
 
 print("Number of trucks used in the weekdays: ", num_weekday)
 print("Weekday routes:", optimalRoutes_weekday)
+print(Routes_Weekday[1058])
+print(Routes_Weekday[1149])
+print(Routes_Weekday[117])
+print(Routes_Weekday[1199])
+print(Routes_Weekday[1201])
+print(Routes_Weekday[1228])
+print(Routes_Weekday[1252])
+print(Routes_Weekday[1253])
+print(Routes_Weekday[1261])
+print(Routes_Weekday[1378])
+print(Routes_Weekday[1404])
+print(Routes_Weekday[1415])
+print(Routes_Weekday[1430])
+print(Routes_Weekday[226])
+print(Routes_Weekday[258])
+print(Routes_Weekday[437])
+print(Routes_Weekday[51])
+print(Routes_Weekday[530])
+print(Routes_Weekday[84])
+print(Routes_Weekday[957])
+print(Routes_Weekday[984])
+print(Routes_Weekday[989])
+print(Routes_Weekday[990])
+
 
 print("\n")
 
@@ -2507,12 +2531,25 @@ optimalRoutes_weekend = []
 num_weekend = 0
 for w in prob_weekend.variables():
     if w.varValue == 1:
-        optimalRoutes_weekend.append(v.name)
+        optimalRoutes_weekend.append(w.name)
         num_weekend += 1
 
 print("Number of trucks used in the weekends: ", num_weekend)
 print("Weekend routes:", optimalRoutes_weekend)
-
+print(Routes_Weekend[1840])
+print(Routes_Weekend[2236])
+print(Routes_Weekend[2537])
+print(Routes_Weekend[2847])
+print(Routes_Weekend[3113])
+print(Routes_Weekend[313])
+print(Routes_Weekend[4239])
+print(Routes_Weekend[4814])
+print(Routes_Weekend[5037])
+print(Routes_Weekend[510])
+print(Routes_Weekend[5121])
+print(Routes_Weekend[5873])
+print(Routes_Weekend[6589])
+print(Routes_Weekend[734])
 """
 
 
