@@ -1,54 +1,55 @@
 import math
 import numpy as np
 from pulp import *
+import os
 from itertools import combinations_with_replacement
 from itertools import combinations
 
 # Get array of stores
-stores = np.genfromtxt('WoolworthsTravelDurations.csv', dtype = str, delimiter= ',', skip_footer= 66)
+stores = np.genfromtxt("" + os.getcwd() + os.sep + "Data" + os.sep + "WoolworthsTravelDurations.csv", dtype = str, delimiter= ',', skip_footer= 66)
 stores = stores[1:67]
 stores = np.delete(stores, 55, 0)
 
 # Travel duration between each store
-travel_durations = np.genfromtxt('WoolworthsTravelDurations.csv', delimiter= ',', skip_header=1, usecols=list(range(1,67)))
+travel_durations = np.genfromtxt("" + os.getcwd() + os.sep + "Data" + os.sep + "WoolworthsTravelDurations.csv", delimiter= ',', skip_header=1, usecols=list(range(1,67)))
 travel_durations = np.delete(travel_durations, 55, 0)
 travel_durations = np.delete(travel_durations, 55, 1)
 
 # Travel duration from distribution centre
-distribution_time = np.genfromtxt('WoolworthsTravelDurations.csv', delimiter= ',', skip_header=56, skip_footer=10, usecols=list(range(1,67)))
+distribution_time = np.genfromtxt("" + os.getcwd() + os.sep + "Data" + os.sep + "WoolworthsTravelDurations.csv", delimiter= ',', skip_header=56, skip_footer=10, usecols=list(range(1,67)))
 distribution_time = np.delete(distribution_time, 55, 0)
 
 # Array of stores in each region
-CentralNorth_stores = np.genfromtxt('LocationCentralNorth.csv', dtype = str, delimiter= ',', skip_header=1, usecols=0)
-CentralSouth_stores = np.genfromtxt('LocationCentralSouth.csv', dtype = str, delimiter= ',', skip_header=1, usecols=0)
-East_stores = np.genfromtxt('LocationEastRegion.csv', dtype = str, delimiter= ',', skip_header=1, usecols=0)
-North_stores = np.genfromtxt('LocationNorthRegion.csv', dtype = str, delimiter= ',', skip_header=1, usecols=0)
-West_stores = np.genfromtxt('LocationWestRegion.csv', dtype = str, delimiter= ',', skip_header=1, usecols=0)
-South_stores = np.genfromtxt('LocationSouthRegion.csv', dtype = str, delimiter= ',', skip_header=1, usecols=0)
+CentralNorth_stores = np.genfromtxt("" + os.getcwd() + os.sep + "Data" + os.sep + "LocationCentralNorth.csv", dtype = str, delimiter= ',', skip_header=1, usecols=0)
+CentralSouth_stores = np.genfromtxt("" + os.getcwd() + os.sep + "Data" + os.sep + "LocationCentralSouth.csv", dtype = str, delimiter= ',', skip_header=1, usecols=0)
+East_stores = np.genfromtxt("" + os.getcwd() + os.sep + "Data" + os.sep + "LocationEastRegion.csv", dtype = str, delimiter= ',', skip_header=1, usecols=0)
+North_stores = np.genfromtxt("" + os.getcwd() + os.sep + "Data" + os.sep + "LocationNorthRegion.csv", dtype = str, delimiter= ',', skip_header=1, usecols=0)
+West_stores = np.genfromtxt("" + os.getcwd() + os.sep + "Data" + os.sep + "LocationWestRegion.csv", dtype = str, delimiter= ',', skip_header=1, usecols=0)
+South_stores = np.genfromtxt("" + os.getcwd() + os.sep + "Data" + os.sep + "LocationSouthRegion.csv", dtype = str, delimiter= ',', skip_header=1, usecols=0)
 
 # Find median demands of each day for every store in Central North
-CentralNorth_WeekdayDemands = np.genfromtxt('LocationCentralNorth.csv', delimiter= ',', skip_header=1, usecols=1)
-CentralNorth_WeekendDemands = np.genfromtxt('LocationCentralNorth.csv', delimiter= ',', skip_header=1, usecols=2)
+CentralNorth_WeekdayDemands = np.genfromtxt("" + os.getcwd() + os.sep + "Data" + os.sep + "LocationCentralNorth.csv", delimiter= ',', skip_header=1, usecols=1)
+CentralNorth_WeekendDemands = np.genfromtxt("" + os.getcwd() + os.sep + "Data" + os.sep + "LocationCentralNorth.csv", delimiter= ',', skip_header=1, usecols=2)
 
 # Find median demands of each day for every store in Central South
-CentralSouth_WeekdayDemands = np.genfromtxt('LocationCentralSouth.csv', delimiter= ',', skip_header=1, usecols=1)
-CentralSouth_WeekendDemands = np.genfromtxt('LocationCentralSouth.csv', delimiter= ',', skip_header=1, usecols=2)
+CentralSouth_WeekdayDemands = np.genfromtxt("" + os.getcwd() + os.sep + "Data" + os.sep + "LocationCentralSouth.csv", delimiter= ',', skip_header=1, usecols=1)
+CentralSouth_WeekendDemands = np.genfromtxt("" + os.getcwd() + os.sep + "Data" + os.sep + "LocationCentralSouth.csv", delimiter= ',', skip_header=1, usecols=2)
 
 # Find median demands of each day for every store in North
-North_WeekdayDemands = np.genfromtxt('LocationNorthRegion.csv', delimiter= ',', skip_header=1, usecols=1)
-North_WeekendDemands = np.genfromtxt('LocationNorthRegion.csv', delimiter= ',', skip_header=1, usecols=2)
+North_WeekdayDemands = np.genfromtxt("" + os.getcwd() + os.sep + "Data" + os.sep + "LocationNorthRegion.csv", delimiter= ',', skip_header=1, usecols=1)
+North_WeekendDemands = np.genfromtxt("" + os.getcwd() + os.sep + "Data" + os.sep + "LocationNorthRegion.csv", delimiter= ',', skip_header=1, usecols=2)
 
 # Find median demands of each day for every store in South
-South_WeekdayDemands = np.genfromtxt('LocationSouthRegion.csv', delimiter= ',', skip_header=1, usecols=1)
-South_WeekendDemands = np.genfromtxt('LocationSouthRegion.csv', delimiter= ',', skip_header=1, usecols=2)
+South_WeekdayDemands = np.genfromtxt("" + os.getcwd() + os.sep + "Data" + os.sep + "LocationSouthRegion.csv", delimiter= ',', skip_header=1, usecols=1)
+South_WeekendDemands = np.genfromtxt("" + os.getcwd() + os.sep + "Data" + os.sep + "LocationSouthRegion.csv", delimiter= ',', skip_header=1, usecols=2)
 
 # Find median demands of each day for every store in West
-West_WeekdayDemands = np.genfromtxt('LocationWestRegion.csv', delimiter= ',', skip_header=1, usecols=1)
-West_WeekendDemands = np.genfromtxt('LocationWestRegion.csv', delimiter= ',', skip_header=1, usecols=2)
+West_WeekdayDemands = np.genfromtxt("" + os.getcwd() + os.sep + "Data" + os.sep + "LocationWestRegion.csv", delimiter= ',', skip_header=1, usecols=1)
+West_WeekendDemands = np.genfromtxt("" + os.getcwd() + os.sep + "Data" + os.sep + "LocationWestRegion.csv", delimiter= ',', skip_header=1, usecols=2)
 
 # Find median demands of each day for every store in East
-East_WeekdayDemands = np.genfromtxt('LocationEastRegion.csv', delimiter= ',', skip_header=1, usecols=1)
-East_WeekendDemands = np.genfromtxt('LocationEastRegion.csv', delimiter= ',', skip_header=1, usecols=2)
+East_WeekdayDemands = np.genfromtxt("" + os.getcwd() + os.sep + "Data" + os.sep + "LocationEastRegion.csv", delimiter= ',', skip_header=1, usecols=1)
+East_WeekendDemands = np.genfromtxt("" + os.getcwd() + os.sep + "Data" + os.sep + "LocationEastRegion.csv", delimiter= ',', skip_header=1, usecols=2)
 
 demand_threshold = 27
 time_threshold = 60 * 4 * 2 * 30
@@ -1618,33 +1619,70 @@ for i in range(len(East_Routes5)):
 
 max_routes = 60
 
+# Listing the possible number of routes
 weekday_possible_routes = [i for i in range(0,len(Routes_Weekday))]
+weekend_possible_routes = [i for i in range(0,len(Routes_Weekend))]
 
-x = LpVariable.dicts("Route", weekday_possible_routes, 0, None, LpBinary)
+# Setting up the number of variables needed
+WeekdayRoute_vars = LpVariable.dicts("Route", weekday_possible_routes, 0, None, LpBinary)
+WeekendRoute_vars = LpVariable.dicts("Route", weekend_possible_routes, 0, None, LpBinary)
 
-prob_weekday = LpProblem("Woolworths NZ VRP", LpMinimize)
+# Setting up the minimisation objective function
+prob_weekday = LpProblem("Woolworths NZ VRP weekday", LpMinimize)
+prob_weekend = LpProblem("Woolworths NZ VRP weekend", LpMinimize)
 
-prob_weekday += lpSum([225 * x[route] * Time_Weekday[route] for route in weekday_possible_routes])
+# Objective function
+prob_weekday += lpSum([225 * WeekdayRoute_vars[route] * Time_Weekday[route] if Time_Weekday[route] < 4 else 275 * WeekdayRoute_vars[route] * Time_Weekday[route] for route in weekday_possible_routes])
 
-prob_weekday += lpSum([x[route] for route in weekday_possible_routes]) <= max_routes
+prob_weekend += lpSum([225 * WeekendRoute_vars[route] * Time_Weekend[route] if Time_Weekend[route] < 4 else 275 * WeekendRoute_vars[route] * Time_Weekend[route] for route in weekend_possible_routes])
+
+# Adding the constraints
+prob_weekday += lpSum([WeekdayRoute_vars[route] for route in weekday_possible_routes]) <= max_routes
+prob_weekend += lpSum([WeekendRoute_vars[route] for route in weekend_possible_routes]) <= max_routes
 
 for store in stores:
-    prob_weekday += lpSum([x[route] for route in weekday_possible_routes if store in Routes_Weekday[route]]) == 1
+    prob_weekday += lpSum([WeekdayRoute_vars[route] for route in weekday_possible_routes if store in Routes_Weekday[route]]) == 1
 
-prob_weekday.writeLP("WoolworthsVRP.lp")
+    prob_weekend += lpSum([WeekendRoute_vars[route] for route in weekend_possible_routes if store in Routes_Weekend[route]]) == 1
 
+# Writing the LP
+prob_weekday.writeLP("" + os.getcwd() + os.sep + "LP_files" + os.sep + "WoolworthsVRP_weekday.lp")
+prob_weekend.writeLP("" + os.getcwd() + os.sep + "LP_files" + os.sep + "WoolworthsVRP_weekend.lp")
+
+# Solving the LP
 prob_weekday.solve()
+prob_weekend.solve()
 
 # Variables printed with the optimal value
 for v in prob_weekday.variables():
     print(v.name, "=", v.varValue)
+for w in prob_weekend.variables():
+    print(w.name, "=", w.varValue)
 
-# Solves and prints status of solution
+# Prints status of solution
 print("Weekday Status:", LpStatus[prob_weekday.status])
+print("Weekend Status:", LpStatus[prob_weekend.status])
 
 # The optimised objective function solution
 print("Least cost for the Weekday =", value(prob_weekday.objective))
+print("Least cost for the Weekend =", value(prob_weekend.objective))
 
+# Finding the total number of trucks used
+num_weekday = 0
+for v in prob_weekday.variables():
+    if v.varValue == 1:
+        num_weekday += 1
+
+print("Number of trucks used in the weekdays: ", num_weekday)
+
+num_weekend = 0
+for w in prob_weekend.variables():
+    if w.varValue == 1:
+        num_weekend += 1
+
+print("Number of trucks used in the weekends: ", num_weekend)
+
+"""
 optimalRoutes_weekday = []
 num=0
 for v in prob_weekday.variables():
@@ -1654,11 +1692,11 @@ for v in prob_weekday.variables():
 print("Number of trucks used: ", num)
 print(optimalRoutes_weekday)
 
-"""
+
 for v in prob.variables():
     if v.varValue == 1.0:
         print(Routes_Weekday[])
-"""
+
 
 print(Routes_Weekday[117])
 print(Routes_Weekday[226])
@@ -1689,7 +1727,7 @@ print(Routes_Weekday[880])
 
 
 
-"""
+
 
 # Matrix for Weekday routes
 Weekday_routeLength = len(Routes_Weekday)
