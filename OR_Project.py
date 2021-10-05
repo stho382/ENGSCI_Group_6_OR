@@ -1524,13 +1524,23 @@ for i in range(len(East_Routes5)):
         EastRoutes_Weekday.append(East_Routes5[i])
         Routes_Weekday.append(East_Routes5[i])
         Time_Weekday.append(time)
-        Cost_Weekday.append(time / 3600 * 225)
+        Cost_Weekday.append(time / 60 / 60 * 225)
 
     if (demand_weekend < demand_threshold and time < time_threshold):
         EastRoutes_Weekend.append(East_Routes5[i])
         Routes_Weekend.append(East_Routes5[i])
         Time_Weekend.append(time)
         Cost_Weekend.append(time / 60 / 60 * 225)
+
+"""import pandas as pd
+x = pd.Series(Time_Weekday)
+y = pd.Series(Routes_Weekday)
+df = pd.DataFrame({'Time': x, 'Routes' : y})
+
+for i in range(len(x)):
+    if x[i] > 9000:
+        print(df.iloc[i, 1])"""
+
 
 
 # Matrix for Weekday routes
@@ -1583,6 +1593,7 @@ Weekday_vars = LpVariable.dicts("Weekday", Weekday_routeVariable, 0, None, 'Inte
 Weekend_prob = LpProblem("Weekend", LpMinimize)
 Weekend_vars = LpVariable.dicts("Weekend", Weekend_routeVariable, 0, None, 'Integer')
 
+
 """
 Weekday_objective = []
 
@@ -1610,11 +1621,18 @@ Weekend_prob += lpSum([(225 / 3600) * Weekend_vars[j] * (Time_Weekend[j] + 900) 
 """
 
 
+
+
 # objective constraints
-Weekday_prob += lpSum([Cost_Weekday[i] * Weekday_vars[i] * (Time_Weekday[i] + 900) for i in range(len(Time_Weekday))]), "Cost"
+Weekday_prob += lpSum([Cost_Weekday[i] * Weekday_vars[i] * Time_Weekday[i] for i in range(len(Time_Weekday))]), "Cost"
 
-Weekend_prob += lpSum([Cost_Weekend[j] * Weekend_vars[j] * (Time_Weekend[j] + 900) for j in range(len(Time_Weekend))]), "Cost"
+Weekend_prob += lpSum([Cost_Weekend[j] * Weekend_vars[j] * Time_Weekend[j] for j in range(len(Time_Weekend))]), "Cost"
 
+for i in range(len(stores)):
+    Weekday_prob += lpSum([Weekday_vars[j] * Weekday_lp[i][j] for j in range(len(Weekday_routeVariable))]) == 1
+print(Weekday_prob)
+
+"""
 # route constraints
 for i in range(len(stores)):
     Weekday_prob += lpSum([Weekday_vars[j] * Weekday_lp[i][j] for j in range(len(Weekday_routeVariable))]) == 1
@@ -1637,6 +1655,6 @@ for w in Weekend_prob.variables():
     print(w.name, "=", w.varValue)
 
 # The optimised objective function solution
-print("Least cost for the Weekday=", value(Weekday_prob.objective))
+print("Least cost for the Weekday =", value(Weekday_prob.objective))
 
-print("Least cost for the Weekend=", value(Weekend_prob.objective))
+print("Least cost for the Weekend =", value(Weekend_prob.objective))"""
