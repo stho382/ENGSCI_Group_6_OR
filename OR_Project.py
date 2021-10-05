@@ -50,7 +50,7 @@ West_WeekendDemands = np.genfromtxt('LocationWestRegion.csv', delimiter= ',', sk
 East_WeekdayDemands = np.genfromtxt('LocationEastRegion.csv', delimiter= ',', skip_header=1, usecols=1)
 East_WeekendDemands = np.genfromtxt('LocationEastRegion.csv', delimiter= ',', skip_header=1, usecols=2)
 
-demand_threshold = 26
+demand_threshold = 27
 time_threshold = 60 * 4 * 2 * 30
 
 Routes_Weekday = []
