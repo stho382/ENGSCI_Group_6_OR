@@ -2488,30 +2488,33 @@ print("Weekend Status:", LpStatus[prob_weekend.status])
 print("Least cost for the Weekday =", value(prob_weekday.objective))
 print("Least cost for the Weekend =", value(prob_weekend.objective))
 
+print("\n")
+
 # Finding the total number of trucks used
+optimalRoutes_weekday = []
 num_weekday = 0
 for v in prob_weekday.variables():
     if v.varValue == 1:
+        optimalRoutes_weekday.append(v.name)
         num_weekday += 1
 
 print("Number of trucks used in the weekdays: ", num_weekday)
+print("Weekday routes:", optimalRoutes_weekday)
 
+print("\n")
+
+optimalRoutes_weekend = []
 num_weekend = 0
 for w in prob_weekend.variables():
     if w.varValue == 1:
+        optimalRoutes_weekend.append(v.name)
         num_weekend += 1
 
 print("Number of trucks used in the weekends: ", num_weekend)
+print("Weekend routes:", optimalRoutes_weekend)
 
 """
-optimalRoutes_weekday = []
-num=0
-for v in prob_weekday.variables():
-    if v.varValue == 1:
-        optimalRoutes_weekday.append(v.name)
-        num += 1
-print("Number of trucks used: ", num)
-print(optimalRoutes_weekday)
+
 
 
 for v in prob.variables():
