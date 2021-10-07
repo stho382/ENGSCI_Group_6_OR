@@ -1,10 +1,10 @@
-﻿Store,Weekdays,Weekends
-Countdown Birkenhead,8.5,3
-Countdown Northcote,6,3
-Countdown Hauraki Corner,6,3
-Countdown Takapuna,7,2
-Countdown Glenfield,7,4
-Countdown Milford,7,2.5
-Countdown Sunnynook,8.5,2
-Countdown Mairangi Bay,8.5,3
-Countdown Browns Bay,7,3
+﻿Store,Weekdays,Weekends,Latitude,Longitude
+Countdown Birkenhead,8.5,3,-36.81111802,174.7248776
+Countdown Northcote,6,3,-36.80035237,174.7455338
+Countdown Hauraki Corner,6,3,-36.79667981,174.7781249
+Countdown Takapuna,7,2,-36.79125414,174.7662056
+Countdown Glenfield,7,4,-36.78148813,174.7234262
+Countdown Milford,7,2.5,-36.77197217,174.7666177
+Countdown Sunnynook,8.5,2,-36.75907026,174.7406941
+Countdown Mairangi Bay,8.5,3,-36.73941255,174.7540551
+Countdown Browns Bay,7,3,-36.71714479,174.7472772

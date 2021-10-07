@@ -1,10 +1,10 @@
-﻿Store,Weekdays,Weekends
-SuperValue Palomino,5,0
-Countdown Henderson,8,4
-Countdown Te Atatu South,8,3
-FreshChoice Ranui,4.5,0
-Countdown Lincoln Road,9,4
-Countdown Te Atatu,6,2
-Countdown Westgate,7,5
-Countdown Northwest,7.5,2
-Countdown Hobsonville,8,6
+﻿Store,Weekdays,Weekends,Latitude,Longitude
+SuperValue Palomino,5,0,-36.88287566,174.6161793
+Countdown Henderson,8,4,-36.88089456,174.6332277
+Countdown Te Atatu South,8,3,-36.86472278,174.6476292
+FreshChoice Ranui,4.5,0,-36.86353948,174.6015834
+Countdown Lincoln Road,9,4,-36.8568778,174.6325126
+Countdown Te Atatu,6,2,-36.84209292,174.6542381
+Countdown Westgate,7,5,-36.82092949,174.6146464
+Countdown Northwest,7.5,2,-36.81879206,174.6129291
+Countdown Hobsonville,8,6,-36.79748845,174.6487257
