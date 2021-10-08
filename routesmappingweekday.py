@@ -1,3 +1,4 @@
+
 import openrouteservice as ors 
 client = ors.Client(key="5b3ce3597851110001cf6248bc8606d9ed064bc1bf42feace686975a")
 
@@ -134,3 +135,4 @@ def routesmappingweekday():
             format='geojson',
             validate = False
             ))
+    print(route_weekday)
