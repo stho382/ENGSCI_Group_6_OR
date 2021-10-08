@@ -10,6 +10,9 @@ stores = np.genfromtxt("" + os.getcwd() + os.sep + "Data" + os.sep + "Woolworths
 stores = stores[1:67]
 stores = np.delete(stores, 55, 0)
 
+all_stores = np.genfromtxt("" + os.getcwd() + os.sep + "Data" + os.sep + "WoolworthsTravelDurations.csv", dtype = str, delimiter= ',', skip_footer= 66)
+all_stores = all_stores[1:67]
+
 # Travel duration between each store
 travel_durations = np.genfromtxt("" + os.getcwd() + os.sep + "Data" + os.sep + "WoolworthsTravelDurations.csv", delimiter= ',', skip_header=1, usecols=list(range(1,67)))
 travel_durations = np.delete(travel_durations, 55, 0)
