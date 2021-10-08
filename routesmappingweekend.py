@@ -1,9 +1,21 @@
-import openrouteservice as ors 
-client = ors.Client(key="5b3ce3597851110001cf6248bc8606d9ed064bc1bf42feace686975a")
+import openrouteservice as ors
+from OR_Project import *
+from OR_visualisations import coords
+from dotenv import load_dotenv
+import os
+import pandas as pd
+
+load_dotenv()
+API_KEY = os.getenv("API_KEY")
+client = ors.Client(key=f"{API_KEY}")
 
 
 def routesmappingweekend():
     route_weekend = []
+    locations_df = pd.read_csv('https://raw.githubusercontent.com/stho382/ENGSCI_Group_6_OR/main/Data/WoolworthsLocations.csv')
+    locations_df.set_index('Store', inplace=True)
+    coords = locations_df[['Long', 'Lat']] # Mapping packages work with Long, Lat arrays
+    coords = coords.to_numpy().tolist() # Make the arrays into a list of lists.
 
 
     # Loops through all optimal routes on weekend
