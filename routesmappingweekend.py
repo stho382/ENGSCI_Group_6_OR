@@ -6,7 +6,7 @@ def routesmappingweekend():
     route_weekend = []
 
 
-    # Loops through all optimal routes on weekdays
+    # Loops through all optimal routes on weekend
     for i in range(len(optimalRoutes_weekend)):
 
         # Finds all stores in specific route
@@ -71,7 +71,7 @@ def routesmappingweekend():
             ))
 
 
-    # Loops through all optimal routes on weekdays
+    # Loops through all optimal routes on weekend
     for i in range(len(optimalRoutes_weekend)):
 
         # Finds all stores in specific route
