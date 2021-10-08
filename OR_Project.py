@@ -2528,6 +2528,8 @@ print(Routes_Weekday[989])
 print(Routes_Weekday[990])
 
 
+
+
 print("\n")
 
 optimalRoutes_weekend = []
@@ -2553,6 +2555,8 @@ print(Routes_Weekend[5121])
 print(Routes_Weekend[5873])
 print(Routes_Weekend[6589])
 print(Routes_Weekend[734])
+
+
 """
 
 
