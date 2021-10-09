@@ -1,7 +1,7 @@
 \* Woolworths_NZ_VRP_weekend *\
 Minimize
-OBJ: 618.370625 Weekend_Route_0 + 593.70375 Weekend_Route_1
- + 568.666875 Weekend_Route_10 + 516.384375 Weekend_Route_100
+OBJ: 351.183125 Weekend_Route_0 + 382.76625 Weekend_Route_1
+ + 371.791875 Weekend_Route_10 + 516.384375 Weekend_Route_100
  + 679.326875 Weekend_Route_1000 + 624.89625 Weekend_Route_1001
  + 681.896875 Weekend_Route_1002 + 708.494375 Weekend_Route_1003
  + 634.645 Weekend_Route_1004 + 601.8975 Weekend_Route_1005
@@ -56,7 +56,7 @@ OBJ: 618.370625 Weekend_Route_0 + 593.70375 Weekend_Route_1
  + 789.27 Weekend_Route_1093 + 815.8675 Weekend_Route_1094
  + 742.0175 Weekend_Route_1095 + 709.27 Weekend_Route_1096
  + 772.890625 Weekend_Route_1097 + 825.75875 Weekend_Route_1098
- + 647.483125 Weekend_Route_1099 + 614.229375 Weekend_Route_11
+ + 647.483125 Weekend_Route_1099 + 389.229375 Weekend_Route_11
  + 618.283125 Weekend_Route_110 + 692.855 Weekend_Route_1100
  + 748.891875 Weekend_Route_1101 + 688.198125 Weekend_Route_1102
  + 745.19875 Weekend_Route_1103 + 771.79625 Weekend_Route_1104
@@ -112,7 +112,7 @@ OBJ: 618.370625 Weekend_Route_0 + 593.70375 Weekend_Route_1
  + 814.014375 Weekend_Route_1194 + 849.045 Weekend_Route_1195
  + 844.388125 Weekend_Route_1196 + 821.176875 Weekend_Route_1197
  + 878.1775 Weekend_Route_1198 + 873.2475 Weekend_Route_1199
- + 590.526875 Weekend_Route_12 + 604.18 Weekend_Route_120
+ + 435.839375 Weekend_Route_12 + 604.18 Weekend_Route_120
  + 859.615625 Weekend_Route_1200 + 896.790625 Weekend_Route_1201
  + 878.105625 Weekend_Route_1202 + 774.13125 Weekend_Route_1203
  + 791.378125 Weekend_Route_1204 + 847.415 Weekend_Route_1205
@@ -167,7 +167,7 @@ OBJ: 618.370625 Weekend_Route_0 + 593.70375 Weekend_Route_1
  + 381.15625 Weekend_Route_1293 + 405.055625 Weekend_Route_1294
  + 275.606875 Weekend_Route_1295 + 285.119375 Weekend_Route_1296
  + 243.731875 Weekend_Route_1297 + 576.3425 Weekend_Route_1298
- + 542.6325 Weekend_Route_1299 + 646.35625 Weekend_Route_13
+ + 542.6325 Weekend_Route_1299 + 379.16875 Weekend_Route_13
  + 625.6675 Weekend_Route_130 + 646.400625 Weekend_Route_1300
  + 526.256875 Weekend_Route_1301 + 629.213125 Weekend_Route_1302
  + 535.45 Weekend_Route_1303 + 524.826875 Weekend_Route_1304
@@ -223,7 +223,7 @@ OBJ: 618.370625 Weekend_Route_0 + 593.70375 Weekend_Route_1
  + 535.265 Weekend_Route_1394 + 434.015625 Weekend_Route_1395
  + 443.528125 Weekend_Route_1396 + 426.458125 Weekend_Route_1397
  + 580.51625 Weekend_Route_1398 + 499.625625 Weekend_Route_1399
- + 657.009375 Weekend_Route_14 + 554.904375 Weekend_Route_140
+ + 347.634375 Weekend_Route_14 + 554.904375 Weekend_Route_140
  + 492.3775 Weekend_Route_1400 + 516.2775 Weekend_Route_1401
  + 584.7125 Weekend_Route_1402 + 589.80375 Weekend_Route_1403
  + 613.703125 Weekend_Route_1404 + 492.356875 Weekend_Route_1405
@@ -278,7 +278,7 @@ OBJ: 618.370625 Weekend_Route_0 + 593.70375 Weekend_Route_1
  + 687.84625 Weekend_Route_1493 + 597.621875 Weekend_Route_1494
  + 607.134375 Weekend_Route_1495 + 609.73 Weekend_Route_1496
  + 685.685 Weekend_Route_1497 + 695.1975 Weekend_Route_1498
- + 710.1325 Weekend_Route_1499 + 662.411875 Weekend_Route_15
+ + 710.1325 Weekend_Route_1499 + 409.286875 Weekend_Route_15
  + 583.0025 Weekend_Route_150 + 630.934375 Weekend_Route_1500
  + 796.7025 Weekend_Route_1501 + 693.333125 Weekend_Route_1502
  + 793.9575 Weekend_Route_1503 + 702.041875 Weekend_Route_1504
@@ -334,7 +334,7 @@ OBJ: 618.370625 Weekend_Route_0 + 593.70375 Weekend_Route_1
  + 681.683125 Weekend_Route_1594 + 750.118125 Weekend_Route_1595
  + 755.209375 Weekend_Route_1596 + 779.10875 Weekend_Route_1597
  + 657.7625 Weekend_Route_1598 + 667.275 Weekend_Route_1599
- + 661.00375 Weekend_Route_16 + 610.21 Weekend_Route_160
+ + 393.81625 Weekend_Route_16 + 610.21 Weekend_Route_160
  + 615.17375 Weekend_Route_1600 + 581.326875 Weekend_Route_1601
  + 586.418125 Weekend_Route_1602 + 610.3175 Weekend_Route_1603
  + 520.093125 Weekend_Route_1604 + 529.605625 Weekend_Route_1605
@@ -389,7 +389,7 @@ OBJ: 618.370625 Weekend_Route_0 + 593.70375 Weekend_Route_1
  + 834.388125 Weekend_Route_1693 + 843.900625 Weekend_Route_1694
  + 858.835625 Weekend_Route_1695 + 779.638125 Weekend_Route_1696
  + 893.47 Weekend_Route_1697 + 886.221875 Weekend_Route_1698
- + 886.20125 Weekend_Route_1699 + 551.03125 Weekend_Route_17
+ + 886.20125 Weekend_Route_1699 + 410.40625 Weekend_Route_17
  + 650.946875 Weekend_Route_170 + 895.71375 Weekend_Route_1700
  + 843.6125 Weekend_Route_1701 + 809.765625 Weekend_Route_1702
  + 814.856875 Weekend_Route_1703 + 838.75625 Weekend_Route_1704
@@ -445,7 +445,7 @@ OBJ: 618.370625 Weekend_Route_0 + 593.70375 Weekend_Route_1
  + 764.580625 Weekend_Route_1794 + 774.093125 Weekend_Route_1795
  + 776.68875 Weekend_Route_1796 + 849.6675 Weekend_Route_1797
  + 859.18 Weekend_Route_1798 + 874.115 Weekend_Route_1799
- + 621.64875 Weekend_Route_18 + 604.5375 Weekend_Route_180
+ + 452.89875 Weekend_Route_18 + 604.5375 Weekend_Route_180
  + 776.668125 Weekend_Route_1800 + 680.87625 Weekend_Route_1801
  + 690.38875 Weekend_Route_1802 + 705.32375 Weekend_Route_1803
  + 638.99875 Weekend_Route_1804 + 724.729375 Weekend_Route_1805
@@ -500,7 +500,7 @@ OBJ: 618.370625 Weekend_Route_0 + 593.70375 Weekend_Route_1
  + 792.36875 Weekend_Route_1893 + 703.62625 Weekend_Route_1894
  + 863.888125 Weekend_Route_1895 + 759.049375 Weekend_Route_1896
  + 670.306875 Weekend_Route_1897 + 830.568125 Weekend_Route_1898
- + 718.625625 Weekend_Route_1899 + 589.31875 Weekend_Route_19
+ + 718.625625 Weekend_Route_1899 + 490.88125 Weekend_Route_19
  + 616.30375 Weekend_Route_190 + 884.8175 Weekend_Route_1900
  + 791.194375 Weekend_Route_1901 + 803.485 Weekend_Route_1902
  + 714.7425 Weekend_Route_1903 + 875.00375 Weekend_Route_1904
@@ -556,7 +556,7 @@ OBJ: 618.370625 Weekend_Route_0 + 593.70375 Weekend_Route_1
  + 610.3125 Weekend_Route_1994 + 636.33375 Weekend_Route_1995
  + 523.004375 Weekend_Route_1996 + 559.058125 Weekend_Route_1997
  + 452.629375 Weekend_Route_1998 + 500.963125 Weekend_Route_1999
- + 593.615 Weekend_Route_2 + 640.65875 Weekend_Route_20
+ + 354.5525 Weekend_Route_2 + 429.72125 Weekend_Route_20
  + 679.323125 Weekend_Route_200 + 527.1175 Weekend_Route_2000
  + 510.181875 Weekend_Route_2001 + 559.40125 Weekend_Route_2002
  + 466.3025 Weekend_Route_2003 + 563.878125 Weekend_Route_2004
@@ -612,7 +612,7 @@ OBJ: 618.370625 Weekend_Route_0 + 593.70375 Weekend_Route_1
  + 621.14 Weekend_Route_2094 + 558.34875 Weekend_Route_2095
  + 604.144375 Weekend_Route_2096 + 458.625 Weekend_Route_2097
  + 583.69125 Weekend_Route_2098 + 615.591875 Weekend_Route_2099
- + 655.801875 Weekend_Route_21 + 661.211875 Weekend_Route_210
+ + 402.676875 Weekend_Route_21 + 661.211875 Weekend_Route_210
  + 653.998125 Weekend_Route_2100 + 680.019375 Weekend_Route_2101
  + 597.848125 Weekend_Route_2102 + 647.0675 Weekend_Route_2103
  + 547.6675 Weekend_Route_2104 + 677.8925 Weekend_Route_2105
@@ -667,7 +667,7 @@ OBJ: 618.370625 Weekend_Route_0 + 593.70375 Weekend_Route_1
  + 719.550625 Weekend_Route_2193 + 703.001875 Weekend_Route_2194
  + 752.22125 Weekend_Route_2195 + 659.123125 Weekend_Route_2196
  + 737.9925 Weekend_Route_2197 + 787.211875 Weekend_Route_2198
- + 694.113125 Weekend_Route_2199 + 649.394375 Weekend_Route_22
+ + 694.113125 Weekend_Route_2199 + 452.519375 Weekend_Route_22
  + 642.974375 Weekend_Route_220 + 656.72625 Weekend_Route_2200
  + 593.935 Weekend_Route_2201 + 639.730625 Weekend_Route_2202
  + 718.218125 Weekend_Route_2203 + 744.3725 Weekend_Route_2204
@@ -723,7 +723,7 @@ OBJ: 618.370625 Weekend_Route_0 + 593.70375 Weekend_Route_1
  + 733.100625 Weekend_Route_2294 + 640.001875 Weekend_Route_2295
  + 668.2375 Weekend_Route_2296 + 605.44625 Weekend_Route_2297
  + 651.241875 Weekend_Route_2298 + 703.36125 Weekend_Route_2299
- + 651.755625 Weekend_Route_23 + 684.6175 Weekend_Route_230
+ + 440.818125 Weekend_Route_23 + 684.6175 Weekend_Route_230
  + 640.57 Weekend_Route_2300 + 686.365625 Weekend_Route_2301
  + 621.115625 Weekend_Route_2302 + 740.84 Weekend_Route_2303
  + 678.04875 Weekend_Route_2304 + 723.844375 Weekend_Route_2305
@@ -778,7 +778,7 @@ OBJ: 618.370625 Weekend_Route_0 + 593.70375 Weekend_Route_1
  + 840.085625 Weekend_Route_2393 + 777.294375 Weekend_Route_2394
  + 823.09 Weekend_Route_2395 + 692.604375 Weekend_Route_2396
  + 826.985 Weekend_Route_2397 + 810.43625 Weekend_Route_2398
- + 859.655625 Weekend_Route_2399 + 633.915 Weekend_Route_24
+ + 859.655625 Weekend_Route_2399 + 437.04 Weekend_Route_24
  + 718.291875 Weekend_Route_240 + 766.5575 Weekend_Route_2400
  + 845.56 Weekend_Route_2401 + 894.779375 Weekend_Route_2402
  + 801.680625 Weekend_Route_2403 + 829.529375 Weekend_Route_2404
@@ -834,7 +834,7 @@ OBJ: 618.370625 Weekend_Route_0 + 593.70375 Weekend_Route_1
  + 822.2475 Weekend_Route_2494 + 729.149375 Weekend_Route_2495
  + 808.151875 Weekend_Route_2496 + 857.37125 Weekend_Route_2497
  + 764.2725 Weekend_Route_2498 + 792.12125 Weekend_Route_2499
- + 614.630625 Weekend_Route_25 + 695.9025 Weekend_Route_250
+ + 488.068125 Weekend_Route_25 + 695.9025 Weekend_Route_250
  + 729.33 Weekend_Route_2500 + 775.125625 Weekend_Route_2501
  + 845.63 Weekend_Route_2502 + 894.849375 Weekend_Route_2503
  + 801.750625 Weekend_Route_2504 + 829.98625 Weekend_Route_2505
@@ -887,107 +887,107 @@ OBJ: 618.370625 Weekend_Route_0 + 593.70375 Weekend_Route_1
  + 670.1475 Weekend_Route_259 + 897.856875 Weekend_Route_2590
  + 898.378125 Weekend_Route_2591 + 874.059375 Weekend_Route_2592
  + 860.648125 Weekend_Route_2593 + 895.771875 Weekend_Route_2594
- + 890.33625 Weekend_Route_2595 + 655.44625 Weekend_Route_26
+ + 890.33625 Weekend_Route_2595 + 416.38375 Weekend_Route_26
  + 681.799375 Weekend_Route_260 + 649.045625 Weekend_Route_261
  + 729.54875 Weekend_Route_262 + 705.524375 Weekend_Route_263
  + 581.29875 Weekend_Route_264 + 645.86125 Weekend_Route_265
  + 644.36375 Weekend_Route_266 + 628.1575 Weekend_Route_267
  + 619.11375 Weekend_Route_268 + 620.560625 Weekend_Route_269
- + 666.68375 Weekend_Route_27 + 717.268125 Weekend_Route_270
+ + 385.43375 Weekend_Route_27 + 717.268125 Weekend_Route_270
  + 660.5975 Weekend_Route_271 + 623.140625 Weekend_Route_272
  + 692.294375 Weekend_Route_273 + 668.27 Weekend_Route_274
  + 692.9675 Weekend_Route_275 + 660.21375 Weekend_Route_276
  + 740.716875 Weekend_Route_277 + 716.6925 Weekend_Route_278
- + 581.9425 Weekend_Route_279 + 652.48875 Weekend_Route_28
+ + 581.9425 Weekend_Route_279 + 427.48875 Weekend_Route_28
  + 646.505 Weekend_Route_280 + 645.0075 Weekend_Route_281
  + 624.895625 Weekend_Route_282 + 615.851875 Weekend_Route_283
  + 609.51125 Weekend_Route_284 + 691.155625 Weekend_Route_285
  + 658.401875 Weekend_Route_286 + 738.905 Weekend_Route_287
  + 714.880625 Weekend_Route_288 + 595.144375 Weekend_Route_289
- + 644.0275 Weekend_Route_29 + 659.706875 Weekend_Route_290
+ + 404.965 Weekend_Route_29 + 659.706875 Weekend_Route_290
  + 658.209375 Weekend_Route_291 + 631.590625 Weekend_Route_292
  + 622.546875 Weekend_Route_293 + 643.305 Weekend_Route_294
  + 623.09625 Weekend_Route_295 + 687.65875 Weekend_Route_296
  + 686.16125 Weekend_Route_297 + 664.245625 Weekend_Route_298
- + 655.201875 Weekend_Route_299 + 682.6325 Weekend_Route_3
- + 655.84 Weekend_Route_30 + 687.309375 Weekend_Route_300
+ + 655.201875 Weekend_Route_299 + 415.445 Weekend_Route_3
+ + 501.1525 Weekend_Route_30 + 687.309375 Weekend_Route_300
  + 600.988125 Weekend_Route_301 + 591.944375 Weekend_Route_302
  + 608.11125 Weekend_Route_303 + 585.9175 Weekend_Route_304
  + 755.8825 Weekend_Route_305 + 699.211875 Weekend_Route_306
  + 661.755 Weekend_Route_307 + 730.90875 Weekend_Route_308
- + 706.884375 Weekend_Route_309 + 711.669375 Weekend_Route_31
+ + 706.884375 Weekend_Route_309 + 444.481875 Weekend_Route_31
  + 731.581875 Weekend_Route_310 + 698.828125 Weekend_Route_311
  + 779.33125 Weekend_Route_312 + 755.306875 Weekend_Route_313
  + 620.556875 Weekend_Route_314 + 685.119375 Weekend_Route_315
  + 683.621875 Weekend_Route_316 + 663.51 Weekend_Route_317
  + 654.46625 Weekend_Route_318 + 648.125625 Weekend_Route_319
- + 716.4 Weekend_Route_32 + 754.825 Weekend_Route_320
+ + 407.025 Weekend_Route_32 + 754.825 Weekend_Route_320
  + 722.07125 Weekend_Route_321 + 802.574375 Weekend_Route_322
  + 778.55 Weekend_Route_323 + 658.81375 Weekend_Route_324
  + 723.37625 Weekend_Route_325 + 721.87875 Weekend_Route_326
  + 695.26 Weekend_Route_327 + 686.21625 Weekend_Route_328
- + 706.974375 Weekend_Route_329 + 729.30375 Weekend_Route_33
+ + 706.974375 Weekend_Route_329 + 476.17875 Weekend_Route_33
  + 678.138125 Weekend_Route_330 + 742.700625 Weekend_Route_331
  + 741.203125 Weekend_Route_332 + 719.2875 Weekend_Route_333
  + 710.24375 Weekend_Route_334 + 742.35125 Weekend_Route_335
  + 651.540625 Weekend_Route_336 + 642.496875 Weekend_Route_337
  + 658.66375 Weekend_Route_338 + 640.96 Weekend_Route_339
- + 719.341875 Weekend_Route_34 + 738.96625 Weekend_Route_340
+ + 452.154375 Weekend_Route_34 + 738.96625 Weekend_Route_340
  + 706.2125 Weekend_Route_341 + 786.715625 Weekend_Route_342
  + 762.69125 Weekend_Route_343 + 642.955 Weekend_Route_344
  + 707.5175 Weekend_Route_345 + 706.02 Weekend_Route_346
  + 679.40125 Weekend_Route_347 + 670.3575 Weekend_Route_348
- + 691.115625 Weekend_Route_349 + 668.91375 Weekend_Route_35
+ + 691.115625 Weekend_Route_349 + 472.03875 Weekend_Route_35
  + 675.325 Weekend_Route_350 + 739.8875 Weekend_Route_351
  + 738.39 Weekend_Route_352 + 716.474375 Weekend_Route_353
  + 707.430625 Weekend_Route_354 + 739.538125 Weekend_Route_355
  + 638.203125 Weekend_Route_356 + 629.159375 Weekend_Route_357
  + 645.32625 Weekend_Route_358 + 623.716875 Weekend_Route_359
- + 678.3475 Weekend_Route_36 + 688.409375 Weekend_Route_360
+ + 439.285 Weekend_Route_36 + 688.409375 Weekend_Route_360
  + 752.971875 Weekend_Route_361 + 751.474375 Weekend_Route_362
  + 729.55875 Weekend_Route_363 + 720.515 Weekend_Route_364
  + 752.6225 Weekend_Route_365 + 666.30125 Weekend_Route_366
  + 657.2575 Weekend_Route_367 + 673.424375 Weekend_Route_368
- + 645.308125 Weekend_Route_369 + 702.600625 Weekend_Route_37
+ + 645.308125 Weekend_Route_369 + 519.788125 Weekend_Route_37
  + 693.858125 Weekend_Route_370 + 684.814375 Weekend_Route_371
  + 700.98125 Weekend_Route_372 + 677.568125 Weekend_Route_373
  + 614.31125 Weekend_Route_374 + 765.6825 Weekend_Route_375
  + 816.710625 Weekend_Route_376 + 745.02625 Weekend_Route_377
  + 714.07625 Weekend_Route_378 + 756.13125 Weekend_Route_379
- + 692.63875 Weekend_Route_38 + 733.6075 Weekend_Route_380
+ + 495.76375 Weekend_Route_38 + 733.6075 Weekend_Route_380
  + 839.95375 Weekend_Route_381 + 783.283125 Weekend_Route_382
  + 745.82625 Weekend_Route_383 + 814.98 Weekend_Route_384
  + 790.955625 Weekend_Route_385 + 802.6075 Weekend_Route_386
  + 769.85375 Weekend_Route_387 + 850.356875 Weekend_Route_388
- + 826.3325 Weekend_Route_389 + 727.590625 Weekend_Route_39
+ + 826.3325 Weekend_Route_389 + 376.028125 Weekend_Route_39
  + 702.106875 Weekend_Route_390 + 766.669375 Weekend_Route_391
  + 765.171875 Weekend_Route_392 + 748.965625 Weekend_Route_393
  + 739.921875 Weekend_Route_394 + 741.36875 Weekend_Route_395
  + 838.07625 Weekend_Route_396 + 781.405625 Weekend_Route_397
  + 743.94875 Weekend_Route_398 + 813.1025 Weekend_Route_399
- + 663.3475 Weekend_Route_4 + 735.903125 Weekend_Route_40
+ + 466.4725 Weekend_Route_4 + 440.590625 Weekend_Route_40
  + 789.078125 Weekend_Route_400 + 813.775625 Weekend_Route_401
  + 781.021875 Weekend_Route_402 + 861.525 Weekend_Route_403
  + 837.500625 Weekend_Route_404 + 702.750625 Weekend_Route_405
  + 767.313125 Weekend_Route_406 + 765.815625 Weekend_Route_407
  + 745.70375 Weekend_Route_408 + 736.66 Weekend_Route_409
- + 748.468125 Weekend_Route_41 + 730.319375 Weekend_Route_410
+ + 439.093125 Weekend_Route_41 + 730.319375 Weekend_Route_410
  + 811.96375 Weekend_Route_411 + 779.21 Weekend_Route_412
  + 859.713125 Weekend_Route_413 + 835.68875 Weekend_Route_414
  + 715.9525 Weekend_Route_415 + 780.515 Weekend_Route_416
  + 779.0175 Weekend_Route_417 + 752.39875 Weekend_Route_418
- + 743.355 Weekend_Route_419 + 751.16625 Weekend_Route_42
+ + 743.355 Weekend_Route_419 + 413.66625 Weekend_Route_42
  + 764.113125 Weekend_Route_420 + 743.904375 Weekend_Route_421
  + 808.466875 Weekend_Route_422 + 806.969375 Weekend_Route_423
  + 785.05375 Weekend_Route_424 + 776.01 Weekend_Route_425
  + 808.1175 Weekend_Route_426 + 721.79625 Weekend_Route_427
  + 712.7525 Weekend_Route_428 + 728.919375 Weekend_Route_429
- + 756.185 Weekend_Route_43 + 706.725625 Weekend_Route_430
+ + 404.6225 Weekend_Route_43 + 706.725625 Weekend_Route_430
  + 850.35 Weekend_Route_431 + 793.679375 Weekend_Route_432
  + 756.2225 Weekend_Route_433 + 825.37625 Weekend_Route_434
  + 801.351875 Weekend_Route_435 + 826.049375 Weekend_Route_436
  + 793.295625 Weekend_Route_437 + 873.79875 Weekend_Route_438
- + 849.774375 Weekend_Route_439 + 715.570625 Weekend_Route_44
+ + 849.774375 Weekend_Route_439 + 420.258125 Weekend_Route_44
  + 715.024375 Weekend_Route_440 + 779.586875 Weekend_Route_441
  + 778.089375 Weekend_Route_442 + 757.9775 Weekend_Route_443
  + 748.93375 Weekend_Route_444 + 742.593125 Weekend_Route_445
@@ -1020,7 +1020,7 @@ OBJ: 618.370625 Weekend_Route_0 + 593.70375 Weekend_Route_1
  + 760.1775 Weekend_Route_493 + 776.344375 Weekend_Route_494
  + 748.228125 Weekend_Route_495 + 801.590625 Weekend_Route_496
  + 792.546875 Weekend_Route_497 + 808.71375 Weekend_Route_498
- + 785.300625 Weekend_Route_499 + 704.16375 Weekend_Route_5
+ + 785.300625 Weekend_Route_499 + 394.78875 Weekend_Route_5
  + 468.4425 Weekend_Route_50 + 707.03 Weekend_Route_500
  + 833.501875 Weekend_Route_501 + 776.83125 Weekend_Route_502
  + 739.374375 Weekend_Route_503 + 808.528125 Weekend_Route_504
@@ -1076,7 +1076,7 @@ OBJ: 618.370625 Weekend_Route_0 + 593.70375 Weekend_Route_1
  + 860.88875 Weekend_Route_594 + 892.99625 Weekend_Route_595
  + 806.675 Weekend_Route_596 + 797.63125 Weekend_Route_597
  + 813.798125 Weekend_Route_598 + 785.681875 Weekend_Route_599
- + 715.40125 Weekend_Route_6 + 511.40125 Weekend_Route_60
+ + 363.83875 Weekend_Route_6 + 511.40125 Weekend_Route_60
  + 825.999375 Weekend_Route_600 + 816.955625 Weekend_Route_601
  + 833.1225 Weekend_Route_602 + 809.709375 Weekend_Route_603
  + 741.9625 Weekend_Route_604 + 812.924375 Weekend_Route_605
@@ -1131,7 +1131,7 @@ OBJ: 618.370625 Weekend_Route_0 + 593.70375 Weekend_Route_1
  + 835.115625 Weekend_Route_693 + 824.021875 Weekend_Route_694
  + 851.110625 Weekend_Route_695 + 829.50125 Weekend_Route_696
  + 873.3725 Weekend_Route_697 + 862.27875 Weekend_Route_698
- + 889.3675 Weekend_Route_699 + 701.205625 Weekend_Route_7
+ + 889.3675 Weekend_Route_699 + 405.893125 Weekend_Route_7
  + 555.074375 Weekend_Route_70 + 861.25125 Weekend_Route_700
  + 892.696875 Weekend_Route_701 + 881.603125 Weekend_Route_702
  + 885.27875 Weekend_Route_703 + 817.531875 Weekend_Route_704
@@ -1187,7 +1187,7 @@ OBJ: 618.370625 Weekend_Route_0 + 593.70375 Weekend_Route_1
  + 653.211875 Weekend_Route_794 + 630.6925 Weekend_Route_795
  + 630.6925 Weekend_Route_796 + 605.085 Weekend_Route_797
  + 586.9225 Weekend_Route_798 + 654.640625 Weekend_Route_799
- + 692.745 Weekend_Route_8 + 496.315 Weekend_Route_80
+ + 383.37 Weekend_Route_8 + 496.315 Weekend_Route_80
  + 654.640625 Weekend_Route_800 + 678.496875 Weekend_Route_801
  + 746.215 Weekend_Route_802 + 746.215 Weekend_Route_803
  + 717.470625 Weekend_Route_804 + 541.0175 Weekend_Route_805
@@ -1242,7 +1242,7 @@ OBJ: 618.370625 Weekend_Route_0 + 593.70375 Weekend_Route_1
  + 846.165 Weekend_Route_893 + 828.0025 Weekend_Route_894
  + 895.720625 Weekend_Route_895 + 895.720625 Weekend_Route_896
  + 868.524375 Weekend_Route_897 + 868.524375 Weekend_Route_898
- + 842.916875 Weekend_Route_899 + 534.668125 Weekend_Route_9
+ + 842.916875 Weekend_Route_899 + 365.918125 Weekend_Route_9
  + 507.984375 Weekend_Route_90 + 824.754375 Weekend_Route_900
  + 892.4725 Weekend_Route_901 + 892.4725 Weekend_Route_902
  + 889.316875 Weekend_Route_903 + 462.763125 Weekend_Route_904
