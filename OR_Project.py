@@ -680,7 +680,6 @@ for i in range(len(CentralNorth_Routes6_Weekend)):
         Routes_Weekend.append(CentralNorth_Routes6_Weekend[i])
         Time_Weekend.append(time_weekend/60/60)
 
-
 # Central South stores
 CentralSouth_Routes2 = (list(combinations(CentralSouth_stores, 2)))
 CentralSouth_Routes2_Weekend = (list(combinations(CentralSouth_stores_Weekend, 2)))
@@ -696,7 +695,6 @@ CentralSouth_Routes5_Weekend = (list(combinations(CentralSouth_stores_Weekend, 5
 
 CentralSouth_Routes6 = (list(combinations(CentralSouth_stores, 6)))
 CentralSouth_Routes6_Weekend = (list(combinations(CentralSouth_stores_Weekend, 6)))
-
 
 for i in range(len(CentralSouth_Routes2)):
     store1 = CentralSouth_Routes2[i][0]
@@ -985,7 +983,6 @@ for i in range(len(CentralSouth_Routes6)):
         Routes_Weekday.append(CentralSouth_Routes6[i])
         Time_Weekday.append(time_weekday/60/60)
 
-
 for i in range(len(CentralSouth_Routes2_Weekend)):
     store1 = CentralSouth_Routes2_Weekend[i][0]
     store2 = CentralSouth_Routes2_Weekend[i][1]
@@ -1273,7 +1270,6 @@ for i in range(len(CentralSouth_Routes6_Weekend)):
         CentralSouthRoutes_Weekend.append(CentralSouth_Routes6_Weekend[i])
         Routes_Weekend.append(CentralSouth_Routes6_Weekend[i])
         Time_Weekend.append(time_weekend/60/60)
-
 
 North_Routes2 = (list(combinations(North_stores, 2)))
 North_Routes3 = (list(combinations(North_stores, 3)))
@@ -1682,7 +1678,6 @@ South_Routes5_Weekend = (list(combinations(South_stores_Weekend, 5)))
 
 South_Routes6 = (list(combinations(South_stores, 6)))
 South_Routes6_Weekend = (list(combinations(South_stores_Weekend, 6)))
-
 
 for i in range(len(South_Routes2)):
     store1 = South_Routes2[i][0]
@@ -2862,7 +2857,6 @@ East_Routes5_Weekend = (list(combinations(East_stores_Weekend, 5)))
 East_Routes6 = (list(combinations(East_stores, 6)))
 East_Routes6_Weekend = (list(combinations(East_stores_Weekend, 6)))
 
-
 for i in range(len(East_Routes2)):
     store1 = East_Routes2[i][0]
     store2 = East_Routes2[i][1]
@@ -3436,7 +3430,6 @@ for i in range(len(East_Routes6_Weekend)):
         EastRoutes_Weekend.append(East_Routes6_Weekend[i])
         Routes_Weekend.append(East_Routes6_Weekend[i])
         Time_Weekend.append(time_weekend/60/60)
-
 
 max_routes = 60
 

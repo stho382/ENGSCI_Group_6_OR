@@ -5465,12 +5465,6 @@ _C54: Weekend_Route_1839 + Weekend_Route_1844 + Weekend_Route_1848
  + Weekend_Route_1921 + Weekend_Route_1923 + Weekend_Route_1924
  + Weekend_Route_1926 + Weekend_Route_1927 + Weekend_Route_1929
  + Weekend_Route_1930 + Weekend_Route_1932 = 1
-_dummy: __dummy = 0
-_C55: __dummy = 1
-_C56: __dummy = 1
-_C57: __dummy = 1
-_C58: __dummy = 1
-_C59: __dummy = 1
 _C6: Weekend_Route_721 + Weekend_Route_728 + Weekend_Route_729
  + Weekend_Route_730 + Weekend_Route_731 + Weekend_Route_732
  + Weekend_Route_733 + Weekend_Route_749 + Weekend_Route_750
@@ -5500,13 +5494,6 @@ _C6: Weekend_Route_721 + Weekend_Route_728 + Weekend_Route_729
  + Weekend_Route_889 + Weekend_Route_890 + Weekend_Route_897
  + Weekend_Route_898 + Weekend_Route_899 + Weekend_Route_900
  + Weekend_Route_901 + Weekend_Route_902 = 1
-_C60: __dummy = 1
-_C61: __dummy = 1
-_C62: __dummy = 1
-_C63: __dummy = 1
-_C64: __dummy = 1
-_C65: __dummy = 1
-_C66: __dummy = 1
 _C7: Weekend_Route_1933 + Weekend_Route_1934 + Weekend_Route_1935
  + Weekend_Route_1936 + Weekend_Route_1937 + Weekend_Route_1938
  + Weekend_Route_1939 + Weekend_Route_1940 + Weekend_Route_1941
@@ -8290,7 +8277,6 @@ Bounds
  0 <= Weekend_Route_997
  0 <= Weekend_Route_998
  0 <= Weekend_Route_999
- __dummy = 0
 Generals
 Weekend_Route_0
 Weekend_Route_1
