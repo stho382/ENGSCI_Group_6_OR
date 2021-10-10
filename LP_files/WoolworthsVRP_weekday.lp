@@ -1,505 +1,438 @@
 \* Woolworths_NZ_VRP_weekday *\
 Minimize
-OBJ: 618.370625 Weekday_Route_0 + 593.70375 Weekday_Route_1
- + 584.588125 Weekday_Route_10 + 741.150625 Weekday_Route_100
- + 811.768125 Weekday_Route_101 + 779.438125 Weekday_Route_102
- + 830.778125 Weekday_Route_103 + 845.92125 Weekday_Route_104
- + 839.51375 Weekday_Route_105 + 841.875 Weekday_Route_106
- + 713.66625 Weekday_Route_107 + 733.718125 Weekday_Route_108
- + 838.015625 Weekday_Route_109 + 534.668125 Weekday_Route_11
- + 818.73125 Weekday_Route_110 + 859.546875 Weekday_Route_111
- + 870.784375 Weekday_Route_112 + 856.589375 Weekday_Route_113
- + 848.128125 Weekday_Route_114 + 719.92 Weekday_Route_115
- + 739.971875 Weekday_Route_116 + 845.044375 Weekday_Route_117
- + 770.295 Weekday_Route_118 + 797.300625 Weekday_Route_119
- + 568.666875 Weekday_Route_12 + 858.513125 Weekday_Route_120
- + 867.946875 Weekday_Route_121 + 892.2 Weekday_Route_122
- + 882.238125 Weekday_Route_123 + 743.716875 Weekday_Route_124
- + 770.9925 Weekday_Route_125 + 784.534375 Weekday_Route_126
- + 804.86375 Weekday_Route_127 + 786.84875 Weekday_Route_128
- + 821.571875 Weekday_Route_129 + 614.229375 Weekday_Route_13
- + 770.28125 Weekday_Route_130 + 792.22 Weekday_Route_131
- + 770.22125 Weekday_Route_132 + 782.111875 Weekday_Route_133
- + 647.791875 Weekday_Route_134 + 820.38 Weekday_Route_135
- + 801.095625 Weekday_Route_136 + 841.91125 Weekday_Route_137
- + 853.14875 Weekday_Route_138 + 838.95375 Weekday_Route_139
- + 590.526875 Weekday_Route_14 + 830.4925 Weekday_Route_140
- + 702.284375 Weekday_Route_141 + 722.33625 Weekday_Route_142
- + 852.46375 Weekday_Route_143 + 777.714375 Weekday_Route_144
- + 804.72 Weekday_Route_145 + 857.305 Weekday_Route_146
- + 866.73875 Weekday_Route_147 + 890.991875 Weekday_Route_148
- + 881.03 Weekday_Route_149 + 646.35625 Weekday_Route_15
- + 742.50875 Weekday_Route_150 + 769.784375 Weekday_Route_151
- + 778.836875 Weekday_Route_152 + 799.16625 Weekday_Route_153
- + 785.64125 Weekday_Route_154 + 820.364375 Weekday_Route_155
- + 894.50375 Weekday_Route_156 + 757.26375 Weekday_Route_157
- + 779.2025 Weekday_Route_158 + 760.973125 Weekday_Route_159
- + 657.009375 Weekday_Route_16 + 772.86375 Weekday_Route_160
- + 648.585625 Weekday_Route_161 + 864.73 Weekday_Route_162
- + 789.980625 Weekday_Route_163 + 816.98625 Weekday_Route_164
- + 882.616875 Weekday_Route_165 + 892.050625 Weekday_Route_166
- + 767.820625 Weekday_Route_167 + 795.09625 Weekday_Route_168
- + 793.624375 Weekday_Route_169 + 662.411875 Weekday_Route_17
- + 813.95375 Weekday_Route_170 + 796.523125 Weekday_Route_171
- + 831.24625 Weekday_Route_172 + 897.598125 Weekday_Route_173
- + 760.358125 Weekday_Route_174 + 782.296875 Weekday_Route_175
- + 753.245 Weekday_Route_176 + 765.135625 Weekday_Route_177
- + 640.858125 Weekday_Route_178 + 809.03 Weekday_Route_179
- + 661.00375 Weekday_Route_18 + 836.305625 Weekday_Route_180
- + 849.8475 Weekday_Route_181 + 870.176875 Weekday_Route_182
- + 846.239375 Weekday_Route_183 + 880.9625 Weekday_Route_184
- + 837.173125 Weekday_Route_185 + 859.111875 Weekday_Route_186
- + 828.559375 Weekday_Route_187 + 840.45 Weekday_Route_188
- + 706.129375 Weekday_Route_189 + 522.753125 Weekday_Route_19
- + 807.091875 Weekday_Route_190 + 827.42125 Weekday_Route_191
- + 808.186875 Weekday_Route_192 + 842.91 Weekday_Route_193
- + 810.47 Weekday_Route_194 + 832.40875 Weekday_Route_195
- + 801.85625 Weekday_Route_196 + 813.746875 Weekday_Route_197
- + 679.15625 Weekday_Route_198 + 857.43 Weekday_Route_199
- + 593.615 Weekday_Route_2 + 549.758125 Weekday_Route_20
- + 892.153125 Weekday_Route_200 + 843.7725 Weekday_Route_201
- + 865.71125 Weekday_Route_202 + 857.685625 Weekday_Route_203
- + 869.57625 Weekday_Route_204 + 719.974375 Weekday_Route_205
- + 859.035625 Weekday_Route_206 + 880.974375 Weekday_Route_207
- + 865.4025 Weekday_Route_208 + 877.293125 Weekday_Route_209
- + 551.03125 Weekday_Route_21 + 717.558125 Weekday_Route_210
- + 824.788125 Weekday_Route_211 + 836.67875 Weekday_Route_212
- + 703.369375 Weekday_Route_213 + 694.755 Weekday_Route_214
- + 897.740625 Weekday_Route_215 + 869.906875 Weekday_Route_216
- + 892.40375 Weekday_Route_217 + 838.705 Weekday_Route_218
- + 844.95875 Weekday_Route_219 + 621.64875 Weekday_Route_22
- + 895.33375 Weekday_Route_220 + 868.755625 Weekday_Route_221
- + 895.32 Weekday_Route_222 + 895.26 Weekday_Route_223
- + 827.323125 Weekday_Route_224 + 867.5475 Weekday_Route_225
- + 882.3025 Weekday_Route_226 + 886.011875 Weekday_Route_227
- + 892.859375 Weekday_Route_228 + 885.396875 Weekday_Route_229
- + 589.31875 Weekday_Route_23 + 878.28375 Weekday_Route_230
- + 489.36375 Weekday_Route_231 + 499.40625 Weekday_Route_232
- + 434.264375 Weekday_Route_233 + 482.94375 Weekday_Route_234
- + 515.8725 Weekday_Route_235 + 487.534375 Weekday_Route_236
- + 421.270625 Weekday_Route_237 + 463.96375 Weekday_Route_238
- + 554.7525 Weekday_Route_239 + 640.65875 Weekday_Route_24
- + 466.388125 Weekday_Route_240 + 586.835625 Weekday_Route_241
- + 578.938125 Weekday_Route_242 + 610.326875 Weekday_Route_243
- + 617.08375 Weekday_Route_244 + 602.516875 Weekday_Route_245
- + 522.481875 Weekday_Route_246 + 554.32125 Weekday_Route_247
- + 648.1875 Weekday_Route_248 + 556.745 Weekday_Route_249
- + 655.801875 Weekday_Route_25 + 589.7525 Weekday_Route_250
- + 627.793125 Weekday_Route_251 + 600.395625 Weekday_Route_252
- + 608.66625 Weekday_Route_253 + 511.765625 Weekday_Route_254
- + 538.393125 Weekday_Route_255 + 632.259375 Weekday_Route_256
- + 537.738125 Weekday_Route_257 + 566.286875 Weekday_Route_258
- + 613.831875 Weekday_Route_259 + 649.394375 Weekday_Route_26
- + 585.49375 Weekday_Route_260 + 519.23 Weekday_Route_261
- + 561.923125 Weekday_Route_262 + 652.711875 Weekday_Route_263
- + 564.346875 Weekday_Route_264 + 644.349375 Weekday_Route_265
- + 600.985 Weekday_Route_266 + 549.7475 Weekday_Route_267
- + 592.440625 Weekday_Route_268 + 683.229375 Weekday_Route_269
- + 651.755625 Weekday_Route_27 + 594.865 Weekday_Route_270
- + 622.246875 Weekday_Route_271 + 513.138125 Weekday_Route_272
- + 539.314375 Weekday_Route_273 + 624.764375 Weekday_Route_274
- + 547.605625 Weekday_Route_275 + 527.73875 Weekday_Route_276
- + 573.0075 Weekday_Route_277 + 661.220625 Weekday_Route_278
- + 575.535625 Weekday_Route_279 + 523.546875 Weekday_Route_28
- + 464.13125 Weekday_Route_280 + 552.344375 Weekday_Route_281
- + 476.616875 Weekday_Route_282 + 535.570625 Weekday_Route_283
- + 461.770625 Weekday_Route_284 + 560.833125 Weekday_Route_285
- + 719.929375 Weekday_Route_286 + 712.031875 Weekday_Route_287
- + 743.420625 Weekday_Route_288 + 750.1775 Weekday_Route_289
- + 543.59875 Weekday_Route_29 + 735.610625 Weekday_Route_290
- + 655.575625 Weekday_Route_291 + 687.415 Weekday_Route_292
- + 781.28125 Weekday_Route_293 + 689.83875 Weekday_Route_294
- + 722.84625 Weekday_Route_295 + 760.886875 Weekday_Route_296
- + 733.489375 Weekday_Route_297 + 741.76 Weekday_Route_298
- + 644.859375 Weekday_Route_299 + 682.6325 Weekday_Route_3
- + 633.915 Weekday_Route_30 + 671.486875 Weekday_Route_300
- + 765.353125 Weekday_Route_301 + 670.831875 Weekday_Route_302
- + 699.38125 Weekday_Route_303 + 746.92625 Weekday_Route_304
- + 718.588125 Weekday_Route_305 + 652.324375 Weekday_Route_306
- + 695.0175 Weekday_Route_307 + 785.80625 Weekday_Route_308
- + 697.44125 Weekday_Route_309 + 614.630625 Weekday_Route_31
- + 777.443125 Weekday_Route_310 + 734.07875 Weekday_Route_311
- + 682.84125 Weekday_Route_312 + 725.534375 Weekday_Route_313
- + 816.323125 Weekday_Route_314 + 727.95875 Weekday_Route_315
- + 755.340625 Weekday_Route_316 + 646.231875 Weekday_Route_317
- + 672.408125 Weekday_Route_318 + 757.858125 Weekday_Route_319
- + 655.44625 Weekday_Route_32 + 680.699375 Weekday_Route_320
- + 660.833125 Weekday_Route_321 + 706.101875 Weekday_Route_322
- + 794.315 Weekday_Route_323 + 708.63 Weekday_Route_324
- + 597.225625 Weekday_Route_325 + 685.43875 Weekday_Route_326
- + 609.71125 Weekday_Route_327 + 668.664375 Weekday_Route_328
- + 594.864375 Weekday_Route_329 + 666.68375 Weekday_Route_33
- + 693.926875 Weekday_Route_330 + 810.275625 Weekday_Route_331
- + 848.31625 Weekday_Route_332 + 820.91875 Weekday_Route_333
- + 829.189375 Weekday_Route_334 + 732.28875 Weekday_Route_335
- + 758.91625 Weekday_Route_336 + 852.7825 Weekday_Route_337
- + 758.26125 Weekday_Route_338 + 844.055 Weekday_Route_339
- + 652.48875 Weekday_Route_34 + 891.6 Weekday_Route_340
- + 863.261875 Weekday_Route_341 + 796.998125 Weekday_Route_342
- + 839.69125 Weekday_Route_343 + 842.115 Weekday_Route_344
- + 861.461875 Weekday_Route_345 + 810.224375 Weekday_Route_346
- + 852.9175 Weekday_Route_347 + 855.341875 Weekday_Route_348
- + 856.551875 Weekday_Route_349 + 644.0275 Weekday_Route_35
- + 747.443125 Weekday_Route_350 + 773.619375 Weekday_Route_351
- + 859.069375 Weekday_Route_352 + 781.910625 Weekday_Route_353
- + 775.815625 Weekday_Route_354 + 821.084375 Weekday_Route_355
- + 823.6125 Weekday_Route_356 + 698.436875 Weekday_Route_357
- + 786.65 Weekday_Route_358 + 710.9225 Weekday_Route_359
- + 515.819375 Weekday_Route_36 + 759.021875 Weekday_Route_360
- + 685.221875 Weekday_Route_361 + 787.361875 Weekday_Route_362
- + 854.869375 Weekday_Route_363 + 874.07625 Weekday_Route_364
- + 807.8125 Weekday_Route_365 + 850.505625 Weekday_Route_366
- + 852.929375 Weekday_Route_367 + 878.928125 Weekday_Route_368
- + 827.690625 Weekday_Route_369 + 535.87125 Weekday_Route_37
- + 870.38375 Weekday_Route_370 + 872.808125 Weekday_Route_371
- + 839.86375 Weekday_Route_372 + 730.755 Weekday_Route_373
- + 756.93125 Weekday_Route_374 + 842.38125 Weekday_Route_375
- + 765.2225 Weekday_Route_376 + 781.965 Weekday_Route_377
- + 827.23375 Weekday_Route_378 + 829.761875 Weekday_Route_379
- + 655.84 Weekday_Route_38 + 687.720625 Weekday_Route_380
- + 775.93375 Weekday_Route_381 + 700.20625 Weekday_Route_382
- + 743.09375 Weekday_Route_383 + 669.29375 Weekday_Route_384
- + 771.43375 Weekday_Route_385 + 860.78625 Weekday_Route_386
- + 817.421875 Weekday_Route_387 + 766.184375 Weekday_Route_388
- + 808.8775 Weekday_Route_389 + 711.669375 Weekday_Route_39
- + 899.66625 Weekday_Route_390 + 811.301875 Weekday_Route_391
- + 853.3 Weekday_Route_392 + 744.19125 Weekday_Route_393
- + 770.3675 Weekday_Route_394 + 855.8175 Weekday_Route_395
- + 778.65875 Weekday_Route_396 + 758.7925 Weekday_Route_397
- + 804.06125 Weekday_Route_398 + 892.274375 Weekday_Route_399
- + 663.3475 Weekday_Route_4 + 716.4 Weekday_Route_40
- + 806.589375 Weekday_Route_400 + 695.185 Weekday_Route_401
- + 783.398125 Weekday_Route_402 + 707.670625 Weekday_Route_403
- + 766.62375 Weekday_Route_404 + 692.82375 Weekday_Route_405
- + 791.88625 Weekday_Route_406 + 883.8175 Weekday_Route_407
- + 774.70875 Weekday_Route_408 + 800.885 Weekday_Route_409
- + 729.30375 Weekday_Route_41 + 886.335 Weekday_Route_410
- + 809.17625 Weekday_Route_411 + 774.28375 Weekday_Route_412
- + 819.5525 Weekday_Route_413 + 822.080625 Weekday_Route_414
- + 725.7025 Weekday_Route_415 + 813.915625 Weekday_Route_416
- + 738.188125 Weekday_Route_417 + 797.14125 Weekday_Route_418
- + 723.34125 Weekday_Route_419 + 719.341875 Weekday_Route_42
- + 822.40375 Weekday_Route_420 + 795.545625 Weekday_Route_421
- + 840.814375 Weekday_Route_422 + 843.3425 Weekday_Route_423
- + 689.093125 Weekday_Route_424 + 777.30625 Weekday_Route_425
- + 701.57875 Weekday_Route_426 + 744.015 Weekday_Route_427
- + 670.215 Weekday_Route_428 + 763.93875 Weekday_Route_429
- + 581.090625 Weekday_Route_43 + 703.69375 Weekday_Route_430
- + 791.906875 Weekday_Route_431 + 716.179375 Weekday_Route_432
- + 777.708125 Weekday_Route_433 + 703.908125 Weekday_Route_434
- + 800.395 Weekday_Route_435 + 668.831875 Weekday_Route_436
- + 595.031875 Weekday_Route_437 + 691.51875 Weekday_Route_438
- + 674.745 Weekday_Route_439 + 608.09625 Weekday_Route_44
- + 865.3825 Weekday_Route_440 + 892.01 Weekday_Route_441
- + 891.355 Weekday_Route_442 + 880.536875 Weekday_Route_443
- + 831.530625 Weekday_Route_444 + 844.01625 Weekday_Route_445
- + 892.115625 Weekday_Route_446 + 818.315625 Weekday_Route_447
- + 863.84875 Weekday_Route_448 + 890.025 Weekday_Route_449
- + 668.91375 Weekday_Route_45 + 898.31625 Weekday_Route_450
- + 820.814375 Weekday_Route_451 + 833.3 Weekday_Route_452
- + 876.1875 Weekday_Route_453 + 802.3875 Weekday_Route_454
- + 899.27875 Weekday_Route_455 + 877.285625 Weekday_Route_456
- + 891.886875 Weekday_Route_457 + 828.279375 Weekday_Route_458
- + 840.765 Weekday_Route_459 + 678.3475 Weekday_Route_46
- + 899.718125 Weekday_Route_460 + 825.918125 Weekday_Route_461
- + 858.79625 Weekday_Route_462 + 871.281875 Weekday_Route_463
- + 856.435 Weekday_Route_464 + 822.186875 Weekday_Route_465
- + 834.6725 Weekday_Route_466 + 877.10875 Weekday_Route_467
- + 803.30875 Weekday_Route_468 + 897.0325 Weekday_Route_469
- + 702.600625 Weekday_Route_47 + 836.788125 Weekday_Route_470
- + 849.27375 Weekday_Route_471 + 837.0025 Weekday_Route_472
- + 801.92625 Weekday_Route_473 + 728.12625 Weekday_Route_474
- + 824.613125 Weekday_Route_475 + 807.83875 Weekday_Route_476
- + 889.816875 Weekday_Route_477 + 829.3375 Weekday_Route_478
- + 898.19625 Weekday_Route_479 + 692.63875 Weekday_Route_48
- + 887.831875 Weekday_Route_480 + 892.42125 Weekday_Route_481
- + 818.62125 Weekday_Route_482 + 882.268125 Weekday_Route_483
- + 899.885625 Weekday_Route_484 + 826.085625 Weekday_Route_485
- + 856.603125 Weekday_Route_486 + 893.79375 Weekday_Route_487
- + 819.99375 Weekday_Route_488 + 883.189375 Weekday_Route_489
- + 554.1175 Weekday_Route_49 + 834.594375 Weekday_Route_490
- + 808.00625 Weekday_Route_491 + 701.825625 Weekday_Route_492
- + 745.144375 Weekday_Route_493 + 756.034375 Weekday_Route_494
- + 761.2525 Weekday_Route_495 + 790.51125 Weekday_Route_496
- + 830.049375 Weekday_Route_497 + 866.988125 Weekday_Route_498
- + 872.283125 Weekday_Route_499 + 704.16375 Weekday_Route_5
- + 581.393125 Weekday_Route_50 + 660.503125 Weekday_Route_500
- + 671.3925 Weekday_Route_501 + 691.54 Weekday_Route_502
- + 706.9925 Weekday_Route_503 + 743.75375 Weekday_Route_504
- + 780.6925 Weekday_Route_505 + 785.9875 Weekday_Route_506
- + 676.605 Weekday_Route_507 + 728.848125 Weekday_Route_508
- + 703.688125 Weekday_Route_509 + 727.590625 Weekday_Route_51
- + 768.7575 Weekday_Route_510 + 805.69625 Weekday_Route_511
- + 810.991875 Weekday_Route_512 + 741.026875 Weekday_Route_513
- + 722.130625 Weekday_Route_514 + 780.936875 Weekday_Route_515
- + 817.875625 Weekday_Route_516 + 823.170625 Weekday_Route_517
- + 758.930625 Weekday_Route_518 + 782.433125 Weekday_Route_519
- + 735.903125 Weekday_Route_52 + 817.92875 Weekday_Route_520
- + 828.609375 Weekday_Route_521 + 788.3525 Weekday_Route_522
- + 805.599375 Weekday_Route_523 + 819.44875 Weekday_Route_524
- + 831.67375 Weekday_Route_525 + 846.486875 Weekday_Route_526
- + 844.959375 Weekday_Route_527 + 868.353125 Weekday_Route_528
- + 895.43625 Weekday_Route_529 + 748.468125 Weekday_Route_53
- + 553.819375 Weekday_Route_530 + 588.778125 Weekday_Route_531
- + 596.85625 Weekday_Route_532 + 639.203125 Weekday_Route_533
- + 611.819375 Weekday_Route_534 + 604.175625 Weekday_Route_535
- + 622.7575 Weekday_Route_536 + 545.6575 Weekday_Route_537
- + 613.36875 Weekday_Route_538 + 574.620625 Weekday_Route_539
- + 594.935625 Weekday_Route_54 + 570.395 Weekday_Route_540
- + 638.5775 Weekday_Route_541 + 643.880625 Weekday_Route_542
- + 691.43875 Weekday_Route_543 + 664.055625 Weekday_Route_544
- + 656.41125 Weekday_Route_545 + 674.993125 Weekday_Route_546
- + 597.893125 Weekday_Route_547 + 665.604375 Weekday_Route_548
- + 626.85625 Weekday_Route_549 + 615.265 Weekday_Route_55
- + 622.63125 Weekday_Route_550 + 671.65625 Weekday_Route_551
- + 694.19625 Weekday_Route_552 + 699.526875 Weekday_Route_553
- + 691.883125 Weekday_Route_554 + 710.464375 Weekday_Route_555
- + 614.423125 Weekday_Route_556 + 701.07625 Weekday_Route_557
- + 662.328125 Weekday_Route_558 + 658.1025 Weekday_Route_559
- + 751.16625 Weekday_Route_56 + 670.770625 Weekday_Route_560
- + 666.666875 Weekday_Route_561 + 659.023125 Weekday_Route_562
- + 677.604375 Weekday_Route_563 + 600.505 Weekday_Route_564
- + 668.21625 Weekday_Route_565 + 629.468125 Weekday_Route_566
- + 625.2425 Weekday_Route_567 + 611.939375 Weekday_Route_568
- + 621.07 Weekday_Route_569 + 756.185 Weekday_Route_57
- + 637.319375 Weekday_Route_570 + 555.674375 Weekday_Route_571
- + 629.77875 Weekday_Route_572 + 574.74 Weekday_Route_573
- + 570.515 Weekday_Route_574 + 601.714375 Weekday_Route_575
- + 617.32 Weekday_Route_576 + 543.68 Weekday_Route_577
- + 589.6825 Weekday_Route_578 + 499.6125 Weekday_Route_579
- + 592.519375 Weekday_Route_58 + 515.4 Weekday_Route_580
- + 596.344375 Weekday_Route_581 + 525.975 Weekday_Route_582
- + 599.82875 Weekday_Route_583 + 564.455625 Weekday_Route_584
- + 560.230625 Weekday_Route_585 + 531.81875 Weekday_Route_586
- + 601.065 Weekday_Route_587 + 578.03125 Weekday_Route_588
- + 573.805625 Weekday_Route_589 + 627.2425 Weekday_Route_59
- + 519.385 Weekday_Route_590 + 500.799375 Weekday_Route_591
- + 496.57375 Weekday_Route_592 + 556.856875 Weekday_Route_593
- + 538.244375 Weekday_Route_594 + 468.731875 Weekday_Route_595
- + 780.118125 Weekday_Route_596 + 785.42125 Weekday_Route_597
- + 832.979375 Weekday_Route_598 + 805.59625 Weekday_Route_599
- + 715.40125 Weekday_Route_6 + 715.570625 Weekday_Route_60
- + 797.951875 Weekday_Route_600 + 816.53375 Weekday_Route_601
- + 739.43375 Weekday_Route_602 + 807.145 Weekday_Route_603
- + 768.396875 Weekday_Route_604 + 764.171875 Weekday_Route_605
- + 821.855625 Weekday_Route_606 + 844.395625 Weekday_Route_607
- + 849.72625 Weekday_Route_608 + 842.0825 Weekday_Route_609
- + 578.330625 Weekday_Route_61 + 860.66375 Weekday_Route_610
- + 764.6225 Weekday_Route_611 + 851.275625 Weekday_Route_612
- + 812.5275 Weekday_Route_613 + 808.301875 Weekday_Route_614
- + 854.213125 Weekday_Route_615 + 850.109375 Weekday_Route_616
- + 842.465625 Weekday_Route_617 + 861.046875 Weekday_Route_618
- + 783.9475 Weekday_Route_619 + 600.269375 Weekday_Route_62
- + 851.65875 Weekday_Route_620 + 812.910625 Weekday_Route_621
- + 808.685 Weekday_Route_622 + 886.58 Weekday_Route_623
- + 895.710625 Weekday_Route_624 + 830.315 Weekday_Route_625
- + 849.380625 Weekday_Route_626 + 845.155625 Weekday_Route_627
- + 849.590625 Weekday_Route_628 + 895.593125 Weekday_Route_629
- + 569.71625 Weekday_Route_63 + 805.523125 Weekday_Route_630
- + 821.310625 Weekday_Route_631 + 850.165 Weekday_Route_632
- + 779.795625 Weekday_Route_633 + 853.649375 Weekday_Route_634
- + 818.27625 Weekday_Route_635 + 814.05125 Weekday_Route_636
- + 788.09125 Weekday_Route_637 + 857.3375 Weekday_Route_638
- + 834.30375 Weekday_Route_639 + 581.606875 Weekday_Route_64
- + 830.078125 Weekday_Route_640 + 771.52875 Weekday_Route_641
- + 752.943125 Weekday_Route_642 + 748.7175 Weekday_Route_643
- + 839.480625 Weekday_Route_644 + 820.868125 Weekday_Route_645
- + 791.96375 Weekday_Route_646 + 871.655 Weekday_Route_647
- + 894.195 Weekday_Route_648 + 899.525625 Weekday_Route_649
- + 449.88375 Weekday_Route_65 + 891.881875 Weekday_Route_650
- + 814.421875 Weekday_Route_651 + 862.326875 Weekday_Route_652
- + 858.10125 Weekday_Route_653 + 897.13375 Weekday_Route_654
- + 889.49 Weekday_Route_655 + 830.971875 Weekday_Route_656
- + 898.683125 Weekday_Route_657 + 859.935 Weekday_Route_658
- + 855.709375 Weekday_Route_659 + 810.16375 Weekday_Route_66
- + 882.550625 Weekday_Route_660 + 897.39125 Weekday_Route_661
- + 857.759375 Weekday_Route_662 + 873.546875 Weekday_Route_663
- + 832.03125 Weekday_Route_664 + 870.511875 Weekday_Route_665
- + 866.286875 Weekday_Route_666 + 840.326875 Weekday_Route_667
- + 886.539375 Weekday_Route_668 + 882.31375 Weekday_Route_669
- + 844.1625 Weekday_Route_67 + 823.764375 Weekday_Route_670
- + 805.17875 Weekday_Route_671 + 800.953125 Weekday_Route_672
- + 891.71625 Weekday_Route_673 + 873.10375 Weekday_Route_674
- + 844.199375 Weekday_Route_675 + 858.7475 Weekday_Route_676
- + 887.710625 Weekday_Route_677 + 883.485 Weekday_Route_678
- + 885.308125 Weekday_Route_679 + 889.725 Weekday_Route_68
- + 893.230625 Weekday_Route_680 + 867.503125 Weekday_Route_681
- + 875.798125 Weekday_Route_682 + 840.294375 Weekday_Route_683
- + 821.70875 Weekday_Route_684 + 817.483125 Weekday_Route_685
- + 879.67125 Weekday_Route_686 + 861.8825 Weekday_Route_687
- + 880.948125 Weekday_Route_688 + 876.723125 Weekday_Route_689
- + 866.0225 Weekday_Route_69 + 860.370625 Weekday_Route_690
- + 876.158125 Weekday_Route_691 + 834.643125 Weekday_Route_692
- + 873.12375 Weekday_Route_693 + 868.89875 Weekday_Route_694
- + 842.938125 Weekday_Route_695 + 889.150625 Weekday_Route_696
- + 884.925 Weekday_Route_697 + 826.37625 Weekday_Route_698
- + 807.790625 Weekday_Route_699 + 701.205625 Weekday_Route_7
- + 798.24875 Weekday_Route_70 + 803.565 Weekday_Route_700
- + 894.328125 Weekday_Route_701 + 875.715625 Weekday_Route_702
- + 846.81125 Weekday_Route_703 + 849.710625 Weekday_Route_704
- + 895.713125 Weekday_Route_705 + 805.643125 Weekday_Route_706
- + 821.430625 Weekday_Route_707 + 867.059375 Weekday_Route_708
- + 796.69 Weekday_Route_709 + 825.25375 Weekday_Route_71
- + 870.54375 Weekday_Route_710 + 835.170625 Weekday_Route_711
- + 830.945625 Weekday_Route_712 + 802.653125 Weekday_Route_713
- + 871.899375 Weekday_Route_714 + 848.865625 Weekday_Route_715
- + 844.64 Weekday_Route_716 + 781.545625 Weekday_Route_717
- + 762.96 Weekday_Route_718 + 758.734375 Weekday_Route_719
- + 800.18625 Weekday_Route_72 + 855.890625 Weekday_Route_720
- + 837.278125 Weekday_Route_721 + 792.083125 Weekday_Route_722
- + 847.70375 Weekday_Route_723 + 777.334375 Weekday_Route_724
- + 851.188125 Weekday_Route_725 + 815.815 Weekday_Route_726
- + 811.59 Weekday_Route_727 + 782.65375 Weekday_Route_728
- + 851.9 Weekday_Route_729 + 870.80375 Weekday_Route_73
- + 828.86625 Weekday_Route_730 + 824.640625 Weekday_Route_731
- + 769.55125 Weekday_Route_732 + 750.965625 Weekday_Route_733
- + 746.74 Weekday_Route_734 + 815.794375 Weekday_Route_735
- + 797.181875 Weekday_Route_736 + 716.955625 Weekday_Route_737
- + 761.678125 Weekday_Route_738 + 830.924375 Weekday_Route_739
- + 838.47375 Weekday_Route_74 + 807.890625 Weekday_Route_740
- + 803.665 Weekday_Route_741 + 751.84625 Weekday_Route_742
- + 733.260625 Weekday_Route_743 + 729.035 Weekday_Route_744
- + 825.940625 Weekday_Route_745 + 807.328125 Weekday_Route_746
- + 781.79875 Weekday_Route_747 + 757.69 Weekday_Route_748
- + 739.104375 Weekday_Route_749 + 889.81375 Weekday_Route_75
- + 734.87875 Weekday_Route_750 + 827.176875 Weekday_Route_751
- + 808.564375 Weekday_Route_752 + 795.374375 Weekday_Route_753
- + 745.496875 Weekday_Route_754 + 726.884375 Weekday_Route_755
- + 718.1425 Weekday_Route_756 + 774.2 Weekday_Route_757
- + 663.950625 Weekday_Route_758 + 655.841875 Weekday_Route_759
- + 898.549375 Weekday_Route_76 + 579.143125 Weekday_Route_760
- + 685.280625 Weekday_Route_761 + 642.773125 Weekday_Route_762
- + 668.12875 Weekday_Route_763 + 677.82375 Weekday_Route_764
- + 739.6475 Weekday_Route_765 + 709.793125 Weekday_Route_766
- + 660.20625 Weekday_Route_767 + 752.5625 Weekday_Route_768
- + 698.781875 Weekday_Route_769 + 772.701875 Weekday_Route_77
- + 741.865 Weekday_Route_770 + 751.56 Weekday_Route_771
- + 813.38375 Weekday_Route_772 + 636.195 Weekday_Route_773
- + 725.635 Weekday_Route_774 + 648.066875 Weekday_Route_775
- + 691.15 Weekday_Route_776 + 700.845 Weekday_Route_777
- + 762.66875 Weekday_Route_778 + 661.361875 Weekday_Route_779
- + 792.75375 Weekday_Route_78 + 618.854375 Weekday_Route_780
- + 644.21 Weekday_Route_781 + 653.905 Weekday_Route_782
- + 715.72875 Weekday_Route_783 + 699.829375 Weekday_Route_784
- + 725.184375 Weekday_Route_785 + 734.879375 Weekday_Route_786
- + 796.70375 Weekday_Route_787 + 666.236875 Weekday_Route_788
- + 675.931875 Weekday_Route_789 + 862.96375 Weekday_Route_79
- + 737.755625 Weekday_Route_790 + 665.50375 Weekday_Route_791
- + 733.258125 Weekday_Route_792 + 738.0725 Weekday_Route_793
- + 888.9 Weekday_Route_794 + 839.313125 Weekday_Route_795
- + 877.88875 Weekday_Route_796 + 857.963125 Weekday_Route_797
- + 869.835 Weekday_Route_798 + 836.015 Weekday_Route_799
- + 692.745 Weekday_Route_8 + 843.679375 Weekday_Route_80
- + 793.5075 Weekday_Route_800 + 818.863125 Weekday_Route_801
- + 828.558125 Weekday_Route_802 + 890.381875 Weekday_Route_803
- + 899.91125 Weekday_Route_804 + 883.9475 Weekday_Route_805
- + 874.570625 Weekday_Route_806 + 899.92625 Weekday_Route_807
- + 893.066875 Weekday_Route_808 + 850.559375 Weekday_Route_809
- + 884.495 Weekday_Route_81 + 875.915 Weekday_Route_810
- + 885.61 Weekday_Route_811 + 877.02125 Weekday_Route_812
- + 875.9925 Weekday_Route_813 + 885.6875 Weekday_Route_814
- + 860.02875 Weekday_Route_815 + 882.055625 Weekday_Route_816
- + 517.5525 Weekday_Route_817 + 548.7275 Weekday_Route_818
- + 491.9725 Weekday_Route_819 + 895.7325 Weekday_Route_82
- + 454.566875 Weekday_Route_820 + 526.74125 Weekday_Route_821
- + 537.0225 Weekday_Route_822 + 593.0025 Weekday_Route_823
- + 445.03625 Weekday_Route_824 + 489.921875 Weekday_Route_825
- + 508.726875 Weekday_Route_826 + 431.781875 Weekday_Route_827
- + 680.72625 Weekday_Route_828 + 669.413125 Weekday_Route_829
- + 881.5375 Weekday_Route_83 + 669.6625 Weekday_Route_830
- + 667.2875 Weekday_Route_831 + 676.850625 Weekday_Route_832
- + 725.00125 Weekday_Route_833 + 599.129375 Weekday_Route_834
- + 686.438125 Weekday_Route_835 + 721.595625 Weekday_Route_836
- + 661.76375 Weekday_Route_837 + 700.798125 Weekday_Route_838
- + 701.048125 Weekday_Route_839 + 873.07625 Weekday_Route_84
- + 675.923125 Weekday_Route_840 + 687.36375 Weekday_Route_841
- + 724.883125 Weekday_Route_842 + 610.545 Weekday_Route_843
- + 714.68625 Weekday_Route_844 + 749.843125 Weekday_Route_845
- + 693.149375 Weekday_Route_846 + 632.254375 Weekday_Route_847
- + 664.155 Weekday_Route_848 + 674.43625 Weekday_Route_849
- + 744.868125 Weekday_Route_85 + 742.645 Weekday_Route_850
- + 582.45 Weekday_Route_851 + 646.41125 Weekday_Route_852
- + 681.568125 Weekday_Route_853 + 624.355625 Weekday_Route_854
- + 665.718125 Weekday_Route_855 + 675.99875 Weekday_Route_856
- + 744.2075 Weekday_Route_857 + 584.013125 Weekday_Route_858
- + 616.815625 Weekday_Route_859 + 764.92 Weekday_Route_86
- + 638.806875 Weekday_Route_860 + 574.565625 Weekday_Route_861
- + 636.155625 Weekday_Route_862 + 704.4975 Weekday_Route_863
- + 559.07375 Weekday_Route_864 + 673.499375 Weekday_Route_865
- + 708.65625 Weekday_Route_866 + 657.745 Weekday_Route_867
- + 713.85125 Weekday_Route_868 + 568.814375 Weekday_Route_869
- + 838.698125 Weekday_Route_87 + 683.24 Weekday_Route_870
- + 718.396875 Weekday_Route_871 + 667.48625 Weekday_Route_872
- + 628.349375 Weekday_Route_873 + 754.849375 Weekday_Route_874
- + 790.00625 Weekday_Route_875 + 739.095 Weekday_Route_876
- + 592.766875 Weekday_Route_877 + 627.924375 Weekday_Route_878
- + 577.013125 Weekday_Route_879 + 865.70375 Weekday_Route_88
- + 630.424375 Weekday_Route_880 + 609.820625 Weekday_Route_881
- + 631.771875 Weekday_Route_882 + 778.015 Weekday_Route_883
- + 766.701875 Weekday_Route_884 + 766.95125 Weekday_Route_885
- + 764.57625 Weekday_Route_886 + 774.139375 Weekday_Route_887
- + 822.29 Weekday_Route_888 + 696.418125 Weekday_Route_889
- + 816.5375 Weekday_Route_89 + 783.726875 Weekday_Route_890
- + 818.884375 Weekday_Route_891 + 759.0525 Weekday_Route_892
- + 798.086875 Weekday_Route_893 + 798.336875 Weekday_Route_894
- + 773.211875 Weekday_Route_895 + 784.6525 Weekday_Route_896
- + 822.171875 Weekday_Route_897 + 707.83375 Weekday_Route_898
- + 811.975 Weekday_Route_899 + 564.53625 Weekday_Route_9
- + 843.813125 Weekday_Route_90 + 847.131875 Weekday_Route_900
- + 790.438125 Weekday_Route_901 + 736.203125 Weekday_Route_902
- + 768.10375 Weekday_Route_903 + 778.385 Weekday_Route_904
- + 846.59375 Weekday_Route_905 + 686.39875 Weekday_Route_906
- + 750.36 Weekday_Route_907 + 785.516875 Weekday_Route_908
- + 728.304375 Weekday_Route_909 + 842.341875 Weekday_Route_91
- + 764.62375 Weekday_Route_910 + 774.904375 Weekday_Route_911
- + 843.113125 Weekday_Route_912 + 682.91875 Weekday_Route_913
- + 715.72125 Weekday_Route_914 + 737.7125 Weekday_Route_915
- + 673.47125 Weekday_Route_916 + 740.104375 Weekday_Route_917
- + 808.44625 Weekday_Route_918 + 663.0225 Weekday_Route_919
- + 862.67125 Weekday_Route_92 + 777.448125 Weekday_Route_920
- + 812.605 Weekday_Route_921 + 761.69375 Weekday_Route_922
- + 817.8 Weekday_Route_923 + 672.763125 Weekday_Route_924
- + 787.18875 Weekday_Route_925 + 822.345625 Weekday_Route_926
- + 771.435 Weekday_Route_927 + 725.638125 Weekday_Route_928
- + 852.138125 Weekday_Route_929 + 845.240625 Weekday_Route_93
- + 887.295 Weekday_Route_930 + 836.38375 Weekday_Route_931
- + 696.715625 Weekday_Route_932 + 731.873125 Weekday_Route_933
- + 680.961875 Weekday_Route_934 + 735.9 Weekday_Route_935
- + 715.29625 Weekday_Route_936 + 730.6775 Weekday_Route_937
- + 839.8325 Weekday_Route_938 + 863.839375 Weekday_Route_939
- + 879.96375 Weekday_Route_94 + 898.014375 Weekday_Route_940
- + 888.566875 Weekday_Route_941 + 880.650625 Weekday_Route_942
- + 803.56875 Weekday_Route_943 + 812.59125 Weekday_Route_944
- + 857.636875 Weekday_Route_945 + 850.80875 Weekday_Route_946
- + 885.96625 Weekday_Route_947 + 835.055 Weekday_Route_948
- + 895.224375 Weekday_Route_949 + 809.075 Weekday_Route_95
- + 889.28625 Weekday_Route_950 + 812.204375 Weekday_Route_951
- + 823.104375 Weekday_Route_952 + 857.51875 Weekday_Route_953
- + 862.224375 Weekday_Route_954 + 897.381875 Weekday_Route_955
- + 846.470625 Weekday_Route_956 + 860.60625 Weekday_Route_957
- + 893.40875 Weekday_Route_958 + 851.15875 Weekday_Route_959
- + 831.01375 Weekday_Route_96 + 877.518125 Weekday_Route_960
- + 800.43625 Weekday_Route_961 + 899.1075 Weekday_Route_962
- + 810.176875 Weekday_Route_963 + 875.280625 Weekday_Route_964
- + 834.129375 Weekday_Route_965 + 869.286875 Weekday_Route_966
- + 818.375625 Weekday_Route_967 + 892.389375 Weekday_Route_968
- + 871.785625 Weekday_Route_969 + 801.9625 Weekday_Route_97
- + 879.08125 Weekday_Route_970 + 801.999375 Weekday_Route_971
- + 811.739375 Weekday_Route_972 + 876.843125 Weekday_Route_973
- + 835.6925 Weekday_Route_974 + 870.85 Weekday_Route_975
- + 819.93875 Weekday_Route_976 + 862.79375 Weekday_Route_977
- + 842.19 Weekday_Route_978 + 860.7575 Weekday_Route_979
- + 813.853125 Weekday_Route_98 + 771.89625 Weekday_Route_980
- + 886.321875 Weekday_Route_981 + 870.568125 Weekday_Route_982
- + 837.133125 Weekday_Route_983 + 810.753125 Weekday_Route_984
- + 845.910625 Weekday_Route_985 + 794.999375 Weekday_Route_986
- + 898.87375 Weekday_Route_987 + 846.486875 Weekday_Route_988
- + 820.49375 Weekday_Route_989 + 689.575 Weekday_Route_99
- + 855.65125 Weekday_Route_990 + 804.74 Weekday_Route_991
- + 880.02875 Weekday_Route_992 + 864.275 Weekday_Route_993
- + 838.745 Weekday_Route_994 + 818.14125 Weekday_Route_995
- + 849.875 Weekday_Route_996 + 852.375 Weekday_Route_997
- + 875.845 Weekday_Route_998 + 898.948125 Weekday_Route_999
+OBJ: 632.433125 Weekday_Route_0 + 664.01625 Weekday_Route_1
+ + 612.713125 Weekday_Route_10 + 862.190625 Weekday_Route_100
+ + 748.045 Weekday_Route_101 + 768.096875 Weekday_Route_102
+ + 873.169375 Weekday_Route_103 + 784.3575 Weekday_Route_104
+ + 811.363125 Weekday_Route_105 + 886.638125 Weekday_Route_106
+ + 896.071875 Weekday_Route_107 + 785.904375 Weekday_Route_108
+ + 813.18 Weekday_Route_109 + 590.918125 Weekday_Route_11
+ + 798.596875 Weekday_Route_110 + 818.92625 Weekday_Route_111
+ + 800.91125 Weekday_Route_112 + 835.634375 Weekday_Route_113
+ + 798.40625 Weekday_Route_114 + 820.345 Weekday_Route_115
+ + 784.28375 Weekday_Route_116 + 796.174375 Weekday_Route_117
+ + 675.916875 Weekday_Route_118 + 890.6925 Weekday_Route_119
+ + 582.729375 Weekday_Route_12 + 899.533125 Weekday_Route_120
+ + 786.659375 Weekday_Route_121 + 806.71125 Weekday_Route_122
+ + 848.026875 Weekday_Route_123 + 875.0325 Weekday_Route_124
+ + 840.94625 Weekday_Route_125 + 868.221875 Weekday_Route_126
+ + 849.149375 Weekday_Route_127 + 869.47875 Weekday_Route_128
+ + 855.95375 Weekday_Route_129 + 614.229375 Weekday_Route_13
+ + 890.676875 Weekday_Route_130 + 841.63875 Weekday_Route_131
+ + 863.5775 Weekday_Route_132 + 831.285625 Weekday_Route_133
+ + 843.17625 Weekday_Route_134 + 732.960625 Weekday_Route_135
+ + 818.105625 Weekday_Route_136 + 845.11125 Weekday_Route_137
+ + 824.070625 Weekday_Route_138 + 851.34625 Weekday_Route_139
+ + 618.651875 Weekday_Route_14 + 821.749375 Weekday_Route_140
+ + 842.07875 Weekday_Route_141 + 824.648125 Weekday_Route_142
+ + 859.37125 Weekday_Route_143 + 802.545625 Weekday_Route_144
+ + 824.484375 Weekday_Route_145 + 781.37 Weekday_Route_146
+ + 793.260625 Weekday_Route_147 + 683.045625 Weekday_Route_148
+ + 851.2175 Weekday_Route_149 + 646.35625 Weekday_Route_15
+ + 878.493125 Weekday_Route_150 + 863.91 Weekday_Route_151
+ + 884.239375 Weekday_Route_152 + 860.301875 Weekday_Route_153
+ + 895.025 Weekday_Route_154 + 865.298125 Weekday_Route_155
+ + 887.236875 Weekday_Route_156 + 842.621875 Weekday_Route_157
+ + 854.5125 Weekday_Route_158 + 734.254375 Weekday_Route_159
+ + 657.009375 Weekday_Route_16 + 849.279375 Weekday_Route_160
+ + 869.60875 Weekday_Route_161 + 850.374375 Weekday_Route_162
+ + 885.0975 Weekday_Route_163 + 866.72 Weekday_Route_164
+ + 888.65875 Weekday_Route_165 + 844.04375 Weekday_Route_166
+ + 855.934375 Weekday_Route_167 + 735.40625 Weekday_Route_168
+ + 871.4925 Weekday_Route_169 + 676.474375 Weekday_Route_17
+ + 871.8975 Weekday_Route_170 + 893.83625 Weekday_Route_171
+ + 871.748125 Weekday_Route_172 + 883.63875 Weekday_Route_173
+ + 748.099375 Weekday_Route_174 + 887.160625 Weekday_Route_175
+ + 879.465 Weekday_Route_176 + 891.355625 Weekday_Route_177
+ + 745.683125 Weekday_Route_178 + 852.913125 Weekday_Route_179
+ + 661.00375 Weekday_Route_18 + 864.80375 Weekday_Route_180
+ + 745.556875 Weekday_Route_181 + 722.88 Weekday_Route_182
+ + 887.14625 Weekday_Route_183 + 517.48875 Weekday_Route_184
+ + 527.53125 Weekday_Route_185 + 448.326875 Weekday_Route_186
+ + 511.06875 Weekday_Route_187 + 529.935 Weekday_Route_188
+ + 515.659375 Weekday_Route_189 + 536.815625 Weekday_Route_19
+ + 449.395625 Weekday_Route_190 + 492.08875 Weekday_Route_191
+ + 568.815 Weekday_Route_192 + 480.450625 Weekday_Route_193
+ + 614.960625 Weekday_Route_194 + 593.000625 Weekday_Route_195
+ + 638.451875 Weekday_Route_196 + 631.14625 Weekday_Route_197
+ + 630.641875 Weekday_Route_198 + 550.606875 Weekday_Route_199
+ + 621.74 Weekday_Route_2 + 563.820625 Weekday_Route_20
+ + 582.44625 Weekday_Route_200 + 662.25 Weekday_Route_201
+ + 570.8075 Weekday_Route_202 + 603.815 Weekday_Route_203
+ + 655.918125 Weekday_Route_204 + 614.458125 Weekday_Route_205
+ + 636.79125 Weekday_Route_206 + 539.890625 Weekday_Route_207
+ + 566.518125 Weekday_Route_208 + 646.321875 Weekday_Route_209
+ + 621.34375 Weekday_Route_21 + 551.800625 Weekday_Route_210
+ + 580.349375 Weekday_Route_211 + 613.831875 Weekday_Route_212
+ + 599.55625 Weekday_Route_213 + 533.2925 Weekday_Route_214
+ + 575.985625 Weekday_Route_215 + 652.711875 Weekday_Route_216
+ + 564.346875 Weekday_Route_217 + 658.411875 Weekday_Route_218
+ + 629.11 Weekday_Route_219 + 677.89875 Weekday_Route_22
+ + 577.8725 Weekday_Route_220 + 620.565625 Weekday_Route_221
+ + 697.291875 Weekday_Route_222 + 608.9275 Weekday_Route_223
+ + 636.309375 Weekday_Route_224 + 527.200625 Weekday_Route_225
+ + 553.376875 Weekday_Route_226 + 624.764375 Weekday_Route_227
+ + 547.605625 Weekday_Route_228 + 555.86375 Weekday_Route_229
+ + 673.69375 Weekday_Route_23 + 601.1325 Weekday_Route_230
+ + 675.283125 Weekday_Route_231 + 589.598125 Weekday_Route_232
+ + 492.25625 Weekday_Route_233 + 566.406875 Weekday_Route_234
+ + 490.679375 Weekday_Route_235 + 549.633125 Weekday_Route_236
+ + 475.833125 Weekday_Route_237 + 560.833125 Weekday_Route_238
+ + 762.116875 Weekday_Route_239 + 696.90875 Weekday_Route_24
+ + 740.156875 Weekday_Route_240 + 785.608125 Weekday_Route_241
+ + 778.3025 Weekday_Route_242 + 777.798125 Weekday_Route_243
+ + 697.763125 Weekday_Route_244 + 729.6025 Weekday_Route_245
+ + 809.40625 Weekday_Route_246 + 717.96375 Weekday_Route_247
+ + 750.97125 Weekday_Route_248 + 803.074375 Weekday_Route_249
+ + 712.051875 Weekday_Route_25 + 761.614375 Weekday_Route_250
+ + 783.9475 Weekday_Route_251 + 687.046875 Weekday_Route_252
+ + 713.674375 Weekday_Route_253 + 793.478125 Weekday_Route_254
+ + 698.956875 Weekday_Route_255 + 727.50625 Weekday_Route_256
+ + 760.98875 Weekday_Route_257 + 746.713125 Weekday_Route_258
+ + 680.449375 Weekday_Route_259 + 719.706875 Weekday_Route_26
+ + 723.1425 Weekday_Route_260 + 799.86875 Weekday_Route_261
+ + 711.50375 Weekday_Route_262 + 805.568125 Weekday_Route_263
+ + 776.26625 Weekday_Route_264 + 725.02875 Weekday_Route_265
+ + 767.721875 Weekday_Route_266 + 844.448125 Weekday_Route_267
+ + 756.08375 Weekday_Route_268 + 783.465625 Weekday_Route_269
+ + 708.005625 Weekday_Route_27 + 674.356875 Weekday_Route_270
+ + 700.533125 Weekday_Route_271 + 771.920625 Weekday_Route_272
+ + 694.761875 Weekday_Route_273 + 703.020625 Weekday_Route_274
+ + 748.289375 Weekday_Route_275 + 822.44 Weekday_Route_276
+ + 736.755 Weekday_Route_277 + 639.413125 Weekday_Route_278
+ + 713.56375 Weekday_Route_279 + 593.859375 Weekday_Route_28
+ + 637.83625 Weekday_Route_280 + 696.789375 Weekday_Route_281
+ + 622.989375 Weekday_Route_282 + 707.989375 Weekday_Route_283
+ + 838.400625 Weekday_Route_284 + 890.50375 Weekday_Route_285
+ + 849.04375 Weekday_Route_286 + 871.376875 Weekday_Route_287
+ + 774.47625 Weekday_Route_288 + 801.10375 Weekday_Route_289
+ + 613.91125 Weekday_Route_29 + 880.9075 Weekday_Route_290
+ + 786.38625 Weekday_Route_291 + 872.18 Weekday_Route_292
+ + 891.386875 Weekday_Route_293 + 825.123125 Weekday_Route_294
+ + 867.81625 Weekday_Route_295 + 856.1775 Weekday_Route_296
+ + 852.411875 Weekday_Route_297 + 895.105 Weekday_Route_298
+ + 883.466875 Weekday_Route_299 + 696.695 Weekday_Route_3
+ + 647.9775 Weekday_Route_30 + 884.676875 Weekday_Route_300
+ + 775.568125 Weekday_Route_301 + 801.744375 Weekday_Route_302
+ + 873.131875 Weekday_Route_303 + 795.973125 Weekday_Route_304
+ + 818.003125 Weekday_Route_305 + 863.271875 Weekday_Route_306
+ + 851.7375 Weekday_Route_307 + 740.624375 Weekday_Route_308
+ + 814.775 Weekday_Route_309 + 656.818125 Weekday_Route_31
+ + 739.0475 Weekday_Route_310 + 787.146875 Weekday_Route_311
+ + 713.346875 Weekday_Route_312 + 801.424375 Weekday_Route_313
+ + 882.994375 Weekday_Route_314 + 835.9375 Weekday_Route_315
+ + 878.630625 Weekday_Route_316 + 866.991875 Weekday_Route_317
+ + 869.878125 Weekday_Route_318 + 867.98875 Weekday_Route_319
+ + 669.50875 Weekday_Route_32 + 758.88 Weekday_Route_320
+ + 785.05625 Weekday_Route_321 + 856.44375 Weekday_Route_322
+ + 779.285 Weekday_Route_323 + 824.1525 Weekday_Route_324
+ + 869.42125 Weekday_Route_325 + 857.886875 Weekday_Route_326
+ + 729.908125 Weekday_Route_327 + 804.05875 Weekday_Route_328
+ + 728.33125 Weekday_Route_329 + 680.74625 Weekday_Route_33
+ + 771.21875 Weekday_Route_330 + 697.41875 Weekday_Route_331
+ + 785.49625 Weekday_Route_332 + 874.84875 Weekday_Route_333
+ + 845.546875 Weekday_Route_334 + 794.309375 Weekday_Route_335
+ + 837.0025 Weekday_Route_336 + 825.364375 Weekday_Route_337
+ + 867.3625 Weekday_Route_338 + 758.25375 Weekday_Route_339
+ + 680.61375 Weekday_Route_34 + 784.43 Weekday_Route_340
+ + 855.8175 Weekday_Route_341 + 778.65875 Weekday_Route_342
+ + 786.9175 Weekday_Route_343 + 832.18625 Weekday_Route_344
+ + 820.651875 Weekday_Route_345 + 723.31 Weekday_Route_346
+ + 797.460625 Weekday_Route_347 + 721.733125 Weekday_Route_348
+ + 780.68625 Weekday_Route_349 + 658.09 Weekday_Route_35
+ + 706.88625 Weekday_Route_350 + 791.88625 Weekday_Route_351
+ + 802.83375 Weekday_Route_352 + 829.01 Weekday_Route_353
+ + 823.23875 Weekday_Route_354 + 816.47125 Weekday_Route_355
+ + 861.74 Weekday_Route_356 + 850.205625 Weekday_Route_357
+ + 767.89 Weekday_Route_358 + 842.040625 Weekday_Route_359
+ + 543.944375 Weekday_Route_36 + 766.313125 Weekday_Route_360
+ + 825.26625 Weekday_Route_361 + 751.46625 Weekday_Route_362
+ + 836.46625 Weekday_Route_363 + 823.670625 Weekday_Route_364
+ + 868.939375 Weekday_Route_365 + 857.405 Weekday_Route_366
+ + 717.218125 Weekday_Route_367 + 791.36875 Weekday_Route_368
+ + 715.64125 Weekday_Route_369 + 563.99625 Weekday_Route_37
+ + 758.0775 Weekday_Route_370 + 684.2775 Weekday_Route_371
+ + 763.93875 Weekday_Route_372 + 745.88125 Weekday_Route_373
+ + 820.031875 Weekday_Route_374 + 744.304375 Weekday_Route_375
+ + 805.833125 Weekday_Route_376 + 732.033125 Weekday_Route_377
+ + 814.4575 Weekday_Route_378 + 696.956875 Weekday_Route_379
+ + 683.965 Weekday_Route_38 + 623.156875 Weekday_Route_380
+ + 705.58125 Weekday_Route_381 + 688.8075 Weekday_Route_382
+ + 887.780625 Weekday_Route_383 + 886.20375 Weekday_Route_384
+ + 860.503125 Weekday_Route_385 + 877.064375 Weekday_Route_386
+ + 875.4875 Weekday_Route_387 + 844.575 Weekday_Route_388
+ + 870.466875 Weekday_Route_389 + 711.669375 Weekday_Route_39
+ + 868.89 Weekday_Route_390 + 854.043125 Weekday_Route_391
+ + 898.6225 Weekday_Route_392 + 864.374375 Weekday_Route_393
+ + 862.7975 Weekday_Route_394 + 831.43375 Weekday_Route_395
+ + 893.038125 Weekday_Route_396 + 891.46125 Weekday_Route_397
+ + 879.19 Weekday_Route_398 + 844.11375 Weekday_Route_399
+ + 705.535 Weekday_Route_4 + 716.4 Weekday_Route_40
+ + 770.31375 Weekday_Route_400 + 852.738125 Weekday_Route_401
+ + 835.96375 Weekday_Route_402 + 871.525 Weekday_Route_403
+ + 860.80875 Weekday_Route_404 + 854.210625 Weekday_Route_405
+ + 898.790625 Weekday_Route_406 + 848.11875 Weekday_Route_407
+ + 897.251875 Weekday_Route_408 + 876.781875 Weekday_Route_409
+ + 743.36625 Weekday_Route_41 + 836.13125 Weekday_Route_410
+ + 729.950625 Weekday_Route_411 + 773.269375 Weekday_Route_412
+ + 784.159375 Weekday_Route_413 + 761.2525 Weekday_Route_414
+ + 846.76125 Weekday_Route_415 + 844.111875 Weekday_Route_416
+ + 881.050625 Weekday_Route_417 + 886.345625 Weekday_Route_418
+ + 716.753125 Weekday_Route_419 + 719.341875 Weekday_Route_42
+ + 727.6425 Weekday_Route_420 + 719.665 Weekday_Route_421
+ + 791.3675 Weekday_Route_422 + 785.94125 Weekday_Route_423
+ + 822.88 Weekday_Route_424 + 828.175 Weekday_Route_425
+ + 732.855 Weekday_Route_426 + 756.973125 Weekday_Route_427
+ + 788.063125 Weekday_Route_428 + 810.945 Weekday_Route_429
+ + 595.153125 Weekday_Route_43 + 847.88375 Weekday_Route_430
+ + 853.179375 Weekday_Route_431 + 769.151875 Weekday_Route_432
+ + 806.505625 Weekday_Route_433 + 823.124375 Weekday_Route_434
+ + 860.063125 Weekday_Route_435 + 865.358125 Weekday_Route_436
+ + 815.180625 Weekday_Route_437 + 796.495625 Weekday_Route_438
+ + 831.99125 Weekday_Route_439 + 622.15875 Weekday_Route_44
+ + 842.671875 Weekday_Route_440 + 858.665 Weekday_Route_441
+ + 875.911875 Weekday_Route_442 + 889.76125 Weekday_Route_443
+ + 859.79875 Weekday_Route_444 + 874.611875 Weekday_Route_445
+ + 873.084375 Weekday_Route_446 + 581.944375 Weekday_Route_447
+ + 602.840625 Weekday_Route_448 + 610.91875 Weekday_Route_449
+ + 697.03875 Weekday_Route_45 + 653.265625 Weekday_Route_450
+ + 639.944375 Weekday_Route_451 + 618.238125 Weekday_Route_452
+ + 636.82 Weekday_Route_453 + 559.72 Weekday_Route_454
+ + 627.43125 Weekday_Route_455 + 588.683125 Weekday_Route_456
+ + 612.5825 Weekday_Route_457 + 652.64 Weekday_Route_458
+ + 657.943125 Weekday_Route_459 + 706.4725 Weekday_Route_46
+ + 705.50125 Weekday_Route_460 + 692.180625 Weekday_Route_461
+ + 670.47375 Weekday_Route_462 + 689.055625 Weekday_Route_463
+ + 611.955625 Weekday_Route_464 + 679.666875 Weekday_Route_465
+ + 640.91875 Weekday_Route_466 + 664.81875 Weekday_Route_467
+ + 671.65625 Weekday_Route_468 + 694.19625 Weekday_Route_469
+ + 744.788125 Weekday_Route_47 + 713.589375 Weekday_Route_470
+ + 691.883125 Weekday_Route_471 + 710.464375 Weekday_Route_472
+ + 614.423125 Weekday_Route_473 + 701.07625 Weekday_Route_474
+ + 662.328125 Weekday_Route_475 + 686.2275 Weekday_Route_476
+ + 670.770625 Weekday_Route_477 + 680.729375 Weekday_Route_478
+ + 659.023125 Weekday_Route_479 + 720.76375 Weekday_Route_48
+ + 677.604375 Weekday_Route_480 + 600.505 Weekday_Route_481
+ + 668.21625 Weekday_Route_482 + 629.468125 Weekday_Route_483
+ + 653.3675 Weekday_Route_484 + 626.001875 Weekday_Route_485
+ + 621.07 Weekday_Route_486 + 637.319375 Weekday_Route_487
+ + 555.674375 Weekday_Route_488 + 629.77875 Weekday_Route_489
+ + 596.305 Weekday_Route_49 + 574.74 Weekday_Route_490
+ + 598.64 Weekday_Route_491 + 615.776875 Weekday_Route_492
+ + 631.3825 Weekday_Route_493 + 557.7425 Weekday_Route_494
+ + 603.745 Weekday_Route_495 + 513.675 Weekday_Route_496
+ + 557.5875 Weekday_Route_497 + 596.344375 Weekday_Route_498
+ + 525.975 Weekday_Route_499 + 718.22625 Weekday_Route_5
+ + 623.580625 Weekday_Route_50 + 599.82875 Weekday_Route_500
+ + 564.455625 Weekday_Route_501 + 588.355625 Weekday_Route_502
+ + 531.81875 Weekday_Route_503 + 601.065 Weekday_Route_504
+ + 578.03125 Weekday_Route_505 + 601.930625 Weekday_Route_506
+ + 519.385 Weekday_Route_507 + 500.799375 Weekday_Route_508
+ + 524.69875 Weekday_Route_509 + 727.590625 Weekday_Route_51
+ + 556.856875 Weekday_Route_510 + 566.369375 Weekday_Route_511
+ + 496.856875 Weekday_Route_512 + 808.243125 Weekday_Route_513
+ + 813.54625 Weekday_Route_514 + 861.104375 Weekday_Route_515
+ + 847.78375 Weekday_Route_516 + 826.076875 Weekday_Route_517
+ + 844.65875 Weekday_Route_518 + 767.55875 Weekday_Route_519
+ + 749.965625 Weekday_Route_52 + 835.27 Weekday_Route_520
+ + 796.521875 Weekday_Route_521 + 820.421875 Weekday_Route_522
+ + 835.918125 Weekday_Route_523 + 858.458125 Weekday_Route_524
+ + 877.85125 Weekday_Route_525 + 856.145 Weekday_Route_526
+ + 874.72625 Weekday_Route_527 + 778.685 Weekday_Route_528
+ + 865.338125 Weekday_Route_529 + 748.468125 Weekday_Route_53
+ + 826.59 Weekday_Route_530 + 850.489375 Weekday_Route_531
+ + 868.275625 Weekday_Route_532 + 878.234375 Weekday_Route_533
+ + 856.528125 Weekday_Route_534 + 875.109375 Weekday_Route_535
+ + 798.01 Weekday_Route_536 + 865.72125 Weekday_Route_537
+ + 826.973125 Weekday_Route_538 + 850.8725 Weekday_Route_539
+ + 608.998125 Weekday_Route_54 + 844.3775 Weekday_Route_540
+ + 863.443125 Weekday_Route_541 + 887.343125 Weekday_Route_542
+ + 877.715625 Weekday_Route_543 + 833.648125 Weekday_Route_544
+ + 877.560625 Weekday_Route_545 + 864.2275 Weekday_Route_546
+ + 793.858125 Weekday_Route_547 + 867.711875 Weekday_Route_548
+ + 832.33875 Weekday_Route_549 + 629.3275 Weekday_Route_55
+ + 856.23875 Weekday_Route_550 + 802.15375 Weekday_Route_551
+ + 871.4 Weekday_Route_552 + 848.36625 Weekday_Route_553
+ + 872.265625 Weekday_Route_554 + 785.59125 Weekday_Route_555
+ + 767.005625 Weekday_Route_556 + 790.905 Weekday_Route_557
+ + 853.543125 Weekday_Route_558 + 863.055625 Weekday_Route_559
+ + 765.22875 Weekday_Route_56 + 834.15125 Weekday_Route_560
+ + 885.7175 Weekday_Route_561 + 828.484375 Weekday_Route_562
+ + 876.389375 Weekday_Route_563 + 845.034375 Weekday_Route_564
+ + 873.9975 Weekday_Route_565 + 897.896875 Weekday_Route_566
+ + 896.613125 Weekday_Route_567 + 885.884375 Weekday_Route_568
+ + 846.09375 Weekday_Route_569 + 756.185 Weekday_Route_57
+ + 884.574375 Weekday_Route_570 + 854.389375 Weekday_Route_571
+ + 837.826875 Weekday_Route_572 + 819.24125 Weekday_Route_573
+ + 843.140625 Weekday_Route_574 + 886.386875 Weekday_Route_575
+ + 858.7475 Weekday_Route_576 + 887.710625 Weekday_Route_577
+ + 885.308125 Weekday_Route_578 + 867.503125 Weekday_Route_579
+ + 606.581875 Weekday_Route_58 + 875.798125 Weekday_Route_580
+ + 840.294375 Weekday_Route_581 + 821.70875 Weekday_Route_582
+ + 845.608125 Weekday_Route_583 + 861.8825 Weekday_Route_584
+ + 880.948125 Weekday_Route_585 + 874.433125 Weekday_Route_586
+ + 834.643125 Weekday_Route_587 + 873.12375 Weekday_Route_588
+ + 897.02375 Weekday_Route_589 + 641.305 Weekday_Route_59
+ + 842.938125 Weekday_Route_590 + 889.150625 Weekday_Route_591
+ + 826.37625 Weekday_Route_592 + 807.790625 Weekday_Route_593
+ + 831.69 Weekday_Route_594 + 894.328125 Weekday_Route_595
+ + 874.93625 Weekday_Route_596 + 863.773125 Weekday_Route_597
+ + 819.705625 Weekday_Route_598 + 863.618125 Weekday_Route_599
+ + 729.46375 Weekday_Route_6 + 729.633125 Weekday_Route_60
+ + 867.059375 Weekday_Route_600 + 796.69 Weekday_Route_601
+ + 870.54375 Weekday_Route_602 + 835.170625 Weekday_Route_603
+ + 859.070625 Weekday_Route_604 + 802.653125 Weekday_Route_605
+ + 871.899375 Weekday_Route_606 + 848.865625 Weekday_Route_607
+ + 872.765 Weekday_Route_608 + 781.545625 Weekday_Route_609
+ + 606.455625 Weekday_Route_61 + 762.96 Weekday_Route_610
+ + 786.859375 Weekday_Route_611 + 855.890625 Weekday_Route_612
+ + 865.403125 Weekday_Route_613 + 820.208125 Weekday_Route_614
+ + 861.76625 Weekday_Route_615 + 791.396875 Weekday_Route_616
+ + 865.250625 Weekday_Route_617 + 829.8775 Weekday_Route_618
+ + 853.7775 Weekday_Route_619 + 628.394375 Weekday_Route_62
+ + 796.71625 Weekday_Route_620 + 865.9625 Weekday_Route_621
+ + 842.92875 Weekday_Route_622 + 866.828125 Weekday_Route_623
+ + 783.61375 Weekday_Route_624 + 765.028125 Weekday_Route_625
+ + 788.9275 Weekday_Route_626 + 829.856875 Weekday_Route_627
+ + 839.369375 Weekday_Route_628 + 759.143125 Weekday_Route_629
+ + 583.77875 Weekday_Route_63 + 761.678125 Weekday_Route_630
+ + 830.924375 Weekday_Route_631 + 807.890625 Weekday_Route_632
+ + 831.79 Weekday_Route_633 + 751.84625 Weekday_Route_634
+ + 733.260625 Weekday_Route_635 + 757.16 Weekday_Route_636
+ + 825.940625 Weekday_Route_637 + 835.453125 Weekday_Route_638
+ + 809.92375 Weekday_Route_639 + 595.669375 Weekday_Route_64
+ + 757.69 Weekday_Route_640 + 739.104375 Weekday_Route_641
+ + 763.00375 Weekday_Route_642 + 827.176875 Weekday_Route_643
+ + 836.689375 Weekday_Route_644 + 823.499375 Weekday_Route_645
+ + 745.496875 Weekday_Route_646 + 755.009375 Weekday_Route_647
+ + 746.2675 Weekday_Route_648 + 802.325 Weekday_Route_649
+ + 478.00875 Weekday_Route_65 + 663.950625 Weekday_Route_650
+ + 655.841875 Weekday_Route_651 + 593.205625 Weekday_Route_652
+ + 685.280625 Weekday_Route_653 + 699.023125 Weekday_Route_654
+ + 696.25375 Weekday_Route_655 + 691.88625 Weekday_Route_656
+ + 753.71 Weekday_Route_657 + 709.793125 Weekday_Route_658
+ + 674.26875 Weekday_Route_659 + 880.47625 Weekday_Route_66
+ + 752.5625 Weekday_Route_660 + 755.031875 Weekday_Route_661
+ + 769.99 Weekday_Route_662 + 765.6225 Weekday_Route_663
+ + 827.44625 Weekday_Route_664 + 650.2575 Weekday_Route_665
+ + 725.635 Weekday_Route_666 + 704.316875 Weekday_Route_667
+ + 719.275 Weekday_Route_668 + 714.9075 Weekday_Route_669
+ + 872.2875 Weekday_Route_67 + 776.73125 Weekday_Route_670
+ + 675.424375 Weekday_Route_671 + 689.166875 Weekday_Route_672
+ + 686.3975 Weekday_Route_673 + 682.03 Weekday_Route_674
+ + 743.85375 Weekday_Route_675 + 756.079375 Weekday_Route_676
+ + 753.309375 Weekday_Route_677 + 748.941875 Weekday_Route_678
+ + 810.76625 Weekday_Route_679 + 826.37375 Weekday_Route_68
+ + 750.611875 Weekday_Route_680 + 746.244375 Weekday_Route_681
+ + 808.068125 Weekday_Route_682 + 707.69125 Weekday_Route_683
+ + 775.445625 Weekday_Route_684 + 766.1975 Weekday_Route_685
+ + 888.9 Weekday_Route_686 + 853.375625 Weekday_Route_687
+ + 872.025625 Weekday_Route_688 + 850.0775 Weekday_Route_689
+ + 853.37875 Weekday_Route_69 + 863.82 Weekday_Route_690
+ + 861.050625 Weekday_Route_691 + 856.683125 Weekday_Route_692
+ + 531.615 Weekday_Route_693 + 562.79 Weekday_Route_694
+ + 506.035 Weekday_Route_695 + 468.629375 Weekday_Route_696
+ + 540.80375 Weekday_Route_697 + 565.1475 Weekday_Route_698
+ + 621.1275 Weekday_Route_699 + 729.330625 Weekday_Route_7
+ + 884.56125 Weekday_Route_70 + 459.09875 Weekday_Route_700
+ + 503.984375 Weekday_Route_701 + 536.851875 Weekday_Route_702
+ + 459.906875 Weekday_Route_703 + 680.72625 Weekday_Route_704
+ + 669.413125 Weekday_Route_705 + 669.6625 Weekday_Route_706
+ + 667.2875 Weekday_Route_707 + 690.913125 Weekday_Route_708
+ + 739.06375 Weekday_Route_709 + 857.076875 Weekday_Route_71
+ + 599.129375 Weekday_Route_710 + 686.438125 Weekday_Route_711
+ + 735.658125 Weekday_Route_712 + 675.82625 Weekday_Route_713
+ + 700.798125 Weekday_Route_714 + 701.048125 Weekday_Route_715
+ + 675.923125 Weekday_Route_716 + 701.42625 Weekday_Route_717
+ + 738.945625 Weekday_Route_718 + 610.545 Weekday_Route_719
+ + 877.12875 Weekday_Route_72 + 714.68625 Weekday_Route_720
+ + 763.905625 Weekday_Route_721 + 707.211875 Weekday_Route_722
+ + 632.254375 Weekday_Route_723 + 664.155 Weekday_Route_724
+ + 688.49875 Weekday_Route_725 + 756.7075 Weekday_Route_726
+ + 582.45 Weekday_Route_727 + 646.41125 Weekday_Route_728
+ + 695.630625 Weekday_Route_729 + 891.08875 Weekday_Route_73
+ + 638.418125 Weekday_Route_730 + 665.718125 Weekday_Route_731
+ + 690.06125 Weekday_Route_732 + 758.27 Weekday_Route_733
+ + 584.013125 Weekday_Route_734 + 616.815625 Weekday_Route_735
+ + 652.869375 Weekday_Route_736 + 588.628125 Weekday_Route_737
+ + 650.218125 Weekday_Route_738 + 718.56 Weekday_Route_739
+ + 899.929375 Weekday_Route_74 + 559.07375 Weekday_Route_740
+ + 673.499375 Weekday_Route_741 + 722.71875 Weekday_Route_742
+ + 671.8075 Weekday_Route_743 + 741.97625 Weekday_Route_744
+ + 582.876875 Weekday_Route_745 + 697.3025 Weekday_Route_746
+ + 746.521875 Weekday_Route_747 + 695.61125 Weekday_Route_748
+ + 642.411875 Weekday_Route_749 + 787.055625 Weekday_Route_75
+ + 768.911875 Weekday_Route_750 + 818.13125 Weekday_Route_751
+ + 767.22 Weekday_Route_752 + 592.766875 Weekday_Route_753
+ + 641.986875 Weekday_Route_754 + 591.075625 Weekday_Route_755
+ + 644.486875 Weekday_Route_756 + 623.883125 Weekday_Route_757
+ + 659.896875 Weekday_Route_758 + 792.0775 Weekday_Route_759
+ + 807.1075 Weekday_Route_76 + 780.764375 Weekday_Route_760
+ + 781.01375 Weekday_Route_761 + 778.63875 Weekday_Route_762
+ + 802.264375 Weekday_Route_763 + 850.415 Weekday_Route_764
+ + 710.480625 Weekday_Route_765 + 797.789375 Weekday_Route_766
+ + 847.009375 Weekday_Route_767 + 787.1775 Weekday_Route_768
+ + 812.149375 Weekday_Route_769 + 866.823125 Weekday_Route_77
+ + 812.399375 Weekday_Route_770 + 787.274375 Weekday_Route_771
+ + 812.7775 Weekday_Route_772 + 850.296875 Weekday_Route_773
+ + 721.89625 Weekday_Route_774 + 826.0375 Weekday_Route_775
+ + 875.256875 Weekday_Route_776 + 818.563125 Weekday_Route_777
+ + 750.265625 Weekday_Route_778 + 782.16625 Weekday_Route_779
+ + 893.82875 Weekday_Route_78 + 806.51 Weekday_Route_780
+ + 874.71875 Weekday_Route_781 + 700.46125 Weekday_Route_782
+ + 764.4225 Weekday_Route_783 + 813.641875 Weekday_Route_784
+ + 756.429375 Weekday_Route_785 + 778.68625 Weekday_Route_786
+ + 803.029375 Weekday_Route_787 + 871.238125 Weekday_Route_788
+ + 696.98125 Weekday_Route_789 + 872.7875 Weekday_Route_79
+ + 729.78375 Weekday_Route_790 + 765.8375 Weekday_Route_791
+ + 701.59625 Weekday_Route_792 + 768.229375 Weekday_Route_793
+ + 836.57125 Weekday_Route_794 + 677.085 Weekday_Route_795
+ + 791.510625 Weekday_Route_796 + 840.73 Weekday_Route_797
+ + 789.81875 Weekday_Route_798 + 859.9875 Weekday_Route_799
+ + 706.8075 Weekday_Route_8 + 870.466875 Weekday_Route_80
+ + 700.888125 Weekday_Route_800 + 815.31375 Weekday_Route_801
+ + 864.533125 Weekday_Route_802 + 813.6225 Weekday_Route_803
+ + 753.763125 Weekday_Route_804 + 880.263125 Weekday_Route_805
+ + 878.57125 Weekday_Route_806 + 710.778125 Weekday_Route_807
+ + 759.998125 Weekday_Route_808 + 709.086875 Weekday_Route_809
+ + 890.79625 Weekday_Route_81 + 764.025 Weekday_Route_810
+ + 743.42125 Weekday_Route_811 + 772.865 Weekday_Route_812
+ + 839.8325 Weekday_Route_813 + 863.839375 Weekday_Route_814
+ + 898.014375 Weekday_Route_815 + 894.713125 Weekday_Route_816
+ + 803.56875 Weekday_Route_817 + 826.65375 Weekday_Route_818
+ + 871.699375 Weekday_Route_819 + 873.365625 Weekday_Route_82
+ + 850.80875 Weekday_Route_820 + 849.1175 Weekday_Route_821
+ + 895.224375 Weekday_Route_822 + 812.204375 Weekday_Route_823
+ + 837.166875 Weekday_Route_824 + 871.58125 Weekday_Route_825
+ + 862.224375 Weekday_Route_826 + 860.533125 Weekday_Route_827
+ + 860.60625 Weekday_Route_828 + 893.40875 Weekday_Route_829
+ + 851.2625 Weekday_Route_83 + 865.22125 Weekday_Route_830
+ + 891.580625 Weekday_Route_831 + 800.43625 Weekday_Route_832
+ + 824.239375 Weekday_Route_833 + 889.343125 Weekday_Route_834
+ + 834.129375 Weekday_Route_835 + 883.349375 Weekday_Route_836
+ + 832.438125 Weekday_Route_837 + 885.848125 Weekday_Route_838
+ + 893.14375 Weekday_Route_839 + 873.20125 Weekday_Route_84
+ + 801.999375 Weekday_Route_840 + 825.801875 Weekday_Route_841
+ + 890.905625 Weekday_Route_842 + 835.6925 Weekday_Route_843
+ + 884.9125 Weekday_Route_844 + 834.00125 Weekday_Route_845
+ + 876.85625 Weekday_Route_846 + 856.2525 Weekday_Route_847
+ + 888.8825 Weekday_Route_848 + 785.95875 Weekday_Route_849
+ + 830.0875 Weekday_Route_85 + 898.693125 Weekday_Route_850
+ + 851.195625 Weekday_Route_851 + 810.753125 Weekday_Route_852
+ + 859.973125 Weekday_Route_853 + 809.061875 Weekday_Route_854
+ + 874.611875 Weekday_Route_855 + 834.55625 Weekday_Route_856
+ + 883.77625 Weekday_Route_857 + 832.865 Weekday_Route_858
+ + 894.09125 Weekday_Route_859 + 841.978125 Weekday_Route_86
+ + 892.4 Weekday_Route_860 + 852.8075 Weekday_Route_861
+ + 832.20375 Weekday_Route_862 + 878 Weekday_Route_863
+ + 880.5 Weekday_Route_864 + 731.7625 Weekday_Route_87
+ + 811.463125 Weekday_Route_88 + 868.018125 Weekday_Route_89
+ + 592.66125 Weekday_Route_9 + 863.813125 Weekday_Route_90
+ + 887.028125 Weekday_Route_91 + 898.125 Weekday_Route_92
+ + 783.97875 Weekday_Route_93 + 804.030625 Weekday_Route_94
+ + 852.078125 Weekday_Route_95 + 860.91875 Weekday_Route_96
+ + 873.609375 Weekday_Route_97 + 884.846875 Weekday_Route_98
+ + 884.714375 Weekday_Route_99
 Subject To
 _C1: Weekday_Route_0 + Weekday_Route_1 + Weekday_Route_10 + Weekday_Route_100
  + Weekday_Route_101 + Weekday_Route_102 + Weekday_Route_103
@@ -782,556 +715,428 @@ _C1: Weekday_Route_0 + Weekday_Route_1 + Weekday_Route_10 + Weekday_Route_100
  + Weekday_Route_857 + Weekday_Route_858 + Weekday_Route_859
  + Weekday_Route_86 + Weekday_Route_860 + Weekday_Route_861
  + Weekday_Route_862 + Weekday_Route_863 + Weekday_Route_864
- + Weekday_Route_865 + Weekday_Route_866 + Weekday_Route_867
- + Weekday_Route_868 + Weekday_Route_869 + Weekday_Route_87
- + Weekday_Route_870 + Weekday_Route_871 + Weekday_Route_872
- + Weekday_Route_873 + Weekday_Route_874 + Weekday_Route_875
- + Weekday_Route_876 + Weekday_Route_877 + Weekday_Route_878
- + Weekday_Route_879 + Weekday_Route_88 + Weekday_Route_880
- + Weekday_Route_881 + Weekday_Route_882 + Weekday_Route_883
- + Weekday_Route_884 + Weekday_Route_885 + Weekday_Route_886
- + Weekday_Route_887 + Weekday_Route_888 + Weekday_Route_889
- + Weekday_Route_89 + Weekday_Route_890 + Weekday_Route_891
- + Weekday_Route_892 + Weekday_Route_893 + Weekday_Route_894
- + Weekday_Route_895 + Weekday_Route_896 + Weekday_Route_897
- + Weekday_Route_898 + Weekday_Route_899 + Weekday_Route_9 + Weekday_Route_90
- + Weekday_Route_900 + Weekday_Route_901 + Weekday_Route_902
- + Weekday_Route_903 + Weekday_Route_904 + Weekday_Route_905
- + Weekday_Route_906 + Weekday_Route_907 + Weekday_Route_908
- + Weekday_Route_909 + Weekday_Route_91 + Weekday_Route_910
- + Weekday_Route_911 + Weekday_Route_912 + Weekday_Route_913
- + Weekday_Route_914 + Weekday_Route_915 + Weekday_Route_916
- + Weekday_Route_917 + Weekday_Route_918 + Weekday_Route_919
- + Weekday_Route_92 + Weekday_Route_920 + Weekday_Route_921
- + Weekday_Route_922 + Weekday_Route_923 + Weekday_Route_924
- + Weekday_Route_925 + Weekday_Route_926 + Weekday_Route_927
- + Weekday_Route_928 + Weekday_Route_929 + Weekday_Route_93
- + Weekday_Route_930 + Weekday_Route_931 + Weekday_Route_932
- + Weekday_Route_933 + Weekday_Route_934 + Weekday_Route_935
- + Weekday_Route_936 + Weekday_Route_937 + Weekday_Route_938
- + Weekday_Route_939 + Weekday_Route_94 + Weekday_Route_940
- + Weekday_Route_941 + Weekday_Route_942 + Weekday_Route_943
- + Weekday_Route_944 + Weekday_Route_945 + Weekday_Route_946
- + Weekday_Route_947 + Weekday_Route_948 + Weekday_Route_949
- + Weekday_Route_95 + Weekday_Route_950 + Weekday_Route_951
- + Weekday_Route_952 + Weekday_Route_953 + Weekday_Route_954
- + Weekday_Route_955 + Weekday_Route_956 + Weekday_Route_957
- + Weekday_Route_958 + Weekday_Route_959 + Weekday_Route_96
- + Weekday_Route_960 + Weekday_Route_961 + Weekday_Route_962
- + Weekday_Route_963 + Weekday_Route_964 + Weekday_Route_965
- + Weekday_Route_966 + Weekday_Route_967 + Weekday_Route_968
- + Weekday_Route_969 + Weekday_Route_97 + Weekday_Route_970
- + Weekday_Route_971 + Weekday_Route_972 + Weekday_Route_973
- + Weekday_Route_974 + Weekday_Route_975 + Weekday_Route_976
- + Weekday_Route_977 + Weekday_Route_978 + Weekday_Route_979
- + Weekday_Route_98 + Weekday_Route_980 + Weekday_Route_981
- + Weekday_Route_982 + Weekday_Route_983 + Weekday_Route_984
- + Weekday_Route_985 + Weekday_Route_986 + Weekday_Route_987
- + Weekday_Route_988 + Weekday_Route_989 + Weekday_Route_99
- + Weekday_Route_990 + Weekday_Route_991 + Weekday_Route_992
- + Weekday_Route_993 + Weekday_Route_994 + Weekday_Route_995
- + Weekday_Route_996 + Weekday_Route_997 + Weekday_Route_998
- + Weekday_Route_999 <= 60
+ + Weekday_Route_87 + Weekday_Route_88 + Weekday_Route_89 + Weekday_Route_9
+ + Weekday_Route_90 + Weekday_Route_91 + Weekday_Route_92 + Weekday_Route_93
+ + Weekday_Route_94 + Weekday_Route_95 + Weekday_Route_96 + Weekday_Route_97
+ + Weekday_Route_98 + Weekday_Route_99 <= 60
 _C10: Weekday_Route_0 + Weekday_Route_1 + Weekday_Route_10 + Weekday_Route_2
- + Weekday_Route_215 + Weekday_Route_216 + Weekday_Route_3 + Weekday_Route_4
- + Weekday_Route_5 + Weekday_Route_6 + Weekday_Route_66 + Weekday_Route_67
- + Weekday_Route_68 + Weekday_Route_69 + Weekday_Route_7 + Weekday_Route_70
- + Weekday_Route_71 + Weekday_Route_72 + Weekday_Route_73 + Weekday_Route_74
- + Weekday_Route_75 + Weekday_Route_76 + Weekday_Route_77 + Weekday_Route_78
- + Weekday_Route_79 + Weekday_Route_8 + Weekday_Route_80 + Weekday_Route_81
- + Weekday_Route_82 + Weekday_Route_83 + Weekday_Route_84 + Weekday_Route_85
- + Weekday_Route_86 + Weekday_Route_87 + Weekday_Route_88 + Weekday_Route_89
- + Weekday_Route_9 + Weekday_Route_90 + Weekday_Route_91 + Weekday_Route_92
- + Weekday_Route_93 + Weekday_Route_94 + Weekday_Route_95 + Weekday_Route_96
- + Weekday_Route_97 + Weekday_Route_98 + Weekday_Route_99 = 1
-_C11: Weekday_Route_104 + Weekday_Route_112 + Weekday_Route_121
- + Weekday_Route_128 + Weekday_Route_129 + Weekday_Route_138
- + Weekday_Route_147 + Weekday_Route_154 + Weekday_Route_155
- + Weekday_Route_16 + Weekday_Route_166 + Weekday_Route_171
- + Weekday_Route_172 + Weekday_Route_183 + Weekday_Route_184
- + Weekday_Route_192 + Weekday_Route_193 + Weekday_Route_199
- + Weekday_Route_200 + Weekday_Route_206 + Weekday_Route_207
- + Weekday_Route_208 + Weekday_Route_209 + Weekday_Route_210
- + Weekday_Route_25 + Weekday_Route_33 + Weekday_Route_40 + Weekday_Route_46
- + Weekday_Route_51 + Weekday_Route_56 + Weekday_Route_57 + Weekday_Route_58
- + Weekday_Route_59 + Weekday_Route_6 + Weekday_Route_82 + Weekday_Route_93
- + Weekday_Route_94 = 1
-_C12: Weekday_Route_102 + Weekday_Route_110 + Weekday_Route_117
- + Weekday_Route_120 + Weekday_Route_121 + Weekday_Route_122
- + Weekday_Route_123 + Weekday_Route_124 + Weekday_Route_125
- + Weekday_Route_136 + Weekday_Route_14 + Weekday_Route_143
- + Weekday_Route_146 + Weekday_Route_147 + Weekday_Route_148
- + Weekday_Route_149 + Weekday_Route_150 + Weekday_Route_151
- + Weekday_Route_162 + Weekday_Route_165 + Weekday_Route_166
- + Weekday_Route_167 + Weekday_Route_168 + Weekday_Route_179
- + Weekday_Route_180 + Weekday_Route_190 + Weekday_Route_191
- + Weekday_Route_192 + Weekday_Route_193 + Weekday_Route_194
- + Weekday_Route_195 + Weekday_Route_196 + Weekday_Route_197
- + Weekday_Route_198 + Weekday_Route_221 + Weekday_Route_225
- + Weekday_Route_228 + Weekday_Route_23 + Weekday_Route_31 + Weekday_Route_38
- + Weekday_Route_4 + Weekday_Route_45 + Weekday_Route_46 + Weekday_Route_47
- + Weekday_Route_48 + Weekday_Route_49 + Weekday_Route_50 + Weekday_Route_69
- + Weekday_Route_74 + Weekday_Route_80 + Weekday_Route_89 + Weekday_Route_90
- = 1
-_C13: Weekday_Route_493 + Weekday_Route_500 + Weekday_Route_507
- + Weekday_Route_508 + Weekday_Route_509 + Weekday_Route_510
- + Weekday_Route_511 + Weekday_Route_512 + Weekday_Route_528
- + Weekday_Route_529 = 1
-_C14: Weekday_Route_758 + Weekday_Route_766 + Weekday_Route_767
- + Weekday_Route_768 + Weekday_Route_769 + Weekday_Route_770
- + Weekday_Route_771 + Weekday_Route_772 + Weekday_Route_794
- + Weekday_Route_795 + Weekday_Route_796 + Weekday_Route_806
- + Weekday_Route_807 = 1
-_C15: Weekday_Route_821 + Weekday_Route_831 + Weekday_Route_840
- + Weekday_Route_848 + Weekday_Route_855 + Weekday_Route_862
- + Weekday_Route_863 + Weekday_Route_864 + Weekday_Route_865
- + Weekday_Route_866 + Weekday_Route_867 + Weekday_Route_886
- + Weekday_Route_895 + Weekday_Route_903 + Weekday_Route_910
- + Weekday_Route_917 + Weekday_Route_918 + Weekday_Route_919
- + Weekday_Route_920 + Weekday_Route_921 + Weekday_Route_922
- + Weekday_Route_942 + Weekday_Route_943 + Weekday_Route_950
- + Weekday_Route_951 + Weekday_Route_960 + Weekday_Route_961
- + Weekday_Route_962 + Weekday_Route_970 + Weekday_Route_971
- + Weekday_Route_980 + Weekday_Route_981 + Weekday_Route_982
- + Weekday_Route_983 + Weekday_Route_984 + Weekday_Route_985
- + Weekday_Route_986 + Weekday_Route_987 + Weekday_Route_998
- + Weekday_Route_999 = 1
-_C16: Weekday_Route_765 + Weekday_Route_772 + Weekday_Route_778
- + Weekday_Route_783 + Weekday_Route_787 + Weekday_Route_790
- + Weekday_Route_792 + Weekday_Route_793 + Weekday_Route_803 = 1
-_C17: Weekday_Route_823 + Weekday_Route_833 + Weekday_Route_842
- + Weekday_Route_850 + Weekday_Route_857 + Weekday_Route_863
- + Weekday_Route_868 + Weekday_Route_873 + Weekday_Route_874
- + Weekday_Route_875 + Weekday_Route_876 + Weekday_Route_888
- + Weekday_Route_897 + Weekday_Route_905 + Weekday_Route_912
- + Weekday_Route_918 + Weekday_Route_923 + Weekday_Route_928
- + Weekday_Route_929 + Weekday_Route_930 + Weekday_Route_931
- + Weekday_Route_945 + Weekday_Route_953 + Weekday_Route_964
- + Weekday_Route_973 + Weekday_Route_983 + Weekday_Route_988
- + Weekday_Route_992 + Weekday_Route_993 = 1
-_C18: Weekday_Route_239 + Weekday_Route_248 + Weekday_Route_256
- + Weekday_Route_263 + Weekday_Route_269 + Weekday_Route_274
- + Weekday_Route_278 + Weekday_Route_281 + Weekday_Route_283
- + Weekday_Route_285 + Weekday_Route_293 + Weekday_Route_301
- + Weekday_Route_308 + Weekday_Route_314 + Weekday_Route_319
- + Weekday_Route_323 + Weekday_Route_326 + Weekday_Route_328
- + Weekday_Route_330 + Weekday_Route_337 + Weekday_Route_352
- + Weekday_Route_358 + Weekday_Route_360 + Weekday_Route_362
- + Weekday_Route_375 + Weekday_Route_381 + Weekday_Route_383
- + Weekday_Route_385 + Weekday_Route_390 + Weekday_Route_395
- + Weekday_Route_399 + Weekday_Route_402 + Weekday_Route_404
- + Weekday_Route_406 + Weekday_Route_410 + Weekday_Route_416
- + Weekday_Route_418 + Weekday_Route_420 + Weekday_Route_425
- + Weekday_Route_427 + Weekday_Route_429 + Weekday_Route_431
- + Weekday_Route_433 + Weekday_Route_435 + Weekday_Route_436
- + Weekday_Route_438 + Weekday_Route_439 + Weekday_Route_446
- + Weekday_Route_453 + Weekday_Route_460 + Weekday_Route_467
- + Weekday_Route_469 + Weekday_Route_473 + Weekday_Route_475
- + Weekday_Route_476 + Weekday_Route_479 + Weekday_Route_481
- + Weekday_Route_483 + Weekday_Route_484 + Weekday_Route_487
- + Weekday_Route_489 + Weekday_Route_491 = 1
-_C19: Weekday_Route_761 + Weekday_Route_768 + Weekday_Route_774
- + Weekday_Route_779 + Weekday_Route_784 + Weekday_Route_785
- + Weekday_Route_786 + Weekday_Route_787 + Weekday_Route_799
- + Weekday_Route_808 + Weekday_Route_812 = 1
-_C2: Weekday_Route_534 + Weekday_Route_544 + Weekday_Route_553
- + Weekday_Route_561 + Weekday_Route_568 + Weekday_Route_575
- + Weekday_Route_576 + Weekday_Route_577 + Weekday_Route_578
- + Weekday_Route_579 + Weekday_Route_580 + Weekday_Route_599
- + Weekday_Route_608 + Weekday_Route_616 + Weekday_Route_623
- + Weekday_Route_628 + Weekday_Route_629 + Weekday_Route_630
- + Weekday_Route_631 + Weekday_Route_649 + Weekday_Route_654
- + Weekday_Route_662 + Weekday_Route_663 + Weekday_Route_680
- + Weekday_Route_690 + Weekday_Route_691 + Weekday_Route_704
- + Weekday_Route_705 + Weekday_Route_706 + Weekday_Route_707
- + Weekday_Route_723 + Weekday_Route_724 + Weekday_Route_725
- + Weekday_Route_726 + Weekday_Route_727 + Weekday_Route_728
- + Weekday_Route_729 + Weekday_Route_730 + Weekday_Route_731
- + Weekday_Route_732 + Weekday_Route_733 + Weekday_Route_734
- + Weekday_Route_735 + Weekday_Route_736 + Weekday_Route_737 = 1
-_C20: Weekday_Route_231 + Weekday_Route_241 + Weekday_Route_242
- + Weekday_Route_243 + Weekday_Route_244 + Weekday_Route_245
- + Weekday_Route_246 + Weekday_Route_247 + Weekday_Route_248
- + Weekday_Route_249 + Weekday_Route_286 + Weekday_Route_287
- + Weekday_Route_288 + Weekday_Route_289 + Weekday_Route_290
- + Weekday_Route_291 + Weekday_Route_292 + Weekday_Route_293
- + Weekday_Route_294 + Weekday_Route_331 + Weekday_Route_332
- + Weekday_Route_333 + Weekday_Route_334 + Weekday_Route_335
- + Weekday_Route_336 + Weekday_Route_337 + Weekday_Route_338
- + Weekday_Route_339 + Weekday_Route_340 + Weekday_Route_341
- + Weekday_Route_342 + Weekday_Route_343 + Weekday_Route_344
- + Weekday_Route_345 + Weekday_Route_346 + Weekday_Route_347
- + Weekday_Route_348 + Weekday_Route_349 + Weekday_Route_350
- + Weekday_Route_351 + Weekday_Route_352 + Weekday_Route_353
- + Weekday_Route_354 + Weekday_Route_355 + Weekday_Route_356
- + Weekday_Route_357 + Weekday_Route_358 + Weekday_Route_359
- + Weekday_Route_360 + Weekday_Route_361 + Weekday_Route_362
- + Weekday_Route_440 + Weekday_Route_441 + Weekday_Route_442
- + Weekday_Route_443 + Weekday_Route_444 + Weekday_Route_445
- + Weekday_Route_446 + Weekday_Route_447 + Weekday_Route_477
- + Weekday_Route_478 + Weekday_Route_479 = 1
-_C21: Weekday_Route_235 + Weekday_Route_244 + Weekday_Route_252
- + Weekday_Route_259 + Weekday_Route_265 + Weekday_Route_271
- + Weekday_Route_272 + Weekday_Route_273 + Weekday_Route_274
- + Weekday_Route_275 + Weekday_Route_289 + Weekday_Route_297
- + Weekday_Route_304 + Weekday_Route_310 + Weekday_Route_316
- + Weekday_Route_317 + Weekday_Route_318 + Weekday_Route_319
- + Weekday_Route_320 + Weekday_Route_333 + Weekday_Route_340
- + Weekday_Route_349 + Weekday_Route_350 + Weekday_Route_351
- + Weekday_Route_352 + Weekday_Route_353 + Weekday_Route_372
- + Weekday_Route_373 + Weekday_Route_374 + Weekday_Route_375
- + Weekday_Route_376 + Weekday_Route_386 + Weekday_Route_392
- + Weekday_Route_393 + Weekday_Route_394 + Weekday_Route_395
- + Weekday_Route_396 + Weekday_Route_407 + Weekday_Route_408
- + Weekday_Route_409 + Weekday_Route_410 + Weekday_Route_411
- + Weekday_Route_421 + Weekday_Route_422 + Weekday_Route_423
- + Weekday_Route_424 + Weekday_Route_425 + Weekday_Route_426
- + Weekday_Route_427 + Weekday_Route_428 + Weekday_Route_429
- + Weekday_Route_443 + Weekday_Route_448 + Weekday_Route_449
- + Weekday_Route_450 + Weekday_Route_456 + Weekday_Route_465
- + Weekday_Route_466 + Weekday_Route_467 + Weekday_Route_468
- + Weekday_Route_469 + Weekday_Route_480 + Weekday_Route_487
- + Weekday_Route_488 + Weekday_Route_489 = 1
-_C22: Weekday_Route_498 + Weekday_Route_505 + Weekday_Route_511
- + Weekday_Route_516 + Weekday_Route_520 + Weekday_Route_523
- + Weekday_Route_525 + Weekday_Route_527 = 1
-_C23: Weekday_Route_540 + Weekday_Route_550 + Weekday_Route_559
- + Weekday_Route_567 + Weekday_Route_574 + Weekday_Route_580
- + Weekday_Route_585 + Weekday_Route_589 + Weekday_Route_592
- + Weekday_Route_594 + Weekday_Route_595 + Weekday_Route_605
- + Weekday_Route_614 + Weekday_Route_622 + Weekday_Route_627
- + Weekday_Route_631 + Weekday_Route_636 + Weekday_Route_640
- + Weekday_Route_643 + Weekday_Route_645 + Weekday_Route_646
- + Weekday_Route_653 + Weekday_Route_659 + Weekday_Route_661
- + Weekday_Route_663 + Weekday_Route_666 + Weekday_Route_669
- + Weekday_Route_672 + Weekday_Route_674 + Weekday_Route_675
- + Weekday_Route_678 + Weekday_Route_685 + Weekday_Route_686
- + Weekday_Route_689 + Weekday_Route_691 + Weekday_Route_694
- + Weekday_Route_697 + Weekday_Route_700 + Weekday_Route_702
- + Weekday_Route_703 + Weekday_Route_707 + Weekday_Route_712
- + Weekday_Route_716 + Weekday_Route_719 + Weekday_Route_721
- + Weekday_Route_722 + Weekday_Route_727 + Weekday_Route_731
- + Weekday_Route_734 + Weekday_Route_736 + Weekday_Route_737
- + Weekday_Route_741 + Weekday_Route_744 + Weekday_Route_746
- + Weekday_Route_747 + Weekday_Route_750 + Weekday_Route_752
- + Weekday_Route_753 + Weekday_Route_755 + Weekday_Route_756
- + Weekday_Route_757 = 1
-_C24: Weekday_Route_539 + Weekday_Route_549 + Weekday_Route_558
- + Weekday_Route_566 + Weekday_Route_573 + Weekday_Route_579
- + Weekday_Route_584 + Weekday_Route_588 + Weekday_Route_591
- + Weekday_Route_593 + Weekday_Route_595 + Weekday_Route_604
- + Weekday_Route_613 + Weekday_Route_621 + Weekday_Route_626
- + Weekday_Route_630 + Weekday_Route_635 + Weekday_Route_639
- + Weekday_Route_642 + Weekday_Route_644 + Weekday_Route_646
- + Weekday_Route_652 + Weekday_Route_658 + Weekday_Route_662
- + Weekday_Route_665 + Weekday_Route_668 + Weekday_Route_671
- + Weekday_Route_673 + Weekday_Route_675 + Weekday_Route_677
- + Weekday_Route_680 + Weekday_Route_684 + Weekday_Route_686
- + Weekday_Route_688 + Weekday_Route_690 + Weekday_Route_693
- + Weekday_Route_696 + Weekday_Route_699 + Weekday_Route_701
- + Weekday_Route_703 + Weekday_Route_706 + Weekday_Route_711
- + Weekday_Route_715 + Weekday_Route_718 + Weekday_Route_720
- + Weekday_Route_722 + Weekday_Route_726 + Weekday_Route_730
- + Weekday_Route_733 + Weekday_Route_735 + Weekday_Route_737
- + Weekday_Route_740 + Weekday_Route_743 + Weekday_Route_745
- + Weekday_Route_747 + Weekday_Route_749 + Weekday_Route_751
- + Weekday_Route_753 + Weekday_Route_754 + Weekday_Route_756
- + Weekday_Route_757 = 1
-_C25: Weekday_Route_536 + Weekday_Route_546 + Weekday_Route_555
- + Weekday_Route_563 + Weekday_Route_570 + Weekday_Route_576
- + Weekday_Route_581 + Weekday_Route_586 + Weekday_Route_587
- + Weekday_Route_588 + Weekday_Route_589 + Weekday_Route_601
- + Weekday_Route_610 + Weekday_Route_618 + Weekday_Route_632
- + Weekday_Route_637 + Weekday_Route_638 + Weekday_Route_639
- + Weekday_Route_640 + Weekday_Route_667 + Weekday_Route_668
- + Weekday_Route_669 + Weekday_Route_682 + Weekday_Route_695
- + Weekday_Route_696 + Weekday_Route_697 + Weekday_Route_708
- + Weekday_Route_713 + Weekday_Route_714 + Weekday_Route_715
- + Weekday_Route_716 + Weekday_Route_723 + Weekday_Route_728
- + Weekday_Route_729 + Weekday_Route_730 + Weekday_Route_731
- + Weekday_Route_738 + Weekday_Route_739 + Weekday_Route_740
- + Weekday_Route_741 + Weekday_Route_748 + Weekday_Route_749
- + Weekday_Route_750 + Weekday_Route_751 + Weekday_Route_752
- + Weekday_Route_753 = 1
-_C26: Weekday_Route_535 + Weekday_Route_545 + Weekday_Route_554
- + Weekday_Route_562 + Weekday_Route_569 + Weekday_Route_575
- + Weekday_Route_581 + Weekday_Route_582 + Weekday_Route_583
- + Weekday_Route_584 + Weekday_Route_585 + Weekday_Route_600
- + Weekday_Route_609 + Weekday_Route_617 + Weekday_Route_624
- + Weekday_Route_632 + Weekday_Route_633 + Weekday_Route_634
- + Weekday_Route_635 + Weekday_Route_636 + Weekday_Route_650
- + Weekday_Route_655 + Weekday_Route_664 + Weekday_Route_665
- + Weekday_Route_666 + Weekday_Route_681 + Weekday_Route_692
- + Weekday_Route_693 + Weekday_Route_694 + Weekday_Route_708
- + Weekday_Route_709 + Weekday_Route_710 + Weekday_Route_711
- + Weekday_Route_712 + Weekday_Route_723 + Weekday_Route_724
- + Weekday_Route_725 + Weekday_Route_726 + Weekday_Route_727
- + Weekday_Route_738 + Weekday_Route_739 + Weekday_Route_740
- + Weekday_Route_741 + Weekday_Route_742 + Weekday_Route_743
- + Weekday_Route_744 + Weekday_Route_745 + Weekday_Route_746
- + Weekday_Route_747 = 1
-_C27: Weekday_Route_533 + Weekday_Route_543 + Weekday_Route_552
- + Weekday_Route_560 + Weekday_Route_568 + Weekday_Route_569
- + Weekday_Route_570 + Weekday_Route_571 + Weekday_Route_572
- + Weekday_Route_573 + Weekday_Route_574 + Weekday_Route_598
- + Weekday_Route_607 + Weekday_Route_615 + Weekday_Route_623
- + Weekday_Route_624 + Weekday_Route_625 + Weekday_Route_626
- + Weekday_Route_627 + Weekday_Route_648 + Weekday_Route_660
- + Weekday_Route_661 + Weekday_Route_679 + Weekday_Route_687
- + Weekday_Route_688 + Weekday_Route_689 + Weekday_Route_704
- + Weekday_Route_705 + Weekday_Route_706 + Weekday_Route_707
- + Weekday_Route_708 + Weekday_Route_709 + Weekday_Route_710
- + Weekday_Route_711 + Weekday_Route_712 + Weekday_Route_713
- + Weekday_Route_714 + Weekday_Route_715 + Weekday_Route_716
- + Weekday_Route_717 + Weekday_Route_718 + Weekday_Route_719
- + Weekday_Route_720 + Weekday_Route_721 + Weekday_Route_722 = 1
-_C28: Weekday_Route_826 + Weekday_Route_836 + Weekday_Route_845
- + Weekday_Route_853 + Weekday_Route_860 + Weekday_Route_866
- + Weekday_Route_871 + Weekday_Route_875 + Weekday_Route_878
- + Weekday_Route_880 + Weekday_Route_882 + Weekday_Route_891
- + Weekday_Route_900 + Weekday_Route_908 + Weekday_Route_915
- + Weekday_Route_921 + Weekday_Route_926 + Weekday_Route_930
- + Weekday_Route_933 + Weekday_Route_935 + Weekday_Route_937
- + Weekday_Route_947 + Weekday_Route_955 + Weekday_Route_966
- + Weekday_Route_968 + Weekday_Route_975 + Weekday_Route_977
- + Weekday_Route_979 + Weekday_Route_985 + Weekday_Route_990
- + Weekday_Route_994 + Weekday_Route_996 + Weekday_Route_997 = 1
-_C29: Weekday_Route_818 + Weekday_Route_828 + Weekday_Route_838
- + Weekday_Route_839 + Weekday_Route_840 + Weekday_Route_841
- + Weekday_Route_842 + Weekday_Route_843 + Weekday_Route_844
- + Weekday_Route_845 + Weekday_Route_846 + Weekday_Route_883
- + Weekday_Route_893 + Weekday_Route_894 + Weekday_Route_895
- + Weekday_Route_896 + Weekday_Route_897 + Weekday_Route_898
- + Weekday_Route_899 + Weekday_Route_900 + Weekday_Route_901
- + Weekday_Route_938 + Weekday_Route_949 + Weekday_Route_950
- + Weekday_Route_951 + Weekday_Route_952 + Weekday_Route_953
- + Weekday_Route_954 + Weekday_Route_955 + Weekday_Route_956 = 1
-_C3: Weekday_Route_106 + Weekday_Route_114 + Weekday_Route_123
- + Weekday_Route_132 + Weekday_Route_133 + Weekday_Route_140
- + Weekday_Route_149 + Weekday_Route_156 + Weekday_Route_159
- + Weekday_Route_160 + Weekday_Route_173 + Weekday_Route_176
- + Weekday_Route_177 + Weekday_Route_18 + Weekday_Route_187
- + Weekday_Route_188 + Weekday_Route_196 + Weekday_Route_197
- + Weekday_Route_203 + Weekday_Route_204 + Weekday_Route_208
- + Weekday_Route_209 + Weekday_Route_211 + Weekday_Route_212
- + Weekday_Route_214 + Weekday_Route_223 + Weekday_Route_227
- + Weekday_Route_230 + Weekday_Route_27 + Weekday_Route_35 + Weekday_Route_42
- + Weekday_Route_48 + Weekday_Route_53 + Weekday_Route_57 + Weekday_Route_60
- + Weekday_Route_63 + Weekday_Route_64 + Weekday_Route_8 + Weekday_Route_84
- + Weekday_Route_97 + Weekday_Route_98 = 1
-_C30: Weekday_Route_496 + Weekday_Route_503 + Weekday_Route_509
- + Weekday_Route_514 + Weekday_Route_518 + Weekday_Route_522
- + Weekday_Route_523 + Weekday_Route_524 + Weekday_Route_529 = 1
-_C31: Weekday_Route_1 + Weekday_Route_100 + Weekday_Route_101
- + Weekday_Route_102 + Weekday_Route_103 + Weekday_Route_104
- + Weekday_Route_105 + Weekday_Route_106 + Weekday_Route_107
- + Weekday_Route_108 + Weekday_Route_11 + Weekday_Route_135
- + Weekday_Route_136 + Weekday_Route_137 + Weekday_Route_138
- + Weekday_Route_139 + Weekday_Route_140 + Weekday_Route_141
- + Weekday_Route_142 + Weekday_Route_143 + Weekday_Route_144
- + Weekday_Route_145 + Weekday_Route_146 + Weekday_Route_147
- + Weekday_Route_148 + Weekday_Route_149 + Weekday_Route_150
- + Weekday_Route_151 + Weekday_Route_152 + Weekday_Route_153
- + Weekday_Route_154 + Weekday_Route_155 + Weekday_Route_156
- + Weekday_Route_157 + Weekday_Route_158 + Weekday_Route_159
- + Weekday_Route_160 + Weekday_Route_161 + Weekday_Route_21
- + Weekday_Route_215 + Weekday_Route_217 + Weekday_Route_218
- + Weekday_Route_22 + Weekday_Route_224 + Weekday_Route_225
- + Weekday_Route_226 + Weekday_Route_227 + Weekday_Route_23 + Weekday_Route_24
- + Weekday_Route_25 + Weekday_Route_26 + Weekday_Route_27 + Weekday_Route_28
- + Weekday_Route_29 + Weekday_Route_66 + Weekday_Route_72 + Weekday_Route_73
- + Weekday_Route_74 + Weekday_Route_75 + Weekday_Route_76 + Weekday_Route_77
- + Weekday_Route_78 = 1
-_C32: Weekday_Route_236 + Weekday_Route_245 + Weekday_Route_253
- + Weekday_Route_260 + Weekday_Route_266 + Weekday_Route_271
- + Weekday_Route_276 + Weekday_Route_277 + Weekday_Route_278
- + Weekday_Route_279 + Weekday_Route_290 + Weekday_Route_298
- + Weekday_Route_305 + Weekday_Route_311 + Weekday_Route_316
- + Weekday_Route_321 + Weekday_Route_322 + Weekday_Route_323
- + Weekday_Route_324 + Weekday_Route_334 + Weekday_Route_341
- + Weekday_Route_345 + Weekday_Route_349 + Weekday_Route_354
- + Weekday_Route_355 + Weekday_Route_356 + Weekday_Route_364
- + Weekday_Route_368 + Weekday_Route_372 + Weekday_Route_377
- + Weekday_Route_378 + Weekday_Route_379 + Weekday_Route_387
- + Weekday_Route_392 + Weekday_Route_397 + Weekday_Route_398
- + Weekday_Route_399 + Weekday_Route_400 + Weekday_Route_407
- + Weekday_Route_412 + Weekday_Route_413 + Weekday_Route_414
- + Weekday_Route_421 + Weekday_Route_422 + Weekday_Route_423
- + Weekday_Route_430 + Weekday_Route_431 + Weekday_Route_432
- + Weekday_Route_433 + Weekday_Route_434 + Weekday_Route_435
- + Weekday_Route_457 + Weekday_Route_470 + Weekday_Route_471
- + Weekday_Route_472 + Weekday_Route_490 = 1
-_C33: Weekday_Route_820 + Weekday_Route_830 + Weekday_Route_839
- + Weekday_Route_847 + Weekday_Route_855 + Weekday_Route_856
- + Weekday_Route_857 + Weekday_Route_858 + Weekday_Route_859
- + Weekday_Route_860 + Weekday_Route_861 + Weekday_Route_885
- + Weekday_Route_894 + Weekday_Route_902 + Weekday_Route_910
- + Weekday_Route_911 + Weekday_Route_912 + Weekday_Route_913
- + Weekday_Route_914 + Weekday_Route_915 + Weekday_Route_916
- + Weekday_Route_940 + Weekday_Route_941 + Weekday_Route_957
- + Weekday_Route_958 + Weekday_Route_959 + Weekday_Route_970
- + Weekday_Route_971 + Weekday_Route_972 + Weekday_Route_973
- + Weekday_Route_974 + Weekday_Route_975 + Weekday_Route_976
- + Weekday_Route_977 + Weekday_Route_978 + Weekday_Route_979 = 1
-_C34: Weekday_Route_100 + Weekday_Route_109 + Weekday_Route_110
- + Weekday_Route_111 + Weekday_Route_112 + Weekday_Route_113
- + Weekday_Route_114 + Weekday_Route_115 + Weekday_Route_116
- + Weekday_Route_12 + Weekday_Route_135 + Weekday_Route_136
- + Weekday_Route_137 + Weekday_Route_138 + Weekday_Route_139
- + Weekday_Route_140 + Weekday_Route_141 + Weekday_Route_142
+ + Weekday_Route_3 + Weekday_Route_4 + Weekday_Route_5 + Weekday_Route_6
+ + Weekday_Route_66 + Weekday_Route_67 + Weekday_Route_68 + Weekday_Route_69
+ + Weekday_Route_7 + Weekday_Route_70 + Weekday_Route_71 + Weekday_Route_72
+ + Weekday_Route_73 + Weekday_Route_74 + Weekday_Route_75 + Weekday_Route_76
+ + Weekday_Route_77 + Weekday_Route_78 + Weekday_Route_79 + Weekday_Route_8
+ + Weekday_Route_80 + Weekday_Route_81 + Weekday_Route_82 + Weekday_Route_83
+ + Weekday_Route_84 + Weekday_Route_85 + Weekday_Route_86 + Weekday_Route_87
+ + Weekday_Route_9 = 1
+_C11: Weekday_Route_107 + Weekday_Route_112 + Weekday_Route_113
+ + Weekday_Route_129 + Weekday_Route_130 + Weekday_Route_142
+ + Weekday_Route_143 + Weekday_Route_153 + Weekday_Route_154
+ + Weekday_Route_16 + Weekday_Route_162 + Weekday_Route_163
+ + Weekday_Route_169 + Weekday_Route_175 + Weekday_Route_176
+ + Weekday_Route_177 + Weekday_Route_178 + Weekday_Route_25 + Weekday_Route_33
+ + Weekday_Route_40 + Weekday_Route_46 + Weekday_Route_51 + Weekday_Route_56
+ + Weekday_Route_57 + Weekday_Route_58 + Weekday_Route_59 + Weekday_Route_6
+ + Weekday_Route_82 + Weekday_Route_98 = 1
+_C12: Weekday_Route_103 + Weekday_Route_106 + Weekday_Route_107
+ + Weekday_Route_108 + Weekday_Route_109 + Weekday_Route_120
+ + Weekday_Route_125 + Weekday_Route_126 + Weekday_Route_138
+ + Weekday_Route_139 + Weekday_Route_14 + Weekday_Route_149
+ + Weekday_Route_150 + Weekday_Route_160 + Weekday_Route_161
  + Weekday_Route_162 + Weekday_Route_163 + Weekday_Route_164
  + Weekday_Route_165 + Weekday_Route_166 + Weekday_Route_167
- + Weekday_Route_168 + Weekday_Route_169 + Weekday_Route_170
- + Weekday_Route_171 + Weekday_Route_172 + Weekday_Route_173
- + Weekday_Route_174 + Weekday_Route_175 + Weekday_Route_176
- + Weekday_Route_177 + Weekday_Route_178 + Weekday_Route_2 + Weekday_Route_21
- + Weekday_Route_216 + Weekday_Route_217 + Weekday_Route_219
- + Weekday_Route_224 + Weekday_Route_228 + Weekday_Route_229
- + Weekday_Route_230 + Weekday_Route_30 + Weekday_Route_31 + Weekday_Route_32
- + Weekday_Route_33 + Weekday_Route_34 + Weekday_Route_35 + Weekday_Route_36
- + Weekday_Route_37 + Weekday_Route_67 + Weekday_Route_72 + Weekday_Route_79
- + Weekday_Route_80 + Weekday_Route_81 + Weekday_Route_82 + Weekday_Route_83
- + Weekday_Route_84 + Weekday_Route_85 + Weekday_Route_86 = 1
-_C35: Weekday_Route_492 + Weekday_Route_500 + Weekday_Route_501
- + Weekday_Route_502 + Weekday_Route_503 + Weekday_Route_504
- + Weekday_Route_505 + Weekday_Route_506 + Weekday_Route_528
- + Weekday_Route_529 = 1
-_C36: Weekday_Route_764 + Weekday_Route_771 + Weekday_Route_777
- + Weekday_Route_782 + Weekday_Route_786 + Weekday_Route_789
- + Weekday_Route_791 + Weekday_Route_793 + Weekday_Route_802
- + Weekday_Route_805 + Weekday_Route_811 + Weekday_Route_814
- + Weekday_Route_815 + Weekday_Route_816 = 1
-_C37: Weekday_Route_233 + Weekday_Route_242 + Weekday_Route_250
- + Weekday_Route_258 + Weekday_Route_259 + Weekday_Route_260
- + Weekday_Route_261 + Weekday_Route_262 + Weekday_Route_263
- + Weekday_Route_264 + Weekday_Route_287 + Weekday_Route_295
- + Weekday_Route_303 + Weekday_Route_304 + Weekday_Route_305
- + Weekday_Route_306 + Weekday_Route_307 + Weekday_Route_308
- + Weekday_Route_309 + Weekday_Route_331 + Weekday_Route_339
+ + Weekday_Route_168 + Weekday_Route_23 + Weekday_Route_31 + Weekday_Route_38
+ + Weekday_Route_4 + Weekday_Route_45 + Weekday_Route_46 + Weekday_Route_47
+ + Weekday_Route_48 + Weekday_Route_49 + Weekday_Route_50 + Weekday_Route_74
+ + Weekday_Route_79 + Weekday_Route_90 + Weekday_Route_96 = 1
+_C13: Weekday_Route_412 + Weekday_Route_419 + Weekday_Route_426
+ + Weekday_Route_427 + Weekday_Route_428 + Weekday_Route_429
+ + Weekday_Route_430 + Weekday_Route_431 = 1
+_C14: Weekday_Route_650 + Weekday_Route_658 + Weekday_Route_659
+ + Weekday_Route_660 + Weekday_Route_661 + Weekday_Route_662
+ + Weekday_Route_663 + Weekday_Route_664 + Weekday_Route_686
+ + Weekday_Route_687 = 1
+_C15: Weekday_Route_697 + Weekday_Route_707 + Weekday_Route_716
+ + Weekday_Route_724 + Weekday_Route_731 + Weekday_Route_738
+ + Weekday_Route_739 + Weekday_Route_740 + Weekday_Route_741
+ + Weekday_Route_742 + Weekday_Route_743 + Weekday_Route_762
+ + Weekday_Route_771 + Weekday_Route_779 + Weekday_Route_786
+ + Weekday_Route_793 + Weekday_Route_794 + Weekday_Route_795
+ + Weekday_Route_796 + Weekday_Route_797 + Weekday_Route_798
+ + Weekday_Route_816 + Weekday_Route_817 + Weekday_Route_823
+ + Weekday_Route_831 + Weekday_Route_832 + Weekday_Route_839
+ + Weekday_Route_840 + Weekday_Route_849 + Weekday_Route_850
+ + Weekday_Route_851 + Weekday_Route_852 + Weekday_Route_853
+ + Weekday_Route_854 = 1
+_C16: Weekday_Route_657 + Weekday_Route_664 + Weekday_Route_670
+ + Weekday_Route_675 + Weekday_Route_679 + Weekday_Route_682
+ + Weekday_Route_684 + Weekday_Route_685 = 1
+_C17: Weekday_Route_699 + Weekday_Route_709 + Weekday_Route_718
+ + Weekday_Route_726 + Weekday_Route_733 + Weekday_Route_739
+ + Weekday_Route_744 + Weekday_Route_749 + Weekday_Route_750
+ + Weekday_Route_751 + Weekday_Route_752 + Weekday_Route_764
+ + Weekday_Route_773 + Weekday_Route_781 + Weekday_Route_788
+ + Weekday_Route_794 + Weekday_Route_799 + Weekday_Route_804
+ + Weekday_Route_805 + Weekday_Route_806 + Weekday_Route_819
+ + Weekday_Route_825 + Weekday_Route_834 + Weekday_Route_842
+ + Weekday_Route_851 + Weekday_Route_855 + Weekday_Route_859
+ + Weekday_Route_860 = 1
+_C18: Weekday_Route_192 + Weekday_Route_201 + Weekday_Route_209
+ + Weekday_Route_216 + Weekday_Route_222 + Weekday_Route_227
+ + Weekday_Route_231 + Weekday_Route_234 + Weekday_Route_236
+ + Weekday_Route_238 + Weekday_Route_246 + Weekday_Route_254
+ + Weekday_Route_261 + Weekday_Route_267 + Weekday_Route_272
+ + Weekday_Route_276 + Weekday_Route_279 + Weekday_Route_281
+ + Weekday_Route_283 + Weekday_Route_290 + Weekday_Route_303
+ + Weekday_Route_309 + Weekday_Route_311 + Weekday_Route_313
+ + Weekday_Route_322 + Weekday_Route_328 + Weekday_Route_330
+ + Weekday_Route_332 + Weekday_Route_341 + Weekday_Route_347
+ + Weekday_Route_349 + Weekday_Route_351 + Weekday_Route_359
+ + Weekday_Route_361 + Weekday_Route_363 + Weekday_Route_368
+ + Weekday_Route_370 + Weekday_Route_372 + Weekday_Route_374
+ + Weekday_Route_376 + Weekday_Route_378 + Weekday_Route_379
+ + Weekday_Route_381 + Weekday_Route_382 + Weekday_Route_399
+ + Weekday_Route_401 + Weekday_Route_402 + Weekday_Route_408
+ + Weekday_Route_410 = 1
+_C19: Weekday_Route_653 + Weekday_Route_660 + Weekday_Route_666
+ + Weekday_Route_671 + Weekday_Route_676 + Weekday_Route_677
+ + Weekday_Route_678 + Weekday_Route_679 + Weekday_Route_689 = 1
+_C2: Weekday_Route_451 + Weekday_Route_461 + Weekday_Route_470
+ + Weekday_Route_478 + Weekday_Route_485 + Weekday_Route_492
+ + Weekday_Route_493 + Weekday_Route_494 + Weekday_Route_495
+ + Weekday_Route_496 + Weekday_Route_497 + Weekday_Route_516
+ + Weekday_Route_525 + Weekday_Route_533 + Weekday_Route_543
+ + Weekday_Route_544 + Weekday_Route_545 + Weekday_Route_568
+ + Weekday_Route_586 + Weekday_Route_597 + Weekday_Route_598
+ + Weekday_Route_599 + Weekday_Route_615 + Weekday_Route_616
+ + Weekday_Route_617 + Weekday_Route_618 + Weekday_Route_619
+ + Weekday_Route_620 + Weekday_Route_621 + Weekday_Route_622
+ + Weekday_Route_623 + Weekday_Route_624 + Weekday_Route_625
+ + Weekday_Route_626 + Weekday_Route_627 + Weekday_Route_628
+ + Weekday_Route_629 = 1
+_C20: Weekday_Route_184 + Weekday_Route_194 + Weekday_Route_195
+ + Weekday_Route_196 + Weekday_Route_197 + Weekday_Route_198
+ + Weekday_Route_199 + Weekday_Route_200 + Weekday_Route_201
+ + Weekday_Route_202 + Weekday_Route_239 + Weekday_Route_240
+ + Weekday_Route_241 + Weekday_Route_242 + Weekday_Route_243
+ + Weekday_Route_244 + Weekday_Route_245 + Weekday_Route_246
+ + Weekday_Route_247 + Weekday_Route_284 + Weekday_Route_285
+ + Weekday_Route_286 + Weekday_Route_287 + Weekday_Route_288
+ + Weekday_Route_289 + Weekday_Route_290 + Weekday_Route_291
+ + Weekday_Route_292 + Weekday_Route_293 + Weekday_Route_294
+ + Weekday_Route_295 + Weekday_Route_296 + Weekday_Route_297
+ + Weekday_Route_298 + Weekday_Route_299 + Weekday_Route_300
+ + Weekday_Route_301 + Weekday_Route_302 + Weekday_Route_303
+ + Weekday_Route_304 + Weekday_Route_305 + Weekday_Route_306
+ + Weekday_Route_307 + Weekday_Route_308 + Weekday_Route_309
+ + Weekday_Route_310 + Weekday_Route_311 + Weekday_Route_312
+ + Weekday_Route_313 + Weekday_Route_383 + Weekday_Route_384
+ + Weekday_Route_385 + Weekday_Route_403 = 1
+_C21: Weekday_Route_188 + Weekday_Route_197 + Weekday_Route_205
+ + Weekday_Route_212 + Weekday_Route_218 + Weekday_Route_224
+ + Weekday_Route_225 + Weekday_Route_226 + Weekday_Route_227
+ + Weekday_Route_228 + Weekday_Route_242 + Weekday_Route_250
+ + Weekday_Route_257 + Weekday_Route_263 + Weekday_Route_269
+ + Weekday_Route_270 + Weekday_Route_271 + Weekday_Route_272
+ + Weekday_Route_273 + Weekday_Route_286 + Weekday_Route_300
+ + Weekday_Route_301 + Weekday_Route_302 + Weekday_Route_303
+ + Weekday_Route_304 + Weekday_Route_319 + Weekday_Route_320
+ + Weekday_Route_321 + Weekday_Route_322 + Weekday_Route_323
+ + Weekday_Route_333 + Weekday_Route_338 + Weekday_Route_339
  + Weekday_Route_340 + Weekday_Route_341 + Weekday_Route_342
- + Weekday_Route_343 + Weekday_Route_344 + Weekday_Route_363
+ + Weekday_Route_352 + Weekday_Route_353 + Weekday_Route_354
  + Weekday_Route_364 + Weekday_Route_365 + Weekday_Route_366
- + Weekday_Route_367 + Weekday_Route_386 + Weekday_Route_387
- + Weekday_Route_388 + Weekday_Route_389 + Weekday_Route_390
- + Weekday_Route_391 + Weekday_Route_392 + Weekday_Route_393
- + Weekday_Route_394 + Weekday_Route_395 + Weekday_Route_396
- + Weekday_Route_397 + Weekday_Route_398 + Weekday_Route_399
- + Weekday_Route_400 + Weekday_Route_401 + Weekday_Route_402
- + Weekday_Route_403 + Weekday_Route_404 + Weekday_Route_405
- + Weekday_Route_406 + Weekday_Route_455 + Weekday_Route_456
- + Weekday_Route_457 + Weekday_Route_458 + Weekday_Route_459
- + Weekday_Route_460 + Weekday_Route_461 + Weekday_Route_484
- + Weekday_Route_485 = 1
-_C38: Weekday_Route_819 + Weekday_Route_829 + Weekday_Route_838
- + Weekday_Route_847 + Weekday_Route_848 + Weekday_Route_849
- + Weekday_Route_850 + Weekday_Route_851 + Weekday_Route_852
- + Weekday_Route_853 + Weekday_Route_854 + Weekday_Route_884
- + Weekday_Route_893 + Weekday_Route_902 + Weekday_Route_903
- + Weekday_Route_904 + Weekday_Route_905 + Weekday_Route_906
- + Weekday_Route_907 + Weekday_Route_908 + Weekday_Route_909
- + Weekday_Route_939 + Weekday_Route_949 + Weekday_Route_957
- + Weekday_Route_958 + Weekday_Route_959 + Weekday_Route_960
- + Weekday_Route_961 + Weekday_Route_962 + Weekday_Route_963
- + Weekday_Route_964 + Weekday_Route_965 + Weekday_Route_966
- + Weekday_Route_967 + Weekday_Route_968 + Weekday_Route_969 = 1
-_C39: Weekday_Route_530 + Weekday_Route_541 + Weekday_Route_542
- + Weekday_Route_543 + Weekday_Route_544 + Weekday_Route_545
- + Weekday_Route_546 + Weekday_Route_547 + Weekday_Route_548
- + Weekday_Route_549 + Weekday_Route_550 + Weekday_Route_596
+ + Weekday_Route_367 + Weekday_Route_368 + Weekday_Route_369
+ + Weekday_Route_370 + Weekday_Route_371 + Weekday_Route_372
+ + Weekday_Route_393 + Weekday_Route_394 + Weekday_Route_395
+ + Weekday_Route_407 + Weekday_Route_408 = 1
+_C22: Weekday_Route_417 + Weekday_Route_424 + Weekday_Route_430
+ + Weekday_Route_435 + Weekday_Route_439 + Weekday_Route_442
+ + Weekday_Route_444 + Weekday_Route_446 = 1
+_C23: Weekday_Route_457 + Weekday_Route_467 + Weekday_Route_476
+ + Weekday_Route_484 + Weekday_Route_491 + Weekday_Route_497
+ + Weekday_Route_502 + Weekday_Route_506 + Weekday_Route_509
+ + Weekday_Route_511 + Weekday_Route_512 + Weekday_Route_522
+ + Weekday_Route_531 + Weekday_Route_539 + Weekday_Route_542
+ + Weekday_Route_545 + Weekday_Route_550 + Weekday_Route_554
+ + Weekday_Route_557 + Weekday_Route_559 + Weekday_Route_560
+ + Weekday_Route_566 + Weekday_Route_574 + Weekday_Route_575
+ + Weekday_Route_583 + Weekday_Route_589 + Weekday_Route_594
+ + Weekday_Route_596 + Weekday_Route_599 + Weekday_Route_604
+ + Weekday_Route_608 + Weekday_Route_611 + Weekday_Route_613
+ + Weekday_Route_614 + Weekday_Route_619 + Weekday_Route_623
+ + Weekday_Route_626 + Weekday_Route_628 + Weekday_Route_629
+ + Weekday_Route_633 + Weekday_Route_636 + Weekday_Route_638
+ + Weekday_Route_639 + Weekday_Route_642 + Weekday_Route_644
+ + Weekday_Route_645 + Weekday_Route_647 + Weekday_Route_648
+ + Weekday_Route_649 = 1
+_C24: Weekday_Route_456 + Weekday_Route_466 + Weekday_Route_475
+ + Weekday_Route_483 + Weekday_Route_490 + Weekday_Route_496
+ + Weekday_Route_501 + Weekday_Route_505 + Weekday_Route_508
+ + Weekday_Route_510 + Weekday_Route_512 + Weekday_Route_521
+ + Weekday_Route_530 + Weekday_Route_538 + Weekday_Route_541
+ + Weekday_Route_544 + Weekday_Route_549 + Weekday_Route_553
+ + Weekday_Route_556 + Weekday_Route_558 + Weekday_Route_560
+ + Weekday_Route_563 + Weekday_Route_565 + Weekday_Route_568
+ + Weekday_Route_570 + Weekday_Route_573 + Weekday_Route_575
+ + Weekday_Route_577 + Weekday_Route_582 + Weekday_Route_585
+ + Weekday_Route_586 + Weekday_Route_588 + Weekday_Route_591
+ + Weekday_Route_593 + Weekday_Route_595 + Weekday_Route_596
+ + Weekday_Route_598 + Weekday_Route_603 + Weekday_Route_607
+ + Weekday_Route_610 + Weekday_Route_612 + Weekday_Route_614
+ + Weekday_Route_618 + Weekday_Route_622 + Weekday_Route_625
+ + Weekday_Route_627 + Weekday_Route_629 + Weekday_Route_632
+ + Weekday_Route_635 + Weekday_Route_637 + Weekday_Route_639
+ + Weekday_Route_641 + Weekday_Route_643 + Weekday_Route_645
+ + Weekday_Route_646 + Weekday_Route_648 + Weekday_Route_649 = 1
+_C25: Weekday_Route_453 + Weekday_Route_463 + Weekday_Route_472
+ + Weekday_Route_480 + Weekday_Route_487 + Weekday_Route_493
+ + Weekday_Route_498 + Weekday_Route_503 + Weekday_Route_504
+ + Weekday_Route_505 + Weekday_Route_506 + Weekday_Route_518
+ + Weekday_Route_527 + Weekday_Route_535 + Weekday_Route_546
+ + Weekday_Route_551 + Weekday_Route_552 + Weekday_Route_553
+ + Weekday_Route_554 + Weekday_Route_571 + Weekday_Route_580
+ + Weekday_Route_590 + Weekday_Route_591 + Weekday_Route_600
+ + Weekday_Route_605 + Weekday_Route_606 + Weekday_Route_607
+ + Weekday_Route_608 + Weekday_Route_615 + Weekday_Route_620
+ + Weekday_Route_621 + Weekday_Route_622 + Weekday_Route_623
+ + Weekday_Route_630 + Weekday_Route_631 + Weekday_Route_632
+ + Weekday_Route_633 + Weekday_Route_640 + Weekday_Route_641
+ + Weekday_Route_642 + Weekday_Route_643 + Weekday_Route_644
+ + Weekday_Route_645 = 1
+_C26: Weekday_Route_452 + Weekday_Route_462 + Weekday_Route_471
+ + Weekday_Route_479 + Weekday_Route_486 + Weekday_Route_492
+ + Weekday_Route_498 + Weekday_Route_499 + Weekday_Route_500
+ + Weekday_Route_501 + Weekday_Route_502 + Weekday_Route_517
+ + Weekday_Route_526 + Weekday_Route_534 + Weekday_Route_546
+ + Weekday_Route_547 + Weekday_Route_548 + Weekday_Route_549
+ + Weekday_Route_550 + Weekday_Route_569 + Weekday_Route_570
+ + Weekday_Route_579 + Weekday_Route_587 + Weekday_Route_588
+ + Weekday_Route_589 + Weekday_Route_600 + Weekday_Route_601
+ + Weekday_Route_602 + Weekday_Route_603 + Weekday_Route_604
+ + Weekday_Route_615 + Weekday_Route_616 + Weekday_Route_617
+ + Weekday_Route_618 + Weekday_Route_619 + Weekday_Route_630
+ + Weekday_Route_631 + Weekday_Route_632 + Weekday_Route_633
+ + Weekday_Route_634 + Weekday_Route_635 + Weekday_Route_636
+ + Weekday_Route_637 + Weekday_Route_638 + Weekday_Route_639 = 1
+_C27: Weekday_Route_450 + Weekday_Route_460 + Weekday_Route_469
+ + Weekday_Route_477 + Weekday_Route_485 + Weekday_Route_486
+ + Weekday_Route_487 + Weekday_Route_488 + Weekday_Route_489
+ + Weekday_Route_490 + Weekday_Route_491 + Weekday_Route_515
+ + Weekday_Route_524 + Weekday_Route_532 + Weekday_Route_540
+ + Weekday_Route_541 + Weekday_Route_542 + Weekday_Route_567
+ + Weekday_Route_578 + Weekday_Route_584 + Weekday_Route_585
  + Weekday_Route_597 + Weekday_Route_598 + Weekday_Route_599
  + Weekday_Route_600 + Weekday_Route_601 + Weekday_Route_602
  + Weekday_Route_603 + Weekday_Route_604 + Weekday_Route_605
- + Weekday_Route_647 + Weekday_Route_648 + Weekday_Route_649
- + Weekday_Route_650 + Weekday_Route_651 + Weekday_Route_652
- + Weekday_Route_653 + Weekday_Route_654 + Weekday_Route_655
- + Weekday_Route_656 + Weekday_Route_657 + Weekday_Route_658
- + Weekday_Route_659 + Weekday_Route_660 + Weekday_Route_661
- + Weekday_Route_662 + Weekday_Route_663 + Weekday_Route_664
- + Weekday_Route_665 + Weekday_Route_666 + Weekday_Route_667
- + Weekday_Route_668 + Weekday_Route_669 + Weekday_Route_670
- + Weekday_Route_671 + Weekday_Route_672 + Weekday_Route_673
- + Weekday_Route_674 + Weekday_Route_675 = 1
-_C4: Weekday_Route_822 + Weekday_Route_832 + Weekday_Route_841
- + Weekday_Route_849 + Weekday_Route_856 + Weekday_Route_862
- + Weekday_Route_868 + Weekday_Route_869 + Weekday_Route_870
- + Weekday_Route_871 + Weekday_Route_872 + Weekday_Route_887
- + Weekday_Route_896 + Weekday_Route_904 + Weekday_Route_911
- + Weekday_Route_917 + Weekday_Route_923 + Weekday_Route_924
- + Weekday_Route_925 + Weekday_Route_926 + Weekday_Route_927
- + Weekday_Route_942 + Weekday_Route_944 + Weekday_Route_950
- + Weekday_Route_952 + Weekday_Route_960 + Weekday_Route_963
- + Weekday_Route_970 + Weekday_Route_972 + Weekday_Route_980
- + Weekday_Route_981 + Weekday_Route_982 + Weekday_Route_988
- + Weekday_Route_989 + Weekday_Route_990 + Weekday_Route_991
- + Weekday_Route_998 = 1
-_C40: Weekday_Route_538 + Weekday_Route_548 + Weekday_Route_557
- + Weekday_Route_565 + Weekday_Route_572 + Weekday_Route_578
- + Weekday_Route_583 + Weekday_Route_587 + Weekday_Route_590
- + Weekday_Route_593 + Weekday_Route_594 + Weekday_Route_603
- + Weekday_Route_612 + Weekday_Route_620 + Weekday_Route_629
- + Weekday_Route_634 + Weekday_Route_638 + Weekday_Route_641
- + Weekday_Route_644 + Weekday_Route_645 + Weekday_Route_657
- + Weekday_Route_670 + Weekday_Route_673 + Weekday_Route_674
- + Weekday_Route_683 + Weekday_Route_698 + Weekday_Route_701
- + Weekday_Route_702 + Weekday_Route_705 + Weekday_Route_710
- + Weekday_Route_714 + Weekday_Route_717 + Weekday_Route_720
- + Weekday_Route_721 + Weekday_Route_725 + Weekday_Route_729
- + Weekday_Route_732 + Weekday_Route_735 + Weekday_Route_736
- + Weekday_Route_739 + Weekday_Route_742 + Weekday_Route_745
- + Weekday_Route_746 + Weekday_Route_748 + Weekday_Route_751
- + Weekday_Route_752 + Weekday_Route_754 + Weekday_Route_755
- + Weekday_Route_757 = 1
-_C41: Weekday_Route_103 + Weekday_Route_111 + Weekday_Route_120
- + Weekday_Route_126 + Weekday_Route_127 + Weekday_Route_137
- + Weekday_Route_146 + Weekday_Route_15 + Weekday_Route_152
- + Weekday_Route_153 + Weekday_Route_165 + Weekday_Route_169
- + Weekday_Route_170 + Weekday_Route_181 + Weekday_Route_182
- + Weekday_Route_190 + Weekday_Route_191 + Weekday_Route_199
- + Weekday_Route_200 + Weekday_Route_201 + Weekday_Route_202
- + Weekday_Route_203 + Weekday_Route_204 + Weekday_Route_205
- + Weekday_Route_24 + Weekday_Route_32 + Weekday_Route_39 + Weekday_Route_45
- + Weekday_Route_5 + Weekday_Route_51 + Weekday_Route_52 + Weekday_Route_53
- + Weekday_Route_54 + Weekday_Route_55 + Weekday_Route_75 + Weekday_Route_81
- + Weekday_Route_91 + Weekday_Route_92 = 1
-_C42: Weekday_Route_101 + Weekday_Route_109 + Weekday_Route_117
- + Weekday_Route_118 + Weekday_Route_119 + Weekday_Route_13
- + Weekday_Route_135 + Weekday_Route_143 + Weekday_Route_144
- + Weekday_Route_145 + Weekday_Route_162 + Weekday_Route_163
- + Weekday_Route_164 + Weekday_Route_179 + Weekday_Route_180
- + Weekday_Route_181 + Weekday_Route_182 + Weekday_Route_183
- + Weekday_Route_184 + Weekday_Route_185 + Weekday_Route_186
- + Weekday_Route_187 + Weekday_Route_188 + Weekday_Route_189
- + Weekday_Route_22 + Weekday_Route_220 + Weekday_Route_3 + Weekday_Route_30
- + Weekday_Route_38 + Weekday_Route_39 + Weekday_Route_40 + Weekday_Route_41
- + Weekday_Route_42 + Weekday_Route_43 + Weekday_Route_44 + Weekday_Route_68
- + Weekday_Route_73 + Weekday_Route_79 + Weekday_Route_87 + Weekday_Route_88
- = 1
-_C43: Weekday_Route_531 + Weekday_Route_541 + Weekday_Route_551
- + Weekday_Route_552 + Weekday_Route_553 + Weekday_Route_554
- + Weekday_Route_555 + Weekday_Route_556 + Weekday_Route_557
- + Weekday_Route_558 + Weekday_Route_559 + Weekday_Route_596
  + Weekday_Route_606 + Weekday_Route_607 + Weekday_Route_608
  + Weekday_Route_609 + Weekday_Route_610 + Weekday_Route_611
- + Weekday_Route_612 + Weekday_Route_613 + Weekday_Route_614
- + Weekday_Route_647 + Weekday_Route_648 + Weekday_Route_649
- + Weekday_Route_650 + Weekday_Route_651 + Weekday_Route_652
- + Weekday_Route_653 + Weekday_Route_676 + Weekday_Route_677
- + Weekday_Route_678 + Weekday_Route_679 + Weekday_Route_680
- + Weekday_Route_681 + Weekday_Route_682 + Weekday_Route_683
- + Weekday_Route_684 + Weekday_Route_685 + Weekday_Route_686 = 1
-_C44: Weekday_Route_825 + Weekday_Route_835 + Weekday_Route_844
- + Weekday_Route_852 + Weekday_Route_859 + Weekday_Route_865
- + Weekday_Route_870 + Weekday_Route_874 + Weekday_Route_877
- + Weekday_Route_880 + Weekday_Route_881 + Weekday_Route_890
- + Weekday_Route_899 + Weekday_Route_907 + Weekday_Route_914
- + Weekday_Route_920 + Weekday_Route_925 + Weekday_Route_929
- + Weekday_Route_932 + Weekday_Route_935 + Weekday_Route_936
- + Weekday_Route_946 + Weekday_Route_954 + Weekday_Route_958
- + Weekday_Route_965 + Weekday_Route_968 + Weekday_Route_969
- + Weekday_Route_974 + Weekday_Route_977 + Weekday_Route_978
- + Weekday_Route_981 + Weekday_Route_984 + Weekday_Route_987
- + Weekday_Route_989 + Weekday_Route_992 + Weekday_Route_994
- + Weekday_Route_995 + Weekday_Route_997 = 1
+ + Weekday_Route_612 + Weekday_Route_613 + Weekday_Route_614 = 1
+_C28: Weekday_Route_702 + Weekday_Route_712 + Weekday_Route_721
+ + Weekday_Route_729 + Weekday_Route_736 + Weekday_Route_742
+ + Weekday_Route_747 + Weekday_Route_751 + Weekday_Route_754
+ + Weekday_Route_756 + Weekday_Route_758 + Weekday_Route_767
+ + Weekday_Route_776 + Weekday_Route_784 + Weekday_Route_791
+ + Weekday_Route_797 + Weekday_Route_802 + Weekday_Route_808
+ + Weekday_Route_810 + Weekday_Route_812 + Weekday_Route_836
+ + Weekday_Route_844 + Weekday_Route_846 + Weekday_Route_848
+ + Weekday_Route_853 + Weekday_Route_857 + Weekday_Route_861
+ + Weekday_Route_863 + Weekday_Route_864 = 1
+_C29: Weekday_Route_694 + Weekday_Route_704 + Weekday_Route_714
+ + Weekday_Route_715 + Weekday_Route_716 + Weekday_Route_717
+ + Weekday_Route_718 + Weekday_Route_719 + Weekday_Route_720
+ + Weekday_Route_721 + Weekday_Route_722 + Weekday_Route_759
+ + Weekday_Route_769 + Weekday_Route_770 + Weekday_Route_771
+ + Weekday_Route_772 + Weekday_Route_773 + Weekday_Route_774
+ + Weekday_Route_775 + Weekday_Route_776 + Weekday_Route_777
+ + Weekday_Route_813 + Weekday_Route_822 + Weekday_Route_823
+ + Weekday_Route_824 + Weekday_Route_825 + Weekday_Route_826
+ + Weekday_Route_827 = 1
+_C3: Weekday_Route_100 + Weekday_Route_116 + Weekday_Route_117
+ + Weekday_Route_133 + Weekday_Route_134 + Weekday_Route_146
+ + Weekday_Route_147 + Weekday_Route_157 + Weekday_Route_158
+ + Weekday_Route_166 + Weekday_Route_167 + Weekday_Route_172
+ + Weekday_Route_173 + Weekday_Route_176 + Weekday_Route_177
+ + Weekday_Route_179 + Weekday_Route_18 + Weekday_Route_180
+ + Weekday_Route_182 + Weekday_Route_27 + Weekday_Route_35 + Weekday_Route_42
+ + Weekday_Route_48 + Weekday_Route_53 + Weekday_Route_57 + Weekday_Route_60
+ + Weekday_Route_63 + Weekday_Route_64 + Weekday_Route_8 + Weekday_Route_85
+ + Weekday_Route_86 + Weekday_Route_92 = 1
+_C30: Weekday_Route_415 + Weekday_Route_422 + Weekday_Route_428
+ + Weekday_Route_433 + Weekday_Route_437 + Weekday_Route_441
+ + Weekday_Route_442 + Weekday_Route_443 = 1
+_C31: Weekday_Route_1 + Weekday_Route_11 + Weekday_Route_119
+ + Weekday_Route_120 + Weekday_Route_121 + Weekday_Route_122
+ + Weekday_Route_123 + Weekday_Route_124 + Weekday_Route_125
+ + Weekday_Route_126 + Weekday_Route_127 + Weekday_Route_128
+ + Weekday_Route_129 + Weekday_Route_130 + Weekday_Route_131
+ + Weekday_Route_132 + Weekday_Route_133 + Weekday_Route_134
+ + Weekday_Route_135 + Weekday_Route_21 + Weekday_Route_22 + Weekday_Route_23
+ + Weekday_Route_24 + Weekday_Route_25 + Weekday_Route_26 + Weekday_Route_27
+ + Weekday_Route_28 + Weekday_Route_29 + Weekday_Route_66 + Weekday_Route_70
+ + Weekday_Route_71 + Weekday_Route_72 + Weekday_Route_88 + Weekday_Route_89
+ + Weekday_Route_90 + Weekday_Route_91 + Weekday_Route_92 + Weekday_Route_93
+ + Weekday_Route_94 = 1
+_C32: Weekday_Route_189 + Weekday_Route_198 + Weekday_Route_206
+ + Weekday_Route_213 + Weekday_Route_219 + Weekday_Route_224
+ + Weekday_Route_229 + Weekday_Route_230 + Weekday_Route_231
+ + Weekday_Route_232 + Weekday_Route_243 + Weekday_Route_251
+ + Weekday_Route_258 + Weekday_Route_264 + Weekday_Route_269
+ + Weekday_Route_274 + Weekday_Route_275 + Weekday_Route_276
+ + Weekday_Route_277 + Weekday_Route_287 + Weekday_Route_293
+ + Weekday_Route_300 + Weekday_Route_305 + Weekday_Route_306
+ + Weekday_Route_307 + Weekday_Route_319 + Weekday_Route_324
+ + Weekday_Route_325 + Weekday_Route_326 + Weekday_Route_334
+ + Weekday_Route_338 + Weekday_Route_343 + Weekday_Route_344
+ + Weekday_Route_345 + Weekday_Route_355 + Weekday_Route_356
+ + Weekday_Route_357 + Weekday_Route_364 + Weekday_Route_365
+ + Weekday_Route_366 + Weekday_Route_373 + Weekday_Route_374
+ + Weekday_Route_375 + Weekday_Route_376 + Weekday_Route_377
+ + Weekday_Route_378 + Weekday_Route_396 + Weekday_Route_397
+ + Weekday_Route_398 + Weekday_Route_409 = 1
+_C33: Weekday_Route_696 + Weekday_Route_706 + Weekday_Route_715
+ + Weekday_Route_723 + Weekday_Route_731 + Weekday_Route_732
+ + Weekday_Route_733 + Weekday_Route_734 + Weekday_Route_735
+ + Weekday_Route_736 + Weekday_Route_737 + Weekday_Route_761
+ + Weekday_Route_770 + Weekday_Route_778 + Weekday_Route_786
+ + Weekday_Route_787 + Weekday_Route_788 + Weekday_Route_789
+ + Weekday_Route_790 + Weekday_Route_791 + Weekday_Route_792
+ + Weekday_Route_815 + Weekday_Route_828 + Weekday_Route_829
+ + Weekday_Route_830 + Weekday_Route_839 + Weekday_Route_840
+ + Weekday_Route_841 + Weekday_Route_842 + Weekday_Route_843
+ + Weekday_Route_844 + Weekday_Route_845 + Weekday_Route_846
+ + Weekday_Route_847 + Weekday_Route_848 = 1
+_C34: Weekday_Route_100 + Weekday_Route_101 + Weekday_Route_102
+ + Weekday_Route_119 + Weekday_Route_12 + Weekday_Route_120
+ + Weekday_Route_121 + Weekday_Route_122 + Weekday_Route_136
+ + Weekday_Route_137 + Weekday_Route_138 + Weekday_Route_139
+ + Weekday_Route_140 + Weekday_Route_141 + Weekday_Route_142
+ + Weekday_Route_143 + Weekday_Route_144 + Weekday_Route_145
+ + Weekday_Route_146 + Weekday_Route_147 + Weekday_Route_148
+ + Weekday_Route_183 + Weekday_Route_2 + Weekday_Route_21 + Weekday_Route_30
+ + Weekday_Route_31 + Weekday_Route_32 + Weekday_Route_33 + Weekday_Route_34
+ + Weekday_Route_35 + Weekday_Route_36 + Weekday_Route_37 + Weekday_Route_67
+ + Weekday_Route_70 + Weekday_Route_73 + Weekday_Route_74 + Weekday_Route_75
+ + Weekday_Route_76 + Weekday_Route_88 + Weekday_Route_95 + Weekday_Route_96
+ + Weekday_Route_97 + Weekday_Route_98 + Weekday_Route_99 = 1
+_C35: Weekday_Route_411 + Weekday_Route_419 + Weekday_Route_420
+ + Weekday_Route_421 + Weekday_Route_422 + Weekday_Route_423
+ + Weekday_Route_424 + Weekday_Route_425 = 1
+_C36: Weekday_Route_656 + Weekday_Route_663 + Weekday_Route_669
+ + Weekday_Route_674 + Weekday_Route_678 + Weekday_Route_681
+ + Weekday_Route_683 + Weekday_Route_685 + Weekday_Route_692 = 1
+_C37: Weekday_Route_186 + Weekday_Route_195 + Weekday_Route_203
+ + Weekday_Route_211 + Weekday_Route_212 + Weekday_Route_213
+ + Weekday_Route_214 + Weekday_Route_215 + Weekday_Route_216
+ + Weekday_Route_217 + Weekday_Route_240 + Weekday_Route_248
+ + Weekday_Route_256 + Weekday_Route_257 + Weekday_Route_258
+ + Weekday_Route_259 + Weekday_Route_260 + Weekday_Route_261
+ + Weekday_Route_262 + Weekday_Route_284 + Weekday_Route_292
+ + Weekday_Route_293 + Weekday_Route_294 + Weekday_Route_295
+ + Weekday_Route_296 + Weekday_Route_314 + Weekday_Route_315
+ + Weekday_Route_316 + Weekday_Route_317 + Weekday_Route_333
+ + Weekday_Route_334 + Weekday_Route_335 + Weekday_Route_336
+ + Weekday_Route_337 + Weekday_Route_338 + Weekday_Route_339
+ + Weekday_Route_340 + Weekday_Route_341 + Weekday_Route_342
+ + Weekday_Route_343 + Weekday_Route_344 + Weekday_Route_345
+ + Weekday_Route_346 + Weekday_Route_347 + Weekday_Route_348
+ + Weekday_Route_349 + Weekday_Route_350 + Weekday_Route_351
+ + Weekday_Route_389 + Weekday_Route_390 + Weekday_Route_391
+ + Weekday_Route_405 = 1
+_C38: Weekday_Route_695 + Weekday_Route_705 + Weekday_Route_714
+ + Weekday_Route_723 + Weekday_Route_724 + Weekday_Route_725
+ + Weekday_Route_726 + Weekday_Route_727 + Weekday_Route_728
+ + Weekday_Route_729 + Weekday_Route_730 + Weekday_Route_760
+ + Weekday_Route_769 + Weekday_Route_778 + Weekday_Route_779
+ + Weekday_Route_780 + Weekday_Route_781 + Weekday_Route_782
+ + Weekday_Route_783 + Weekday_Route_784 + Weekday_Route_785
+ + Weekday_Route_814 + Weekday_Route_822 + Weekday_Route_828
+ + Weekday_Route_829 + Weekday_Route_830 + Weekday_Route_831
+ + Weekday_Route_832 + Weekday_Route_833 + Weekday_Route_834
+ + Weekday_Route_835 + Weekday_Route_836 + Weekday_Route_837
+ + Weekday_Route_838 = 1
+_C39: Weekday_Route_447 + Weekday_Route_458 + Weekday_Route_459
+ + Weekday_Route_460 + Weekday_Route_461 + Weekday_Route_462
+ + Weekday_Route_463 + Weekday_Route_464 + Weekday_Route_465
+ + Weekday_Route_466 + Weekday_Route_467 + Weekday_Route_513
+ + Weekday_Route_514 + Weekday_Route_515 + Weekday_Route_516
+ + Weekday_Route_517 + Weekday_Route_518 + Weekday_Route_519
+ + Weekday_Route_520 + Weekday_Route_521 + Weekday_Route_522
+ + Weekday_Route_561 + Weekday_Route_562 + Weekday_Route_563
+ + Weekday_Route_564 + Weekday_Route_565 + Weekday_Route_566
+ + Weekday_Route_567 + Weekday_Route_568 + Weekday_Route_569
+ + Weekday_Route_570 + Weekday_Route_571 + Weekday_Route_572
+ + Weekday_Route_573 + Weekday_Route_574 + Weekday_Route_575 = 1
+_C4: Weekday_Route_698 + Weekday_Route_708 + Weekday_Route_717
+ + Weekday_Route_725 + Weekday_Route_732 + Weekday_Route_738
+ + Weekday_Route_744 + Weekday_Route_745 + Weekday_Route_746
+ + Weekday_Route_747 + Weekday_Route_748 + Weekday_Route_763
+ + Weekday_Route_772 + Weekday_Route_780 + Weekday_Route_787
+ + Weekday_Route_793 + Weekday_Route_799 + Weekday_Route_800
+ + Weekday_Route_801 + Weekday_Route_802 + Weekday_Route_803
+ + Weekday_Route_816 + Weekday_Route_818 + Weekday_Route_824
+ + Weekday_Route_831 + Weekday_Route_833 + Weekday_Route_839
+ + Weekday_Route_841 + Weekday_Route_849 + Weekday_Route_850
+ + Weekday_Route_855 + Weekday_Route_856 + Weekday_Route_857
+ + Weekday_Route_858 = 1
+_C40: Weekday_Route_455 + Weekday_Route_465 + Weekday_Route_474
+ + Weekday_Route_482 + Weekday_Route_489 + Weekday_Route_495
+ + Weekday_Route_500 + Weekday_Route_504 + Weekday_Route_507
+ + Weekday_Route_510 + Weekday_Route_511 + Weekday_Route_520
+ + Weekday_Route_529 + Weekday_Route_537 + Weekday_Route_548
+ + Weekday_Route_552 + Weekday_Route_555 + Weekday_Route_558
+ + Weekday_Route_559 + Weekday_Route_572 + Weekday_Route_581
+ + Weekday_Route_592 + Weekday_Route_595 + Weekday_Route_602
+ + Weekday_Route_606 + Weekday_Route_609 + Weekday_Route_612
+ + Weekday_Route_613 + Weekday_Route_617 + Weekday_Route_621
+ + Weekday_Route_624 + Weekday_Route_627 + Weekday_Route_628
+ + Weekday_Route_631 + Weekday_Route_634 + Weekday_Route_637
+ + Weekday_Route_638 + Weekday_Route_640 + Weekday_Route_643
+ + Weekday_Route_644 + Weekday_Route_646 + Weekday_Route_647
+ + Weekday_Route_649 = 1
+_C41: Weekday_Route_106 + Weekday_Route_110 + Weekday_Route_111
+ + Weekday_Route_127 + Weekday_Route_128 + Weekday_Route_140
+ + Weekday_Route_141 + Weekday_Route_15 + Weekday_Route_151
+ + Weekday_Route_152 + Weekday_Route_160 + Weekday_Route_161
+ + Weekday_Route_169 + Weekday_Route_170 + Weekday_Route_171
+ + Weekday_Route_172 + Weekday_Route_173 + Weekday_Route_174
+ + Weekday_Route_24 + Weekday_Route_32 + Weekday_Route_39 + Weekday_Route_45
+ + Weekday_Route_5 + Weekday_Route_51 + Weekday_Route_52 + Weekday_Route_53
+ + Weekday_Route_54 + Weekday_Route_55 + Weekday_Route_80 + Weekday_Route_81
+ + Weekday_Route_91 + Weekday_Route_97 = 1
+_C42: Weekday_Route_103 + Weekday_Route_104 + Weekday_Route_105
+ + Weekday_Route_119 + Weekday_Route_123 + Weekday_Route_124
+ + Weekday_Route_13 + Weekday_Route_136 + Weekday_Route_137
+ + Weekday_Route_149 + Weekday_Route_150 + Weekday_Route_151
+ + Weekday_Route_152 + Weekday_Route_153 + Weekday_Route_154
+ + Weekday_Route_155 + Weekday_Route_156 + Weekday_Route_157
+ + Weekday_Route_158 + Weekday_Route_159 + Weekday_Route_22 + Weekday_Route_3
+ + Weekday_Route_30 + Weekday_Route_38 + Weekday_Route_39 + Weekday_Route_40
+ + Weekday_Route_41 + Weekday_Route_42 + Weekday_Route_43 + Weekday_Route_44
+ + Weekday_Route_73 + Weekday_Route_77 + Weekday_Route_78 + Weekday_Route_89
+ + Weekday_Route_95 = 1
+_C43: Weekday_Route_448 + Weekday_Route_458 + Weekday_Route_468
+ + Weekday_Route_469 + Weekday_Route_470 + Weekday_Route_471
+ + Weekday_Route_472 + Weekday_Route_473 + Weekday_Route_474
+ + Weekday_Route_475 + Weekday_Route_476 + Weekday_Route_513
+ + Weekday_Route_523 + Weekday_Route_524 + Weekday_Route_525
+ + Weekday_Route_526 + Weekday_Route_527 + Weekday_Route_528
+ + Weekday_Route_529 + Weekday_Route_530 + Weekday_Route_531
+ + Weekday_Route_561 + Weekday_Route_562 + Weekday_Route_563
+ + Weekday_Route_576 + Weekday_Route_577 + Weekday_Route_578
+ + Weekday_Route_579 + Weekday_Route_580 + Weekday_Route_581
+ + Weekday_Route_582 + Weekday_Route_583 = 1
+_C44: Weekday_Route_701 + Weekday_Route_711 + Weekday_Route_720
+ + Weekday_Route_728 + Weekday_Route_735 + Weekday_Route_741
+ + Weekday_Route_746 + Weekday_Route_750 + Weekday_Route_753
+ + Weekday_Route_756 + Weekday_Route_757 + Weekday_Route_766
+ + Weekday_Route_775 + Weekday_Route_783 + Weekday_Route_790
+ + Weekday_Route_796 + Weekday_Route_801 + Weekday_Route_805
+ + Weekday_Route_807 + Weekday_Route_810 + Weekday_Route_811
+ + Weekday_Route_820 + Weekday_Route_826 + Weekday_Route_829
+ + Weekday_Route_835 + Weekday_Route_838 + Weekday_Route_843
+ + Weekday_Route_846 + Weekday_Route_847 + Weekday_Route_852
+ + Weekday_Route_856 + Weekday_Route_859 + Weekday_Route_861
+ + Weekday_Route_862 + Weekday_Route_864 = 1
 _C45: Weekday_Route_0 + Weekday_Route_100 + Weekday_Route_101
  + Weekday_Route_102 + Weekday_Route_103 + Weekday_Route_104
  + Weekday_Route_105 + Weekday_Route_106 + Weekday_Route_107
@@ -1339,420 +1144,352 @@ _C45: Weekday_Route_0 + Weekday_Route_100 + Weekday_Route_101
  + Weekday_Route_110 + Weekday_Route_111 + Weekday_Route_112
  + Weekday_Route_113 + Weekday_Route_114 + Weekday_Route_115
  + Weekday_Route_116 + Weekday_Route_117 + Weekday_Route_118
- + Weekday_Route_119 + Weekday_Route_12 + Weekday_Route_120
- + Weekday_Route_121 + Weekday_Route_122 + Weekday_Route_123
- + Weekday_Route_124 + Weekday_Route_125 + Weekday_Route_126
- + Weekday_Route_127 + Weekday_Route_128 + Weekday_Route_129
- + Weekday_Route_13 + Weekday_Route_130 + Weekday_Route_131
- + Weekday_Route_132 + Weekday_Route_133 + Weekday_Route_134
- + Weekday_Route_14 + Weekday_Route_15 + Weekday_Route_16 + Weekday_Route_17
- + Weekday_Route_18 + Weekday_Route_19 + Weekday_Route_20 + Weekday_Route_217
- + Weekday_Route_218 + Weekday_Route_219 + Weekday_Route_220
- + Weekday_Route_221 + Weekday_Route_222 + Weekday_Route_223
- + Weekday_Route_66 + Weekday_Route_67 + Weekday_Route_68 + Weekday_Route_69
- + Weekday_Route_70 + Weekday_Route_71 = 1
-_C46: Weekday_Route_497 + Weekday_Route_504 + Weekday_Route_510
- + Weekday_Route_515 + Weekday_Route_519 + Weekday_Route_522
- + Weekday_Route_525 + Weekday_Route_526 = 1
-_C47: Weekday_Route_827 + Weekday_Route_837 + Weekday_Route_846
- + Weekday_Route_854 + Weekday_Route_861 + Weekday_Route_867
- + Weekday_Route_872 + Weekday_Route_876 + Weekday_Route_879
- + Weekday_Route_881 + Weekday_Route_882 + Weekday_Route_892
- + Weekday_Route_901 + Weekday_Route_909 + Weekday_Route_916
- + Weekday_Route_922 + Weekday_Route_927 + Weekday_Route_931
- + Weekday_Route_934 + Weekday_Route_936 + Weekday_Route_937
- + Weekday_Route_941 + Weekday_Route_948 + Weekday_Route_956
- + Weekday_Route_959 + Weekday_Route_962 + Weekday_Route_967
- + Weekday_Route_969 + Weekday_Route_976 + Weekday_Route_978
- + Weekday_Route_979 + Weekday_Route_982 + Weekday_Route_986
- + Weekday_Route_987 + Weekday_Route_991 + Weekday_Route_993
- + Weekday_Route_995 + Weekday_Route_996 + Weekday_Route_997
- + Weekday_Route_999 = 1
-_C48: Weekday_Route_532 + Weekday_Route_542 + Weekday_Route_551
- + Weekday_Route_560 + Weekday_Route_561 + Weekday_Route_562
- + Weekday_Route_563 + Weekday_Route_564 + Weekday_Route_565
- + Weekday_Route_566 + Weekday_Route_567 + Weekday_Route_597
- + Weekday_Route_606 + Weekday_Route_615 + Weekday_Route_616
- + Weekday_Route_617 + Weekday_Route_618 + Weekday_Route_619
- + Weekday_Route_620 + Weekday_Route_621 + Weekday_Route_622
- + Weekday_Route_647 + Weekday_Route_654 + Weekday_Route_655
- + Weekday_Route_656 + Weekday_Route_657 + Weekday_Route_658
- + Weekday_Route_659 + Weekday_Route_676 + Weekday_Route_677
- + Weekday_Route_678 + Weekday_Route_687 + Weekday_Route_688
- + Weekday_Route_689 + Weekday_Route_690 + Weekday_Route_691
- + Weekday_Route_692 + Weekday_Route_693 + Weekday_Route_694
- + Weekday_Route_695 + Weekday_Route_696 + Weekday_Route_697
- + Weekday_Route_698 + Weekday_Route_699 + Weekday_Route_700
- + Weekday_Route_701 + Weekday_Route_702 + Weekday_Route_703 = 1
-_C49: Weekday_Route_494 + Weekday_Route_501 + Weekday_Route_507
- + Weekday_Route_513 + Weekday_Route_514 + Weekday_Route_515
- + Weekday_Route_516 + Weekday_Route_517 + Weekday_Route_528 = 1
-_C5: Weekday_Route_492 + Weekday_Route_493 + Weekday_Route_494
- + Weekday_Route_495 + Weekday_Route_496 + Weekday_Route_497
- + Weekday_Route_498 + Weekday_Route_499 = 1
-_C50: Weekday_Route_762 + Weekday_Route_769 + Weekday_Route_775
- + Weekday_Route_780 + Weekday_Route_784 + Weekday_Route_788
- + Weekday_Route_789 + Weekday_Route_790 + Weekday_Route_796
- + Weekday_Route_798 + Weekday_Route_800 + Weekday_Route_804
- + Weekday_Route_806 + Weekday_Route_809 + Weekday_Route_812
- + Weekday_Route_813 + Weekday_Route_814 + Weekday_Route_816 = 1
-_C51: Weekday_Route_759 + Weekday_Route_766 + Weekday_Route_773
- + Weekday_Route_774 + Weekday_Route_775 + Weekday_Route_776
- + Weekday_Route_777 + Weekday_Route_778 + Weekday_Route_794
- + Weekday_Route_797 + Weekday_Route_798 + Weekday_Route_808
- + Weekday_Route_809 + Weekday_Route_810 + Weekday_Route_811 = 1
-_C52: Weekday_Route_234 + Weekday_Route_243 + Weekday_Route_251
- + Weekday_Route_258 + Weekday_Route_265 + Weekday_Route_266
- + Weekday_Route_267 + Weekday_Route_268 + Weekday_Route_269
- + Weekday_Route_270 + Weekday_Route_288 + Weekday_Route_296
- + Weekday_Route_303 + Weekday_Route_310 + Weekday_Route_311
- + Weekday_Route_312 + Weekday_Route_313 + Weekday_Route_314
- + Weekday_Route_315 + Weekday_Route_332 + Weekday_Route_339
- + Weekday_Route_345 + Weekday_Route_346 + Weekday_Route_347
- + Weekday_Route_348 + Weekday_Route_363 + Weekday_Route_368
- + Weekday_Route_369 + Weekday_Route_370 + Weekday_Route_371
- + Weekday_Route_386 + Weekday_Route_387 + Weekday_Route_388
- + Weekday_Route_389 + Weekday_Route_390 + Weekday_Route_391
- + Weekday_Route_407 + Weekday_Route_408 + Weekday_Route_409
- + Weekday_Route_410 + Weekday_Route_411 + Weekday_Route_412
- + Weekday_Route_413 + Weekday_Route_414 + Weekday_Route_415
- + Weekday_Route_416 + Weekday_Route_417 + Weekday_Route_418
- + Weekday_Route_419 + Weekday_Route_420 + Weekday_Route_455
- + Weekday_Route_462 + Weekday_Route_463 + Weekday_Route_464
- + Weekday_Route_486 = 1
-_C53: Weekday_Route_105 + Weekday_Route_113 + Weekday_Route_122
- + Weekday_Route_130 + Weekday_Route_131 + Weekday_Route_139
- + Weekday_Route_148 + Weekday_Route_156 + Weekday_Route_157
- + Weekday_Route_158 + Weekday_Route_17 + Weekday_Route_173
- + Weekday_Route_174 + Weekday_Route_175 + Weekday_Route_185
- + Weekday_Route_186 + Weekday_Route_194 + Weekday_Route_195
- + Weekday_Route_201 + Weekday_Route_202 + Weekday_Route_206
- + Weekday_Route_207 + Weekday_Route_211 + Weekday_Route_212
- + Weekday_Route_213 + Weekday_Route_222 + Weekday_Route_226
- + Weekday_Route_229 + Weekday_Route_26 + Weekday_Route_34 + Weekday_Route_41
- + Weekday_Route_47 + Weekday_Route_52 + Weekday_Route_56 + Weekday_Route_60
- + Weekday_Route_61 + Weekday_Route_62 + Weekday_Route_7 + Weekday_Route_76
- + Weekday_Route_83 + Weekday_Route_95 + Weekday_Route_96 = 1
-_C54: Weekday_Route_763 + Weekday_Route_770 + Weekday_Route_776
- + Weekday_Route_781 + Weekday_Route_785 + Weekday_Route_788
- + Weekday_Route_791 + Weekday_Route_792 + Weekday_Route_801
- + Weekday_Route_804 + Weekday_Route_805 + Weekday_Route_807
- + Weekday_Route_810 + Weekday_Route_813 + Weekday_Route_815
- + Weekday_Route_816 = 1
-_C55: Weekday_Route_10 + Weekday_Route_108 + Weekday_Route_116
- + Weekday_Route_119 + Weekday_Route_125 + Weekday_Route_127
- + Weekday_Route_129 + Weekday_Route_131 + Weekday_Route_133
- + Weekday_Route_134 + Weekday_Route_142 + Weekday_Route_145
- + Weekday_Route_151 + Weekday_Route_153 + Weekday_Route_155
- + Weekday_Route_158 + Weekday_Route_160 + Weekday_Route_161
- + Weekday_Route_164 + Weekday_Route_168 + Weekday_Route_170
- + Weekday_Route_172 + Weekday_Route_175 + Weekday_Route_177
- + Weekday_Route_178 + Weekday_Route_180 + Weekday_Route_182
- + Weekday_Route_184 + Weekday_Route_186 + Weekday_Route_188
- + Weekday_Route_189 + Weekday_Route_191 + Weekday_Route_193
- + Weekday_Route_195 + Weekday_Route_197 + Weekday_Route_198
- + Weekday_Route_20 + Weekday_Route_200 + Weekday_Route_202
- + Weekday_Route_204 + Weekday_Route_205 + Weekday_Route_207
- + Weekday_Route_209 + Weekday_Route_210 + Weekday_Route_212
- + Weekday_Route_213 + Weekday_Route_214 + Weekday_Route_215
- + Weekday_Route_216 + Weekday_Route_218 + Weekday_Route_219
+ + Weekday_Route_12 + Weekday_Route_13 + Weekday_Route_14 + Weekday_Route_15
+ + Weekday_Route_16 + Weekday_Route_17 + Weekday_Route_18 + Weekday_Route_183
+ + Weekday_Route_19 + Weekday_Route_20 + Weekday_Route_66 + Weekday_Route_67
+ + Weekday_Route_68 + Weekday_Route_69 + Weekday_Route_88 + Weekday_Route_89
+ + Weekday_Route_90 + Weekday_Route_91 + Weekday_Route_92 + Weekday_Route_93
+ + Weekday_Route_94 + Weekday_Route_95 + Weekday_Route_96 + Weekday_Route_97
+ + Weekday_Route_98 + Weekday_Route_99 = 1
+_C46: Weekday_Route_416 + Weekday_Route_423 + Weekday_Route_429
+ + Weekday_Route_434 + Weekday_Route_438 + Weekday_Route_441
+ + Weekday_Route_444 + Weekday_Route_445 = 1
+_C47: Weekday_Route_703 + Weekday_Route_713 + Weekday_Route_722
+ + Weekday_Route_730 + Weekday_Route_737 + Weekday_Route_743
+ + Weekday_Route_748 + Weekday_Route_752 + Weekday_Route_755
+ + Weekday_Route_757 + Weekday_Route_758 + Weekday_Route_768
+ + Weekday_Route_777 + Weekday_Route_785 + Weekday_Route_792
+ + Weekday_Route_798 + Weekday_Route_803 + Weekday_Route_806
+ + Weekday_Route_809 + Weekday_Route_811 + Weekday_Route_812
+ + Weekday_Route_821 + Weekday_Route_827 + Weekday_Route_830
+ + Weekday_Route_837 + Weekday_Route_838 + Weekday_Route_845
+ + Weekday_Route_847 + Weekday_Route_848 + Weekday_Route_850
+ + Weekday_Route_854 + Weekday_Route_858 + Weekday_Route_860
+ + Weekday_Route_862 + Weekday_Route_863 + Weekday_Route_864 = 1
+_C48: Weekday_Route_449 + Weekday_Route_459 + Weekday_Route_468
+ + Weekday_Route_477 + Weekday_Route_478 + Weekday_Route_479
+ + Weekday_Route_480 + Weekday_Route_481 + Weekday_Route_482
+ + Weekday_Route_483 + Weekday_Route_484 + Weekday_Route_514
+ + Weekday_Route_523 + Weekday_Route_532 + Weekday_Route_533
+ + Weekday_Route_534 + Weekday_Route_535 + Weekday_Route_536
+ + Weekday_Route_537 + Weekday_Route_538 + Weekday_Route_539
+ + Weekday_Route_561 + Weekday_Route_564 + Weekday_Route_565
+ + Weekday_Route_566 + Weekday_Route_576 + Weekday_Route_577
+ + Weekday_Route_584 + Weekday_Route_585 + Weekday_Route_586
+ + Weekday_Route_587 + Weekday_Route_588 + Weekday_Route_589
+ + Weekday_Route_590 + Weekday_Route_591 + Weekday_Route_592
+ + Weekday_Route_593 + Weekday_Route_594 + Weekday_Route_595
+ + Weekday_Route_596 = 1
+_C49: Weekday_Route_413 + Weekday_Route_420 + Weekday_Route_426
+ + Weekday_Route_432 + Weekday_Route_433 + Weekday_Route_434
+ + Weekday_Route_435 + Weekday_Route_436 = 1
+_C5: Weekday_Route_411 + Weekday_Route_412 + Weekday_Route_413
+ + Weekday_Route_414 + Weekday_Route_415 + Weekday_Route_416
+ + Weekday_Route_417 + Weekday_Route_418 = 1
+_C50: Weekday_Route_654 + Weekday_Route_661 + Weekday_Route_667
+ + Weekday_Route_672 + Weekday_Route_676 + Weekday_Route_680
+ + Weekday_Route_681 + Weekday_Route_682 + Weekday_Route_690 = 1
+_C51: Weekday_Route_651 + Weekday_Route_658 + Weekday_Route_665
+ + Weekday_Route_666 + Weekday_Route_667 + Weekday_Route_668
+ + Weekday_Route_669 + Weekday_Route_670 + Weekday_Route_686
+ + Weekday_Route_688 = 1
+_C52: Weekday_Route_187 + Weekday_Route_196 + Weekday_Route_204
+ + Weekday_Route_211 + Weekday_Route_218 + Weekday_Route_219
  + Weekday_Route_220 + Weekday_Route_221 + Weekday_Route_222
- + Weekday_Route_223 + Weekday_Route_224 + Weekday_Route_225
- + Weekday_Route_226 + Weekday_Route_227 + Weekday_Route_228
- + Weekday_Route_229 + Weekday_Route_230 + Weekday_Route_29 + Weekday_Route_37
- + Weekday_Route_44 + Weekday_Route_50 + Weekday_Route_55 + Weekday_Route_59
- + Weekday_Route_62 + Weekday_Route_64 + Weekday_Route_65 + Weekday_Route_71
- + Weekday_Route_78 + Weekday_Route_86 + Weekday_Route_88 + Weekday_Route_90
- + Weekday_Route_92 + Weekday_Route_94 + Weekday_Route_96 + Weekday_Route_98
- + Weekday_Route_99 = 1
-_C56: Weekday_Route_107 + Weekday_Route_115 + Weekday_Route_118
- + Weekday_Route_124 + Weekday_Route_126 + Weekday_Route_128
- + Weekday_Route_130 + Weekday_Route_132 + Weekday_Route_134
- + Weekday_Route_141 + Weekday_Route_144 + Weekday_Route_150
- + Weekday_Route_152 + Weekday_Route_154 + Weekday_Route_157
- + Weekday_Route_159 + Weekday_Route_161 + Weekday_Route_163
- + Weekday_Route_167 + Weekday_Route_169 + Weekday_Route_171
- + Weekday_Route_174 + Weekday_Route_176 + Weekday_Route_178
- + Weekday_Route_179 + Weekday_Route_181 + Weekday_Route_183
- + Weekday_Route_185 + Weekday_Route_187 + Weekday_Route_189
- + Weekday_Route_19 + Weekday_Route_190 + Weekday_Route_192
- + Weekday_Route_194 + Weekday_Route_196 + Weekday_Route_198
- + Weekday_Route_199 + Weekday_Route_201 + Weekday_Route_203
- + Weekday_Route_205 + Weekday_Route_206 + Weekday_Route_208
- + Weekday_Route_210 + Weekday_Route_211 + Weekday_Route_213
- + Weekday_Route_214 + Weekday_Route_215 + Weekday_Route_216
- + Weekday_Route_217 + Weekday_Route_218 + Weekday_Route_219
- + Weekday_Route_220 + Weekday_Route_221 + Weekday_Route_222
- + Weekday_Route_223 + Weekday_Route_224 + Weekday_Route_225
- + Weekday_Route_226 + Weekday_Route_227 + Weekday_Route_228
- + Weekday_Route_229 + Weekday_Route_230 + Weekday_Route_28 + Weekday_Route_36
- + Weekday_Route_43 + Weekday_Route_49 + Weekday_Route_54 + Weekday_Route_58
- + Weekday_Route_61 + Weekday_Route_63 + Weekday_Route_65 + Weekday_Route_70
- + Weekday_Route_77 + Weekday_Route_85 + Weekday_Route_87 + Weekday_Route_89
- + Weekday_Route_9 + Weekday_Route_91 + Weekday_Route_93 + Weekday_Route_95
- + Weekday_Route_97 + Weekday_Route_99 = 1
-_C57: Weekday_Route_238 + Weekday_Route_247 + Weekday_Route_255
- + Weekday_Route_262 + Weekday_Route_268 + Weekday_Route_273
- + Weekday_Route_277 + Weekday_Route_280 + Weekday_Route_283
- + Weekday_Route_284 + Weekday_Route_292 + Weekday_Route_300
- + Weekday_Route_307 + Weekday_Route_313 + Weekday_Route_318
- + Weekday_Route_322 + Weekday_Route_325 + Weekday_Route_328
- + Weekday_Route_329 + Weekday_Route_336 + Weekday_Route_343
- + Weekday_Route_347 + Weekday_Route_351 + Weekday_Route_355
- + Weekday_Route_357 + Weekday_Route_360 + Weekday_Route_361
- + Weekday_Route_366 + Weekday_Route_370 + Weekday_Route_374
- + Weekday_Route_378 + Weekday_Route_380 + Weekday_Route_383
- + Weekday_Route_384 + Weekday_Route_389 + Weekday_Route_394
- + Weekday_Route_398 + Weekday_Route_401 + Weekday_Route_404
- + Weekday_Route_405 + Weekday_Route_409 + Weekday_Route_413
- + Weekday_Route_415 + Weekday_Route_418 + Weekday_Route_419
- + Weekday_Route_422 + Weekday_Route_424 + Weekday_Route_427
- + Weekday_Route_428 + Weekday_Route_430 + Weekday_Route_433
- + Weekday_Route_434 + Weekday_Route_436 + Weekday_Route_437
- + Weekday_Route_439 + Weekday_Route_441 + Weekday_Route_444
- + Weekday_Route_446 + Weekday_Route_447 + Weekday_Route_449
- + Weekday_Route_451 + Weekday_Route_453 + Weekday_Route_454
- + Weekday_Route_458 + Weekday_Route_460 + Weekday_Route_461
- + Weekday_Route_462 + Weekday_Route_464 + Weekday_Route_465
- + Weekday_Route_467 + Weekday_Route_468 + Weekday_Route_470
- + Weekday_Route_472 + Weekday_Route_473 + Weekday_Route_474
- + Weekday_Route_476 + Weekday_Route_477 + Weekday_Route_478
- + Weekday_Route_479 + Weekday_Route_480 + Weekday_Route_481
- + Weekday_Route_482 + Weekday_Route_483 + Weekday_Route_484
- + Weekday_Route_485 + Weekday_Route_486 + Weekday_Route_487
- + Weekday_Route_488 + Weekday_Route_489 + Weekday_Route_490
- + Weekday_Route_491 = 1
-_C58: Weekday_Route_824 + Weekday_Route_834 + Weekday_Route_843
- + Weekday_Route_851 + Weekday_Route_858 + Weekday_Route_864
- + Weekday_Route_869 + Weekday_Route_873 + Weekday_Route_877
- + Weekday_Route_878 + Weekday_Route_879 + Weekday_Route_889
- + Weekday_Route_898 + Weekday_Route_906 + Weekday_Route_913
- + Weekday_Route_919 + Weekday_Route_924 + Weekday_Route_928
- + Weekday_Route_932 + Weekday_Route_933 + Weekday_Route_934
- + Weekday_Route_938 + Weekday_Route_939 + Weekday_Route_940
- + Weekday_Route_943 + Weekday_Route_944 + Weekday_Route_945
- + Weekday_Route_946 + Weekday_Route_947 + Weekday_Route_948
- + Weekday_Route_949 + Weekday_Route_951 + Weekday_Route_952
- + Weekday_Route_953 + Weekday_Route_954 + Weekday_Route_955
- + Weekday_Route_956 + Weekday_Route_957 + Weekday_Route_961
- + Weekday_Route_963 + Weekday_Route_964 + Weekday_Route_965
- + Weekday_Route_966 + Weekday_Route_967 + Weekday_Route_971
- + Weekday_Route_972 + Weekday_Route_973 + Weekday_Route_974
- + Weekday_Route_975 + Weekday_Route_976 + Weekday_Route_980
- + Weekday_Route_983 + Weekday_Route_984 + Weekday_Route_985
- + Weekday_Route_986 + Weekday_Route_988 + Weekday_Route_989
- + Weekday_Route_990 + Weekday_Route_991 + Weekday_Route_992
- + Weekday_Route_993 + Weekday_Route_994 + Weekday_Route_995
- + Weekday_Route_996 + Weekday_Route_998 + Weekday_Route_999 = 1
-_C59: Weekday_Route_231 + Weekday_Route_232 + Weekday_Route_233
- + Weekday_Route_234 + Weekday_Route_235 + Weekday_Route_236
- + Weekday_Route_237 + Weekday_Route_238 + Weekday_Route_239
- + Weekday_Route_240 + Weekday_Route_286 + Weekday_Route_287
- + Weekday_Route_288 + Weekday_Route_289 + Weekday_Route_290
- + Weekday_Route_291 + Weekday_Route_292 + Weekday_Route_293
- + Weekday_Route_294 + Weekday_Route_295 + Weekday_Route_296
+ + Weekday_Route_223 + Weekday_Route_241 + Weekday_Route_249
+ + Weekday_Route_256 + Weekday_Route_263 + Weekday_Route_264
+ + Weekday_Route_265 + Weekday_Route_266 + Weekday_Route_267
+ + Weekday_Route_268 + Weekday_Route_285 + Weekday_Route_292
  + Weekday_Route_297 + Weekday_Route_298 + Weekday_Route_299
- + Weekday_Route_300 + Weekday_Route_301 + Weekday_Route_302
- + Weekday_Route_303 + Weekday_Route_304 + Weekday_Route_305
- + Weekday_Route_306 + Weekday_Route_307 + Weekday_Route_308
- + Weekday_Route_309 + Weekday_Route_310 + Weekday_Route_311
- + Weekday_Route_312 + Weekday_Route_313 + Weekday_Route_314
- + Weekday_Route_315 + Weekday_Route_316 + Weekday_Route_317
- + Weekday_Route_318 + Weekday_Route_319 + Weekday_Route_320
- + Weekday_Route_321 + Weekday_Route_322 + Weekday_Route_323
- + Weekday_Route_324 + Weekday_Route_325 + Weekday_Route_326
- + Weekday_Route_327 + Weekday_Route_328 + Weekday_Route_329
- + Weekday_Route_330 + Weekday_Route_440 + Weekday_Route_441
- + Weekday_Route_442 + Weekday_Route_443 + Weekday_Route_444
- + Weekday_Route_445 + Weekday_Route_446 + Weekday_Route_447
- + Weekday_Route_448 + Weekday_Route_449 + Weekday_Route_450
- + Weekday_Route_451 + Weekday_Route_452 + Weekday_Route_453
- + Weekday_Route_454 + Weekday_Route_455 + Weekday_Route_456
- + Weekday_Route_457 + Weekday_Route_458 + Weekday_Route_459
- + Weekday_Route_460 + Weekday_Route_461 + Weekday_Route_462
- + Weekday_Route_463 + Weekday_Route_464 + Weekday_Route_465
- + Weekday_Route_466 + Weekday_Route_467 + Weekday_Route_468
- + Weekday_Route_469 + Weekday_Route_470 + Weekday_Route_471
- + Weekday_Route_472 + Weekday_Route_473 + Weekday_Route_474
- + Weekday_Route_475 + Weekday_Route_476 = 1
-_C6: Weekday_Route_232 + Weekday_Route_241 + Weekday_Route_250
- + Weekday_Route_251 + Weekday_Route_252 + Weekday_Route_253
- + Weekday_Route_254 + Weekday_Route_255 + Weekday_Route_256
- + Weekday_Route_257 + Weekday_Route_286 + Weekday_Route_295
- + Weekday_Route_296 + Weekday_Route_297 + Weekday_Route_298
- + Weekday_Route_299 + Weekday_Route_300 + Weekday_Route_301
- + Weekday_Route_302 + Weekday_Route_331 + Weekday_Route_332
- + Weekday_Route_333 + Weekday_Route_334 + Weekday_Route_335
- + Weekday_Route_336 + Weekday_Route_337 + Weekday_Route_338
- + Weekday_Route_363 + Weekday_Route_364 + Weekday_Route_365
- + Weekday_Route_366 + Weekday_Route_367 + Weekday_Route_368
- + Weekday_Route_369 + Weekday_Route_370 + Weekday_Route_371
- + Weekday_Route_372 + Weekday_Route_373 + Weekday_Route_374
- + Weekday_Route_375 + Weekday_Route_376 + Weekday_Route_377
- + Weekday_Route_378 + Weekday_Route_379 + Weekday_Route_380
- + Weekday_Route_381 + Weekday_Route_382 + Weekday_Route_383
- + Weekday_Route_384 + Weekday_Route_385 + Weekday_Route_440
- + Weekday_Route_441 + Weekday_Route_442 + Weekday_Route_448
- + Weekday_Route_449 + Weekday_Route_450 + Weekday_Route_451
- + Weekday_Route_452 + Weekday_Route_453 + Weekday_Route_454
- + Weekday_Route_477 + Weekday_Route_480 + Weekday_Route_481
- + Weekday_Route_482 + Weekday_Route_483 = 1
-_C60: Weekday_Route_817 + Weekday_Route_818 + Weekday_Route_819
+ + Weekday_Route_314 + Weekday_Route_318 + Weekday_Route_333
+ + Weekday_Route_334 + Weekday_Route_335 + Weekday_Route_336
+ + Weekday_Route_337 + Weekday_Route_352 + Weekday_Route_353
+ + Weekday_Route_354 + Weekday_Route_355 + Weekday_Route_356
+ + Weekday_Route_357 + Weekday_Route_358 + Weekday_Route_359
+ + Weekday_Route_360 + Weekday_Route_361 + Weekday_Route_362
+ + Weekday_Route_363 + Weekday_Route_392 + Weekday_Route_406 = 1
+_C53: Weekday_Route_114 + Weekday_Route_115 + Weekday_Route_131
+ + Weekday_Route_132 + Weekday_Route_144 + Weekday_Route_145
+ + Weekday_Route_155 + Weekday_Route_156 + Weekday_Route_164
+ + Weekday_Route_165 + Weekday_Route_17 + Weekday_Route_170
+ + Weekday_Route_171 + Weekday_Route_175 + Weekday_Route_179
+ + Weekday_Route_180 + Weekday_Route_181 + Weekday_Route_26 + Weekday_Route_34
+ + Weekday_Route_41 + Weekday_Route_47 + Weekday_Route_52 + Weekday_Route_56
+ + Weekday_Route_60 + Weekday_Route_61 + Weekday_Route_62 + Weekday_Route_7
+ + Weekday_Route_83 + Weekday_Route_84 + Weekday_Route_99 = 1
+_C54: Weekday_Route_655 + Weekday_Route_662 + Weekday_Route_668
+ + Weekday_Route_673 + Weekday_Route_677 + Weekday_Route_680
+ + Weekday_Route_683 + Weekday_Route_684 + Weekday_Route_691 = 1
+_C55: Weekday_Route_10 + Weekday_Route_102 + Weekday_Route_105
+ + Weekday_Route_109 + Weekday_Route_111 + Weekday_Route_113
+ + Weekday_Route_115 + Weekday_Route_117 + Weekday_Route_118
+ + Weekday_Route_122 + Weekday_Route_124 + Weekday_Route_126
+ + Weekday_Route_128 + Weekday_Route_130 + Weekday_Route_132
+ + Weekday_Route_134 + Weekday_Route_135 + Weekday_Route_137
+ + Weekday_Route_139 + Weekday_Route_141 + Weekday_Route_143
+ + Weekday_Route_145 + Weekday_Route_147 + Weekday_Route_148
+ + Weekday_Route_150 + Weekday_Route_152 + Weekday_Route_154
+ + Weekday_Route_156 + Weekday_Route_158 + Weekday_Route_159
+ + Weekday_Route_161 + Weekday_Route_163 + Weekday_Route_165
+ + Weekday_Route_167 + Weekday_Route_168 + Weekday_Route_171
+ + Weekday_Route_173 + Weekday_Route_174 + Weekday_Route_177
+ + Weekday_Route_178 + Weekday_Route_180 + Weekday_Route_181
+ + Weekday_Route_182 + Weekday_Route_183 + Weekday_Route_20 + Weekday_Route_29
+ + Weekday_Route_37 + Weekday_Route_44 + Weekday_Route_50 + Weekday_Route_55
+ + Weekday_Route_59 + Weekday_Route_62 + Weekday_Route_64 + Weekday_Route_65
+ + Weekday_Route_69 + Weekday_Route_72 + Weekday_Route_76 + Weekday_Route_78
+ + Weekday_Route_81 + Weekday_Route_84 + Weekday_Route_86 + Weekday_Route_87
+ + Weekday_Route_94 = 1
+_C56: Weekday_Route_101 + Weekday_Route_104 + Weekday_Route_108
+ + Weekday_Route_110 + Weekday_Route_112 + Weekday_Route_114
+ + Weekday_Route_116 + Weekday_Route_118 + Weekday_Route_121
+ + Weekday_Route_123 + Weekday_Route_125 + Weekday_Route_127
+ + Weekday_Route_129 + Weekday_Route_131 + Weekday_Route_133
+ + Weekday_Route_135 + Weekday_Route_136 + Weekday_Route_138
+ + Weekday_Route_140 + Weekday_Route_142 + Weekday_Route_144
+ + Weekday_Route_146 + Weekday_Route_148 + Weekday_Route_149
+ + Weekday_Route_151 + Weekday_Route_153 + Weekday_Route_155
+ + Weekday_Route_157 + Weekday_Route_159 + Weekday_Route_160
+ + Weekday_Route_162 + Weekday_Route_164 + Weekday_Route_166
+ + Weekday_Route_168 + Weekday_Route_169 + Weekday_Route_170
+ + Weekday_Route_172 + Weekday_Route_174 + Weekday_Route_175
+ + Weekday_Route_176 + Weekday_Route_178 + Weekday_Route_179
+ + Weekday_Route_181 + Weekday_Route_182 + Weekday_Route_183
+ + Weekday_Route_19 + Weekday_Route_28 + Weekday_Route_36 + Weekday_Route_43
+ + Weekday_Route_49 + Weekday_Route_54 + Weekday_Route_58 + Weekday_Route_61
+ + Weekday_Route_63 + Weekday_Route_65 + Weekday_Route_68 + Weekday_Route_71
+ + Weekday_Route_75 + Weekday_Route_77 + Weekday_Route_79 + Weekday_Route_80
+ + Weekday_Route_82 + Weekday_Route_83 + Weekday_Route_85 + Weekday_Route_87
+ + Weekday_Route_9 + Weekday_Route_93 = 1
+_C57: Weekday_Route_191 + Weekday_Route_200 + Weekday_Route_208
+ + Weekday_Route_215 + Weekday_Route_221 + Weekday_Route_226
+ + Weekday_Route_230 + Weekday_Route_233 + Weekday_Route_236
+ + Weekday_Route_237 + Weekday_Route_245 + Weekday_Route_253
+ + Weekday_Route_260 + Weekday_Route_266 + Weekday_Route_271
+ + Weekday_Route_275 + Weekday_Route_278 + Weekday_Route_281
+ + Weekday_Route_282 + Weekday_Route_289 + Weekday_Route_295
+ + Weekday_Route_298 + Weekday_Route_302 + Weekday_Route_306
+ + Weekday_Route_308 + Weekday_Route_311 + Weekday_Route_312
+ + Weekday_Route_316 + Weekday_Route_321 + Weekday_Route_325
+ + Weekday_Route_327 + Weekday_Route_330 + Weekday_Route_331
+ + Weekday_Route_336 + Weekday_Route_340 + Weekday_Route_344
+ + Weekday_Route_346 + Weekday_Route_349 + Weekday_Route_350
+ + Weekday_Route_353 + Weekday_Route_356 + Weekday_Route_358
+ + Weekday_Route_361 + Weekday_Route_362 + Weekday_Route_365
+ + Weekday_Route_367 + Weekday_Route_370 + Weekday_Route_371
+ + Weekday_Route_373 + Weekday_Route_376 + Weekday_Route_377
+ + Weekday_Route_379 + Weekday_Route_380 + Weekday_Route_382
+ + Weekday_Route_383 + Weekday_Route_385 + Weekday_Route_386
+ + Weekday_Route_388 + Weekday_Route_389 + Weekday_Route_391
+ + Weekday_Route_392 + Weekday_Route_393 + Weekday_Route_395
+ + Weekday_Route_396 + Weekday_Route_398 + Weekday_Route_399
+ + Weekday_Route_400 + Weekday_Route_402 + Weekday_Route_403
+ + Weekday_Route_404 + Weekday_Route_405 + Weekday_Route_406
+ + Weekday_Route_407 + Weekday_Route_408 + Weekday_Route_409
+ + Weekday_Route_410 = 1
+_C58: Weekday_Route_700 + Weekday_Route_710 + Weekday_Route_719
+ + Weekday_Route_727 + Weekday_Route_734 + Weekday_Route_740
+ + Weekday_Route_745 + Weekday_Route_749 + Weekday_Route_753
+ + Weekday_Route_754 + Weekday_Route_755 + Weekday_Route_765
+ + Weekday_Route_774 + Weekday_Route_782 + Weekday_Route_789
+ + Weekday_Route_795 + Weekday_Route_800 + Weekday_Route_804
+ + Weekday_Route_807 + Weekday_Route_808 + Weekday_Route_809
+ + Weekday_Route_813 + Weekday_Route_814 + Weekday_Route_815
+ + Weekday_Route_817 + Weekday_Route_818 + Weekday_Route_819
  + Weekday_Route_820 + Weekday_Route_821 + Weekday_Route_822
  + Weekday_Route_823 + Weekday_Route_824 + Weekday_Route_825
- + Weekday_Route_826 + Weekday_Route_827 + Weekday_Route_883
- + Weekday_Route_884 + Weekday_Route_885 + Weekday_Route_886
- + Weekday_Route_887 + Weekday_Route_888 + Weekday_Route_889
- + Weekday_Route_890 + Weekday_Route_891 + Weekday_Route_892
- + Weekday_Route_893 + Weekday_Route_894 + Weekday_Route_895
- + Weekday_Route_896 + Weekday_Route_897 + Weekday_Route_898
- + Weekday_Route_899 + Weekday_Route_900 + Weekday_Route_901
- + Weekday_Route_902 + Weekday_Route_903 + Weekday_Route_904
- + Weekday_Route_905 + Weekday_Route_906 + Weekday_Route_907
- + Weekday_Route_908 + Weekday_Route_909 + Weekday_Route_910
- + Weekday_Route_911 + Weekday_Route_912 + Weekday_Route_913
- + Weekday_Route_914 + Weekday_Route_915 + Weekday_Route_916
- + Weekday_Route_917 + Weekday_Route_918 + Weekday_Route_919
- + Weekday_Route_920 + Weekday_Route_921 + Weekday_Route_922
- + Weekday_Route_923 + Weekday_Route_924 + Weekday_Route_925
- + Weekday_Route_926 + Weekday_Route_927 + Weekday_Route_928
- + Weekday_Route_929 + Weekday_Route_930 + Weekday_Route_931
- + Weekday_Route_932 + Weekday_Route_933 + Weekday_Route_934
- + Weekday_Route_935 + Weekday_Route_936 + Weekday_Route_937
- + Weekday_Route_998 + Weekday_Route_999 = 1
-_C61: Weekday_Route_760 + Weekday_Route_767 + Weekday_Route_773
- + Weekday_Route_779 + Weekday_Route_780 + Weekday_Route_781
- + Weekday_Route_782 + Weekday_Route_783 + Weekday_Route_795
- + Weekday_Route_797 + Weekday_Route_799 + Weekday_Route_800
- + Weekday_Route_801 + Weekday_Route_802 + Weekday_Route_803
- + Weekday_Route_806 + Weekday_Route_807 + Weekday_Route_808
- + Weekday_Route_809 + Weekday_Route_810 + Weekday_Route_811
- + Weekday_Route_812 + Weekday_Route_813 + Weekday_Route_814
- + Weekday_Route_815 = 1
-_C62: Weekday_Route_237 + Weekday_Route_246 + Weekday_Route_254
- + Weekday_Route_261 + Weekday_Route_267 + Weekday_Route_272
- + Weekday_Route_276 + Weekday_Route_280 + Weekday_Route_281
- + Weekday_Route_282 + Weekday_Route_291 + Weekday_Route_299
- + Weekday_Route_306 + Weekday_Route_312 + Weekday_Route_317
- + Weekday_Route_321 + Weekday_Route_325 + Weekday_Route_326
- + Weekday_Route_327 + Weekday_Route_335 + Weekday_Route_342
- + Weekday_Route_346 + Weekday_Route_350 + Weekday_Route_354
- + Weekday_Route_357 + Weekday_Route_358 + Weekday_Route_359
- + Weekday_Route_365 + Weekday_Route_369 + Weekday_Route_373
- + Weekday_Route_377 + Weekday_Route_380 + Weekday_Route_381
- + Weekday_Route_382 + Weekday_Route_388 + Weekday_Route_393
- + Weekday_Route_397 + Weekday_Route_401 + Weekday_Route_402
- + Weekday_Route_403 + Weekday_Route_408 + Weekday_Route_412
- + Weekday_Route_415 + Weekday_Route_416 + Weekday_Route_417
- + Weekday_Route_421 + Weekday_Route_424 + Weekday_Route_425
- + Weekday_Route_426 + Weekday_Route_430 + Weekday_Route_431
- + Weekday_Route_432 + Weekday_Route_436 + Weekday_Route_437
- + Weekday_Route_438 + Weekday_Route_440 + Weekday_Route_443
- + Weekday_Route_444 + Weekday_Route_445 + Weekday_Route_448
- + Weekday_Route_451 + Weekday_Route_452 + Weekday_Route_455
- + Weekday_Route_456 + Weekday_Route_457 + Weekday_Route_458
- + Weekday_Route_459 + Weekday_Route_462 + Weekday_Route_463
- + Weekday_Route_465 + Weekday_Route_466 + Weekday_Route_470
- + Weekday_Route_471 + Weekday_Route_473 + Weekday_Route_474
- + Weekday_Route_475 + Weekday_Route_478 + Weekday_Route_481
- + Weekday_Route_482 + Weekday_Route_484 + Weekday_Route_485
- + Weekday_Route_486 + Weekday_Route_487 + Weekday_Route_488
- + Weekday_Route_490 + Weekday_Route_491 = 1
-_C63: Weekday_Route_537 + Weekday_Route_547 + Weekday_Route_556
- + Weekday_Route_564 + Weekday_Route_571 + Weekday_Route_577
- + Weekday_Route_582 + Weekday_Route_586 + Weekday_Route_590
- + Weekday_Route_591 + Weekday_Route_592 + Weekday_Route_602
- + Weekday_Route_611 + Weekday_Route_619 + Weekday_Route_625
- + Weekday_Route_628 + Weekday_Route_633 + Weekday_Route_637
- + Weekday_Route_641 + Weekday_Route_642 + Weekday_Route_643
- + Weekday_Route_651 + Weekday_Route_656 + Weekday_Route_660
- + Weekday_Route_664 + Weekday_Route_667 + Weekday_Route_670
- + Weekday_Route_671 + Weekday_Route_672 + Weekday_Route_676
- + Weekday_Route_679 + Weekday_Route_681 + Weekday_Route_682
- + Weekday_Route_683 + Weekday_Route_684 + Weekday_Route_685
- + Weekday_Route_687 + Weekday_Route_692 + Weekday_Route_695
- + Weekday_Route_698 + Weekday_Route_699 + Weekday_Route_700
- + Weekday_Route_704 + Weekday_Route_709 + Weekday_Route_713
- + Weekday_Route_717 + Weekday_Route_718 + Weekday_Route_719
- + Weekday_Route_724 + Weekday_Route_728 + Weekday_Route_732
- + Weekday_Route_733 + Weekday_Route_734 + Weekday_Route_738
- + Weekday_Route_742 + Weekday_Route_743 + Weekday_Route_744
- + Weekday_Route_748 + Weekday_Route_749 + Weekday_Route_750
- + Weekday_Route_754 + Weekday_Route_755 + Weekday_Route_756 = 1
-_C64: Weekday_Route_758 + Weekday_Route_759 + Weekday_Route_760
- + Weekday_Route_761 + Weekday_Route_762 + Weekday_Route_763
- + Weekday_Route_764 + Weekday_Route_765 + Weekday_Route_794
- + Weekday_Route_795 + Weekday_Route_796 + Weekday_Route_797
- + Weekday_Route_798 + Weekday_Route_799 + Weekday_Route_800
- + Weekday_Route_801 + Weekday_Route_802 + Weekday_Route_803
- + Weekday_Route_804 + Weekday_Route_805 = 1
-_C65: Weekday_Route_530 + Weekday_Route_531 + Weekday_Route_532
- + Weekday_Route_533 + Weekday_Route_534 + Weekday_Route_535
- + Weekday_Route_536 + Weekday_Route_537 + Weekday_Route_538
- + Weekday_Route_539 + Weekday_Route_540 + Weekday_Route_596
- + Weekday_Route_597 + Weekday_Route_598 + Weekday_Route_599
- + Weekday_Route_600 + Weekday_Route_601 + Weekday_Route_602
- + Weekday_Route_603 + Weekday_Route_604 + Weekday_Route_605
- + Weekday_Route_606 + Weekday_Route_607 + Weekday_Route_608
+ + Weekday_Route_826 + Weekday_Route_827 + Weekday_Route_828
+ + Weekday_Route_832 + Weekday_Route_833 + Weekday_Route_834
+ + Weekday_Route_835 + Weekday_Route_836 + Weekday_Route_837
+ + Weekday_Route_840 + Weekday_Route_841 + Weekday_Route_842
+ + Weekday_Route_843 + Weekday_Route_844 + Weekday_Route_845
+ + Weekday_Route_849 + Weekday_Route_851 + Weekday_Route_852
+ + Weekday_Route_853 + Weekday_Route_854 + Weekday_Route_855
+ + Weekday_Route_856 + Weekday_Route_857 + Weekday_Route_858
+ + Weekday_Route_859 + Weekday_Route_860 + Weekday_Route_861
+ + Weekday_Route_862 + Weekday_Route_863 = 1
+_C59: Weekday_Route_184 + Weekday_Route_185 + Weekday_Route_186
+ + Weekday_Route_187 + Weekday_Route_188 + Weekday_Route_189
+ + Weekday_Route_190 + Weekday_Route_191 + Weekday_Route_192
+ + Weekday_Route_193 + Weekday_Route_239 + Weekday_Route_240
+ + Weekday_Route_241 + Weekday_Route_242 + Weekday_Route_243
+ + Weekday_Route_244 + Weekday_Route_245 + Weekday_Route_246
+ + Weekday_Route_247 + Weekday_Route_248 + Weekday_Route_249
+ + Weekday_Route_250 + Weekday_Route_251 + Weekday_Route_252
+ + Weekday_Route_253 + Weekday_Route_254 + Weekday_Route_255
+ + Weekday_Route_256 + Weekday_Route_257 + Weekday_Route_258
+ + Weekday_Route_259 + Weekday_Route_260 + Weekday_Route_261
+ + Weekday_Route_262 + Weekday_Route_263 + Weekday_Route_264
+ + Weekday_Route_265 + Weekday_Route_266 + Weekday_Route_267
+ + Weekday_Route_268 + Weekday_Route_269 + Weekday_Route_270
+ + Weekday_Route_271 + Weekday_Route_272 + Weekday_Route_273
+ + Weekday_Route_274 + Weekday_Route_275 + Weekday_Route_276
+ + Weekday_Route_277 + Weekday_Route_278 + Weekday_Route_279
+ + Weekday_Route_280 + Weekday_Route_281 + Weekday_Route_282
+ + Weekday_Route_283 + Weekday_Route_383 + Weekday_Route_384
+ + Weekday_Route_385 + Weekday_Route_386 + Weekday_Route_387
+ + Weekday_Route_388 + Weekday_Route_389 + Weekday_Route_390
+ + Weekday_Route_391 + Weekday_Route_392 + Weekday_Route_393
+ + Weekday_Route_394 + Weekday_Route_395 + Weekday_Route_396
+ + Weekday_Route_397 + Weekday_Route_398 + Weekday_Route_399
+ + Weekday_Route_400 + Weekday_Route_401 + Weekday_Route_402 = 1
+_C6: Weekday_Route_185 + Weekday_Route_194 + Weekday_Route_203
+ + Weekday_Route_204 + Weekday_Route_205 + Weekday_Route_206
+ + Weekday_Route_207 + Weekday_Route_208 + Weekday_Route_209
+ + Weekday_Route_210 + Weekday_Route_239 + Weekday_Route_248
+ + Weekday_Route_249 + Weekday_Route_250 + Weekday_Route_251
+ + Weekday_Route_252 + Weekday_Route_253 + Weekday_Route_254
+ + Weekday_Route_255 + Weekday_Route_284 + Weekday_Route_285
+ + Weekday_Route_286 + Weekday_Route_287 + Weekday_Route_288
+ + Weekday_Route_289 + Weekday_Route_290 + Weekday_Route_291
+ + Weekday_Route_314 + Weekday_Route_315 + Weekday_Route_316
+ + Weekday_Route_317 + Weekday_Route_318 + Weekday_Route_319
+ + Weekday_Route_320 + Weekday_Route_321 + Weekday_Route_322
+ + Weekday_Route_323 + Weekday_Route_324 + Weekday_Route_325
+ + Weekday_Route_326 + Weekday_Route_327 + Weekday_Route_328
+ + Weekday_Route_329 + Weekday_Route_330 + Weekday_Route_331
+ + Weekday_Route_332 + Weekday_Route_386 + Weekday_Route_387
+ + Weekday_Route_388 + Weekday_Route_404 = 1
+_C60: Weekday_Route_693 + Weekday_Route_694 + Weekday_Route_695
+ + Weekday_Route_696 + Weekday_Route_697 + Weekday_Route_698
+ + Weekday_Route_699 + Weekday_Route_700 + Weekday_Route_701
+ + Weekday_Route_702 + Weekday_Route_703 + Weekday_Route_759
+ + Weekday_Route_760 + Weekday_Route_761 + Weekday_Route_762
+ + Weekday_Route_763 + Weekday_Route_764 + Weekday_Route_765
+ + Weekday_Route_766 + Weekday_Route_767 + Weekday_Route_768
+ + Weekday_Route_769 + Weekday_Route_770 + Weekday_Route_771
+ + Weekday_Route_772 + Weekday_Route_773 + Weekday_Route_774
+ + Weekday_Route_775 + Weekday_Route_776 + Weekday_Route_777
+ + Weekday_Route_778 + Weekday_Route_779 + Weekday_Route_780
+ + Weekday_Route_781 + Weekday_Route_782 + Weekday_Route_783
+ + Weekday_Route_784 + Weekday_Route_785 + Weekday_Route_786
+ + Weekday_Route_787 + Weekday_Route_788 + Weekday_Route_789
+ + Weekday_Route_790 + Weekday_Route_791 + Weekday_Route_792
+ + Weekday_Route_793 + Weekday_Route_794 + Weekday_Route_795
+ + Weekday_Route_796 + Weekday_Route_797 + Weekday_Route_798
+ + Weekday_Route_799 + Weekday_Route_800 + Weekday_Route_801
+ + Weekday_Route_802 + Weekday_Route_803 + Weekday_Route_804
+ + Weekday_Route_805 + Weekday_Route_806 + Weekday_Route_807
+ + Weekday_Route_808 + Weekday_Route_809 + Weekday_Route_810
+ + Weekday_Route_811 + Weekday_Route_812 = 1
+_C61: Weekday_Route_652 + Weekday_Route_659 + Weekday_Route_665
+ + Weekday_Route_671 + Weekday_Route_672 + Weekday_Route_673
+ + Weekday_Route_674 + Weekday_Route_675 + Weekday_Route_687
+ + Weekday_Route_688 + Weekday_Route_689 + Weekday_Route_690
+ + Weekday_Route_691 + Weekday_Route_692 = 1
+_C62: Weekday_Route_190 + Weekday_Route_199 + Weekday_Route_207
+ + Weekday_Route_214 + Weekday_Route_220 + Weekday_Route_225
+ + Weekday_Route_229 + Weekday_Route_233 + Weekday_Route_234
+ + Weekday_Route_235 + Weekday_Route_244 + Weekday_Route_252
+ + Weekday_Route_259 + Weekday_Route_265 + Weekday_Route_270
+ + Weekday_Route_274 + Weekday_Route_278 + Weekday_Route_279
+ + Weekday_Route_280 + Weekday_Route_288 + Weekday_Route_294
+ + Weekday_Route_297 + Weekday_Route_301 + Weekday_Route_305
+ + Weekday_Route_308 + Weekday_Route_309 + Weekday_Route_310
+ + Weekday_Route_315 + Weekday_Route_318 + Weekday_Route_320
+ + Weekday_Route_324 + Weekday_Route_327 + Weekday_Route_328
+ + Weekday_Route_329 + Weekday_Route_335 + Weekday_Route_339
+ + Weekday_Route_343 + Weekday_Route_346 + Weekday_Route_347
+ + Weekday_Route_348 + Weekday_Route_352 + Weekday_Route_355
+ + Weekday_Route_358 + Weekday_Route_359 + Weekday_Route_360
+ + Weekday_Route_364 + Weekday_Route_367 + Weekday_Route_368
+ + Weekday_Route_369 + Weekday_Route_373 + Weekday_Route_374
+ + Weekday_Route_375 + Weekday_Route_379 + Weekday_Route_380
+ + Weekday_Route_381 + Weekday_Route_383 + Weekday_Route_384
+ + Weekday_Route_386 + Weekday_Route_387 + Weekday_Route_389
+ + Weekday_Route_390 + Weekday_Route_393 + Weekday_Route_394
+ + Weekday_Route_396 + Weekday_Route_397 + Weekday_Route_399
+ + Weekday_Route_400 + Weekday_Route_401 + Weekday_Route_403
+ + Weekday_Route_404 + Weekday_Route_405 + Weekday_Route_406
+ + Weekday_Route_407 + Weekday_Route_409 + Weekday_Route_410 = 1
+_C63: Weekday_Route_454 + Weekday_Route_464 + Weekday_Route_473
+ + Weekday_Route_481 + Weekday_Route_488 + Weekday_Route_494
+ + Weekday_Route_499 + Weekday_Route_503 + Weekday_Route_507
+ + Weekday_Route_508 + Weekday_Route_509 + Weekday_Route_519
+ + Weekday_Route_528 + Weekday_Route_536 + Weekday_Route_540
+ + Weekday_Route_543 + Weekday_Route_547 + Weekday_Route_551
+ + Weekday_Route_555 + Weekday_Route_556 + Weekday_Route_557
+ + Weekday_Route_562 + Weekday_Route_564 + Weekday_Route_567
+ + Weekday_Route_569 + Weekday_Route_571 + Weekday_Route_572
+ + Weekday_Route_573 + Weekday_Route_574 + Weekday_Route_576
+ + Weekday_Route_578 + Weekday_Route_579 + Weekday_Route_580
+ + Weekday_Route_581 + Weekday_Route_582 + Weekday_Route_583
+ + Weekday_Route_584 + Weekday_Route_587 + Weekday_Route_590
+ + Weekday_Route_592 + Weekday_Route_593 + Weekday_Route_594
+ + Weekday_Route_597 + Weekday_Route_601 + Weekday_Route_605
  + Weekday_Route_609 + Weekday_Route_610 + Weekday_Route_611
- + Weekday_Route_612 + Weekday_Route_613 + Weekday_Route_614
- + Weekday_Route_615 + Weekday_Route_616 + Weekday_Route_617
- + Weekday_Route_618 + Weekday_Route_619 + Weekday_Route_620
- + Weekday_Route_621 + Weekday_Route_622 + Weekday_Route_623
- + Weekday_Route_624 + Weekday_Route_625 + Weekday_Route_626
- + Weekday_Route_627 + Weekday_Route_628 + Weekday_Route_629
- + Weekday_Route_630 + Weekday_Route_631 + Weekday_Route_632
- + Weekday_Route_633 + Weekday_Route_634 + Weekday_Route_635
- + Weekday_Route_636 + Weekday_Route_637 + Weekday_Route_638
- + Weekday_Route_639 + Weekday_Route_640 + Weekday_Route_641
- + Weekday_Route_642 + Weekday_Route_643 + Weekday_Route_644
- + Weekday_Route_645 + Weekday_Route_646 = 1
-_C66: Weekday_Route_240 + Weekday_Route_249 + Weekday_Route_257
- + Weekday_Route_264 + Weekday_Route_270 + Weekday_Route_275
- + Weekday_Route_279 + Weekday_Route_282 + Weekday_Route_284
- + Weekday_Route_285 + Weekday_Route_294 + Weekday_Route_302
- + Weekday_Route_309 + Weekday_Route_315 + Weekday_Route_320
- + Weekday_Route_324 + Weekday_Route_327 + Weekday_Route_329
- + Weekday_Route_330 + Weekday_Route_338 + Weekday_Route_344
- + Weekday_Route_348 + Weekday_Route_353 + Weekday_Route_356
- + Weekday_Route_359 + Weekday_Route_361 + Weekday_Route_362
- + Weekday_Route_367 + Weekday_Route_371 + Weekday_Route_376
- + Weekday_Route_379 + Weekday_Route_382 + Weekday_Route_384
- + Weekday_Route_385 + Weekday_Route_391 + Weekday_Route_396
- + Weekday_Route_400 + Weekday_Route_403 + Weekday_Route_405
- + Weekday_Route_406 + Weekday_Route_411 + Weekday_Route_414
- + Weekday_Route_417 + Weekday_Route_419 + Weekday_Route_420
- + Weekday_Route_423 + Weekday_Route_426 + Weekday_Route_428
- + Weekday_Route_429 + Weekday_Route_432 + Weekday_Route_434
- + Weekday_Route_435 + Weekday_Route_437 + Weekday_Route_438
- + Weekday_Route_439 + Weekday_Route_442 + Weekday_Route_445
- + Weekday_Route_447 + Weekday_Route_450 + Weekday_Route_452
- + Weekday_Route_454 + Weekday_Route_459 + Weekday_Route_461
- + Weekday_Route_463 + Weekday_Route_464 + Weekday_Route_466
- + Weekday_Route_468 + Weekday_Route_469 + Weekday_Route_471
- + Weekday_Route_472 + Weekday_Route_474 + Weekday_Route_475
- + Weekday_Route_476 + Weekday_Route_477 + Weekday_Route_478
- + Weekday_Route_479 + Weekday_Route_480 + Weekday_Route_482
- + Weekday_Route_483 + Weekday_Route_485 + Weekday_Route_486
- + Weekday_Route_488 + Weekday_Route_489 + Weekday_Route_490
- + Weekday_Route_491 = 1
-_C7: Weekday_Route_817 + Weekday_Route_828 + Weekday_Route_829
- + Weekday_Route_830 + Weekday_Route_831 + Weekday_Route_832
- + Weekday_Route_833 + Weekday_Route_834 + Weekday_Route_835
- + Weekday_Route_836 + Weekday_Route_837 + Weekday_Route_883
- + Weekday_Route_884 + Weekday_Route_885 + Weekday_Route_886
- + Weekday_Route_887 + Weekday_Route_888 + Weekday_Route_889
- + Weekday_Route_890 + Weekday_Route_891 + Weekday_Route_892
- + Weekday_Route_938 + Weekday_Route_939 + Weekday_Route_940
- + Weekday_Route_941 + Weekday_Route_942 + Weekday_Route_943
- + Weekday_Route_944 + Weekday_Route_945 + Weekday_Route_946
- + Weekday_Route_947 + Weekday_Route_948 = 1
-_C8: Weekday_Route_499 + Weekday_Route_506 + Weekday_Route_512
- + Weekday_Route_517 + Weekday_Route_521 + Weekday_Route_524
- + Weekday_Route_526 + Weekday_Route_527 = 1
-_C9: Weekday_Route_495 + Weekday_Route_502 + Weekday_Route_508
- + Weekday_Route_513 + Weekday_Route_518 + Weekday_Route_519
- + Weekday_Route_520 + Weekday_Route_521 = 1
+ + Weekday_Route_616 + Weekday_Route_620 + Weekday_Route_624
+ + Weekday_Route_625 + Weekday_Route_626 + Weekday_Route_630
+ + Weekday_Route_634 + Weekday_Route_635 + Weekday_Route_636
+ + Weekday_Route_640 + Weekday_Route_641 + Weekday_Route_642
+ + Weekday_Route_646 + Weekday_Route_647 + Weekday_Route_648 = 1
+_C64: Weekday_Route_650 + Weekday_Route_651 + Weekday_Route_652
+ + Weekday_Route_653 + Weekday_Route_654 + Weekday_Route_655
+ + Weekday_Route_656 + Weekday_Route_657 + Weekday_Route_686
+ + Weekday_Route_687 + Weekday_Route_688 + Weekday_Route_689
+ + Weekday_Route_690 + Weekday_Route_691 + Weekday_Route_692 = 1
+_C65: Weekday_Route_447 + Weekday_Route_448 + Weekday_Route_449
+ + Weekday_Route_450 + Weekday_Route_451 + Weekday_Route_452
+ + Weekday_Route_453 + Weekday_Route_454 + Weekday_Route_455
+ + Weekday_Route_456 + Weekday_Route_457 + Weekday_Route_513
+ + Weekday_Route_514 + Weekday_Route_515 + Weekday_Route_516
+ + Weekday_Route_517 + Weekday_Route_518 + Weekday_Route_519
+ + Weekday_Route_520 + Weekday_Route_521 + Weekday_Route_522
+ + Weekday_Route_523 + Weekday_Route_524 + Weekday_Route_525
+ + Weekday_Route_526 + Weekday_Route_527 + Weekday_Route_528
+ + Weekday_Route_529 + Weekday_Route_530 + Weekday_Route_531
+ + Weekday_Route_532 + Weekday_Route_533 + Weekday_Route_534
+ + Weekday_Route_535 + Weekday_Route_536 + Weekday_Route_537
+ + Weekday_Route_538 + Weekday_Route_539 + Weekday_Route_540
+ + Weekday_Route_541 + Weekday_Route_542 + Weekday_Route_543
+ + Weekday_Route_544 + Weekday_Route_545 + Weekday_Route_546
+ + Weekday_Route_547 + Weekday_Route_548 + Weekday_Route_549
+ + Weekday_Route_550 + Weekday_Route_551 + Weekday_Route_552
+ + Weekday_Route_553 + Weekday_Route_554 + Weekday_Route_555
+ + Weekday_Route_556 + Weekday_Route_557 + Weekday_Route_558
+ + Weekday_Route_559 + Weekday_Route_560 = 1
+_C66: Weekday_Route_193 + Weekday_Route_202 + Weekday_Route_210
+ + Weekday_Route_217 + Weekday_Route_223 + Weekday_Route_228
+ + Weekday_Route_232 + Weekday_Route_235 + Weekday_Route_237
+ + Weekday_Route_238 + Weekday_Route_247 + Weekday_Route_255
+ + Weekday_Route_262 + Weekday_Route_268 + Weekday_Route_273
+ + Weekday_Route_277 + Weekday_Route_280 + Weekday_Route_282
+ + Weekday_Route_283 + Weekday_Route_291 + Weekday_Route_296
+ + Weekday_Route_299 + Weekday_Route_304 + Weekday_Route_307
+ + Weekday_Route_310 + Weekday_Route_312 + Weekday_Route_313
+ + Weekday_Route_317 + Weekday_Route_323 + Weekday_Route_326
+ + Weekday_Route_329 + Weekday_Route_331 + Weekday_Route_332
+ + Weekday_Route_337 + Weekday_Route_342 + Weekday_Route_345
+ + Weekday_Route_348 + Weekday_Route_350 + Weekday_Route_351
+ + Weekday_Route_354 + Weekday_Route_357 + Weekday_Route_360
+ + Weekday_Route_362 + Weekday_Route_363 + Weekday_Route_366
+ + Weekday_Route_369 + Weekday_Route_371 + Weekday_Route_372
+ + Weekday_Route_375 + Weekday_Route_377 + Weekday_Route_378
+ + Weekday_Route_380 + Weekday_Route_381 + Weekday_Route_382
+ + Weekday_Route_384 + Weekday_Route_385 + Weekday_Route_387
+ + Weekday_Route_388 + Weekday_Route_390 + Weekday_Route_391
+ + Weekday_Route_392 + Weekday_Route_394 + Weekday_Route_395
+ + Weekday_Route_397 + Weekday_Route_398 + Weekday_Route_400
+ + Weekday_Route_401 + Weekday_Route_402 + Weekday_Route_403
+ + Weekday_Route_404 + Weekday_Route_405 + Weekday_Route_406
+ + Weekday_Route_407 + Weekday_Route_408 + Weekday_Route_409
+ + Weekday_Route_410 = 1
+_C7: Weekday_Route_693 + Weekday_Route_704 + Weekday_Route_705
+ + Weekday_Route_706 + Weekday_Route_707 + Weekday_Route_708
+ + Weekday_Route_709 + Weekday_Route_710 + Weekday_Route_711
+ + Weekday_Route_712 + Weekday_Route_713 + Weekday_Route_759
+ + Weekday_Route_760 + Weekday_Route_761 + Weekday_Route_762
+ + Weekday_Route_763 + Weekday_Route_764 + Weekday_Route_765
+ + Weekday_Route_766 + Weekday_Route_767 + Weekday_Route_768
+ + Weekday_Route_813 + Weekday_Route_814 + Weekday_Route_815
+ + Weekday_Route_816 + Weekday_Route_817 + Weekday_Route_818
+ + Weekday_Route_819 + Weekday_Route_820 + Weekday_Route_821 = 1
+_C8: Weekday_Route_418 + Weekday_Route_425 + Weekday_Route_431
+ + Weekday_Route_436 + Weekday_Route_440 + Weekday_Route_443
+ + Weekday_Route_445 + Weekday_Route_446 = 1
+_C9: Weekday_Route_414 + Weekday_Route_421 + Weekday_Route_427
+ + Weekday_Route_432 + Weekday_Route_437 + Weekday_Route_438
+ + Weekday_Route_439 + Weekday_Route_440 = 1
 Bounds
  0 <= Weekday_Route_0
  0 <= Weekday_Route_1
@@ -2605,155 +2342,20 @@ Bounds
  0 <= Weekday_Route_862
  0 <= Weekday_Route_863
  0 <= Weekday_Route_864
- 0 <= Weekday_Route_865
- 0 <= Weekday_Route_866
- 0 <= Weekday_Route_867
- 0 <= Weekday_Route_868
- 0 <= Weekday_Route_869
  0 <= Weekday_Route_87
- 0 <= Weekday_Route_870
- 0 <= Weekday_Route_871
- 0 <= Weekday_Route_872
- 0 <= Weekday_Route_873
- 0 <= Weekday_Route_874
- 0 <= Weekday_Route_875
- 0 <= Weekday_Route_876
- 0 <= Weekday_Route_877
- 0 <= Weekday_Route_878
- 0 <= Weekday_Route_879
  0 <= Weekday_Route_88
- 0 <= Weekday_Route_880
- 0 <= Weekday_Route_881
- 0 <= Weekday_Route_882
- 0 <= Weekday_Route_883
- 0 <= Weekday_Route_884
- 0 <= Weekday_Route_885
- 0 <= Weekday_Route_886
- 0 <= Weekday_Route_887
- 0 <= Weekday_Route_888
- 0 <= Weekday_Route_889
  0 <= Weekday_Route_89
- 0 <= Weekday_Route_890
- 0 <= Weekday_Route_891
- 0 <= Weekday_Route_892
- 0 <= Weekday_Route_893
- 0 <= Weekday_Route_894
- 0 <= Weekday_Route_895
- 0 <= Weekday_Route_896
- 0 <= Weekday_Route_897
- 0 <= Weekday_Route_898
- 0 <= Weekday_Route_899
  0 <= Weekday_Route_9
  0 <= Weekday_Route_90
- 0 <= Weekday_Route_900
- 0 <= Weekday_Route_901
- 0 <= Weekday_Route_902
- 0 <= Weekday_Route_903
- 0 <= Weekday_Route_904
- 0 <= Weekday_Route_905
- 0 <= Weekday_Route_906
- 0 <= Weekday_Route_907
- 0 <= Weekday_Route_908
- 0 <= Weekday_Route_909
  0 <= Weekday_Route_91
- 0 <= Weekday_Route_910
- 0 <= Weekday_Route_911
- 0 <= Weekday_Route_912
- 0 <= Weekday_Route_913
- 0 <= Weekday_Route_914
- 0 <= Weekday_Route_915
- 0 <= Weekday_Route_916
- 0 <= Weekday_Route_917
- 0 <= Weekday_Route_918
- 0 <= Weekday_Route_919
  0 <= Weekday_Route_92
- 0 <= Weekday_Route_920
- 0 <= Weekday_Route_921
- 0 <= Weekday_Route_922
- 0 <= Weekday_Route_923
- 0 <= Weekday_Route_924
- 0 <= Weekday_Route_925
- 0 <= Weekday_Route_926
- 0 <= Weekday_Route_927
- 0 <= Weekday_Route_928
- 0 <= Weekday_Route_929
  0 <= Weekday_Route_93
- 0 <= Weekday_Route_930
- 0 <= Weekday_Route_931
- 0 <= Weekday_Route_932
- 0 <= Weekday_Route_933
- 0 <= Weekday_Route_934
- 0 <= Weekday_Route_935
- 0 <= Weekday_Route_936
- 0 <= Weekday_Route_937
- 0 <= Weekday_Route_938
- 0 <= Weekday_Route_939
  0 <= Weekday_Route_94
- 0 <= Weekday_Route_940
- 0 <= Weekday_Route_941
- 0 <= Weekday_Route_942
- 0 <= Weekday_Route_943
- 0 <= Weekday_Route_944
- 0 <= Weekday_Route_945
- 0 <= Weekday_Route_946
- 0 <= Weekday_Route_947
- 0 <= Weekday_Route_948
- 0 <= Weekday_Route_949
  0 <= Weekday_Route_95
- 0 <= Weekday_Route_950
- 0 <= Weekday_Route_951
- 0 <= Weekday_Route_952
- 0 <= Weekday_Route_953
- 0 <= Weekday_Route_954
- 0 <= Weekday_Route_955
- 0 <= Weekday_Route_956
- 0 <= Weekday_Route_957
- 0 <= Weekday_Route_958
- 0 <= Weekday_Route_959
  0 <= Weekday_Route_96
- 0 <= Weekday_Route_960
- 0 <= Weekday_Route_961
- 0 <= Weekday_Route_962
- 0 <= Weekday_Route_963
- 0 <= Weekday_Route_964
- 0 <= Weekday_Route_965
- 0 <= Weekday_Route_966
- 0 <= Weekday_Route_967
- 0 <= Weekday_Route_968
- 0 <= Weekday_Route_969
  0 <= Weekday_Route_97
- 0 <= Weekday_Route_970
- 0 <= Weekday_Route_971
- 0 <= Weekday_Route_972
- 0 <= Weekday_Route_973
- 0 <= Weekday_Route_974
- 0 <= Weekday_Route_975
- 0 <= Weekday_Route_976
- 0 <= Weekday_Route_977
- 0 <= Weekday_Route_978
- 0 <= Weekday_Route_979
  0 <= Weekday_Route_98
- 0 <= Weekday_Route_980
- 0 <= Weekday_Route_981
- 0 <= Weekday_Route_982
- 0 <= Weekday_Route_983
- 0 <= Weekday_Route_984
- 0 <= Weekday_Route_985
- 0 <= Weekday_Route_986
- 0 <= Weekday_Route_987
- 0 <= Weekday_Route_988
- 0 <= Weekday_Route_989
  0 <= Weekday_Route_99
- 0 <= Weekday_Route_990
- 0 <= Weekday_Route_991
- 0 <= Weekday_Route_992
- 0 <= Weekday_Route_993
- 0 <= Weekday_Route_994
- 0 <= Weekday_Route_995
- 0 <= Weekday_Route_996
- 0 <= Weekday_Route_997
- 0 <= Weekday_Route_998
- 0 <= Weekday_Route_999
 Generals
 Weekday_Route_0
 Weekday_Route_1
@@ -3606,153 +3208,18 @@ Weekday_Route_861
 Weekday_Route_862
 Weekday_Route_863
 Weekday_Route_864
-Weekday_Route_865
-Weekday_Route_866
-Weekday_Route_867
-Weekday_Route_868
-Weekday_Route_869
 Weekday_Route_87
-Weekday_Route_870
-Weekday_Route_871
-Weekday_Route_872
-Weekday_Route_873
-Weekday_Route_874
-Weekday_Route_875
-Weekday_Route_876
-Weekday_Route_877
-Weekday_Route_878
-Weekday_Route_879
 Weekday_Route_88
-Weekday_Route_880
-Weekday_Route_881
-Weekday_Route_882
-Weekday_Route_883
-Weekday_Route_884
-Weekday_Route_885
-Weekday_Route_886
-Weekday_Route_887
-Weekday_Route_888
-Weekday_Route_889
 Weekday_Route_89
-Weekday_Route_890
-Weekday_Route_891
-Weekday_Route_892
-Weekday_Route_893
-Weekday_Route_894
-Weekday_Route_895
-Weekday_Route_896
-Weekday_Route_897
-Weekday_Route_898
-Weekday_Route_899
 Weekday_Route_9
 Weekday_Route_90
-Weekday_Route_900
-Weekday_Route_901
-Weekday_Route_902
-Weekday_Route_903
-Weekday_Route_904
-Weekday_Route_905
-Weekday_Route_906
-Weekday_Route_907
-Weekday_Route_908
-Weekday_Route_909
 Weekday_Route_91
-Weekday_Route_910
-Weekday_Route_911
-Weekday_Route_912
-Weekday_Route_913
-Weekday_Route_914
-Weekday_Route_915
-Weekday_Route_916
-Weekday_Route_917
-Weekday_Route_918
-Weekday_Route_919
 Weekday_Route_92
-Weekday_Route_920
-Weekday_Route_921
-Weekday_Route_922
-Weekday_Route_923
-Weekday_Route_924
-Weekday_Route_925
-Weekday_Route_926
-Weekday_Route_927
-Weekday_Route_928
-Weekday_Route_929
 Weekday_Route_93
-Weekday_Route_930
-Weekday_Route_931
-Weekday_Route_932
-Weekday_Route_933
-Weekday_Route_934
-Weekday_Route_935
-Weekday_Route_936
-Weekday_Route_937
-Weekday_Route_938
-Weekday_Route_939
 Weekday_Route_94
-Weekday_Route_940
-Weekday_Route_941
-Weekday_Route_942
-Weekday_Route_943
-Weekday_Route_944
-Weekday_Route_945
-Weekday_Route_946
-Weekday_Route_947
-Weekday_Route_948
-Weekday_Route_949
 Weekday_Route_95
-Weekday_Route_950
-Weekday_Route_951
-Weekday_Route_952
-Weekday_Route_953
-Weekday_Route_954
-Weekday_Route_955
-Weekday_Route_956
-Weekday_Route_957
-Weekday_Route_958
-Weekday_Route_959
 Weekday_Route_96
-Weekday_Route_960
-Weekday_Route_961
-Weekday_Route_962
-Weekday_Route_963
-Weekday_Route_964
-Weekday_Route_965
-Weekday_Route_966
-Weekday_Route_967
-Weekday_Route_968
-Weekday_Route_969
 Weekday_Route_97
-Weekday_Route_970
-Weekday_Route_971
-Weekday_Route_972
-Weekday_Route_973
-Weekday_Route_974
-Weekday_Route_975
-Weekday_Route_976
-Weekday_Route_977
-Weekday_Route_978
-Weekday_Route_979
 Weekday_Route_98
-Weekday_Route_980
-Weekday_Route_981
-Weekday_Route_982
-Weekday_Route_983
-Weekday_Route_984
-Weekday_Route_985
-Weekday_Route_986
-Weekday_Route_987
-Weekday_Route_988
-Weekday_Route_989
 Weekday_Route_99
-Weekday_Route_990
-Weekday_Route_991
-Weekday_Route_992
-Weekday_Route_993
-Weekday_Route_994
-Weekday_Route_995
-Weekday_Route_996
-Weekday_Route_997
-Weekday_Route_998
-Weekday_Route_999
 End
