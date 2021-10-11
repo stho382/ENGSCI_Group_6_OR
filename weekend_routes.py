@@ -52,6 +52,7 @@ time_threshold = 60 * 4 * 2 * 30
 
 Routes_Weekend = []
 Time_Weekend = []
+Cost_Weekend = []
 
 CentralNorthRoutes_Weekend = []
 CentralSouthRoutes_Weekend = []
@@ -98,6 +99,11 @@ for i in range(len(CentralNorth_Routes2_Weekend)):
         CentralNorthRoutes_Weekend.append(CentralNorth_Routes2_Weekend[i])
         Routes_Weekend.append(CentralNorth_Routes2_Weekend[i])
         Time_Weekend.append(time_weekend/60/60)
+        if (time_weekend/3600) < 4:
+            Cost_Weekend.append(225 * (time_weekend/3600))
+        else:
+            cost_for_four_hours = 225 * 4
+            Cost_Weekend.append(cost_for_four_hours + (275 * ((time_weekend/3600) - 4)))
 
 for i in range(len(CentralNorth_Routes3_Weekend)):
     store1 = CentralNorth_Routes3_Weekend[i][0]
@@ -143,6 +149,11 @@ for i in range(len(CentralNorth_Routes3_Weekend)):
         CentralNorthRoutes_Weekend.append(CentralNorth_Routes3_Weekend[i])
         Routes_Weekend.append(CentralNorth_Routes3_Weekend[i])
         Time_Weekend.append(time_weekend/60/60)
+        if (time_weekend/3600) < 4:
+            Cost_Weekend.append(225 * (time_weekend/3600))
+        else:
+            cost_for_four_hours = 225 * 4
+            Cost_Weekend.append(cost_for_four_hours + (275 * ((time_weekend/3600) - 4)))
 
 for i in range(len(CentralNorth_Routes4_Weekend)):
     store1 = CentralNorth_Routes4_Weekend[i][0]
@@ -200,6 +211,11 @@ for i in range(len(CentralNorth_Routes4_Weekend)):
         CentralNorthRoutes_Weekend.append(CentralNorth_Routes4_Weekend[i])
         Routes_Weekend.append(CentralNorth_Routes4_Weekend[i])
         Time_Weekend.append(time_weekend/60/60)
+        if (time_weekend/3600) < 4:
+            Cost_Weekend.append(225 * (time_weekend/3600))
+        else:
+            cost_for_four_hours = 225 * 4
+            Cost_Weekend.append(cost_for_four_hours + (275 * ((time_weekend/3600) - 4)))
 
 for i in range(len(CentralNorth_Routes5_Weekend)):
     store1 = CentralNorth_Routes5_Weekend[i][0]
@@ -270,6 +286,11 @@ for i in range(len(CentralNorth_Routes5_Weekend)):
         CentralNorthRoutes_Weekend.append(CentralNorth_Routes5_Weekend[i])
         Routes_Weekend.append(CentralNorth_Routes5_Weekend[i])
         Time_Weekend.append(time_weekend/60/60)
+        if (time_weekend/3600) < 4:
+            Cost_Weekend.append(225 * (time_weekend/3600))
+        else:
+            cost_for_four_hours = 225 * 4
+            Cost_Weekend.append(cost_for_four_hours + (275 * ((time_weekend/3600) - 4)))
 
 for i in range(len(CentralNorth_Routes6_Weekend)):
     store1 = CentralNorth_Routes6_Weekend[i][0]
@@ -352,6 +373,11 @@ for i in range(len(CentralNorth_Routes6_Weekend)):
         CentralNorthRoutes_Weekend.append(CentralNorth_Routes6_Weekend[i])
         Routes_Weekend.append(CentralNorth_Routes6_Weekend[i])
         Time_Weekend.append(time_weekend/60/60)
+        if (time_weekend/3600) < 4:
+            Cost_Weekend.append(225 * (time_weekend/3600))
+        else:
+            cost_for_four_hours = 225 * 4
+            Cost_Weekend.append(cost_for_four_hours + (275 * ((time_weekend/3600) - 4)))
 
 # Central South stores
 CentralSouth_Routes2_Weekend = (list(combinations(CentralSouth_stores_Weekend, 2)))
@@ -392,6 +418,11 @@ for i in range(len(CentralSouth_Routes2_Weekend)):
         CentralSouthRoutes_Weekend.append(CentralSouth_Routes2_Weekend[i])
         Routes_Weekend.append(CentralSouth_Routes2_Weekend[i])
         Time_Weekend.append(time_weekend/60/60)
+        if (time_weekend/3600) < 4:
+            Cost_Weekend.append(225 * (time_weekend/3600))
+        else:
+            cost_for_four_hours = 225 * 4
+            Cost_Weekend.append(cost_for_four_hours + (275 * ((time_weekend/3600) - 4)))
 
 for i in range(len(CentralSouth_Routes3_Weekend)):
     store1 = CentralSouth_Routes3_Weekend[i][0]
@@ -437,6 +468,11 @@ for i in range(len(CentralSouth_Routes3_Weekend)):
         CentralSouthRoutes_Weekend.append(CentralSouth_Routes3_Weekend[i])
         Routes_Weekend.append(CentralSouth_Routes3_Weekend[i])
         Time_Weekend.append(time_weekend/60/60)
+        if (time_weekend/3600) < 4:
+            Cost_Weekend.append(225 * (time_weekend/3600))
+        else:
+            cost_for_four_hours = 225 * 4
+            Cost_Weekend.append(cost_for_four_hours + (275 * ((time_weekend/3600) - 4)))
 
 for i in range(len(CentralSouth_Routes4_Weekend)):
     
@@ -495,6 +531,11 @@ for i in range(len(CentralSouth_Routes4_Weekend)):
         CentralSouthRoutes_Weekend.append(CentralSouth_Routes4_Weekend[i])
         Routes_Weekend.append(CentralSouth_Routes4_Weekend[i])
         Time_Weekend.append(time_weekend/60/60)
+        if (time_weekend/3600) < 4:
+            Cost_Weekend.append(225 * (time_weekend/3600))
+        else:
+            cost_for_four_hours = 225 * 4
+            Cost_Weekend.append(cost_for_four_hours + (275 * ((time_weekend/3600) - 4)))
 
 for i in range(len(CentralSouth_Routes5_Weekend)):
     store1 = CentralSouth_Routes5_Weekend[i][0]
@@ -565,6 +606,11 @@ for i in range(len(CentralSouth_Routes5_Weekend)):
         CentralSouthRoutes_Weekend.append(CentralSouth_Routes5_Weekend[i])
         Routes_Weekend.append(CentralSouth_Routes5_Weekend[i])
         Time_Weekend.append(time_weekend/60/60)
+        if (time_weekend/3600) < 4:
+            Cost_Weekend.append(225 * (time_weekend/3600))
+        else:
+            cost_for_four_hours = 225 * 4
+            Cost_Weekend.append(cost_for_four_hours + (275 * ((time_weekend/3600) - 4)))
 
 for i in range(len(CentralSouth_Routes6_Weekend)):
     store1 = CentralSouth_Routes6_Weekend[i][0]
@@ -647,6 +693,11 @@ for i in range(len(CentralSouth_Routes6_Weekend)):
         CentralSouthRoutes_Weekend.append(CentralSouth_Routes6_Weekend[i])
         Routes_Weekend.append(CentralSouth_Routes6_Weekend[i])
         Time_Weekend.append(time_weekend/60/60)
+        if (time_weekend/3600) < 4:
+            Cost_Weekend.append(225 * (time_weekend/3600))
+        else:
+            cost_for_four_hours = 225 * 4
+            Cost_Weekend.append(cost_for_four_hours + (275 * ((time_weekend/3600) - 4)))
 
 North_Routes2_Weekend = (list(combinations(North_stores_Weekend, 2)))
 North_Routes3_Weekend = (list(combinations(North_stores_Weekend, 3)))
@@ -686,6 +737,11 @@ for i in range(len(North_Routes2_Weekend)):
         NorthRoutes_Weekend.append(North_Routes2_Weekend[i])
         Routes_Weekend.append(North_Routes2_Weekend[i])
         Time_Weekend.append(time_weekend/60/60)
+        if (time_weekend/3600) < 4:
+            Cost_Weekend.append(225 * (time_weekend/3600))
+        else:
+            cost_for_four_hours = 225 * 4
+            Cost_Weekend.append(cost_for_four_hours + (275 * ((time_weekend/3600) - 4)))
 
 for i in range(len(North_Routes3_Weekend)):
     store1 = North_Routes3_Weekend[i][0]
@@ -731,6 +787,11 @@ for i in range(len(North_Routes3_Weekend)):
         NorthRoutes_Weekend.append(North_Routes3_Weekend[i])
         Routes_Weekend.append(North_Routes3_Weekend[i])
         Time_Weekend.append(time_weekend/60/60)
+        if (time_weekend/3600) < 4:
+            Cost_Weekend.append(225 * (time_weekend/3600))
+        else:
+            cost_for_four_hours = 225 * 4
+            Cost_Weekend.append(cost_for_four_hours + (275 * ((time_weekend/3600) - 4)))
 
 for i in range(len(North_Routes4_Weekend)):
     store1 = North_Routes4_Weekend[i][0]
@@ -788,6 +849,11 @@ for i in range(len(North_Routes4_Weekend)):
         NorthRoutes_Weekend.append(North_Routes4_Weekend[i])
         Routes_Weekend.append(North_Routes4_Weekend[i])
         Time_Weekend.append(time_weekend/60/60)
+        if (time_weekend/3600) < 4:
+            Cost_Weekend.append(225 * (time_weekend/3600))
+        else:
+            cost_for_four_hours = 225 * 4
+            Cost_Weekend.append(cost_for_four_hours + (275 * ((time_weekend/3600) - 4)))
 
 for i in range(len(North_Routes5_Weekend)):
     store1 = North_Routes5_Weekend[i][0]
@@ -858,6 +924,11 @@ for i in range(len(North_Routes5_Weekend)):
         NorthRoutes_Weekend.append(North_Routes5_Weekend[i])
         Routes_Weekend.append(North_Routes5_Weekend[i])
         Time_Weekend.append(time_weekend/60/60)
+        if (time_weekend/3600) < 4:
+            Cost_Weekend.append(225 * (time_weekend/3600))
+        else:
+            cost_for_four_hours = 225 * 4
+            Cost_Weekend.append(cost_for_four_hours + (275 * ((time_weekend/3600) - 4)))
 
 for i in range(len(North_Routes6_Weekend)):
     store1 = North_Routes6_Weekend[i][0]
@@ -940,6 +1011,11 @@ for i in range(len(North_Routes6_Weekend)):
         NorthRoutes_Weekend.append(North_Routes6_Weekend[i])
         Routes_Weekend.append(North_Routes6_Weekend[i])
         Time_Weekend.append(time_weekend/60/60)
+        if (time_weekend/3600) < 4:
+            Cost_Weekend.append(225 * (time_weekend/3600))
+        else:
+            cost_for_four_hours = 225 * 4
+            Cost_Weekend.append(cost_for_four_hours + (275 * ((time_weekend/3600) - 4)))
 
 South_Routes2_Weekend = (list(combinations(South_stores_Weekend, 2)))
 South_Routes3_Weekend = (list(combinations(South_stores_Weekend, 3)))
@@ -979,6 +1055,11 @@ for i in range(len(South_Routes2_Weekend)):
         SouthRoutes_Weekend.append(South_Routes2_Weekend[i])
         Routes_Weekend.append(South_Routes2_Weekend[i])
         Time_Weekend.append(time_weekend/60/60)
+        if (time_weekend/3600) < 4:
+            Cost_Weekend.append(225 * (time_weekend/3600))
+        else:
+            cost_for_four_hours = 225 * 4
+            Cost_Weekend.append(cost_for_four_hours + (275 * ((time_weekend/3600) - 4)))
 
 for i in range(len(South_Routes3_Weekend)):
     store1 = South_Routes3_Weekend[i][0]
@@ -1024,6 +1105,11 @@ for i in range(len(South_Routes3_Weekend)):
         SouthRoutes_Weekend.append(South_Routes3_Weekend[i])
         Routes_Weekend.append(South_Routes3_Weekend[i])
         Time_Weekend.append(time_weekend/60/60)
+        if (time_weekend/3600) < 4:
+            Cost_Weekend.append(225 * (time_weekend/3600))
+        else:
+            cost_for_four_hours = 225 * 4
+            Cost_Weekend.append(cost_for_four_hours + (275 * ((time_weekend/3600) - 4)))
 
 for i in range(len(South_Routes4_Weekend)):
     store1 = South_Routes4_Weekend[i][0]
@@ -1081,6 +1167,11 @@ for i in range(len(South_Routes4_Weekend)):
         SouthRoutes_Weekend.append(South_Routes4_Weekend[i])
         Routes_Weekend.append(South_Routes4_Weekend[i])
         Time_Weekend.append(time_weekend/60/60)
+        if (time_weekend/3600) < 4:
+            Cost_Weekend.append(225 * (time_weekend/3600))
+        else:
+            cost_for_four_hours = 225 * 4
+            Cost_Weekend.append(cost_for_four_hours + (275 * ((time_weekend/3600) - 4)))
 
 for i in range(len(South_Routes5_Weekend)):
     store1 = South_Routes5_Weekend[i][0]
@@ -1151,6 +1242,11 @@ for i in range(len(South_Routes5_Weekend)):
         SouthRoutes_Weekend.append(South_Routes5_Weekend[i])
         Routes_Weekend.append(South_Routes5_Weekend[i])
         Time_Weekend.append(time_weekend/60/60)
+        if (time_weekend/3600) < 4:
+            Cost_Weekend.append(225 * (time_weekend/3600))
+        else:
+            cost_for_four_hours = 225 * 4
+            Cost_Weekend.append(cost_for_four_hours + (275 * ((time_weekend/3600) - 4)))
 
 for i in range(len(South_Routes6_Weekend)):
     store1 = South_Routes6_Weekend[i][0]
@@ -1233,6 +1329,11 @@ for i in range(len(South_Routes6_Weekend)):
         SouthRoutes_Weekend.append(South_Routes6_Weekend[i])
         Routes_Weekend.append(South_Routes6_Weekend[i])
         Time_Weekend.append(time_weekend/60/60)
+        if (time_weekend/3600) < 4:
+            Cost_Weekend.append(225 * (time_weekend/3600))
+        else:
+            cost_for_four_hours = 225 * 4
+            Cost_Weekend.append(cost_for_four_hours + (275 * ((time_weekend/3600) - 4)))
 
 West_Routes2_Weekend = (list(combinations(West_stores_Weekend, 2)))
 West_Routes3_Weekend = (list(combinations(West_stores_Weekend, 3)))
@@ -1272,6 +1373,11 @@ for i in range(len(West_Routes2_Weekend)):
         WestRoutes_Weekend.append(West_Routes2_Weekend[i])
         Routes_Weekend.append(West_Routes2_Weekend[i])
         Time_Weekend.append(time_weekend/60/60)
+        if (time_weekend/3600) < 4:
+            Cost_Weekend.append(225 * (time_weekend/3600))
+        else:
+            cost_for_four_hours = 225 * 4
+            Cost_Weekend.append(cost_for_four_hours + (275 * ((time_weekend/3600) - 4)))
 
 for i in range(len(West_Routes3_Weekend)):
     store1 = West_Routes3_Weekend[i][0]
@@ -1317,6 +1423,11 @@ for i in range(len(West_Routes3_Weekend)):
         WestRoutes_Weekend.append(West_Routes3_Weekend[i])
         Routes_Weekend.append(West_Routes3_Weekend[i])
         Time_Weekend.append(time_weekend/60/60)
+        if (time_weekend/3600) < 4:
+            Cost_Weekend.append(225 * (time_weekend/3600))
+        else:
+            cost_for_four_hours = 225 * 4
+            Cost_Weekend.append(cost_for_four_hours + (275 * ((time_weekend/3600) - 4)))
 
 for i in range(len(West_Routes4_Weekend)):
     store1 = West_Routes4_Weekend[i][0]
@@ -1374,6 +1485,11 @@ for i in range(len(West_Routes4_Weekend)):
         WestRoutes_Weekend.append(West_Routes4_Weekend[i])
         Routes_Weekend.append(West_Routes4_Weekend[i])
         Time_Weekend.append(time_weekend/60/60)
+        if (time_weekend/3600) < 4:
+            Cost_Weekend.append(225 * (time_weekend/3600))
+        else:
+            cost_for_four_hours = 225 * 4
+            Cost_Weekend.append(cost_for_four_hours + (275 * ((time_weekend/3600) - 4)))
 
 for i in range(len(West_Routes5_Weekend)):
     store1 = West_Routes5_Weekend[i][0]
@@ -1444,6 +1560,11 @@ for i in range(len(West_Routes5_Weekend)):
         WestRoutes_Weekend.append(West_Routes5_Weekend[i])
         Routes_Weekend.append(West_Routes5_Weekend[i])
         Time_Weekend.append(time_weekend/60/60)
+        if (time_weekend/3600) < 4:
+            Cost_Weekend.append(225 * (time_weekend/3600))
+        else:
+            cost_for_four_hours = 225 * 4
+            Cost_Weekend.append(cost_for_four_hours + (275 * ((time_weekend/3600) - 4)))
 
 for i in range(len(West_Routes6_Weekend)):
     store1 = West_Routes6_Weekend[i][0]
@@ -1526,6 +1647,11 @@ for i in range(len(West_Routes6_Weekend)):
         WestRoutes_Weekend.append(West_Routes6_Weekend[i])
         Routes_Weekend.append(West_Routes6_Weekend[i])
         Time_Weekend.append(time_weekend/60/60)
+        if (time_weekend/3600) < 4:
+            Cost_Weekend.append(225 * (time_weekend/3600))
+        else:
+            cost_for_four_hours = 225 * 4
+            Cost_Weekend.append(cost_for_four_hours + (275 * ((time_weekend/3600) - 4)))
 
 East_Routes2_Weekend = (list(combinations(East_stores_Weekend, 2)))
 East_Routes3_Weekend = (list(combinations(East_stores_Weekend, 3)))
@@ -1565,6 +1691,11 @@ for i in range(len(East_Routes2_Weekend)):
         EastRoutes_Weekend.append(East_Routes2_Weekend[i])
         Routes_Weekend.append(East_Routes2_Weekend[i])
         Time_Weekend.append(time_weekend/60/60)
+        if (time_weekend/3600) < 4:
+            Cost_Weekend.append(225 * (time_weekend/3600))
+        else:
+            cost_for_four_hours = 225 * 4
+            Cost_Weekend.append(cost_for_four_hours + (275 * ((time_weekend/3600) - 4)))
 
 for i in range(len(East_Routes3_Weekend)):
     store1 = East_Routes3_Weekend[i][0]
@@ -1610,6 +1741,11 @@ for i in range(len(East_Routes3_Weekend)):
         EastRoutes_Weekend.append(East_Routes3_Weekend[i])
         Routes_Weekend.append(East_Routes3_Weekend[i])
         Time_Weekend.append(time_weekend/60/60)
+        if (time_weekend/3600) < 4:
+            Cost_Weekend.append(225 * (time_weekend/3600))
+        else:
+            cost_for_four_hours = 225 * 4
+            Cost_Weekend.append(cost_for_four_hours + (275 * ((time_weekend/3600) - 4)))
 
 for i in range(len(East_Routes4_Weekend)):
     store1 = East_Routes4_Weekend[i][0]
@@ -1667,6 +1803,11 @@ for i in range(len(East_Routes4_Weekend)):
         EastRoutes_Weekend.append(East_Routes4_Weekend[i])
         Routes_Weekend.append(East_Routes4_Weekend[i])
         Time_Weekend.append(time_weekend/60/60)
+        if (time_weekend/3600) < 4:
+            Cost_Weekend.append(225 * (time_weekend/3600))
+        else:
+            cost_for_four_hours = 225 * 4
+            Cost_Weekend.append(cost_for_four_hours + (275 * ((time_weekend/3600) - 4)))
 
 for i in range(len(East_Routes5_Weekend)):
     store1 = East_Routes5_Weekend[i][0]
@@ -1737,6 +1878,11 @@ for i in range(len(East_Routes5_Weekend)):
         EastRoutes_Weekend.append(East_Routes5_Weekend[i])
         Routes_Weekend.append(East_Routes5_Weekend[i])
         Time_Weekend.append(time_weekend/60/60)
+        if (time_weekend/3600) < 4:
+            Cost_Weekend.append(225 * (time_weekend/3600))
+        else:
+            cost_for_four_hours = 225 * 4
+            Cost_Weekend.append(cost_for_four_hours + (275 * ((time_weekend/3600) - 4)))
 
 for i in range(len(East_Routes6_Weekend)):
     store1 = East_Routes6_Weekend[i][0]
@@ -1819,6 +1965,11 @@ for i in range(len(East_Routes6_Weekend)):
         EastRoutes_Weekend.append(East_Routes6_Weekend[i])
         Routes_Weekend.append(East_Routes6_Weekend[i])
         Time_Weekend.append(time_weekend/60/60)
+        if (time_weekend/3600) < 4:
+            Cost_Weekend.append(225 * (time_weekend/3600))
+        else:
+            cost_for_four_hours = 225 * 4
+            Cost_Weekend.append(cost_for_four_hours + (275 * ((time_weekend/3600) - 4)))
 
 max_routes = 60
 
