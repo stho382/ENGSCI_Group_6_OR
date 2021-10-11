@@ -95,7 +95,7 @@ for i in range(len(CentralNorth_Routes2)):
                 if store2 == stores[store_col]:
                     time_weekday += travel_durations[store_row][store_col]
 
-    if (demand_weekday < demand_threshold and time_weekday < time_threshold):
+    if (demand_weekday < demand_threshold and time_weekday <= time_threshold):
         CentralNorthRoutes_Weekday.append(CentralNorth_Routes2[i])
         Routes_Weekday.append(CentralNorth_Routes2[i])
         Time_Weekday.append(time_weekday/60/60)
@@ -140,7 +140,7 @@ for i in range(len(CentralNorth_Routes3)):
                 if store3 == stores[store_col]:
                     time_weekday += travel_durations[store_row][store_col]
 
-    if (demand_weekday < demand_threshold and time_weekday < time_threshold):
+    if (demand_weekday < demand_threshold and time_weekday <= time_threshold):
         CentralNorthRoutes_Weekday.append(CentralNorth_Routes3[i])
         Routes_Weekday.append(CentralNorth_Routes3[i])
         Time_Weekday.append(time_weekday/60/60)
@@ -197,7 +197,7 @@ for i in range(len(CentralNorth_Routes4)):
                 if store4 == stores[store_col]:
                     time_weekday += travel_durations[store_row][store_col]
 
-    if (demand_weekday < demand_threshold and time_weekday < time_threshold):
+    if (demand_weekday < demand_threshold and time_weekday <= time_threshold):
         CentralNorthRoutes_Weekday.append(CentralNorth_Routes4[i])
         Routes_Weekday.append(CentralNorth_Routes4[i])
         Time_Weekday.append(time_weekday/60/60)
@@ -267,7 +267,7 @@ for i in range(len(CentralNorth_Routes5)):
                 if store5 == stores[store_col]:
                     time_weekday += travel_durations[store_row][store_col]
 
-    if (demand_weekday < demand_threshold and time_weekday < time_threshold):
+    if (demand_weekday < demand_threshold and time_weekday <= time_threshold):
         CentralNorthRoutes_Weekday.append(CentralNorth_Routes5[i])
         Routes_Weekday.append(CentralNorth_Routes5[i])
         Time_Weekday.append(time_weekday/60/60)
@@ -349,7 +349,7 @@ for i in range(len(CentralNorth_Routes6)):
                 if store6 == stores[store_col]:
                     time_weekday += travel_durations[store_row][store_col]
 
-    if (demand_weekday < demand_threshold and time_weekday < time_threshold):
+    if (demand_weekday < demand_threshold and time_weekday <= time_threshold):
         CentralNorthRoutes_Weekday.append(CentralNorth_Routes6[i])
         Routes_Weekday.append(CentralNorth_Routes6[i])
         Time_Weekday.append(time_weekday/60/60)
@@ -389,7 +389,7 @@ for i in range(len(CentralSouth_Routes2)):
                 if store2 == stores[store_col]:
                     time_weekday += travel_durations[store_row][store_col]
 
-    if (demand_weekday < demand_threshold and time_weekday < time_threshold):
+    if (demand_weekday < demand_threshold and time_weekday <= time_threshold):
         CentralSouthRoutes_Weekday.append(CentralSouth_Routes2[i])
         Routes_Weekday.append(CentralSouth_Routes2[i])
         Time_Weekday.append(time_weekday/60/60)
@@ -434,7 +434,7 @@ for i in range(len(CentralSouth_Routes3)):
                 if store3 == stores[store_col]:
                     time_weekday += travel_durations[store_row][store_col]
 
-    if (demand_weekday < demand_threshold and time_weekday < time_threshold):
+    if (demand_weekday < demand_threshold and time_weekday <= time_threshold):
         CentralSouthRoutes_Weekday.append(CentralSouth_Routes3[i])
         Routes_Weekday.append(CentralSouth_Routes3[i])
         Time_Weekday.append(time_weekday/60/60)
@@ -492,7 +492,7 @@ for i in range(len(CentralSouth_Routes4)):
                 if store4 == stores[store_col]:
                     time_weekday += travel_durations[store_row][store_col]
 
-    if (demand_weekday < demand_threshold and time_weekday < time_threshold):
+    if (demand_weekday < demand_threshold and time_weekday <= time_threshold):
         CentralSouthRoutes_Weekday.append(CentralSouth_Routes4[i])
         Routes_Weekday.append(CentralSouth_Routes4[i])
         Time_Weekday.append(time_weekday/60/60)
@@ -561,7 +561,7 @@ for i in range(len(CentralSouth_Routes5)):
                 if store5 == stores[store_col]:
                     time_weekday += travel_durations[store_row][store_col]
 
-    if (demand_weekday < demand_threshold and time_weekday < time_threshold):
+    if (demand_weekday < demand_threshold and time_weekday <= time_threshold):
         CentralSouthRoutes_Weekday.append(CentralSouth_Routes5[i])
         Routes_Weekday.append(CentralSouth_Routes5[i])
         Time_Weekday.append(time_weekday/60/60)
@@ -643,7 +643,7 @@ for i in range(len(CentralSouth_Routes6)):
                 if store6 == stores[store_col]:
                     time_weekday += travel_durations[store_row][store_col]
 
-    if (demand_weekday < demand_threshold and time_weekday < time_threshold):
+    if (demand_weekday < demand_threshold and time_weekday <= time_threshold):
         CentralSouthRoutes_Weekday.append(CentralSouth_Routes6[i])
         Routes_Weekday.append(CentralSouth_Routes6[i])
         Time_Weekday.append(time_weekday/60/60)
@@ -682,7 +682,7 @@ for i in range(len(North_Routes2)):
                 if store2 == stores[store_col]:
                     time_weekday += travel_durations[store_row][store_col]
 
-    if (demand_weekday < demand_threshold and time_weekday < time_threshold):
+    if (demand_weekday < demand_threshold and time_weekday <= time_threshold):
         NorthRoutes_Weekday.append(North_Routes2[i])
         Routes_Weekday.append(North_Routes2[i])
         Time_Weekday.append(time_weekday/60/60)
@@ -727,7 +727,7 @@ for i in range(len(North_Routes3)):
                 if store3 == stores[store_col]:
                     time_weekday += travel_durations[store_row][store_col]
 
-    if (demand_weekday < demand_threshold and time_weekday < time_threshold):
+    if (demand_weekday < demand_threshold and time_weekday <= time_threshold):
         NorthRoutes_Weekday.append(North_Routes3[i])
         Routes_Weekday.append(North_Routes3[i])
         Time_Weekday.append(time_weekday/60/60)
@@ -784,7 +784,7 @@ for i in range(len(North_Routes4)):
                 if store4 == stores[store_col]:
                     time_weekday += travel_durations[store_row][store_col]
 
-    if (demand_weekday < demand_threshold and time_weekday < time_threshold):
+    if (demand_weekday < demand_threshold and time_weekday <= time_threshold):
         NorthRoutes_Weekday.append(North_Routes4[i])
         Routes_Weekday.append(North_Routes4[i])
         Time_Weekday.append(time_weekday/60/60)
@@ -854,7 +854,7 @@ for i in range(len(North_Routes5)):
                 if store5 == stores[store_col]:
                     time_weekday += travel_durations[store_row][store_col]
 
-    if (demand_weekday < demand_threshold and time_weekday < time_threshold):
+    if (demand_weekday < demand_threshold and time_weekday <= time_threshold):
         NorthRoutes_Weekday.append(North_Routes5[i])
         Routes_Weekday.append(North_Routes5[i])
         Time_Weekday.append(time_weekday/60/60)
@@ -936,7 +936,7 @@ for i in range(len(North_Routes6)):
                 if store6 == stores[store_col]:
                     time_weekday += travel_durations[store_row][store_col]
 
-    if (demand_weekday < demand_threshold and time_weekday < time_threshold):
+    if (demand_weekday < demand_threshold and time_weekday <= time_threshold):
         NorthRoutes_Weekday.append(North_Routes6[i])
         Routes_Weekday.append(North_Routes6[i])
         Time_Weekday.append(time_weekday/60/60)
@@ -975,7 +975,7 @@ for i in range(len(South_Routes2)):
                 if store2 == stores[store_col]:
                     time_weekday += travel_durations[store_row][store_col]
 
-    if (demand_weekday < demand_threshold and time_weekday < time_threshold):
+    if (demand_weekday < demand_threshold and time_weekday <= time_threshold):
         SouthRoutes_Weekday.append(South_Routes2[i])
         Routes_Weekday.append(South_Routes2[i])
         Time_Weekday.append(time_weekday/60/60)
@@ -1020,7 +1020,7 @@ for i in range(len(South_Routes3)):
                 if store3 == stores[store_col]:
                     time_weekday += travel_durations[store_row][store_col]
                     
-    if (demand_weekday < demand_threshold and time_weekday < time_threshold):
+    if (demand_weekday < demand_threshold and time_weekday <= time_threshold):
         SouthRoutes_Weekday.append(South_Routes3[i])
         Routes_Weekday.append(South_Routes3[i])
         Time_Weekday.append(time_weekday/60/60)
@@ -1077,7 +1077,7 @@ for i in range(len(South_Routes4)):
                 if store4 == stores[store_col]:
                     time_weekday += travel_durations[store_row][store_col]
 
-    if (demand_weekday < demand_threshold and time_weekday < time_threshold):
+    if (demand_weekday < demand_threshold and time_weekday <= time_threshold):
         SouthRoutes_Weekday.append(South_Routes4[i])
         Routes_Weekday.append(South_Routes4[i])
         Time_Weekday.append(time_weekday/60/60)
@@ -1147,7 +1147,7 @@ for i in range(len(South_Routes5)):
                 if store5 == stores[store_col]:
                     time_weekday += travel_durations[store_row][store_col]
 
-    if (demand_weekday < demand_threshold and time_weekday < time_threshold):
+    if (demand_weekday < demand_threshold and time_weekday <= time_threshold):
         SouthRoutes_Weekday.append(South_Routes5[i])
         Routes_Weekday.append(South_Routes5[i])
         Time_Weekday.append(time_weekday/60/60)
@@ -1229,7 +1229,7 @@ for i in range(len(South_Routes6)):
                 if store6 == stores[store_col]:
                     time_weekday += travel_durations[store_row][store_col]
 
-    if (demand_weekday < demand_threshold and time_weekday < time_threshold):
+    if (demand_weekday < demand_threshold and time_weekday <= time_threshold):
         SouthRoutes_Weekday.append(South_Routes6[i])
         Routes_Weekday.append(South_Routes6[i])
         Time_Weekday.append(time_weekday/60/60)
@@ -1268,7 +1268,7 @@ for i in range(len(West_Routes2)):
                 if store2 == stores[store_col]:
                     time_weekday += travel_durations[store_row][store_col]
 
-    if (demand_weekday < demand_threshold and time_weekday < time_threshold):
+    if (demand_weekday < demand_threshold and time_weekday <= time_threshold):
         WestRoutes_Weekday.append(West_Routes2[i])
         Routes_Weekday.append(West_Routes2[i])
         Time_Weekday.append(time_weekday/60/60)
@@ -1313,7 +1313,7 @@ for i in range(len(West_Routes3)):
                 if store3 == stores[store_col]:
                     time_weekday += travel_durations[store_row][store_col]
 
-    if (demand_weekday < demand_threshold and time_weekday < time_threshold):
+    if (demand_weekday < demand_threshold and time_weekday <= time_threshold):
         WestRoutes_Weekday.append(West_Routes3[i])
         Routes_Weekday.append(West_Routes3[i])
         Time_Weekday.append(time_weekday/60/60)
@@ -1370,7 +1370,7 @@ for i in range(len(West_Routes4)):
                 if store4 == stores[store_col]:
                     time_weekday += travel_durations[store_row][store_col]
 
-    if (demand_weekday < demand_threshold and time_weekday < time_threshold):
+    if (demand_weekday < demand_threshold and time_weekday <= time_threshold):
         WestRoutes_Weekday.append(West_Routes4[i])
         Routes_Weekday.append(West_Routes4[i])
         Time_Weekday.append(time_weekday/60/60)
@@ -1440,7 +1440,7 @@ for i in range(len(West_Routes5)):
                 if store5 == stores[store_col]:
                     time_weekday += travel_durations[store_row][store_col]
 
-    if (demand_weekday < demand_threshold and time_weekday < time_threshold):
+    if (demand_weekday < demand_threshold and time_weekday <= time_threshold):
         WestRoutes_Weekday.append(West_Routes5[i])
         Routes_Weekday.append(West_Routes5[i])
         Time_Weekday.append(time_weekday/60/60)
@@ -1522,7 +1522,7 @@ for i in range(len(West_Routes6)):
                 if store6 == stores[store_col]:
                     time_weekday += travel_durations[store_row][store_col]
 
-    if (demand_weekday < demand_threshold and time_weekday < time_threshold):
+    if (demand_weekday < demand_threshold and time_weekday <= time_threshold):
         WestRoutes_Weekday.append(West_Routes6[i])
         Routes_Weekday.append(West_Routes6[i])
         Time_Weekday.append(time_weekday/60/60)
@@ -1561,7 +1561,7 @@ for i in range(len(East_Routes2)):
                 if store2 == stores[store_col]:
                     time_weekday += travel_durations[store_row][store_col]
 
-    if (demand_weekday < demand_threshold and time_weekday < time_threshold):
+    if (demand_weekday < demand_threshold and time_weekday <= time_threshold):
         EastRoutes_Weekday.append(East_Routes2[i])
         Routes_Weekday.append(East_Routes2[i])
         Time_Weekday.append(time_weekday/60/60)
@@ -1606,7 +1606,7 @@ for i in range(len(East_Routes3)):
                 if store3 == stores[store_col]:
                     time_weekday += travel_durations[store_row][store_col]
 
-    if (demand_weekday < demand_threshold and time_weekday < time_threshold):
+    if (demand_weekday < demand_threshold and time_weekday <= time_threshold):
         EastRoutes_Weekday.append(East_Routes3[i])
         Routes_Weekday.append(East_Routes3[i])
         Time_Weekday.append(time_weekday/60/60)
@@ -1663,7 +1663,7 @@ for i in range(len(East_Routes4)):
                 if store4 == stores[store_col]:
                     time_weekday += travel_durations[store_row][store_col]
 
-    if (demand_weekday < demand_threshold and time_weekday < time_threshold):
+    if (demand_weekday < demand_threshold and time_weekday <= time_threshold):
         EastRoutes_Weekday.append(East_Routes4[i])
         Routes_Weekday.append(East_Routes4[i])
         Time_Weekday.append(time_weekday/60/60)
@@ -1733,7 +1733,7 @@ for i in range(len(East_Routes5)):
                 if store5 == stores[store_col]:
                     time_weekday += travel_durations[store_row][store_col]
 
-    if (demand_weekday < demand_threshold and time_weekday < time_threshold):
+    if (demand_weekday < demand_threshold and time_weekday <= time_threshold):
         EastRoutes_Weekday.append(East_Routes5[i])
         Routes_Weekday.append(East_Routes5[i])
         Time_Weekday.append(time_weekday/60/60)
@@ -1815,7 +1815,7 @@ for i in range(len(East_Routes6)):
                 if store6 == stores[store_col]:
                     time_weekday += travel_durations[store_row][store_col]
 
-    if (demand_weekday < demand_threshold and time_weekday < time_threshold):
+    if (demand_weekday < demand_threshold and time_weekday <= time_threshold):
         EastRoutes_Weekday.append(East_Routes6[i])
         Routes_Weekday.append(East_Routes6[i])
         Time_Weekday.append(time_weekday/60/60)
@@ -1832,7 +1832,7 @@ WeekdayRoute_vars = LpVariable.dicts("Weekday_Route", weekday_possible_routes, 0
 prob_weekday = LpProblem("Woolworths NZ VRP weekday", LpMinimize)
 
 # Objective function
-prob_weekday += lpSum([225 * WeekdayRoute_vars[route] * Time_Weekday[route] if Time_Weekday[route] < 4 else 275 * WeekdayRoute_vars[route] * Time_Weekday[route] for route in weekday_possible_routes])
+prob_weekday += lpSum([225 * WeekdayRoute_vars[route] * Time_Weekday[route] if Time_Weekday[route] < 4 else (225 * WeekdayRoute_vars[route] * 4) + (275 * WeekdayRoute_vars[route] * (Time_Weekday[route] - 4)) for route in weekday_possible_routes])
 
 # Adding the constraints
 prob_weekday += lpSum([WeekdayRoute_vars[route] for route in weekday_possible_routes]) <= max_routes
