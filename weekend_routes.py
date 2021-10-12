@@ -1866,25 +1866,9 @@ for w in prob_weekend.variables():
         num_weekend += 1
 
 print("Number of trucks used in the weekends: ", num_weekend)
-#print("Weekend routes:", optimalRoutes_weekend)
 
 print("\n")
 
 for i in range(len(optimalRoutes_weekend)):
     optimalRoutes_weekend_number = int(optimalRoutes_weekend[i][14:len(optimalRoutes_weekend[i])])
     print(Routes_Weekend[optimalRoutes_weekend_number])
-
-"""
-print(Routes_Weekend[1252])
-print(Routes_Weekend[1632])
-print(Routes_Weekend[1802])
-print(Routes_Weekend[1858])
-print(Routes_Weekend[1923])
-print(Routes_Weekend[2343])
-print(Routes_Weekend[2511])
-print(Routes_Weekend[269])
-print(Routes_Weekend[676])
-print(Routes_Weekend[787])
-print(Routes_Weekend[816])
-print(Routes_Weekend[942])
-"""
