@@ -4,7 +4,6 @@ from pulp import *
 import os
 from itertools import combinations_with_replacement
 from itertools import combinations
-
 # Get array of stores
 stores = np.genfromtxt("" + os.getcwd() + os.sep + "Data" + os.sep + "WoolworthsTravelDurations.csv", dtype = str, delimiter= ',', skip_footer= 66)
 stores = stores[1:67]
