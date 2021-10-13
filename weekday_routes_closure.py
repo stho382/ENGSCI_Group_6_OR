@@ -91,6 +91,8 @@ for i in range(len(CentralNorth_stores)):
             CentralNorth_stores = np.delete(CentralNorth_stores, i, 0)
             CentralNorth_WeekdayDemands = np.delete(CentralNorth_WeekdayDemands, i, 0)
             stores = np.delete(stores, i, 0)
+            travel_durations = np.delete(travel_durations, i, 0)
+            distribution_time = np.delete(distribution_time, i, 0)
             num1 = 1
             break
 
@@ -104,6 +106,8 @@ for i in range(len(CentralSouth_stores)):
             CentralSouth_stores = np.delete(CentralSouth_stores, i, 0)
             CentralSouth_WeekdayDemands = np.delete(CentralSouth_WeekdayDemands, i, 0)
             stores = np.delete(stores, i, 0) 
+            travel_durations = np.delete(travel_durations, i, 0)
+            distribution_time = np.delete(distribution_time, i, 0)
             num2 = 1            
             break
 
@@ -117,6 +121,8 @@ for i in range(len(North_stores)):
             North_stores = np.delete(North_stores, i, 0)
             North_WeekdayDemands = np.delete(North_WeekdayDemands, i, 0)
             stores = np.delete(stores, i, 0)
+            travel_durations = np.delete(travel_durations, i, 0)
+            distribution_time = np.delete(distribution_time, i, 0)
             num3 = 1
             break
 
@@ -130,6 +136,8 @@ for i in range(len(South_stores)):
             South_stores = np.delete(South_stores, i, 0)
             South_WeekdayDemands = np.delete(South_WeekdayDemands, i, 0)
             stores = np.delete(stores, i, 0)
+            travel_durations = np.delete(travel_durations, i, 0)
+            distribution_time = np.delete(distribution_time, i, 0)
             num4 = 1
             break
 
@@ -143,6 +151,8 @@ for i in range(len(West_stores)):
             West_stores = np.delete(West_stores, i, 0)
             West_WeekdayDemands = np.delete(West_WeekdayDemands, i, 0)
             stores = np.delete(stores, i, 0)
+            travel_durations = np.delete(travel_durations, i, 0)
+            distribution_time = np.delete(distribution_time, i, 0)
             num5 = 1 
             break
 
@@ -155,6 +165,8 @@ for i in range(len(East_stores)):
         if East_stores[i] == close_stores[j]:
             East_stores = np.delete(East_stores, i, 0)
             East_WeekdayDemands = np.delete(East_WeekdayDemands, i, 0)
+            travel_durations = np.delete(travel_durations, i, 0)
+            distribution_time = np.delete(distribution_time, i, 0)
             num6 = 1
             break
 
