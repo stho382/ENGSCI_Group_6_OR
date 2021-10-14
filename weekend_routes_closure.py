@@ -55,7 +55,7 @@ West_WeekendDemands = np.genfromtxt("" + os.getcwd() + os.sep + "Data" + os.sep 
 East_WeekendDemands = np.genfromtxt("" + os.getcwd() + os.sep + "Data" + os.sep + "LocationEastRegionWeekend.csv", delimiter= ',', skip_header=1, usecols=2)
 
 # Median demands
-demands = np.genfromtxt("" + os.getcwd() + os.sep + "Data" + os.sep + "median_demand.csv", delimiter= ',', skip_header=1, usecols=1)
+demands = np.genfromtxt("" + os.getcwd() + os.sep + "Data" + os.sep + "median_demand.csv", delimiter= ',', skip_header=1, usecols=2)
 
 for i in reversed(range(53,len(demands))):
     demands = np.delete(demands, i, 0)
@@ -69,7 +69,7 @@ for i in range(len(distances)):
     for j in range(len(distances)):
 
         # Searching for stores that are within 1500 metres of one another and with demand of less than 7.5 pallets
-        if distances[i][j] > 0 and distances[i][j] < 1500 and demands[i] < 7.5 and demands[j] < 7.5:
+        if distances[i][j] > 0 and distances[i][j] < 3000 and demands[i] < 9 and demands[j] < 9:
             temp = [stores[i], stores[j]]
             temp_reverse = [stores[j], stores[i]]
 
@@ -100,54 +100,54 @@ num4 = 0
 num5 = 0
 num6 = 0
 
-for i in range(len(CentralNorth_stores)):
+for i in range(len(CentralNorth_stores_Weekend)):
 
     if (num1 == 0):
         for j in range(len(close_stores)):
-            if CentralNorth_stores[i] == close_stores[j]:
-                CentralNorth_stores = np.delete(CentralNorth_stores, i, 0)
+            if CentralNorth_stores_Weekend[i] == close_stores[j]:
+                CentralNorth_stores_Weekend = np.delete(CentralNorth_stores_Weekend, i, 0)
                 CentralNorth_WeekendDemands = np.delete(CentralNorth_WeekendDemands, i, 0)
                 num1 = 1
 
-for i in range(len(CentralSouth_stores)):
+for i in range(len(CentralSouth_stores_Weekend)):
 
     if (num2 == 0):
         for j in range(len(close_stores)):
-            if CentralSouth_stores[i] == close_stores[j]:
-                CentralSouth_stores = np.delete(CentralSouth_stores, i, 0)
+            if CentralSouth_stores_Weekend[i] == close_stores[j]:
+                CentralSouth_stores_Weekend = np.delete(CentralSouth_stores_Weekend, i, 0)
                 CentralSouth_WeekendDemands = np.delete(CentralSouth_WeekendDemands, i, 0)
                 num2 = 1            
 
-for i in range(len(North_stores)):
+for i in range(len(North_stores_Weekend)):
     if (num3 == 0):
         for j in range(len(close_stores)):
-            if North_stores[i] == close_stores[j]:
-                North_stores = np.delete(North_stores, i, 0)
+            if North_stores_Weekend[i] == close_stores[j]:
+                North_stores_Weekend = np.delete(North_stores_Weekend, i, 0)
                 North_WeekendDemands = np.delete(North_WeekendDemands, i, 0)
                 num3 = 1
 
-for i in range(len(South_stores)):
+for i in range(len(South_stores_Weekend)):
     if (num4 == 0):
         for j in range(len(close_stores)):
-            if South_stores[i] == close_stores[j]:
-                South_stores = np.delete(South_stores, i, 0)
+            if South_stores_Weekend[i] == close_stores[j]:
+                South_stores_Weekend = np.delete(South_stores_Weekend, i, 0)
                 South_WeekendDemands = np.delete(South_WeekendDemands, i, 0)
                 num4 = 1
 
 
-for i in range(len(West_stores)):
+for i in range(len(West_stores_Weekend)):
     if (num5 == 0):
         for j in range(len(close_stores)):
-            if West_stores[i] == close_stores[j]:
-                West_stores = np.delete(West_stores, i, 0)
+            if West_stores_Weekend[i] == close_stores[j]:
+                West_stores_Weekend = np.delete(West_stores_Weekend, i, 0)
                 West_WeekendDemands = np.delete(West_WeekendDemands, i, 0)
                 num5 = 1 
 
-for i in range(len(East_stores)):
+for i in range(len(East_stores_Weekend)):
     if (num6 == 0):
         for j in range(len(close_stores)):
-            if East_stores[i] == close_stores[j]:
-                East_stores = np.delete(East_stores, i, 0)
+            if East_stores_Weekend[i] == close_stores[j]:
+                East_stores_Weekend = np.delete(East_stores_Weekend, i, 0)
                 East_WeekendDemands = np.delete(East_WeekendDemands, i, 0)
                 num6 = 1
 
