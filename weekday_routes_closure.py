@@ -10,8 +10,9 @@ stores = stores[1:67]
 stores = np.delete(stores, 55, 0)
 
 all_stores = np.genfromtxt("" + os.getcwd() + os.sep + "Data" + os.sep + "WoolworthsTravelDurations.csv", dtype = str, delimiter= ',', skip_footer= 66)
-all_stores = all_stores[1:67]
+all_stores = all_stores[0:67]
 
+# Distances between stores
 distances = np.genfromtxt("" + os.getcwd() + os.sep + "Data" + os.sep + "WoolworthsDistances.csv", delimiter= ',', skip_header=1, usecols=list(range(1,67)))
 distances = np.delete(distances, 55, 0)
 distances = np.delete(distances, 55, 1)
@@ -51,25 +52,37 @@ West_WeekdayDemands = np.genfromtxt("" + os.getcwd() + os.sep + "Data" + os.sep 
 # Find median demands of each day for every store in East
 East_WeekdayDemands = np.genfromtxt("" + os.getcwd() + os.sep + "Data" + os.sep + "LocationEastRegion.csv", delimiter= ',', skip_header=1, usecols=1)
 
+# Median demands
 demands = np.genfromtxt("" + os.getcwd() + os.sep + "Data" + os.sep + "median_demand.csv", delimiter= ',', skip_header=1, usecols=1)
 
 enlarge_stores = []
 close_stores = []
 merge_stores = []
 
+# Loop through stores
 for i in range(len(distances)):
     for j in range(len(distances)):
+
+        # Searching for stores that are within 1500 metres of one another and with demand of less than 7.5 pallets
         if distances[i][j] > 0 and distances[i][j] < 1500 and demands[i] < 7.5 and demands[j] < 7.5:
             temp = [stores[i], stores[j]]
             temp_reverse = [stores[j], stores[i]]
+
+            # Check if stores are not the same
             if (temp_reverse not in merge_stores):
+
                 if demands[i] > demands[j]:
+                    # Increase demand of store i
                     demands[i] += (demands[j] * 0.5)
+                    # Append stores to respect arrays
                     enlarge_stores.append(stores[i])
                     close_stores.append(stores[j])
                     merge_stores.append(temp)
+                    
                 if demands[j] > demands[i]:
+                    # Increase demand of store j 
                     demands[j] += (demands[i] * 0.5)
+                    # Append stores to respect arrays
                     enlarge_stores.append(stores[j])
                     close_stores.append(stores[i])
                     merge_stores.append(temp)
@@ -88,9 +101,6 @@ for i in range(len(CentralNorth_stores)):
             if CentralNorth_stores[i] == close_stores[j]:
                 CentralNorth_stores = np.delete(CentralNorth_stores, i, 0)
                 CentralNorth_WeekdayDemands = np.delete(CentralNorth_WeekdayDemands, i, 0)
-                stores = np.delete(stores, i, 0)
-                travel_durations = np.delete(travel_durations, i, 0)
-                distribution_time = np.delete(distribution_time, i, 0)
                 num1 = 1
 
 for i in range(len(CentralSouth_stores)):
@@ -100,9 +110,6 @@ for i in range(len(CentralSouth_stores)):
             if CentralSouth_stores[i] == close_stores[j]:
                 CentralSouth_stores = np.delete(CentralSouth_stores, i, 0)
                 CentralSouth_WeekdayDemands = np.delete(CentralSouth_WeekdayDemands, i, 0)
-                stores = np.delete(stores, i, 0) 
-                travel_durations = np.delete(travel_durations, i, 0)
-                distribution_time = np.delete(distribution_time, i, 0)
                 num2 = 1            
 
 for i in range(len(North_stores)):
@@ -111,9 +118,6 @@ for i in range(len(North_stores)):
             if North_stores[i] == close_stores[j]:
                 North_stores = np.delete(North_stores, i, 0)
                 North_WeekdayDemands = np.delete(North_WeekdayDemands, i, 0)
-                stores = np.delete(stores, i, 0)
-                travel_durations = np.delete(travel_durations, i, 0)
-                distribution_time = np.delete(distribution_time, i, 0)
                 num3 = 1
 
 for i in range(len(South_stores)):
@@ -122,9 +126,6 @@ for i in range(len(South_stores)):
             if South_stores[i] == close_stores[j]:
                 South_stores = np.delete(South_stores, i, 0)
                 South_WeekdayDemands = np.delete(South_WeekdayDemands, i, 0)
-                stores = np.delete(stores, i, 0)
-                travel_durations = np.delete(travel_durations, i, 0)
-                distribution_time = np.delete(distribution_time, i, 0)
                 num4 = 1
 
 
@@ -134,9 +135,6 @@ for i in range(len(West_stores)):
             if West_stores[i] == close_stores[j]:
                 West_stores = np.delete(West_stores, i, 0)
                 West_WeekdayDemands = np.delete(West_WeekdayDemands, i, 0)
-                stores = np.delete(stores, i, 0)
-                travel_durations = np.delete(travel_durations, i, 0)
-                distribution_time = np.delete(distribution_time, i, 0)
                 num5 = 1 
 
 for i in range(len(East_stores)):
@@ -145,9 +143,15 @@ for i in range(len(East_stores)):
             if East_stores[i] == close_stores[j]:
                 East_stores = np.delete(East_stores, i, 0)
                 East_WeekdayDemands = np.delete(East_WeekdayDemands, i, 0)
-                travel_durations = np.delete(travel_durations, i, 0)
-                distribution_time = np.delete(distribution_time, i, 0)
                 num6 = 1
+
+for i in reversed(range(len(stores))):
+    for j in range(len(close_stores)):
+        if (stores[i] == close_stores[j]):
+            stores = np.delete(stores, i, 0)
+            travel_durations = np.delete(travel_durations, i, 0)
+            travel_durations = np.delete(travel_durations, i, 1)
+            distribution_time = np.delete(distribution_time, i, 0)
 
 
 demand_threshold = 27
