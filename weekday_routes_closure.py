@@ -10,7 +10,7 @@ stores = stores[1:67]
 stores = np.delete(stores, 55, 0)
 
 all_stores = np.genfromtxt("" + os.getcwd() + os.sep + "Data" + os.sep + "WoolworthsTravelDurations.csv", dtype = str, delimiter= ',', skip_footer= 66)
-all_stores = all_stores[0:67]
+all_stores = all_stores[1:67]
 
 # Distances between stores
 distances = np.genfromtxt("" + os.getcwd() + os.sep + "Data" + os.sep + "WoolworthsDistances.csv", delimiter= ',', skip_header=1, usecols=list(range(1,67)))
@@ -153,6 +153,10 @@ for i in reversed(range(len(stores))):
             travel_durations = np.delete(travel_durations, i, 1)
             distribution_time = np.delete(distribution_time, i, 0)
 
+for i in reversed(range(len(all_stores))):
+    for j in range(len(close_stores)):
+        if (all_stores[i] == close_stores[j]):
+            all_stores = np.delete(all_stores, i, 0)
 
 demand_threshold = 27
 time_threshold = 60 * 4 * 2 * 60
