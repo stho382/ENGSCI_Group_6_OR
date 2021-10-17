@@ -255,4 +255,3 @@ def weekend_closure_sim():
     plt.xlabel("Cost ($ NZD)")
     plt.vlines([lower_bound, upper_bound], 0, 0.0038, colors="r", linestyles="--")
     plt.show()
-weekend_closure_sim()
