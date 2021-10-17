@@ -1,7 +1,7 @@
 from weekday_routes import *
 from weekend_routes import *
-from maps import *
 from simulations import *
+import webbrowser
 
 """"Printing Optimal Routes"""
 # Prints status of solution
@@ -46,8 +46,14 @@ print("\n")
 print("Opening visualisations of the weekday optimal routes in web browser")
 webbrowser.open("" + os.getcwd() + os.sep + "route_maps" + os.sep + "weekday_route_visualisation.html")
 
+print("Opening visualisations of the weekday optimal routes with closures in web browser")
+webbrowser.open("" + os.getcwd() + os.sep + "route_maps" + os.sep + "weekday_closure_route_visualisation.html")
+
 print("Opening visualisations of the weekend optimal routes in web browser")
 webbrowser.open("" + os.getcwd() + os.sep + "route_maps" + os.sep + "weekend_route_visualisation.html")
+
+print("Opening visualisations of the weekend optimal routes with closures in web browser")
+webbrowser.open("" + os.getcwd() + os.sep + "route_maps" + os.sep + "weekend_closure_route_visualisation.html")
 
 """"Plotting simulations"""
 # weekday simulations
