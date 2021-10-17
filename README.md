@@ -10,6 +10,7 @@ To execute our files, run the following commands in the terminal in the order pr
 API_KEY = "<insert API key here>"
 ```
 Run the following commands in terminal:
+
 3. Install poetry package
 ```bash
 pip install poetry
