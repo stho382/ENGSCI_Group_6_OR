@@ -19,5 +19,9 @@ pip install poetry
 ```bash
 poetry install
 ```
+5. Run the ``main.py`` file
+```bash
+poetry run python main.py
+```
 
 Now you should be good to go!!
