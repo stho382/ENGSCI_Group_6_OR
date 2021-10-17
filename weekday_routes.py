@@ -1843,9 +1843,20 @@ for store in stores:
 prob_weekday.writeLP("" + os.getcwd() + os.sep + "LP_files" + os.sep + "WoolworthsVRP_weekday.lp")
 
 # Solving the LP
-prob_weekday.solve()
+prob_weekday.solve(PULP_CBC_CMD(msg=0))
+
+weekday_status = LpStatus[prob_weekday.status]
+least_cost_weekdays = value(prob_weekday.objective)
+
+optimalRoutes_weekday = []
+num_weekday = 0
+for v in prob_weekday.variables():
+    if v.varValue == 1:
+        optimalRoutes_weekday.append(v.name)
+        num_weekday += 1
 
 # Variables printed with the optimal value
+"""
 for v in prob_weekday.variables():
     print(v.name, "=", v.varValue)
 
@@ -1859,12 +1870,6 @@ print("Least cost for the Weekday =", value(prob_weekday.objective))
 
 print("\n")
 
-optimalRoutes_weekday = []
-num_weekday = 0
-for v in prob_weekday.variables():
-    if v.varValue == 1:
-        optimalRoutes_weekday.append(v.name)
-        num_weekday += 1
 
 print("Number of trucks used in the weekdays: ", num_weekday)
 
@@ -1873,3 +1878,4 @@ print("\n")
 for i in range(len(optimalRoutes_weekday)):
     optimalRoutes_weekday_number = int(optimalRoutes_weekday[i][14:len(optimalRoutes_weekday[i])])
     print(Routes_Weekday[optimalRoutes_weekday_number])
+"""

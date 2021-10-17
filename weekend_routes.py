@@ -1844,10 +1844,21 @@ for store in stores:
 prob_weekend.writeLP("" + os.getcwd() + os.sep + "LP_files" + os.sep + "WoolworthsVRP_weekend.lp")
 
 # Solving the LP
-prob_weekend.solve()
+prob_weekend.solve(PULP_CBC_CMD(msg=0))
+
+weekend_status = LpStatus[prob_weekend.status]
+
+least_cost_weekends = value(prob_weekend.objective)
+
+optimalRoutes_weekend = []
+num_weekend = 0
+for w in prob_weekend.variables():
+    if w.varValue == 1:
+        optimalRoutes_weekend.append(w.name)
+        num_weekend += 1
 
 # Variables printed with the optimal value
-for w in prob_weekend.variables():
+"""for w in prob_weekend.variables():
     print(w.name, "=", w.varValue)
 
 # Prints status of solution
@@ -1872,3 +1883,4 @@ print("\n")
 for i in range(len(optimalRoutes_weekend)):
     optimalRoutes_weekend_number = int(optimalRoutes_weekend[i][14:len(optimalRoutes_weekend[i])])
     print(Routes_Weekend[optimalRoutes_weekend_number])
+"""
