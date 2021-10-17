@@ -405,7 +405,9 @@ for i in range(len(optimalRoutes_weekday)):
           for coord in
           route_weekday[i]['features'][0]['geometry']['coordinates']],weight=3, color='blue',).add_to(m)
 
-m
+m.save("" + os.getcwd() + os.sep + "route_maps" + os.sep + "weekday_closure_route_visualisation.html")
+
+
 # allweekdayroutes = []
 # allweekendroutes = []
 
