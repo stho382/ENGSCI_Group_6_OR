@@ -119,7 +119,7 @@ def find_my_cost(route_array, store_vars):
 
 """Weekday Simulation"""
 
-def weekday_sim():
+def weekday_closure_sim():
     # Generating the max costs times for weekdays
     sum_simulation_costs_weekday_closure = [0] * 2000
     median_extra_trucks_weekday_closure = [0] * 2000
@@ -134,7 +134,7 @@ def weekday_sim():
             sigma = np.sqrt(weekday_mean_variance_closure['Weekday_variance'].values[j]) # standard deviation
             # Assuming normal distribution and bootstrapping repeatedly
             results = statistics.median(stats.norm.rvs(loc = mu, scale = sigma, size=50))
-            # Storing the stores and their results in a dictionary
+            # Storing the stores and their results in a dictionary814215
             store_vars_closure.update({store_name : results})
         
         # finding the routes for the simulation
@@ -144,7 +144,7 @@ def weekday_sim():
         # Looping through all weekday routes
         for route in allweekdayroutes:
             # Find good routes and their respective demands and number of trucks needed
-            good_paths, good_path_demands, no_of_trucks = split_my_array(list(route), store_vars)
+            good_paths, good_path_demands, no_of_trucks = split_my_array(list(route), store_vars_closure)
 
             # Loop through routes in specific schedule
             for k in range(len(good_paths)):
@@ -162,15 +162,15 @@ def weekday_sim():
         median_extra_trucks_weekday_closure[i] = extra_trucks_used_weekday_closure
 
 
-    print("No. of trucks used in total: " + str(num_weekday + math.ceil(statistics.median(median_extra_trucks_weekday_closure))))
+    print("No. of trucks used in total after closure: " + str(num_weekday + math.ceil(statistics.median(median_extra_trucks_weekday_closure))))
 
 
     # Average cost for weekdays
-    print("Average cost for weekdays: $" + str(statistics.median(sum_simulation_costs_weekday_closure)))
+    print("Average cost for weekdays after closure: $" + str(statistics.median(sum_simulation_costs_weekday_closure)))
 
 
     # One sample t-test, with H0 = expected cost for weekdays.
-    print("One sample T-test for weekday: " + str(stats.ttest_1samp(sum_simulation_costs_weekday_closure, statistics.median(sum_simulation_costs_weekday_closure))))
+    print("One sample T-test for weekday after closure: " + str(stats.ttest_1samp(sum_simulation_costs_weekday_closure, statistics.median(sum_simulation_costs_weekday_closure))))
 
 
     # Percentile interval
@@ -178,12 +178,12 @@ def weekday_sim():
     lower_bound = sum_simulation_costs_weekday_closure[25]
     upper_bound = sum_simulation_costs_weekday_closure[1975]
 
-    print("lower bound: " + str(lower_bound))
-    print("upper bound: " + str(upper_bound))
+    print("lower bound after closure: " + str(lower_bound))
+    print("upper bound after closure: " + str(upper_bound))
 
     # show the plot
     sns.distplot(sum_simulation_costs_weekday_closure)
-    plt.title("Simulation for the stores weekdays")
+    plt.title("Simulation for the stores weekdays after closure")
     plt.xlabel("Cost ($ NZD)")
     plt.vlines([lower_bound, upper_bound], 0, 0.0015, colors="r", linestyles="--")
     plt.show()
@@ -192,7 +192,7 @@ def weekday_sim():
 
 """Weekend Simulation"""
 
-def weekend_sim():
+def weekend_closure_sim():
     # Generating the max costs times for weekdays
     sum_simulation_costs_weekend_closure = [0] * 2000
     median_extra_trucks_weekend_closure = [0] * 2000
@@ -214,6 +214,7 @@ def weekend_sim():
         extra_trucks_used_weekend = 0
 
         for route in allweekendroutes:
+            print(route)
             good_paths, good_path_demands, no_of_trucks = split_my_array(list(route), store_vars_closure)
             for k in range(len(good_paths)):
                 good_path_vars[good_paths[k]] = good_path_demands[k]
@@ -229,15 +230,15 @@ def weekend_sim():
         median_extra_trucks_weekend_closure[i] = extra_trucks_used_weekend
 
 
-    print("No. of trucks used in total: " + str(num_weekend + math.ceil(statistics.median(median_extra_trucks_weekend_closure))))
+    print("No. of trucks used in total after closure: " + str(num_weekend + math.ceil(statistics.median(median_extra_trucks_weekend_closure))))
 
 
     # Average cost for weekdays
-    print("Average cost for weekend: $" + str(statistics.median(sum_simulation_costs_weekend_closure)))
+    print("Average cost for weekend after closure: $" + str(statistics.median(sum_simulation_costs_weekend_closure)))
 
 
     # One sample t-test, with H0 = expected cost for weekdays.
-    print("One sample T-test for weekdend: " + str(stats.ttest_1samp(sum_simulation_costs_weekend_closure, statistics.median(sum_simulation_costs_weekend_closure))))
+    print("One sample T-test for weekdend after closure: " + str(stats.ttest_1samp(sum_simulation_costs_weekend_closure, statistics.median(sum_simulation_costs_weekend_closure))))
 
 
     # Percentile interval
@@ -245,12 +246,13 @@ def weekend_sim():
     lower_bound = sum_simulation_costs_weekend_closure[25]
     upper_bound = sum_simulation_costs_weekend_closure[1975]
 
-    print("lower bound: " + str(lower_bound))
-    print("upper bound: " + str(upper_bound))
+    print("lower bound after closure: " + str(lower_bound))
+    print("upper bound after closure: " + str(upper_bound))
 
     # show the plot
     sns.distplot(sum_simulation_costs_weekend_closure)
-    plt.title("Simulation for the stores weekend")
+    plt.title("Simulation for the stores weekend after closure")
     plt.xlabel("Cost ($ NZD)")
     plt.vlines([lower_bound, upper_bound], 0, 0.0038, colors="r", linestyles="--")
     plt.show()
+weekend_closure_sim()

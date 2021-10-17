@@ -1,11 +1,10 @@
 import pandas as pd
 import folium
-from weekend_routes import *
-from weekday_routes import *
+from weekend_routes_closure import *
+from weekday_routes_closure import *
 from dotenv import load_dotenv
 import os
 import openrouteservice as ors
-import webbrowser
 
 demands_df = pd.read_csv('https://raw.githubusercontent.com/stho382/ENGSCI_Group_6_OR/main/Data/WoolworthsDemands.csv')
 distances_df = pd.read_csv('https://raw.githubusercontent.com/stho382/ENGSCI_Group_6_OR/main/Data/WoolworthsDistances.csv')
@@ -18,7 +17,7 @@ east_df = pd.read_csv('https://raw.githubusercontent.com/stho382/ENGSCI_Group_6_
 centralNorth_df = pd.read_csv('https://raw.githubusercontent.com/stho382/ENGSCI_Group_6_OR/main/Data/LocationCentralNorth.csv')
 centralSouth_df = pd.read_csv('https://raw.githubusercontent.com/stho382/ENGSCI_Group_6_OR/main/Data/LocationCentralSouth.csv')
 
-locationsclosure_df = pd.read_csv('https://raw.githubusercontent.com/stho382/ENGSCI_Group_6_OR/main/Data/WoolworthsLocations_closure.csv')
+locationsclosure_df = pd.read_csv('' + os.getcwd() + os.sep + 'Data' + os.sep + 'WoolworthsLocations_closure.csv')
 
 coords_closure = locationsclosure_df[['Long', 'Lat']] # Mapping packages work with Long, Lat arrays
 coords_closure = coords_closure.to_numpy().tolist() # Make the arrays into a list of lists.
