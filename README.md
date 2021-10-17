@@ -1,30 +1,22 @@
 # ENGSCI_Group_6_OR
 
+**Contributors: Ben Hall, Daniel Zang, Serena Yu, Sebastian Thomas**
+
 ### _Executing files_
 To execute our files, run the following commands in the terminal in the order presented
-
-1. Create a virtual environment with the packages installed
-```bash
-poetry install
-```
-2. run the OR_Project.py script in the virtual environment
-
-_**Note**: if you have python version 3 installed alongside version 2, replace "python" with "python3"_
-```bash
-poetry run python OR_Project.py
-```
-
-
-### _Visualisations_
-To get the maps working on 'OR_visualisations.ipynb', do the following:
-
-* Clone the repo to your local machine
-* Open VSCODE
-* Change directories to the folder containing the cloned repo
-* Add a new file called ``.env``
-* Inside this file, the following piece of text and save:
+1. Create a ``.env`` file in directory to which the repository is cloned
+2. Add your API key from openrouteservice in the following format:
 ```bash
 API_KEY = "<insert API key here>"
+```
+Run the following commands in terminal:
+3. Install poetry package
+```bash
+pip install poetry
+```
+4. Create a virtual environment with the packages installed
+```bash
+poetry install
 ```
 
 Now you should be good to go!!

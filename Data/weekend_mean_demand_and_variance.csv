@@ -1,66 +1,66 @@
 Store,Weekend_mean,Weekend_variance
-Countdown Airport,5,2.8
-Countdown Auckland City,2.5,7.7
-Countdown Aviemore Drive,4,6
-Countdown Birkenhead,3,3.7
-Countdown Blockhouse Bay,2,12.7
-Countdown Botany Downs,2.5,7.7
-Countdown Browns Bay,3,14.2
-Countdown Glenfield,4,2.3
-Countdown Greenlane,2.5,9.8
-Countdown Grey Lynn,2,6.3
-Countdown Grey Lynn Central,6,1.8
-Countdown Hauraki Corner,3,9.3
-Countdown Henderson,4,9.3
-Countdown Highland Park,2.5,6.7
-Countdown Hobsonville,6,3.2
-Countdown Howick,3.5,8.5
-Countdown Kelston,4.5,20.5
-Countdown Lincoln Road,4,10.8
-Countdown Lynfield,3,7.3
-Countdown Lynmall,4.5,2.3
-Countdown Mairangi Bay,3,9.7
-Countdown Mangere East,3.5,12.2
-Countdown Mangere Mall,2.5,5.3
-Countdown Manukau,5.5,1.2
-Countdown Manukau Mall,2.5,7.5
-Countdown Manurewa,3,5.8
-Countdown Meadowbank,3.5,7.7
-Countdown Meadowlands,2.5,4
-Countdown Metro Albert Street,0,2
-Countdown Metro Halsey Street,0,0.5
-Countdown Milford,2.5,18.7
-Countdown Mt Eden,4,14.5
-Countdown Mt Roskill,3,8.3
-Countdown Mt Wellington,3.5,5.3
-Countdown Newmarket,3,13.2
-Countdown Northcote,3,7.7
-Countdown Northwest,2,16.5
-Countdown Onehunga,2.5,14.7
-Countdown Pakuranga,2.5,0.8
-Countdown Papakura,3,8.7
-Countdown Papatoetoe,2.5,16.3
-Countdown Ponsonby,3.5,7.8
-Countdown Pt Chevalier,4,3.3
-Countdown Roselands,4,3.7
-Countdown St Johns,2.5,11.3
-Countdown St Lukes,2,8.8
-Countdown Sunnynook,2,11
-Countdown Sylvia Park,2,11.7
-Countdown Takanini,5,6.2
-Countdown Takapuna,2,13.2
-Countdown Te Atatu,2,9
-Countdown Te Atatu South,3,4.8
-Countdown Three Kings,3,10.8
-Countdown Victoria Street West,3.5,9.5
-Countdown Westgate,5,2.3
-FreshChoice Glen Eden,0,0.5
-FreshChoice Half Moon Bay,0,4.5
-FreshChoice Mangere Bridge,0,8
+Countdown Airport,5,1.583333333
+Countdown Auckland City,3.5,1.666666667
+Countdown Aviemore Drive,4,2.666666667
+Countdown Birkenhead,4.5,2.916666667
+Countdown Blockhouse Bay,2,0.25
+Countdown Botany Downs,3.5,1.666666667
+Countdown Browns Bay,4.5,2.916666667
+Countdown Glenfield,4.5,3
+Countdown Greenlane,4,1
+Countdown Grey Lynn,2.5,2
+Countdown Grey Lynn Central,6,1
+Countdown Hauraki Corner,4.5,2.916666667
+Countdown Henderson,4,2.25
+Countdown Highland Park,2.5,0.916666667
+Countdown Hobsonville,6,0
+Countdown Howick,4,0.666666667
+Countdown Kelston,4.5,2
+Countdown Lincoln Road,4,1
+Countdown Lynfield,3,3.666666667
+Countdown Lynmall,4.5,2
+Countdown Mairangi Bay,3.5,1.666666667
+Countdown Mangere East,3.5,0.333333333
+Countdown Mangere Mall,3.5,2.916666667
+Countdown Manukau,6,0
+Countdown Manukau Mall,4,2.25
+Countdown Manurewa,3,3.666666667
+Countdown Meadowbank,4.5,0.916666667
+Countdown Meadowlands,3,0.666666667
+Countdown Metro Albert Street,0,0
+Countdown Metro Halsey Street,0,0
+Countdown Milford,3,3
+Countdown Mt Eden,5,1.583333333
+Countdown Mt Roskill,4.5,2.916666667
+Countdown Mt Wellington,3.5,2.916666667
+Countdown Newmarket,3.5,0.916666667
+Countdown Northcote,4.5,3
+Countdown Northwest,2.5,3.583333333
+Countdown Onehunga,3.5,2.916666667
+Countdown Pakuranga,3.5,0.916666667
+Countdown Papakura,4.5,3
+Countdown Papatoetoe,2.5,0.916666667
+Countdown Ponsonby,3.5,0.916666667
+Countdown Pt Chevalier,5,1
+Countdown Roselands,5,1.583333333
+Countdown St Johns,3.5,1.666666667
+Countdown St Lukes,3,1.333333333
+Countdown Sunnynook,3,2.25
+Countdown Sylvia Park,3.5,3
+Countdown Takanini,5,1
+Countdown Takapuna,2,1
+Countdown Te Atatu,3.5,4.25
+Countdown Te Atatu South,3.5,1.666666667
+Countdown Three Kings,4,2.666666667
+Countdown Victoria Street West,4.5,2
+Countdown Westgate,5.5,0.333333333
+FreshChoice Glen Eden,0,0
+FreshChoice Half Moon Bay,0,0
+FreshChoice Mangere Bridge,0,0
 FreshChoice Otahuhu,0,0
-FreshChoice Ranui,0,18
+FreshChoice Ranui,0,0
 SuperValue Avondale,0,0
-SuperValue Flatbush,0,0.5
-SuperValue Palomino,0,2
-SuperValue Papakura,0,4.5
-SuperValue Titirangi,0,8
+SuperValue Flatbush,0,0
+SuperValue Palomino,0,0
+SuperValue Papakura,0,0
+SuperValue Titirangi,0,0
