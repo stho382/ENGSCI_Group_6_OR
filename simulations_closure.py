@@ -223,7 +223,7 @@ def weekend_sim():
         route_cost = {}
         
         for paths in good_path_vars:
-            route_cost.update({ paths : find_my_cost(list(paths), store_vars)_closure})
+            route_cost.update({ paths : find_my_cost(list(paths), store_vars_closure)})
         
         sum_simulation_costs_weekend_closure[i] = sum(list(route_cost.values()))
         median_extra_trucks_weekend_closure[i] = extra_trucks_used_weekend
