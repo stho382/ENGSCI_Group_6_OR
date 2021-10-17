@@ -16,7 +16,7 @@ travel_durations_df = pd.read_csv('https://raw.githubusercontent.com/stho382/ENG
 travel_durations_df.set_index("Unnamed: 0", inplace = True)
 travel_durations_df.index.name = 'Store'
 
-
+np.random.seed(500)
 def split_my_array(tuple_of_stores, store_vars):
     """
     This function is used to split routes that have demands greater than 26 during the simulation
@@ -254,3 +254,5 @@ def weekend_sim():
     plt.xlabel("Cost ($ NZD)")
     plt.vlines([lower_bound, upper_bound], 0, 0.0018, colors="r", linestyles="--")
     plt.show()
+
+weekday_sim()
