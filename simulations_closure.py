@@ -214,7 +214,6 @@ def weekend_closure_sim():
         extra_trucks_used_weekend = 0
 
         for route in allweekendroutes:
-            print(route)
             good_paths, good_path_demands, no_of_trucks = split_my_array(list(route), store_vars_closure)
             for k in range(len(good_paths)):
                 good_path_vars[good_paths[k]] = good_path_demands[k]
