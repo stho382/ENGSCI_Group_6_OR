@@ -252,5 +252,5 @@ def weekend_sim():
     sns.distplot(sum_simulation_costs_weekend)
     plt.title("Simulation for the stores weekend")
     plt.xlabel("Cost ($ NZD)")
-    plt.vlines([lower_bound, upper_bound], 0, 0.0018, colors="r", linestyles="--")
+    plt.vlines([lower_bound, upper_bound], 0, 0.0038, colors="r", linestyles="--")
     plt.show()
