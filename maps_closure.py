@@ -52,7 +52,7 @@ for i in range(len(optimalRoutes_weekday)):
                 coordinates.append(coords_closure[k])
 
         # Checks if specific route is going through 2 stores
-    if (len(list_routes) == 2):
+    if (len(coordinates) == 2):
         route_weekday.append(client.directions(
         coordinates = [coords_closure[53], coordinates[0], coordinates[1], coords_closure[53]], 
         profile = 'driving-hgv', # can be driving-car, driving-hgv, etc.
@@ -61,7 +61,7 @@ for i in range(len(optimalRoutes_weekday)):
         ))
 
     # Checks if specific route is going through 3 stores
-    elif (len(list_routes) == 3):
+    elif (len(coordinates) == 3):
         route_weekday.append(client.directions(
         coordinates = [coords_closure[53], coordinates[0], coordinates[1], coordinates[2], coords_closure[53]], 
         profile = 'driving-hgv', # can be driving-car, driving-hgv, etc.
@@ -70,7 +70,7 @@ for i in range(len(optimalRoutes_weekday)):
         ))
 
     # Checks if specific route is going through 4 stores
-    elif (len(list_routes) == 4):
+    elif (len(coordinates) == 4):
         route_weekday.append(client.directions(
         coordinates = [coords_closure[53], coordinates[0], coordinates[1], coordinates[2], coordinates[3], coords_closure[53]], 
         profile = 'driving-hgv', # can be driving-car, driving-hgv, etc.
@@ -79,7 +79,7 @@ for i in range(len(optimalRoutes_weekday)):
         ))
 
     # Checks if specific route is going through 5 stores
-    elif (len(list_routes) == 5):
+    elif (len(coordinates) == 5):
         route_weekday.append(client.directions(
         coordinates = [coords_closure[53], coordinates[0], coordinates[1], coordinates[2], coordinates[3], coordinates[4], coords_closure[53]], 
         profile = 'driving-hgv', # can be driving-car, driving-hgv, etc.
@@ -88,7 +88,7 @@ for i in range(len(optimalRoutes_weekday)):
         ))
 
     # Checks if specific route is going through 6 stores
-    elif (len(list_routes) == 6):
+    elif (len(coordinates) == 6):
         route_weekday.append(client.directions(
         coordinates = [coords_closure[53], coordinates[0], coordinates[1], coordinates[2], coordinates[3], coordinates[4], coordinates[5], coords_closure[53]],
         profile = 'driving-hgv', # can be driving-car, driving-hgv, etc.
