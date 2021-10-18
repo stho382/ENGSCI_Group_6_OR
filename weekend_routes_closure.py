@@ -64,102 +64,19 @@ enlarge_stores = []
 close_stores = []
 merge_stores = []
 
-# Loop through stores
-for i in range(len(distances)):
-    for j in range(len(distances)):
+demands[13] += (demands[2] * 0.5)
+enlarge_stores.append(stores[13])
+close_stores.append(stores[2])
 
-        # Searching for stores that are within 1500 metres of one another and with demand of less than 7.5 pallets
-        if distances[i][j] > 0 and distances[i][j] < 3000 and demands[i] < 9 and demands[j] < 9:
-            temp = [stores[i], stores[j]]
-            temp_reverse = [stores[j], stores[i]]
+East_stores_Weekend = np.delete(East_stores_Weekend, 5, 0)
+East_WeekendDemands = np.delete(East_WeekendDemands, 5, 0)
+East_WeekendDemands[4] = demands[13]
 
-            # Check if stores are not the same
-            if (temp_reverse not in merge_stores):
+stores = np.delete(stores, 2, 0)
 
-                if demands[i] > demands[j]:
-                    # Increase demand of store i
-                    demands[i] += (demands[j] * 0.5)
-                    # Append stores to respect arrays
-                    enlarge_stores.append(stores[i])
-                    close_stores.append(stores[j])
-                    merge_stores.append(temp)
-                    
-                if demands[j] > demands[i]:
-                    # Increase demand of store j 
-                    demands[j] += (demands[i] * 0.5)
-                    # Append stores to respect arrays
-                    enlarge_stores.append(stores[j])
-                    close_stores.append(stores[i])
-                    merge_stores.append(temp)
-
-
-num1 = 0
-num2 = 0
-num3 = 0
-num4 = 0
-num5 = 0
-num6 = 0
-
-for i in range(len(CentralNorth_stores_Weekend)):
-
-    if (num1 == 0):
-        for j in range(len(close_stores)):
-            if CentralNorth_stores_Weekend[i] == close_stores[j]:
-                CentralNorth_stores_Weekend = np.delete(CentralNorth_stores_Weekend, i, 0)
-                CentralNorth_WeekendDemands = np.delete(CentralNorth_WeekendDemands, i, 0)
-                num1 = 1
-
-for i in range(len(CentralSouth_stores_Weekend)):
-
-    if (num2 == 0):
-        for j in range(len(close_stores)):
-            if CentralSouth_stores_Weekend[i] == close_stores[j]:
-                CentralSouth_stores_Weekend = np.delete(CentralSouth_stores_Weekend, i, 0)
-                CentralSouth_WeekendDemands = np.delete(CentralSouth_WeekendDemands, i, 0)
-                num2 = 1            
-
-for i in range(len(North_stores_Weekend)):
-    if (num3 == 0):
-        for j in range(len(close_stores)):
-            if North_stores_Weekend[i] == close_stores[j]:
-                North_stores_Weekend = np.delete(North_stores_Weekend, i, 0)
-                North_WeekendDemands = np.delete(North_WeekendDemands, i, 0)
-                num3 = 1
-
-for i in range(len(South_stores_Weekend)):
-    if (num4 == 0):
-        for j in range(len(close_stores)):
-            if South_stores_Weekend[i] == close_stores[j]:
-                South_stores_Weekend = np.delete(South_stores_Weekend, i, 0)
-                South_WeekendDemands = np.delete(South_WeekendDemands, i, 0)
-                num4 = 1
-
-
-for i in range(len(West_stores_Weekend)):
-    if (num5 == 0):
-        for j in range(len(close_stores)):
-            if West_stores_Weekend[i] == close_stores[j]:
-                West_stores_Weekend = np.delete(West_stores_Weekend, i, 0)
-                West_WeekendDemands = np.delete(West_WeekendDemands, i, 0)
-                num5 = 1 
-
-for i in range(len(East_stores_Weekend)):
-    if (num6 == 0):
-        for j in range(len(close_stores)):
-            if East_stores_Weekend[i] == close_stores[j]:
-                East_stores_Weekend = np.delete(East_stores_Weekend, i, 0)
-                East_WeekendDemands = np.delete(East_WeekendDemands, i, 0)
-                num6 = 1
-
-for i in reversed(range(len(stores))):
-    for j in range(len(close_stores)):
-        if (stores[i] == close_stores[j]):
-            stores = np.delete(stores, i, 0)
-            travel_durations = np.delete(travel_durations, i, 0)
-            travel_durations = np.delete(travel_durations, i, 1)
-            distribution_time = np.delete(distribution_time, i, 0)
-
-
+travel_durations = np.delete(travel_durations, 2, 0)
+travel_durations = np.delete(travel_durations, 2, 1)
+distribution_time = np.delete(distribution_time, 2, 0)
 
 demand_threshold = 27
 time_threshold = 60 * 4 * 2 * 60

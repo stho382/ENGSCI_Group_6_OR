@@ -6,6 +6,8 @@ from simulations import *
 import webbrowser
 
 """"Printing Optimal Routes"""
+print("\n")
+
 # Prints status of solution
 print("Weekday Status bfore closure:", weekday_status)
 
@@ -79,7 +81,7 @@ for i in range(len(optimalRoutes_weekend)):
     optimalRoutes_weekend_number = int(optimalRoutes_weekend[i][14:len(optimalRoutes_weekend[i])])
     print(Routes_Weekend[optimalRoutes_weekend_number])
 
-
+'''
 """"Opening visualisation maps"""
 
 print("\n")
@@ -103,18 +105,23 @@ print("\n")
 print("Weekday Simulation Statistics before closure of stores:")
 weekday_sim()
 
-# weekedn simulations
+# weekend simulations
 print("\n")
 print("Weekend Simulation Statistics before closure of stores:")
 weekend_sim()
 
 from simulations_closure import *
+
 # weekday simulations
 print("\n")
 print("Weekday Simulation Statistics after closure of stores:")
 weekday_closure_sim()
 
-# weekedn simulations
+# weekend simulations
 print("\n")
 print("Weekend Simulation Statistics after closure of stores:")
 weekend_closure_sim()
+
+print("\n")
+
+'''

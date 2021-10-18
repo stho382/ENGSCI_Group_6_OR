@@ -88,63 +88,25 @@ for i in range(len(distances)):
                     close_stores.append(stores[i])
                     merge_stores.append(temp)
 
-num1 = 0
-num2 = 0
-num3 = 0
-num4 = 0
-num5 = 0
-num6 = 0
+# Aviemore Drive
+East_WeekdayDemands[5] = demands[13]
+East_stores = np.delete(East_stores, 6, 0)
+East_WeekdayDemands = np.delete(East_WeekdayDemands, 6, 0)
 
-for i in range(len(CentralNorth_stores)):
+# Kelston
+CentralSouth_WeekdayDemands[9] = demands[16]
+CentralSouth_stores = np.delete(CentralSouth_stores, 8, 0)
+CentralSouth_WeekdayDemands = np.delete(CentralSouth_WeekdayDemands, 8, 0)
 
-    if (num1 == 0):
-        for j in range(len(close_stores)):
-            if CentralNorth_stores[i] == close_stores[j]:
-                CentralNorth_stores = np.delete(CentralNorth_stores, i, 0)
-                CentralNorth_WeekdayDemands = np.delete(CentralNorth_WeekdayDemands, i, 0)
-                num1 = 1
+# Metro Albert Street
+CentralNorth_WeekdayDemands[11] = demands[53]
+CentralNorth_stores = np.delete(CentralNorth_stores, 10, 0)
+CentralNorth_WeekdayDemands = np.delete(CentralNorth_WeekdayDemands, 10, 0)
 
-for i in range(len(CentralSouth_stores)):
-
-    if (num2 == 0):
-        for j in range(len(close_stores)):
-            if CentralSouth_stores[i] == close_stores[j]:
-                CentralSouth_stores = np.delete(CentralSouth_stores, i, 0)
-                CentralSouth_WeekdayDemands = np.delete(CentralSouth_WeekdayDemands, i, 0)
-                num2 = 1            
-
-for i in range(len(North_stores)):
-    if (num3 == 0):
-        for j in range(len(close_stores)):
-            if North_stores[i] == close_stores[j]:
-                North_stores = np.delete(North_stores, i, 0)
-                North_WeekdayDemands = np.delete(North_WeekdayDemands, i, 0)
-                num3 = 1
-
-for i in range(len(South_stores)):
-    if (num4 == 0):
-        for j in range(len(close_stores)):
-            if South_stores[i] == close_stores[j]:
-                South_stores = np.delete(South_stores, i, 0)
-                South_WeekdayDemands = np.delete(South_WeekdayDemands, i, 0)
-                num4 = 1
-
-
-for i in range(len(West_stores)):
-    if (num5 == 0):
-        for j in range(len(close_stores)):
-            if West_stores[i] == close_stores[j]:
-                West_stores = np.delete(West_stores, i, 0)
-                West_WeekdayDemands = np.delete(West_WeekdayDemands, i, 0)
-                num5 = 1 
-
-for i in range(len(East_stores)):
-    if (num6 == 0):
-        for j in range(len(close_stores)):
-            if East_stores[i] == close_stores[j]:
-                East_stores = np.delete(East_stores, i, 0)
-                East_WeekdayDemands = np.delete(East_WeekdayDemands, i, 0)
-                num6 = 1
+# SV Papakura
+South_WeekdayDemands[1] = demands[37]
+South_stores = np.delete(South_stores, 0, 0)
+South_WeekdayDemands = np.delete(South_WeekdayDemands, 0, 0)
 
 for i in reversed(range(len(stores))):
     for j in range(len(close_stores)):
