@@ -81,7 +81,7 @@ for i in range(len(optimalRoutes_weekend)):
     optimalRoutes_weekend_number = int(optimalRoutes_weekend[i][14:len(optimalRoutes_weekend[i])])
     print(Routes_Weekend[optimalRoutes_weekend_number])
 
-'''
+
 """"Opening visualisation maps"""
 
 print("\n")
@@ -124,4 +124,3 @@ weekend_closure_sim()
 
 print("\n")
 
-'''
