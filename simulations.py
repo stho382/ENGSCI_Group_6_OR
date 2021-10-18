@@ -16,7 +16,7 @@ travel_durations_df = pd.read_csv('https://raw.githubusercontent.com/stho382/ENG
 travel_durations_df.set_index("Unnamed: 0", inplace = True)
 travel_durations_df.index.name = 'Store'
 
-
+np.random.seed(500)
 def split_my_array(tuple_of_stores, store_vars):
     """
     This function is used to split routes that have demands greater than 26 during the simulation
@@ -94,26 +94,26 @@ def find_my_cost(route_array, store_vars):
     # https://www.tomtom.com/en_gb/traffic-index/auckland-traffic/ - during rush hour, 20 mins of extra time is spent waiting
     # mean of 600 seconds with a standard deviation of 180 flattens the normal curve at around 0 and 1200 seconds (20 min), making it less
     # less likely to occur on a given day
-    traffic_duration = stats.norm.rvs(10*60, 3 * 60)
+    traffic_duration = stats.norm.rvs(20*60, 7*60)
 
     # Finding the time duration between the distribution centre and the first store in addition to the pallet unloading time at the store and traffic
-    first_store_time = travel_durations_df[route_array[0]]['Distribution Centre Auckland'] + (450 * store_vars.get(route_array[0])) + traffic_duration
+    first_store_time = travel_durations_df[route_array[0]]['Distribution Centre Auckland'] + (450 * store_vars.get(route_array[0]))
     
     # Finding the time duration between the current store and the next store in the route in addition to the pallet unloading time at the current store and traffic
     rest_of_store_times = 0
     for i in range(1, len(route_array)):
-        rest_of_store_times += ((travel_durations_df[route_array[i-1]][route_array[i]] + (450 * store_vars.get(route_array[i]))) + traffic_duration)
+        rest_of_store_times += ((travel_durations_df[route_array[i-1]][route_array[i]] + (450 * store_vars.get(route_array[i]))))
     
     # Finding the time duration between the distribution centre and the last store in addition to the pallet unloading time at the store and traffic
-    last_store_time = travel_durations_df['Distribution Centre Auckland'][route_array[-1]] + traffic_duration
+    last_store_time = travel_durations_df['Distribution Centre Auckland'][route_array[-1]]
 
     # Find the total cost
-    final_duration = (first_store_time + rest_of_store_times + last_store_time) / 3600
-    if final_duration <= 8:
+    final_duration = (first_store_time + rest_of_store_times + last_store_time + traffic_duration) / 3600
+    if final_duration <= 4:
         total_cost = final_duration * 225
     else:
-        init_cost = 8 * 225
-        total_cost = init_cost + ((final_duration - 8) * 275)
+        init_cost = 4 * 225
+        total_cost = init_cost + ((final_duration - 4) * 275)
     
     return total_cost
 
@@ -252,5 +252,5 @@ def weekend_sim():
     sns.distplot(sum_simulation_costs_weekend)
     plt.title("Simulation for the stores weekend")
     plt.xlabel("Cost ($ NZD)")
-    plt.vlines([lower_bound, upper_bound], 0, 0.0018, colors="r", linestyles="--")
+    plt.vlines([lower_bound, upper_bound], 0, 0.0038, colors="r", linestyles="--")
     plt.show()
